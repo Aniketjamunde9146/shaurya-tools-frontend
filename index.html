@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <!-- ✅ FAVICON & PWA -->
+  <link rel="icon" type="image/png" sizes="512x512" href="/logo.png" />
+  <link rel="apple-touch-icon" href="/logo.png" />
+  <meta name="theme-color" content="#6c47ff" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ✅ PRIMARY SEO — high-CTR title with clear value prop -->
+  <title>Free Online Tools – No Login, No Signup | Shaurya Tools</title>
+
+  <meta
+    name="description"
+    content="30+ free online tools for developers, creators & everyone. JSON Formatter, UUID Generator, Hashtag Generator, QR Code, Base64, BMI Calculator & more — no login, no signup, instant results."
+  />
+
+  <meta
+    name="keywords"
+    content="free online tools, developer tools no login, json formatter, uuid generator, base64 converter, hashtag generator, qr code generator, age calculator, password generator, regex tester, markdown preview"
+  />
+
+  <meta name="author" content="Shaurya Tools" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+  <!-- ✅ CANONICAL -->
+  <link rel="canonical" href="https://shauryatools.vercel.app/" />
+
+  <!-- ✅ VERIFICATION -->
+  <meta name="google-site-verification" content="TJJaEJ19AITDpVDqe_l8evQeluMEtt9dRJuBZLJz8oY" />
+  <meta name="msvalidate.01" content="E432B33EFCDFAF984EB491BB59394773" />
+
+  <!-- ✅ OPEN GRAPH — includes width/height for crisp social previews -->
+  <meta property="og:title" content="Free Online Tools – No Login Required | Shaurya Tools" />
+  <meta property="og:description" content="30+ free tools for devs & creators. JSON, UUID, QR Code, Hashtags, Base64 & more — instant, no signup needed." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://shauryatools.vercel.app/" />
+  <meta property="og:image" content="https://shauryatools.vercel.app/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Shaurya Tools – Free Online Developer & AI Tools" />
+  <meta property="og:site_name" content="Shaurya Tools" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- ✅ TWITTER / X CARD -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Free Online Tools – No Login Required | Shaurya Tools" />
+  <meta name="twitter:description" content="30+ free tools for devs & creators. JSON, UUID, QR Code, Hashtags, Base64 & more — instant results." />
+  <meta name="twitter:image" content="https://shauryatools.vercel.app/og-image.png" />
+  <meta name="twitter:image:alt" content="Shaurya Tools – Free Online Developer & AI Tools" />
+  <!-- Add your Twitter handle below if you have one -->
+  <!-- <meta name="twitter:site" content="@YourHandle" /> -->
+
+  <!-- ✅ STRUCTURED DATA: WebSite + Sitelinks Searchbox + Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://shauryatools.vercel.app/#website",
+        "name": "Shaurya Tools",
+        "url": "https://shauryatools.vercel.app/",
+        "description": "30+ free online tools for developers and creators — no login, no signup required.",
+        "publisher": {
+          "@id": "https://shauryatools.vercel.app/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://shauryatools.vercel.app/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://shauryatools.vercel.app/#organization",
+        "name": "Shaurya Tools",
+        "url": "https://shauryatools.vercel.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shauryatools.vercel.app/logo.png"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- ✅ FONTS — preconnect first, then load with display=swap to avoid render blocking -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

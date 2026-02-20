@@ -1,0 +1,145 @@
+/* eslint-disable no-unused-vars */
+import { useState, useMemo } from "react";
+import "./YoutubeDescriptionGenerator.css";
+import { generateAI } from "../api";
+
+
+/* ── Icons ── */
+const IconYT = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M23.5 6.19a3.02 3.02 0 00-2.12-2.14C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.38.55A3.02 3.02 0 00.5 6.19C0 8.07 0 12 0 12s0 3.93.5 5.81a3.02 3.02 0 002.12 2.14C4.5 20.5 12 20.5 12 20.5s7.5 0 9.38-.55a3.02 3.02 0 002.12-2.14C24 15.93 24 12 24 12s0-3.93-.5-5.81zM9.75 15.5V8.5l6.25 3.5-6.25 3.5z"/>
+  </svg>
+);
+const IconCopy = () => (
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+    <rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>
+  </svg>
+);
+const IconCheck = () => (
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+    <polyline points="20 6 9 17 4 12"/>
+  </svg>
+);
+const IconDownload = () => (
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+  </svg>
+);
+const IconRefresh = () => (
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+    <polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/>
+  </svg>
+);
+const IconPlus = () => (
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+    <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+  </svg>
+);
+const IconX = () => (
+  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+  </svg>
+);
+const IconAlert = () => (
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+  </svg>
+);
+
+/* ══════════════════════
+   Static data
+   ══════════════════════ */
+const CATEGORIES = [
+  "Education", "Tech & Programming", "Gaming", "Cooking & Food",
+  "Fitness & Health", "Travel & Vlog", "Finance & Investing",
+  "Music", "Comedy & Entertainment", "Beauty & Fashion",
+  "Business & Marketing", "Science", "DIY & Crafts", "Motivation",
+  "News & Politics", "Sports", "Parenting", "Productivity",
+];
+
+const TONES = [
+  "Professional", "Casual & Friendly", "Energetic & Exciting",
+  "Storytelling", "Educational & Informative", "Bold & Direct",
+];
+
+const PRESETS = [
+  {
+    label: "Tutorial",
+    fields: {
+      title: "How to Build a REST API with Node.js in 2024",
+      description: "Step by step guide on building a fully functional REST API using Node.js, Express, and MongoDB. We cover authentication, CRUD operations, error handling, and deployment.",
+      category: "Tech & Programming",
+      channelName: "CodeWithMe",
+      tone: "Educational & Informative",
+      keywords: "nodejs, restapi, expressjs, mongodb, javascript, backend",
+      links: [
+        { label: "Source Code", url: "https://github.com/example/repo" },
+        { label: "Join Discord", url: "https://discord.gg/example" },
+      ],
+    },
+  },
+  {
+    label: "Vlog",
+    fields: {
+      title: "I Lived in Bali for 30 Days — Honest Review",
+      description: "Everything you need to know about living in Bali as a digital nomad. Cost of living, coworking spots, food, culture, and my honest pros and cons after a full month.",
+      category: "Travel & Vlog",
+      channelName: "Wandering Free",
+      tone: "Casual & Friendly",
+      keywords: "bali, digitalnomad, travel, indonesia, remotework",
+      links: [
+        { label: "Travel Insurance I Use", url: "https://safetywing.com" },
+        { label: "My Camera Gear", url: "https://kit.co/example" },
+      ],
+    },
+  },
+  {
+    label: "Fitness",
+    fields: {
+      title: "30-Minute Full Body HIIT Workout — No Equipment",
+      description: "Complete full body HIIT workout you can do anywhere with zero equipment. Burn calories, build endurance, and improve strength in just 30 minutes.",
+      category: "Fitness & Health",
+      channelName: "FitWithSarah",
+      tone: "Energetic & Exciting",
+      keywords: "hiit, workout, fitness, noequipment, fullbody, homeworkout",
+      links: [
+        { label: "My Workout Plan", url: "https://fitwithsarah.com/plan" },
+        { label: "Protein Powder I Use", url: "https://example.com" },
+      ],
+    },
+  },
+  {
+    label: "Finance",
+    fields: {
+      title: "How I Saved $50,000 in 2 Years on a Normal Salary",
+      description: "Exact breakdown of how I saved $50K in 2 years earning a regular income. My budgeting method, investing strategy, side hustles, and the mindset shift that changed everything.",
+      category: "Finance & Investing",
+      channelName: "Money Moves",
+      tone: "Storytelling",
+      keywords: "saving, personalfinance, budgeting, investing, financialfreedom",
+      links: [
+        { label: "My Budget Template (Free)", url: "https://example.com/budget" },
+        { label: "Best Investing App", url: "https://example.com" },
+      ],
+    },
+  },
+];
+
+/* ── Hashtag bank by category ── */
+const HASHTAG_BANK = {
+  "Education":             ["learn", "education", "tutorial", "howto", "study", "knowledge", "skills", "learning", "explained", "tips", "beginners", "guide", "course"],
+  "Tech & Programming":   ["coding", "programming", "developer", "tech", "javascript", "python", "webdev", "software", "code", "fullstack", "devlife", "api", "github", "100daysofcode"],
+  "Gaming":               ["gaming", "gamer", "gameplay", "game", "twitch", "esports", "ps5", "xbox", "pcgaming", "letsplay", "walkthrough", "gamingcommunity"],
+  "Cooking & Food":       ["food", "cooking", "recipe", "foodie", "chef", "homecooking", "delicious", "easyrecipe", "mealprep", "healthy", "yummy", "baking"],
+  "Fitness & Health":     ["fitness", "workout", "gym", "health", "exercise", "hiit", "training", "fitnessmotivation", "bodybuilding", "weightloss", "nutrition", "wellness"],
+  "Travel & Vlog":        ["travel", "vlog", "adventure", "explore", "wanderlust", "travelblogger", "digitalnomad", "backpacking", "traveltips", "travelgram", "solotravel"],
+  "Finance & Investing":  ["finance", "investing", "money", "personalfinance", "stockmarket", "wealth", "budgeting", "savings", "financialfreedom", "passiveincome", "crypto"],
+  "Music":                ["music", "musician", "song", "cover", "original", "producer", "beatmaker", "studio", "musicproduction", "newmusic", "artist"],
+  "Comedy & Entertainment":["funny", "comedy", "entertainment", "humor", "viral", "trending", "fun", "lol", "memes", "sketch"],
+  "Beauty & Fashion":     ["beauty", "fashion", "makeup", "skincare", "style", "ootd", "grwm", "haul", "tutorial", "glow", "affordable"],
+  "Business & Marketing": ["business", "entrepreneur", "marketing", "startup", "hustle", "ecommerce", "sidehustle", "growthhack", "branding", "socialmedia"],
+  "Science":              ["science", "explained", "physics", "biology", "chemistry", "space", "experiment", "facts", "discovery", "stem"],
+  "DIY & Crafts":         ["diy", "crafts", "handmade", "creative", "upcycle", "homedecor", "makeit", "crafting"],
+  "Motivation":           ["motivation", "mindset", "success", "goals", "inspiration", "productivity", "selfimprovement", "discipline", "growth"],
+  "News & Politics":      ["news", "politics", "currentevents", "worldnews", "analysis", "debate", "opinion"],
+  "S

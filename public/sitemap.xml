@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://shauryatools.vercel.app/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Social Media Tools -->
+  <url><loc>https://shauryatools.vercel.app/hashtag-generator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/prompt-generator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/instagram-bio-generator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/youtube-description-generator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/linkedin-post-generator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/social-media-caption-generator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/youtube-title-optimizer</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Development Tools -->
+  <url><loc>https://shauryatools.vercel.app/readme-generator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/profile-readme-generator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/gitignore-generator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/license-generator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/metatag-generator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/code-minifier</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/code-prettifier</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/markdown-previewer</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/regex-tester</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Data & Converters -->
+  <url><loc>https://shauryatools.vercel.app/json-formatter</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/json-to-yaml</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/uuid-generator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/base64</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/url-encoder</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Creative -->
+  <url><loc>https://shauryatools.vercel.app/emoji-combiner</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://shauryatools.vercel.app/color-picker</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Utilities -->
+  <url><loc>https://shauryatools.vercel.app/qr-code-generator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/unit-converter</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://shauryatools.vercel.app/age-calculator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shauryatools.vercel.app/text-tools</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Health & Finance -->
+  <url><loc>https://shauryatools.vercel.app/bmi-calculator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://shauryatools.vercel.app/loan-emi-calculator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Security -->
+  <url><loc>https://shauryatools.vercel.app/password-generator</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+</urlset>
