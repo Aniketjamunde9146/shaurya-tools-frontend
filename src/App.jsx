@@ -40,6 +40,12 @@ const ProductDescriptionGenerator          = lazy(() => import("./pages/ProductD
 const ResumeGenerator          = lazy(() => import("./pages/ResumeBuilder"));
 const CoverLetterGenerator          = lazy(() => import("./pages/CoverLetterGenerator"));
 const CodeExplainer          = lazy(() => import("./pages/CodeExplainer"));
+const CodeToDoc              = lazy(() => import("./pages/CodeToDoc"));
+const ErrorDebugger              = lazy(() => import("./pages/ErrorDebugger"));
+const SitemapGenerator              = lazy(() => import("./pages/SitemapGenerator"));
+const KeywordDensityChecker              = lazy(() => import("./pages/KeywordDensityChecker"));
+const SchemaMarkupGenerator              = lazy(() => import("./pages/SchemaMarkupGenerator"));
+const PageSpeedAnalyzer              = lazy(() => import("./pages/PageSpeedAnalyzer"));
 
 // ✅ 404 page
 function NotFound() {
@@ -113,6 +119,15 @@ function App() {
           <Route path="/resume-builder"                 element={<ResumeGenerator />} />
           <Route path="/cover-letter-generator"         element={<CoverLetterGenerator />} />
           <Route path="/code-explainer"         element={<CodeExplainer />} />
+          <Route path="/code-to-document"         element={<CodeToDoc />} />
+          <Route path="/error-debugger"         element={<ErrorDebugger />} />
+          <Route path="/sitemap-generator"         element={<SitemapGenerator />} />
+          <Route path="/keyword-density-checker"   element={<KeywordDensityChecker />} />
+          <Route path="/schema-markup-generator"   element={<SchemaMarkupGenerator />} />
+          <Route path="/page-speed-analyzer"   element={<PageSpeedAnalyzer />} />
+
+        
+
 
           
 

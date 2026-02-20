@@ -312,6 +312,117 @@ codeExplainer: (
     <path d="M8 11h3" />
   </svg>
 ),
+codeToDoc: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <path d="M4 7l-2 2 2 2" />
+    <path d="M10 9h10" />
+    <path d="M10 14h10" />
+    <path d="M10 19h6" />
+    <path d="M2 13v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H9" />
+    <path d="M12 3v4" />
+  </svg>
+),
+errorDebugger: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z" />
+    <path d="M9 11l6 6" />
+    <path d="M15 11l-6 6" />
+    <path d="M12 7v1" />
+  </svg>
+),
+sitemapGenerator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <rect x="9" y="3" width="6" height="6" rx="1" />
+    <rect x="3" y="15" width="6" height="6" rx="1" />
+    <rect x="15" y="15" width="6" height="6" rx="1" />
+    <path d="M12 9v3a2 2 0 0 1-2 2H6v1" />
+    <path d="M12 12a2 2 0 0 0 2 2h4v1" />
+  </svg>
+),
+keywordDensity: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <circle cx="11" cy="11" r="8" />
+    <path d="M21 21l-4.35-4.35" />
+    <path d="M11 8v6" />
+    <path d="M8 11h6" />
+    <path d="M11 11h.01" />
+  </svg>
+),
+schemaGenerator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <path d="M10 20l-7-8 7-8" />
+    <path d="M14 4l7 8-7 8" />
+    <circle cx="12" cy="12" r="1.5" fill="currentColor" />
+    <path d="M12 8v3" />
+    <path d="M12 13v3" />
+  </svg>
+),
+pageSpeed: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16z" />
+    <path d="M12 14V8" />
+    <path d="M12 2v2" />
+    <path d="M22 12h-2" />
+    <path d="M2 12h2" />
+    <path d="M19.07 4.93l-1.41 1.41" />
+    <path d="M4.93 19.07l1.41-1.41" />
+    <path d="M16 12a4 4 0 0 1-8 0" />
+  </svg>
+),
 
 
 
