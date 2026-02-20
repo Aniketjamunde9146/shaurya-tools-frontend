@@ -34,6 +34,12 @@ const AgeCalculator           = lazy(() => import("./pages/AgeCalculator"));
 const TextTools               = lazy(() => import("./pages/TextTools"));
 const ColorPicker             = lazy(() => import("./pages/ColorPicker"));
 const CodePrettifier          = lazy(() => import("./pages/CodePrettifier"));
+const ApnaStartup          = lazy(() => import("./pages/ApnaStartup"));
+const BlogPostGenerator          = lazy(() => import("./pages/BlogPostGenerator"));
+const ProductDescriptionGenerator          = lazy(() => import("./pages/ProductDescriptionGenerator"));
+const ResumeGenerator          = lazy(() => import("./pages/ResumeBuilder"));
+const CoverLetterGenerator          = lazy(() => import("./pages/CoverLetterGenerator"));
+const CodeExplainer          = lazy(() => import("./pages/CodeExplainer"));
 
 // ✅ 404 page
 function NotFound() {
@@ -101,6 +107,16 @@ function App() {
           <Route path="/text-tools"                     element={<TextTools />} />
           <Route path="/color-picker"                   element={<ColorPicker />} />
           <Route path="/code-prettifier"                element={<CodePrettifier />} />
+          <Route path="/apna-startup"                   element={<ApnaStartup />} />
+          <Route path="/blog-post-generator"            element={<BlogPostGenerator />} />
+          <Route path="/product-description-generator"  element={<ProductDescriptionGenerator />} />
+          <Route path="/resume-builder"                 element={<ResumeGenerator />} />
+          <Route path="/cover-letter-generator"         element={<CoverLetterGenerator />} />
+          <Route path="/code-explainer"         element={<CodeExplainer />} />
+
+          
+
+
 
           {/* ✅ 404 — always last */}
           <Route path="*"                               element={<NotFound />} />

@@ -201,8 +201,117 @@ codePrettifier: (
     <polyline points="8 6 2 12 8 18" />
     <line x1="9" y1="18" x2="15" y2="6" />
   </svg>
-)
-
+),
+apnaStartup: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2" />
+    <path d="M8 7V3L11 4" />
+    <path d="M9 15l-4 4" />
+    <path d="M15 9l4-4" />
+    <path d="M13 12A5 5 0 1 0 3 12c0 3.85 4.5 6 4.5 9h5c0-3-1.5-5.15-1.5-9Z" />
+    <path d="M12 11l9-9" />
+  </svg>
+),
+blogPostGenerator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <path d="M4 20h16" />
+    <path d="M20 11.5V4a2 2 0 0 0-2-2H4" />
+    <path d="M4 4l8 0" />
+    <path d="M4 8h12" />
+    <path d="M4 12h8" />
+    <path d="M13.5 15.5L20 9l2 2-6.5 6.5-3.5 1z" />
+  </svg>
+),
+productDescription: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <path d="M6 2h6l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Z" />
+    <path d="M10 9h4" />
+    <path d="M8 13h8" />
+    <path d="M8 17h8" />
+    <circle cx="9" cy="5" r="1" fill="currentColor" />
+  </svg>
+),
+resumeBuilder: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+    <polyline points="14.5 2 14.5 8 20 8" />
+    <circle cx="10" cy="13" r="2" />
+    <path d="M7 17a3 3 0 0 1 6 0" />
+    <line x1="14" y1="13" x2="17" y2="13" />
+    <line x1="14" y1="17" x2="17" y2="17" />
+  </svg>
+),
+coverLetter: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <path d="M4 10V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4" />
+    <path d="M2 10l10 6 10-6" />
+    <path d="M2 10v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V10" />
+    <line x1="8" y1="8" x2="16" y2="8" />
+  </svg>
+),
+codeExplainer: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <path d="M10 17H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v3" />
+    <circle cx="15" cy="15" r="3" />
+    <path d="M17.5 17.5L21 21" />
+    <path d="M8 7h6" />
+    <path d="M8 11h3" />
+  </svg>
+),
 
 
 
