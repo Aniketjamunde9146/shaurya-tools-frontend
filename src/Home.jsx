@@ -1,9 +1,9 @@
 /* eslint-disable react-refresh/only-export-components */
 import React, { useState } from "react";
-import { tools } from "../data/toolsData";
+import { tools } from "./data/toolsData";
 import { Link } from "react-router-dom";
 import "./Home.css";
-import TextTools from "./TextTools";
+
 import { Helmet } from "react-helmet";
 
 export const iconMap = {
@@ -423,6 +423,171 @@ pageSpeed: (
     <path d="M16 12a4 4 0 0 1-8 0" />
   </svg>
 ),
+landingPage: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <rect x="3" y="3" width="18" height="18" rx="2" />
+    <path d="M3 9h18" />
+    <path d="M9 15h6" />
+    <path d="M7 12h10" />
+    <circle cx="6" cy="6" r="1" fill="currentColor" />
+  </svg>
+),
+homeworkHelper: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <path d="M2 10l10-5 10 5-10 5z" />
+    <path d="M6 12v5c0 1.1 2.7 2 6 2s6-.9 6-2v-5" />
+    <path d="M12 2v2" />
+    <path d="M19 3l-1 1" />
+    <path d="M5 3l1 1" />
+  </svg>
+),
+notesSimplifier: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <path d="M4 6h16" />
+    <path d="M4 12h10" />
+    <path d="M4 18h6" />
+    <path d="M14 18l2 2 4-4" />
+  </svg>
+),
+emailReplyGenerator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Envelope */}
+    <rect width="20" height="14" x="2" y="6" rx="2" />
+    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+    
+    {/* The Reply Arrow */}
+    <path d="M18 17l-3-3 3-3" />
+    <path d="M15 14h3a2 2 0 0 1 2 2v2" />
+    
+    {/* Small AI Sparkle */}
+    <path d="M19 2l.5 1.5L21 4l-1.5.5L19 6l-.5-1.5L17 4l1.5-.5L19 2Z" fill="currentColor" stroke="none" />
+  </svg>
+),
+emailGenerator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Paper Plane (Sending/Generating) */}
+    <path d="M22 2L11 13" />
+    <path d="M22 2l-7 20-4-9-9-4 20-7z" />
+    
+    {/* AI "Creation" Sparkles */}
+    <path d="M2 18h.01" strokeWidth="3" />
+    <path d="M5 21h.01" strokeWidth="3" />
+    <path d="M2 22l1-1" />
+  </svg>
+),
+whatsAppRewriter: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Speech Bubble */}
+    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-12.8 8.4 8.4 0 0 1 3.5.8L21 2Z" />
+    
+    {/* The Edit Pen inside */}
+    <path d="M10 10l3 3" />
+    <path d="M13 10l-3 3" />
+    
+    {/* Small AI Sparkle on the side */}
+    <path d="M18 16l.5 1.5 1.5.5-1.5.5-.5 1.5-.5-1.5-1.5-.5 1.5-.5.5-1.5Z" fill="currentColor" stroke="none" />
+  </svg>
+),
+whatsAppGenerator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* Screen/Frame corners */}
+    <path d="M3 7V5a2 2 0 0 1 2-2h2" />
+    <path d="M17 3h2a2 2 0 0 1 2 2v2" />
+    <path d="M21 17v2a2 2 0 0 1-2 2h-2" />
+    <path d="M7 21H5a2 2 0 0 1-2-2v-2" />
+
+    {/* Message Bubble inside */}
+    <path d="M9 10h6" />
+    <path d="M9 14h3" />
+    <rect width="10" height="8" x="7" y="8" rx="1" />
+  </svg>
+),
+excuseGenerator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Doorway */}
+    <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+    
+    {/* The "Running" Arrow / Person Indicator */}
+    <polyline points="10 17 15 12 10 7" />
+    <line x1="15" y1="12" x2="3" y2="12" />
+    
+    {/* Little "sweat" or movement lines */}
+    <path d="M4 8V6" />
+    <path d="M1 10v4" />
+  </svg>
+)
 
 
 

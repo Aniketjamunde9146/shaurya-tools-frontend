@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
 // ✅ All 30 pages lazy loaded — each page only loads when visited
-const Home                    = lazy(() => import("./pages/Home"));
+const Home                    = lazy(() => import("./Home"));
 const Hashtag                 = lazy(() => import("./pages/Hashtag"));
 const Prompt                  = lazy(() => import("./pages/Prompt"));
 const ReadmeGenerator         = lazy(() => import("./pages/ReadmeGenerator"));
@@ -46,6 +46,14 @@ const SitemapGenerator              = lazy(() => import("./pages/SitemapGenerato
 const KeywordDensityChecker              = lazy(() => import("./pages/KeywordDensityChecker"));
 const SchemaMarkupGenerator              = lazy(() => import("./pages/SchemaMarkupGenerator"));
 const PageSpeedAnalyzer              = lazy(() => import("./pages/PageSpeedAnalyzer"));
+const LandingPageGenerator              = lazy(() => import("./pages/LandingPageGen"));
+const HomeworkHelper              = lazy(() => import("./pages/HomeworkHelper"));
+const NotesSimplifier              = lazy(() => import("./pages/NotesSimplifier"));
+const EmailReplyGenerator              = lazy(() => import("./pages/EmailReplyGenerator"));
+const EmailGenerator              = lazy(() => import("./pages/EmailGenerator"));
+const WhatsAppRewriter              = lazy(() => import("./pages/WhatsAppRewriter"));
+const WhatsAppScreenGenerator             = lazy(() => import("./pages/WhatsAppScreenshot"));
+const ExcuseGenerator             = lazy(() => import("./pages/ExcuseGenerator"));
 
 // ✅ 404 page
 function NotFound() {
@@ -125,6 +133,14 @@ function App() {
           <Route path="/keyword-density-checker"   element={<KeywordDensityChecker />} />
           <Route path="/schema-markup-generator"   element={<SchemaMarkupGenerator />} />
           <Route path="/page-speed-analyzer"   element={<PageSpeedAnalyzer />} />
+          <Route path="/landing-page-generator"   element={<LandingPageGenerator />} />
+          <Route path="/homework-helper-ai"   element={<HomeworkHelper />} />
+          <Route path="/notes-simplifier"   element={<NotesSimplifier />} />
+          <Route path="/ai-email-reply-generator"   element={<EmailReplyGenerator />} />
+          <Route path="/email-generator"   element={<EmailGenerator />} />
+          <Route path="/whatsapp-rewriter"   element={<WhatsAppRewriter />} />
+          <Route path="/whatsapp-screenshot-generator"   element={<WhatsAppScreenGenerator />} />
+          <Route path="/excuse-generator"   element={<ExcuseGenerator />} />
 
         
 

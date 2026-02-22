@@ -222,6 +222,70 @@ export const tools = [
   description: "Analyze your website's loading speed and get actionable tips to improve Core Web Vitals and user experience.",
   category: "SEO & Web",
   icon: "pageSpeed",
+},
+{
+  id: 43,
+  name: "Landing Page Generator",
+  slug: "landing-page-generator",
+  description: "Create high-converting landing page structures and copy instantly for your products or marketing campaigns.",
+  category: "AI & Marketing",
+  icon: "landingPage",
+},
+{
+  id: 44,
+  name: "Homework Helper AI",
+  slug: "homework-helper-ai",
+  description: "Get step-by-step explanations and answers to complex academic questions across math, science, and history.",
+  category: "Education",
+  icon: "homeworkHelper",
+},
+{
+  id: 45,
+  name: "Notes Simplifier",
+  slug: "notes-simplifier",
+  description: "Paste your messy lecture notes or meeting transcripts and get a clear, concise, and structured summary.",
+  category: "Education",
+  icon: "notesSimplifier",
+},
+{
+  id: 46, // Incrementing from your previous ID
+  name: "AI Email Reply Generator",
+  slug: "ai-email-reply-generator",
+  description: "Generate professional, context-aware email replies in seconds. Just paste the received email and set your preferred tone.",
+  category: "Productivity", // Or "Communication"
+  icon: "emailReplyGenerator",
+},
+{
+  id: 47,
+  name: "AI Email Generator",
+  slug: "email-generator",
+  description: "Craft professional emails from scratch. Just provide a few bullet points, and the AI will handle the structure and tone.",
+  category: "Communication",
+  icon: "emailGenerator",
+},
+{
+  id: 48,
+  name: "WhatsApp Rewriter",
+  slug: "whatsapp-rewriter",
+  description: "Transform your rough thoughts into perfectly phrased WhatsApp messages. Choose between casual, professional, or 'straight to the point'.",
+  category: "Social",
+  icon: "whatsAppRewriter",
+},
+{
+  id: 49,
+  name: "WhatsApp Screen Generator",
+  slug: "whatsapp-screenshot-generator",
+  description: "Visualize your messages before sending. Create a realistic preview of your rewritten WhatsApp messages with custom names and timestamps.",
+  category: "Social",
+  icon: "whatsAppGenerator",
+},
+{
+  id: 50,
+  name: "AI Excuse Generator",
+  slug: "excuse-generator",
+  description: "Need a believable way out? Generate creative, context-aware excuses for work, social events, or missed deadlines.",
+  category: "Personal",
+  icon: "excuseGenerator",
 }
 
 
