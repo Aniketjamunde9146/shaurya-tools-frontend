@@ -54,6 +54,16 @@ const EmailGenerator              = lazy(() => import("./pages/EmailGenerator"))
 const WhatsAppRewriter              = lazy(() => import("./pages/WhatsAppRewriter"));
 const WhatsAppScreenGenerator             = lazy(() => import("./pages/WhatsAppScreenshot"));
 const ExcuseGenerator             = lazy(() => import("./pages/ExcuseGenerator"));
+const DailyPlannerGenerator            = lazy(() => import("./pages/DailyPlannerGenerator"));
+const DietPlanGenerator            = lazy(() => import("./pages/DietPlanGenerator"));
+const ExpenseSplitCalculator            = lazy(() => import("./pages/ExpenseSplitCalculator"));
+const StudyTimeCalculator            = lazy(() => import("./pages/StudyTimeCalculator"));
+const HabitTracker          = lazy(() => import("./pages/HabitTrackerGenerator"));
+const DailyAffirmationGenerator          = lazy(() => import("./pages/DailyAffirmationGenerator"));
+const RelationshipCompatibilityChecker          = lazy(() => import("./pages/RelationshipCompatibilityChecker"));
+const BusinessNameGenerator          = lazy(() => import("./pages/BusinessNameGenerator"));
+const SpeechScriptGenerator          = lazy(() => import("./pages/SpeechScriptGenerator"));
+
 
 // ✅ 404 page
 function NotFound() {
@@ -141,6 +151,18 @@ function App() {
           <Route path="/whatsapp-rewriter"   element={<WhatsAppRewriter />} />
           <Route path="/whatsapp-screenshot-generator"   element={<WhatsAppScreenGenerator />} />
           <Route path="/excuse-generator"   element={<ExcuseGenerator />} />
+          <Route path="/daily-planner-generator"   element={<DailyPlannerGenerator />} />
+          <Route path="/diet-plan-generator"   element={<DietPlanGenerator />} />
+          <Route path="/expense-split-calculator"   element={<ExpenseSplitCalculator />} />
+          <Route path="/study-time-calculator"   element={<StudyTimeCalculator />} />
+          <Route path="/habit-tracker-generator"   element={<HabitTracker />} />
+          <Route path="/daily-affirmation-generator"   element={<DailyAffirmationGenerator />} />
+          <Route path="/relationship-compatibility-checker"   element={<RelationshipCompatibilityChecker/>} />
+          <Route path="/business-name-generator"   element={<BusinessNameGenerator/>} />
+          <Route path="/speech-script-generator"   element={<SpeechScriptGenerator/>} />
+
+
+
 
         
 
