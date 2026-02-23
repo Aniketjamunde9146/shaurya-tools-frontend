@@ -1015,6 +1015,314 @@ electricityEstimator: (
     <path d="M12 7v4" opacity="0.6" />
     <path d="M10 9h4" opacity="0.6" />
   </svg>
+),
+imageCompressor: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Image Frame */}
+    <rect x="2" y="2" width="20" height="20" rx="2" opacity="0.3" />
+    <path d="M2 14l5-5 5 5 3-3 7 7" opacity="0.5" />
+    
+    {/* Compression Arrows */}
+    <path d="M12 2v6m0 0l-3-3m3 3l3-3" />
+    <path d="M12 22v-6m0 0l-3 3m3-3l3 3" />
+  </svg>
+),
+shapeCrop: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Selection/Crop Box */}
+    <path d="M3 3v6M3 3h6M21 3v6M21 3h-6M3 21v-6M3 21h6M21 21v-6M21 21h-6" opacity="0.4" />
+    
+    {/* The Resulting Shape (Circle) */}
+    <circle cx="12" cy="12" r="7" />
+    
+    {/* Scissors/Cut Action */}
+    <path d="M15 15l4 4" />
+  </svg>
+),
+removeBg: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* Background Transparency Grid (indicated by dots) */}
+    <path d="M4 4h.01M8 4h.01M12 4h.01M16 4h.01M20 4h.01M4 8h.01" opacity="0.3" />
+    
+    {/* The Subject (Person) */}
+    <path d="M16 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+    <circle cx="10" cy="7" r="4" />
+    
+    {/* The "Eraser/Action" Line */}
+    <path d="M17 11l5 5m0-5l-5 5" stroke="#ff4444" />
+  </svg>
+),
+passportPhoto: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* Passport Frame */}
+    <rect x="3" y="3" width="18" height="18" rx="2" />
+    
+    {/* Silhouette */}
+    <path d="M12 14c-2.5 0-4.5 1.5-4.5 3.5V19h9v-1.5c0-2-2-3.5-4.5-3.5z" />
+    <circle cx="12" cy="9" r="3" />
+    
+    {/* Alignment Crosshair */}
+    <path d="M12 3v2M12 19v2M3 12h2M19 12h2" opacity="0.5" />
+  </svg>
+),
+qualityEnhancer: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Focus Frame */}
+    <path d="M7 3H5a2 2 0 0 0-2 2v2" />
+    <path d="M17 3h2a2 2 0 0 1 2 2v2" />
+    <path d="M7 21H5a2 2 0 0 1-2-2v-2" />
+    <path d="M17 21h2a2 2 0 0 0 2-2v-2" />
+    
+    {/* Enhancement Sparkles */}
+    <path d="M12 8l1 3h3l-2 2 1 3-3-2-3 2 1-3-2-2h3z" fill="currentColor" />
+    <circle cx="17" cy="8" r="0.5" fill="currentColor" />
+    <circle cx="7" cy="16" r="0.5" fill="currentColor" />
+  </svg>
+),
+imageToPdf: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Image Layer (Behind) */}
+    <rect x="3" y="7" width="12" height="14" rx="2" opacity="0.4" />
+    
+    {/* The PDF Document (Front) */}
+    <path d="M9 3h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2v-12a2 2 0 0 1 2-2z" />
+    
+    {/* PDF Text Branding */}
+    <path d="M12 9v6" strokeWidth="1.5" />
+    <path d="M15 9v6" strokeWidth="1.5" />
+    <circle cx="13.5" cy="12" r="1.5" strokeWidth="1.5" />
+  </svg>
+),
+imageResizer: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* Central Image Indicator */}
+    <rect x="9" y="9" width="6" height="6" />
+    
+    {/* Resizing Arrows/Corners */}
+    <path d="M5 9V5h4" />
+    <path d="M15 5h4v4" />
+    <path d="M19 15v4h-4" />
+    <path d="M9 19H5v-4" />
+    
+    {/* Diagonal Guides */}
+    <path d="m2 2 7 7" opacity="0.3" />
+    <path d="m22 22-7-7" opacity="0.3" />
+  </svg>
+),
+imageConverter: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* Format A */}
+    <path d="M16 3H5a2 2 0 0 0-2 2v10" />
+    
+    {/* Format B */}
+    <path d="M8 21h11a2 2 0 0 0 2-2V9" />
+    
+    {/* Exchange Arrows */}
+    <path d="m15 10 3-3 3 3" />
+    <path d="m3 14 3 3 3-3" />
+    <path d="M18 7v6a2 2 0 0 1-2 2H9" />
+  </svg>
+),
+watermarkTool: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Base Image */}
+    <rect x="3" y="3" width="18" height="18" rx="2" />
+    <circle cx="8.5" cy="8.5" r="1.5" />
+    <path d="M21 15l-5-5L5 21" />
+    
+    {/* The Protective Shield/Watermark Symbol */}
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="none" />
+  </svg>
+),
+memeGenerator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Image Base */}
+    <rect x="3" y="3" width="18" height="18" rx="2" />
+    
+    {/* The "Impact" Text Lines */}
+    <path d="M7 7h10" />
+    <path d="M7 17h10" />
+    
+    {/* Funny/Meme Expression Element */}
+    <circle cx="8.5" cy="11.5" r="1" fill="currentColor" />
+    <circle cx="15.5" cy="11.5" r="1" fill="currentColor" />
+    <path d="M10 14.5c1 1 3 1 4 0" />
+  </svg>
+),
+colorExtractor: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Eyedropper */}
+    <path d="m2 22 7-7" />
+    <path d="M11 13l6-6" />
+    <path d="m14 4 6 6" />
+    <path d="M19 3a2.83 2.83 0 0 0-4 4l-9 9 1 1 1-9 9-9z" />
+    
+    {/* The Extracted Swatches */}
+    <rect x="15" y="15" width="3" height="3" rx="1" fill="currentColor" />
+    <rect x="19" y="15" width="3" height="3" rx="1" opacity="0.6" />
+    <rect x="15" y="19" width="3" height="3" rx="1" opacity="0.3" />
+  </svg>
+),
+collageMaker: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* Large Main Cell */}
+    <rect x="3" y="3" width="8" height="11" rx="1" />
+    
+    {/* Smaller Secondary Cells */}
+    <rect x="13" y="3" width="8" height="5" rx="1" />
+    <rect x="13" y="10" width="8" height="11" rx="1" />
+    <rect x="3" y="16" width="8" height="5" rx="1" />
+  </svg>
+),
+metadataViewer: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Image/File */}
+    <rect x="3" y="3" width="18" height="18" rx="2" />
+    
+    {/* The Data Lines */}
+    <path d="M7 8h10M7 12h4" opacity="0.5" />
+    
+    {/* The Magnifying Glass/Inspector */}
+    <circle cx="15" cy="15" r="3" />
+    <path d="m17.5 17.5 2.5 2.5" />
+  </svg>
+),
+screenshotEditor: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* Screen Frame */}
+    <rect x="2" y="3" width="20" height="14" rx="2" />
+    <path d="M6 21h12" />
+    <path d="M12 17v4" />
+    
+    {/* The Edit Marker */}
+    <path d="m15 8 2 2-7 7H8v-2z" fill="currentColor" />
+  </svg>
 )
 
 

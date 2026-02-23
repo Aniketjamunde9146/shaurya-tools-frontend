@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --white:      #ffffff;
+  --black:      #0f0f0f;
+  --grey-1:     #f5f5f5;
+  --grey-2:     #e5e5e5;
+  --grey-3:     #737373;
+  --grey-4:     #404040;
+  --emerald:    #059669;
+  --emerald-bg: #ecfdf5;
+  --emerald-bd: #a7f3d0;
+  --emerald-dk: #047857;
+  --green:      #16a34a;
+  --green-bg:   #f0fdf4;
+  --green-bd:   #bbf7d0;
+  --red:        #ef4444;
+  --red-bg:     #fef2f2;
+  --red-bd:     #fecaca;
+  --blue:       #2563eb;
+  --blue-bg:    #eff6ff;
+  --blue-bd:    #bfdbfe;
+  --orange:     #ea580c;
+  --orange-bg:  #fff7ed;
+  --orange-bd:  #fed7aa;
+  --violet:     #7c3aed;
+  --violet-bg:  #f5f3ff;
+  --violet-bd:  #ddd6fe;
+  --amber:      #d97706;
+  --amber-bg:   #fffbeb;
+  --amber-bd:   #fde68a;
+  --radius:     12px;
+  --font-head:  'Poppins', sans-serif;
+  --font-body:  'Inter', sans-serif;
+}
+
+/* ── Page ── */
+.iconv-page {
+  min-height: 100vh;
+  background: var(--grey-1);
+  font-family: var(--font-body);
+  color: var(--black);
+  padding: 80px 20px 64px;
+  padding-top: 110px;
+}
+
+.iconv-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ── Header ── */
+.iconv-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 4px 0 8px;
+}
+
+.iconv-icon {
+  width: 48px;
+  height: 48px;
+  background: var(--white);
+  border: 1.5px solid var(--grey-2);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--emerald);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.iconv-cat {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--emerald);
+  background: var(--emerald-bg);
+  border: 1px solid var(--emerald-bd);
+  padding: 3px 10px;
+  border-radius: 100px;
+  margin-bottom: 6px;
+}
+
+.iconv-header h1 {
+  font-family: var(--font-head);
+  font-size: clamp(1.4rem, 4vw, 1.75rem);
+  font-weight: 700;
+  color: var(--black);
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.iconv-header p {
+  font-size: 0.85rem;
+  color: var(--grey-3);
+  line-height: 1.5;
+}
+
+/* ── Support Strip ── */
+.iconv-support-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 2px 0;
+}
+
+.iconv-support-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background: var(--white);
+  border: 1.5px solid var(--grey-2);
+  border-radius: 100px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--grey-4);
+  transition: border-color 0.15s, background 0.15s;
+}
+.iconv-support-pill:hover {
+  border-color: var(--emerald-bd);
+  background: var(--emerald-bg);
+}
+.iconv-support-pill svg { color: var(--grey-3); }
+
+.iconv-from { color: var(--grey-4); }
+.iconv-to   { color: var(--emerald); }
+
+/* ── Card ── */
+.iconv-card {
+  background: var(--white);
+  border: 1.5px solid var(--grey-2);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* ── Field & Label ── */
+.iconv-field { display: flex; flex-direction: column; gap: 14px; }
+
+.iconv-label {
+  font-family: var(--font-head);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.iconv-label-icon { color: var(--emerald); flex-shrink: 0; }
+.iconv-divider    { height: 1px; background: var(--grey-2); }
+
+/* ── Settings Grid ── */
+.iconv-settings-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.iconv-setting-group { display: flex; flex-direction: column; gap: 8px; }
+
+.iconv-group-disabled { opacity: 0.5; pointer-events: none; }
+
+.iconv-setting-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconv-setting-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--grey-4);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.iconv-quality-badge {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--emerald);
+  background: var(--emerald-bg);
+  border: 1px solid var(--emerald-bd);
+  padding: 2px 9px;
+  border-radius: 100px;
+}
+.iconv-badge-muted {
+  color: var(--grey-3) !important;
+  background: var(--grey-1) !important;
+  border-color: var(--grey-2) !important;
+}
+
+/* ── Slider ── */
+.iconv-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 5px;
+  border-radius: 100px;
+  background: linear-gradient(to right, var(--emerald) 0%, var(--emerald) 80%, var(--grey-2) 80%);
+  outline: none;
+  cursor: pointer;
+}
+.iconv-slider:disabled { cursor: not-allowed; }
+.iconv-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px; height: 18px;
+  border-radius: 50%;
+  background: var(--white);
+  border: 2.5px solid var(--emerald);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+.iconv-slider::-webkit-slider-thumb:hover { transform: scale(1.2); }
+.iconv-slider::-moz-range-thumb {
+  width: 18px; height: 18px;
+  border-radius: 50%;
+  background: var(--white);
+  border: 2.5px solid var(--emerald);
+  cursor: pointer;
+}
+
+.iconv-slider-hints {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.67rem;
+  color: var(--grey-3);
+}
+
+.iconv-hint { font-size: 0.68rem; color: var(--grey-3); line-height: 1.4; }
+
+/* ── Format buttons ── */
+.iconv-fmt-row { display: flex; gap: 8px; }
+
+.iconv-fmt-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 9px 12px;
+  border: 1.5px solid var(--grey-2);
+  border-radius: var(--radius);
+  background: var(--white);
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--grey-4);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.iconv-fmt-btn:hover:not(.iconv-fmt-on) { border-color: var(--grey-3); background: var(--grey-1); }
+.iconv-fmt-on {
+  background: var(--emerald-bg) !important;
+  border-color: var(--emerald-bd) !important;
+  color: var(--emerald) !important;
+}
+
+/* ── Info Box ── */
+.iconv-info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--grey-1);
+  border: 1.5px solid var(--grey-2);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+}
+
+.iconv-info-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.iconv-info-fmt {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--emerald);
+  background: var(--emerald-bg);
+  border: 1px solid var(--emerald-bd);
+  padding: 1px 7px;
+  border-radius: 100px;
+  min-width: 42px;
+  text-align: center;
+}
+
+.iconv-info-desc {
+  font-size: 0.72rem;
+  color: var(--grey-3);
+  font-weight: 500;
+}
+
+/* ── Drop Zone ── */
+.iconv-dropzone {
+  border: 2px dashed var(--grey-2);
+  border-radius: 16px;
+  padding: 44px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--white);
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s, transform 0.15s;
+  text-align: center;
+}
+.iconv-dropzone:hover {
+  border-color: var(--emerald-bd);
+  background: var(--emerald-bg);
+  transform: translateY(-1px);
+}
+.iconv-dz-active {
+  border-color: var(--emerald) !important;
+  background: var(--emerald-bg) !important;
+  transform: scale(1.01);
+}
+
+.iconv-file-input { display: none; }
+.iconv-dz-content { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+
+.iconv-dz-icon {
+  width: 56px;
+  height: 56px;
+  background: var(--emerald-bg);
+  border: 1.5px solid var(--emerald-bd);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--emerald);
+  margin-bottom: 2px;
+}
+.iconv-dz-active .iconv-dz-icon { background: var(--white); }
+
+.iconv-dz-title {
+  font-family: var(--font-head);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--black);
+}
+.iconv-dz-link { color: var(--emerald); text-decoration: underline; }
+.iconv-dz-sub  { font-size: 0.78rem; color: var(--grey-3); }
+
+/* ── Summary Bar ── */
+.iconv-summary-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.iconv-summary-left { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+
+.iconv-summary-count {
+  font-family: var(--font-head);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.iconv-summary-done {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--green);
+  background: var(--green-bg);
+  border: 1px solid var(--green-bd);
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+
+.iconv-summary-actions { display: flex; gap: 8px; align-items: center; }
+
+.iconv-action-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 13px;
+  background: var(--white);
+  border: 1.5px solid var(--grey-2);
+  border-radius: 9px;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--grey-4);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.iconv-action-btn:hover { border-color: var(--grey-3); color: var(--black); background: var(--grey-1); }
+
+.iconv-btn-dl-all {
+  background: var(--emerald-bg) !important;
+  border-color: var(--emerald-bd) !important;
+  color: var(--emerald) !important;
+}
+.iconv-btn-dl-all:hover { background: #d1fae5 !important; }
+
+/* ── File List ── */
+.iconv-file-list { display: flex; flex-direction: column; gap: 10px; }
+
+.iconv-file-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border: 1.5px solid var(--grey-2);
+  border-radius: var(--radius);
+  background: var(--grey-1);
+  transition: border-color 0.2s, background 0.2s;
+}
+.iconv-row-done       { border-color: var(--emerald-bd) !important; background: var(--emerald-bg) !important; }
+.iconv-row-error      { border-color: var(--red-bd)     !important; background: var(--red-bg)     !important; }
+.iconv-row-processing { border-color: var(--amber-bd)   !important; background: var(--amber-bg)   !important; }
+
+/* ── Thumbnail ── */
+.iconv-thumb-wrap {
+  width: 52px;
+  height: 52px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1.5px solid var(--grey-2);
+  flex-shrink: 0;
+  background: var(--white);
+}
+.iconv-thumb { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+/* ── File Info ── */
+.iconv-file-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 5px; }
+
+.iconv-file-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--black);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.iconv-file-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.iconv-size-original  { font-size: 0.78rem; color: var(--grey-3); font-weight: 500; }
+.iconv-size-converted { font-size: 0.78rem; color: var(--emerald); font-weight: 600; }
+.iconv-arrow          { color: var(--grey-3); flex-shrink: 0; }
+
+.iconv-fmt-tag {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 100px;
+  letter-spacing: 0.03em;
+}
+.iconv-from-tag {
+  color: var(--grey-4);
+  background: var(--white);
+  border: 1.5px solid var(--grey-2);
+}
+.iconv-to-tag {
+  color: var(--emerald);
+  background: var(--emerald-bg);
+  border: 1.5px solid var(--emerald-bd);
+}
+
+.iconv-saving-badge {
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 100px;
+}
+.iconv-saving-pos { color: var(--green);  background: var(--green-bg);  border: 1px solid var(--green-bd); }
+.iconv-saving-neg { color: var(--orange); background: var(--orange-bg); border: 1px solid var(--orange-bd); }
+
+.iconv-file-error {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.75rem;
+  color: var(--red);
+  font-weight: 500;
+}
+
+/* ── File Actions ── */
+.iconv-file-actions { display: flex; align-items: center; gap: 7px; flex-shrink: 0; }
+
+.iconv-status-pill {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 100px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+.iconv-status-idle       { color: var(--grey-3); background: var(--white);    border: 1.5px solid var(--grey-2); }
+.iconv-status-processing { color: var(--amber);  background: var(--amber-bg); border: 1.5px solid var(--amber-bd); }
+.iconv-status-error      { color: var(--red);    background: var(--red-bg);   border: 1.5px solid var(--red-bd); }
+
+.iconv-dl-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  background: var(--emerald);
+  color: var(--white);
+  border: none;
+  border-radius: 9px;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+  white-space: nowrap;
+}
+.iconv-dl-btn:hover { background: var(--emerald-dk); transform: translateY(-1px); }
+
+.iconv-remove-btn {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--white);
+  border: 1.5px solid var(--grey-2);
+  border-radius: 8px;
+  color: var(--grey-3);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+  flex-shrink: 0;
+}
+.iconv-remove-btn:hover { border-color: var(--red-bd); color: var(--red); background: var(--red-bg); }
+
+/* ── Convert CTA button ── */
+.iconv-convert-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 13px 20px;
+  background: var(--emerald);
+  color: var(--white);
+  border: none;
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+}
+.iconv-convert-btn:hover:not(:disabled) {
+  background: var(--emerald-dk);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(5,150,105,0.35);
+}
+.iconv-convert-btn:active:not(:disabled) { transform: translateY(0); }
+.iconv-convert-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+/* ── Spinners ── */
+.iconv-spinner {
+  display: inline-block;
+  width: 16px; height: 16px;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: iconv-spin 0.7s linear infinite;
+  flex-shrink: 0;
+}
+.iconv-mini-spinner {
+  display: inline-block;
+  width: 11px; height: 11px;
+  border: 1.5px solid rgba(217,119,6,0.3);
+  border-top-color: var(--amber);
+  border-radius: 50%;
+  animation: iconv-spin 0.7s linear infinite;
+  flex-shrink: 0;
+}
+@keyframes iconv-spin { to { transform: rotate(360deg); } }
+
+/* ── Privacy note ── */
+.iconv-privacy {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.76rem;
+  color: var(--grey-3);
+  font-weight: 500;
+  padding: 0 2px;
+}
+.iconv-privacy svg { color: var(--emerald); flex-shrink: 0; }
+
+/* ── Animation ── */
+.animate-in { animation: iconv-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
+@keyframes iconv-fade {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .iconv-page             { padding: 72px 14px 48px; padding-top: 110px; }
+  .iconv-header           { flex-direction: column; gap: 12px; }
+  .iconv-card             { padding: 18px 16px; }
+  .iconv-settings-grid    { grid-template-columns: 1fr; }
+  .iconv-summary-bar      { flex-direction: column; align-items: flex-start; }
+  .iconv-summary-actions  { flex-wrap: wrap; }
+  .iconv-file-row         { flex-wrap: wrap; }
+  .iconv-file-actions     { width: 100%; justify-content: flex-end; }
+  .iconv-dropzone         { padding: 32px 16px; }
+  .iconv-support-strip    { gap: 5px; }
+  .iconv-support-pill     { font-size: 0.65rem; padding: 3px 8px; }
+}

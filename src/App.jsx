@@ -90,31 +90,113 @@ const BudgetPlanner         = lazy(() => import("./pages/BudgetPlanner"));
 const SavingsGoalCalculator         = lazy(() => import("./pages/SavingsGoalCalculator"));
 const CreditCardEMICalculator         = lazy(() => import("./pages/CreditCardEMICalculator"));
 const ElectricityBillEstimator         = lazy(() => import("./pages/ElectricityBillEstimator"));
+const ImageCompressor         = lazy(() => import("./pages/ImageCompressor"));
+const ImageShapeCrop         = lazy(() => import("./pages/ImageShapeCrop"));
+const RemoveBg         = lazy(() => import("./pages/RemoveBg"));
+const PassportPhotoMaker         = lazy(() => import("./pages/PassportPhotoMaker"));
+const ImageQualityEnhancer         = lazy(() => import("./pages/ImageQualityEnhancer"));
+const ImageToPDF         = lazy(() => import("./pages/ImageToPDF"));
+const ImageResizer         = lazy(() => import("./pages/ImageResizer"));
+const ImageConverter         = lazy(() => import("./pages/ImageConverter"));
+const WatermarkAdder         = lazy(() => import("./pages/WatermarkAdder"));
+const MemeGenerator         = lazy(() => import("./pages/MemeGenerator"));
+const ColorPaletteExtractor         = lazy(() => import("./pages/ColorPaletteExtractor"));
+const CollageMaker         = lazy(() => import("./pages/CollageMaker"));
+const ImageMetadataViewer         = lazy(() => import("./pages/ImageMetadataViewer"));
+const ScreenshotEditor = lazy(() => import("./pages/ScreenshotEditor"));
 
 
-// ✅ 404 page
 function NotFound() {
   return (
-    <div style={{ textAlign: "center", padding: "80px 20px", fontFamily: "sans-serif" }}>
-      <h1 style={{ fontSize: 48, margin: 0 }}>404</h1>
-      <p style={{ color: "#888" }}>Page not found.</p>
-      <a href="/" style={{ color: "#6c47ff" }}>← Back to Home</a>
+    <div style={{
+      minHeight: "100vh",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+      background: "linear-gradient(135deg, #0f0f1a, #1a1a2e)",
+      color: "#fff",
+      textAlign: "center",
+      padding: "40px",
+      fontFamily: "Inter, sans-serif"
+    }}>
+      
+      <h1 style={{
+        fontSize: "120px",
+        margin: 0,
+        background: "linear-gradient(90deg,#6c47ff,#00d4ff)",
+        WebkitBackgroundClip: "text",
+        WebkitTextFillColor: "transparent",
+        fontWeight: 800
+      }}>
+        404
+      </h1>
+
+      <h2 style={{ margin: "10px 0 5px", fontWeight: 600 }}>
+        Lost in Space 🚀
+      </h2>
+
+      <p style={{ color: "#9ca3af", maxWidth: 400 }}>
+        The page you are looking for doesn’t exist or has been moved.
+      </p>
+
+      <a
+        href="/"
+        style={{
+          marginTop: 30,
+          padding: "12px 28px",
+          borderRadius: 12,
+          background: "linear-gradient(90deg,#6c47ff,#00d4ff)",
+          color: "#fff",
+          textDecoration: "none",
+          fontWeight: 600,
+          boxShadow: "0 10px 30px rgba(108,71,255,0.4)",
+          transition: "0.3s ease"
+        }}
+      >
+        ← Back to Home
+      </a>
     </div>
   );
 }
 
-// ✅ Spinner shown while a page chunk is being fetched
 function PageLoader() {
   return (
-    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", minHeight: "60vh" }}>
+    <div style={{
+      minHeight: "60vh",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      background: "transparent"
+    }}>
       <div style={{
-        width: 36, height: 36,
-        border: "3px solid #e5e7eb",
-        borderTop: "3px solid #6c47ff",
-        borderRadius: "50%",
-        animation: "spin 0.7s linear infinite"
-      }} />
-      <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
+        width: 80,
+        height: 80,
+        borderRadius: "20px",
+        background: "rgba(255,255,255,0.05)",
+        backdropFilter: "blur(12px)",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        boxShadow: "0 8px 30px rgba(0,0,0,0.2)"
+      }}>
+        <div style={{
+          width: 36,
+          height: 36,
+          border: "3px solid rgba(255,255,255,0.2)",
+          borderTop: "3px solid #6c47ff",
+          borderRadius: "50%",
+          animation: "spin 0.8s linear infinite"
+        }} />
+      </div>
+
+      <style>
+        {`
+          @keyframes spin {
+            to { transform: rotate(360deg); }
+          }
+        `}
+      </style>
     </div>
   );
 }
@@ -214,6 +296,21 @@ function App() {
           <Route path="/savings-goal-calculator"   element={<SavingsGoalCalculator/>} />
           <Route path="/credit-card-emi-calculator"   element={<CreditCardEMICalculator/>} />
           <Route path="/electricity-bill-estimator"   element={<ElectricityBillEstimator/>} />
+          <Route path="/image-compressor"   element={<ImageCompressor/>} />
+          <Route path="/image-shape-converter"   element={<ImageShapeCrop/>} />
+          <Route path="/remove-background"   element={<RemoveBg/>} />
+          <Route path="/passport-photo-maker"   element={<PassportPhotoMaker/>} />
+          <Route path="/image-quality-enhancer"   element={<ImageQualityEnhancer/>} />
+          <Route path="/image-to-pdf"   element={<ImageToPDF/>} />
+          <Route path="/image-resizer"   element={<ImageResizer/>} />
+          <Route path="/image-converter"   element={<ImageConverter/>} />
+          <Route path="/watermark-adder"   element={<WatermarkAdder/>} />
+          <Route path="/meme-generator"   element={<MemeGenerator/>} />
+          <Route path="/color-palette-extractor"   element={<ColorPaletteExtractor/>} />
+          <Route path="/collage-maker"   element={<CollageMaker/>} />
+          <Route path="/image-metadata-viewer"   element={<ImageMetadataViewer/>} />
+          <Route path="/screenshot-editor"   element={<ScreenshotEditor/>} />
+
           
 
 

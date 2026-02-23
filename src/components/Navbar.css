@@ -1,118 +1,212 @@
-.navbar {
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Manrope:wght@500;600;700&display=swap');
+
+/* ──────────────────────────────────────────
+   ROOT — fixed floating pill navbar
+────────────────────────────────────────── */
+.nb-root {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
-
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(25px);
-  -webkit-backdrop-filter: blur(25px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-
-  transition: all 0.3s ease;
+  z-index: 999;
+  pointer-events: none; /* let clicks through the empty space around the pill */
 }
 
-.navbar.scrolled {
-  background: rgba(255, 255, 255, 0.85);
-  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-container {
-  max-width: 1200px;
+/* outer padding / centering */
+.nb-shell {
+  max-width: 1040px;
   margin: 0 auto;
-  padding: 0 24px;
-  height: 70px;
+  padding: 12px 20px 0;
+  pointer-events: none;
+}
+
+/* the pill itself */
+.nb-inner {
+  pointer-events: all;
+  height: 54px;
+  padding: 0 8px 0 6px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
+  gap: 8px;
+
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(32px) saturate(180%) brightness(108%);
+  -webkit-backdrop-filter: blur(32px) saturate(180%) brightness(108%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.05),
+    0 0 0 0.5px rgba(0, 0, 0, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+
+  transition:
+    background   0.35s ease,
+    box-shadow   0.35s ease,
+    border-color 0.35s ease;
 }
 
-/* Logo */
-.logo-container {
+/* scrolled state — denser glass */
+.nb-scrolled .nb-inner {
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow:
+    0 8px 28px rgba(0, 0, 0, 0.09),
+    0 2px 6px  rgba(0, 0, 0, 0.05),
+    0 0 0 0.5px rgba(0, 0, 0, 0.07),
+    inset 0 1px 0 rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+/* ──────────────────────────────────────────
+   LOGO
+────────────────────────────────────────── */
+.nb-logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 9px;
   text-decoration: none;
+  padding: 4px 10px 4px 4px;
+  border-radius: 13px;
+  transition: background 0.18s ease;
+  flex-shrink: 0;
 }
+.nb-logo:hover { background: rgba(0, 0, 0, 0.04); }
 
-.logo-mark img {
-  height: 42px;
-  transition: transform 0.3s ease;
+.nb-logo-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  object-fit: contain;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
+.nb-logo:hover .nb-logo-img { transform: scale(1.1) rotate(-4deg); }
 
-.logo-container:hover .logo-mark img {
-  transform: scale(1.05);
+.nb-wordmark {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.97rem;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: -0.025em;
+  line-height: 1;
 }
-
-.navbar-brand {
-  font-size: 1.2rem;
+.nb-wordmark strong {
   font-weight: 800;
-  color: #111;
-}
-
-.navbar-brand span {
   color: #16a34a;
 }
 
-/* Right */
-.navbar-right {
+/* ──────────────────────────────────────────
+   RIGHT CLUSTER
+────────────────────────────────────────── */
+.nb-right {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 3px;
+  flex-shrink: 0;
 }
 
-.back-link {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #555;
+/* ── Back link ── */
+.nb-back {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #475569;
   text-decoration: none;
-  padding: 8px 16px;
-  border-radius: 100px;
-  transition: 0.2s;
+  padding: 6px 13px;
+  border-radius: 11px;
+  letter-spacing: -0.01em;
+  transition:
+    background 0.16s ease,
+    color      0.16s ease,
+    transform  0.16s ease;
+}
+.nb-back:hover {
+  background: rgba(0, 0, 0, 0.055);
+  color: #0f172a;
+  transform: translateX(-1px);
+}
+.nb-back svg {
+  opacity: 0.45;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  flex-shrink: 0;
+}
+.nb-back:hover svg {
+  transform: translateX(-2px);
+  opacity: 1;
 }
 
-.back-link:hover {
-  background: rgba(0, 0, 0, 0.05);
-  color: #111;
+/* ── Divider ── */
+.nb-divider {
+  width: 1px;
+  height: 18px;
+  background: rgba(0, 0, 0, 0.09);
+  margin: 0 3px;
+  flex-shrink: 0;
 }
 
-/* Social Icon Buttons */
-.icon-btn {
+/* ── Icon buttons ── */
+.nb-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 11px;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  width: 38px;
-  height: 38px;
-
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(10px);
-
-  color: #111;
-  transition: all 0.3s ease;
+  color: #374151;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  transition:
+    color      0.2s ease,
+    transform  0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
+    background 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
-.icon-btn:hover {
+.nb-icon::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
   background: #16a34a;
-  color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(22, 163, 74, 0.3);
+  opacity: 0;
+  transform: scale(0.6);
+  transition:
+    opacity   0.2s ease,
+    transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.nb-icon:hover::before {
+  opacity: 1;
+  transform: scale(1);
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  .navbar-container {
-    height: 60px;
-    padding: 0 16px;
-  }
+.nb-icon svg {
+  position: relative;
+  z-index: 1;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+.nb-icon:hover {
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.32);
+}
 
-  .navbar-brand {
-    display: none;
-  }
+/* ──────────────────────────────────────────
+   RESPONSIVE
+────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .nb-shell   { padding: 10px 12px 0; }
+  .nb-inner   { height: 48px; border-radius: 14px; padding: 0 6px 0 4px; }
+  .nb-wordmark { display: none; }
+  .nb-logo    { padding: 4px 6px 4px 4px; }
+  .nb-back span { display: none; }
+  .nb-back    { padding: 6px 9px; }
+  .nb-divider { display: none; }
+  .nb-icon    { width: 32px; height: 32px; border-radius: 9px; }
+}
 
-  .back-link span {
-    display: none;
-  }
+@media (max-width: 380px) {
+  .nb-shell { padding: 8px 10px 0; }
 }
