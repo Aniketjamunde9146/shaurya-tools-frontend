@@ -434,9 +434,588 @@ speechGenerator: (
     <line x1="12" y1="19" x2="12" y2="22" />
     <line x1="8" y1="22" x2="16" y2="22" />
   </svg>
+),
+storyGenerator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Open Book */}
+    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+    
+    {/* Magic Sparkle/Wand effect */}
+    <path d="M14 7l1 1-1 1-1-1z" fill="currentColor" stroke="none" />
+    <path d="M10 10l.5.5-.5.5-.5-.5z" fill="currentColor" stroke="none" />
+    <path d="M16 12l.5.5-.5.5-.5-.5z" fill="currentColor" stroke="none" />
+  </svg>
+),
+coldEmailGenerator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Envelope */}
+    <path d="M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8" />
+    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+    
+    {/* The Lightning Bolt (Cold Outreach) */}
+    <path d="m19 16-4 3h5l-4 3" stroke="#f59e0b" />
+    <path d="M17 14l-2 3h4l-2 3" stroke="#f59e0b" />
+  </svg>
+),
+whatsAppMsgGen: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Chat Bubble */}
+    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-12.8 8.4 8.4 0 0 1 3.5.8L21 2Z" />
+    
+    {/* The WhatsApp Double Checkmark */}
+    <path d="M8 13l2.5 2.5L15.5 10" />
+    <path d="M13 15.5L18 10" opacity="0.7" />
+    
+    {/* AI Sparkle */}
+    <path d="M19 18l.5 1.5 1.5.5-1.5.5-.5 1.5-.5-1.5-1.5-.5 1.5-.5.5-1.5Z" fill="currentColor" stroke="none" />
+  </svg>
+),
+startupValidator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Shield (Validation) */}
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+    
+    {/* The Rocket / Growth Line */}
+    <path d="m9 12 2 2 4-4" />
+    <path d="m13 7 2-2" />
+  </svg>
+),
+groceryGenerator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <path d="m3.5 11 1.62 7.31c.15.69.76 1.19 1.47 1.19h10.82c.71 0 1.32-.5 1.47-1.19L20.5 11" />
+    <path d="M9 11V6a3 3 0 0 1 6 0v5" />
+    <line x1="2" y1="11" x2="22" y2="11" />
+    <line x1="12" y1="14" x2="12" y2="18" />
+    <line x1="10" y1="16" x2="14" y2="16" />
+  </svg>
+),
+waterCalculator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Water Droplet */}
+    <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+    
+    {/* The Measurement Markings */}
+    <line x1="9" y1="12" x2="15" y2="12" />
+    <line x1="10" y1="15" x2="14" y2="15" />
+    <line x1="11" y1="18" x2="13" y2="18" />
+  </svg>
+),
+screenTimePlanner: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Smartphone Frame */}
+    <rect x="7" y="2" width="10" height="20" rx="2" ry="2" />
+    <path d="M11 18h2" />
+    
+    {/* The Time/Limit Overlay */}
+    <circle cx="12" cy="9" r="3" />
+    <path d="M12 7v2l1 1" />
+    
+    {/* Progress/Cutoff line */}
+    <path d="M7 14h10" opacity="0.5" />
+  </svg>
+),
+interviewGenerator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+    <path d="M8 9h8" opacity="0.6" />
+    <path d="M8 13h5" opacity="0.6" />
+    <circle cx="18" cy="18" r="3" fill="white" />
+    <path d="M18 16v4M16 18h4" />
+  </svg>
+),
+selfIntroGenerator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Identification Card/Badge */}
+    <rect x="3" y="4" width="18" height="16" rx="2" />
+    <path d="M7 12h10" />
+    <path d="M7 16h6" />
+    
+    {/* The "Person" Icon on the badge */}
+    <circle cx="9" cy="8" r="2" />
+    
+    {/* The Greeting/Speech indicator */}
+    <path d="M15 8l2-2" />
+    <path d="M17 10l2-2" />
+  </svg>
+),
+productComparison: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* Left Column/Product */}
+    <rect x="3" y="10" width="8" height="11" rx="1" />
+    <path d="M7 10V3" />
+    <path d="M5 5h4" />
+
+    {/* Right Column/Product */}
+    <rect x="13" y="6" width="8" height="15" rx="1" />
+    <path d="M17 6V3" />
+    <path d="M15 5h4" />
+  </svg>
+),
+mcqGenerator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Source Note */}
+    <path d="M4 7V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2h-4" />
+    <polyline points="14 2 14 8 20 8" />
+    
+    {/* The MCQ List Overlay */}
+    <rect x="2" y="12" width="10" height="10" rx="1" />
+    <circle cx="5" cy="15" r="0.5" fill="currentColor" />
+    <circle cx="5" cy="19" r="0.5" fill="currentColor" />
+    <line x1="7" y1="15" x2="10" y2="15" />
+    <line x1="7" y1="19" x2="10" y2="19" />
+  </svg>
+),
+journalPromptGen: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Journal Book */}
+    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+    
+    {/* The Pen/Pencil */}
+    <path d="m9 10 2 2 5-5" />
+    
+    {/* The Spark of Insight */}
+    <path d="M15 14h.01" />
+    <path d="M18 17h.01" />
+    <path d="M12 17h.01" />
+  </svg>
+),
+productivityBooster: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Productivity Rocket/Arrow */}
+    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+    
+    {/* The Goal/Target Frame */}
+    <circle cx="12" cy="12" r="10" opacity="0.2" />
+  </svg>
+),
+pomodoroTimer: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Timer Circle */}
+    <circle cx="12" cy="12" r="10" />
+    
+    {/* The Timer Hand/Dial */}
+    <path d="M12 12L15 7" />
+    
+    {/* The "Tomato" Top Leaf */}
+    <path d="M12 2v2" />
+    <path d="M10 3c1 0 2 1 2 1s1-1 2-1" />
+    
+    {/* Segment indicating the 25-minute mark */}
+    <path d="M12 2a10 10 0 0 1 10 10" opacity="0.3" />
+  </svg>
+),
+examCountdown: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Hourglass Frame */}
+    <path d="M5 2h14" />
+    <path d="M5 22h14" />
+    <path d="M6 2v6a6 6 0 0 0 12 0V2" />
+    <path d="M6 22v-6a6 6 0 0 1 12 0v6" />
+    
+    {/* The Mortarboard (Grad Cap) Top */}
+    <path d="M12 10l4-2-4-2-4 2 4 2z" fill="currentColor" stroke="none" />
+  </svg>
+),
+flipClock: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* Outer Frame */}
+    <rect x="3" y="6" width="18" height="12" rx="2" />
+    
+    {/* Center Horizontal Split Line */}
+    <line x1="3" y1="12" x2="21" y2="12" />
+    
+    {/* Vertical Divider (between hours and minutes) */}
+    <line x1="12" y1="6" x2="12" y2="18" />
+    
+    {/* Small hinge details */}
+    <path d="M11 12h2" strokeWidth="3" />
+  </svg>
+),
+flashcardGenerator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Back Card */}
+    <rect x="5" y="5" width="14" height="16" rx="2" opacity="0.4" />
+    
+    {/* The Front Card */}
+    <rect x="2" y="2" width="14" height="16" rx="2" fill="white" />
+    
+    {/* Content lines on the card */}
+    <line x1="5" y1="7" x2="13" y2="7" />
+    <line x1="5" y1="11" x2="10" y2="11" />
+    
+    {/* AI Magic Sparkle */}
+    <path d="M19 3l.5 1.5 1.5.5-1.5.5-.5 1.5-.5-1.5-1.5-.5 1.5-.5.5-1.5Z" fill="currentColor" stroke="none" />
+  </svg>
+),
+streakTracker: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Calendar Background */}
+    <rect x="3" y="4" width="18" height="17" rx="2" ry="2" />
+    <line x1="3" y1="10" x2="21" y2="10" />
+    
+    {/* The Streak Flame */}
+    <path d="M12 18c2.5 0 4.5-2 4.5-4.5C16.5 11 14 9 12 7c-2 2-4.5 4-4.5 6.5C7.5 16 9.5 18 12 18z" />
+  </svg>
+),
+percentageCalc: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Exam Paper */}
+    <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+    <polyline points="14 2 14 8 20 8" />
+    
+    {/* The % Symbol */}
+    <line x1="9" y1="17" x2="15" y2="11" />
+    <circle cx="10" cy="12" r="1" />
+    <circle cx="14" cy="16" r="1" />
+  </svg>
+),
+gstCalculator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Calculator/Receipt Frame */}
+    <path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1-2-1z" />
+    
+    {/* The Content Lines */}
+    <path d="M8 7h8" />
+    <path d="M8 11h8" />
+    
+    {/* The Math Symbol (Plus) */}
+    <path d="M10 17h4" />
+    <path d="M12 15v4" />
+  </svg>
+),
+sipCalculator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* Growth Trend Line */}
+    <path d="M3 17l6-6 4 4 8-8" />
+    <polyline points="18 7 21 7 21 10" />
+    
+    {/* Investment Pillars */}
+    <path d="M3 21h18" />
+    <path d="M7 21v-3" opacity="0.5" />
+    <path d="M11 21v-7" opacity="0.7" />
+    <path d="M15 21v-9" />
+  </svg>
+),
+taxIndia: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Rupee Symbol */}
+    <path d="M6 3h12" />
+    <path d="M6 8h12" />
+    <path d="m6 13 8.5 8" />
+    <path d="M18 3c0 5-12 5-12 10" />
+    
+    {/* Outline frame suggesting a document or calculator */}
+    <rect x="3" y="2" width="18" height="20" rx="2" opacity="0.3" />
+  </svg>
+),
+fuelCalculator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Fuel Pump Body */}
+    <path d="M3 22h12" />
+    <rect x="4" y="7" width="10" height="15" />
+    <path d="M14 9h2a2 2 0 0 1 2 2v1h2" />
+    <path d="M20 12V8a2 2 0 0 0-2-2h-1" />
+    
+    {/* The Display Screen */}
+    <rect x="6" y="9" width="6" height="3" />
+    
+    {/* The Price Indicator */}
+    <path d="M9 16v4" />
+    <path d="M7 18h4" />
+  </svg>
+),
+budgetPlanner: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Wallet/Container */}
+    <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2" />
+    <path d="M3 5v14a2 2 0 0 0 2 2h15" />
+    
+    {/* The Allocation Indicator (Pie Chart Slice) */}
+    <path d="M12 11v4l3 2" opacity="0.6" />
+    <circle cx="12" cy="13" r="5" opacity="0.4" />
+  </svg>
+),
+savingsGoal: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Target Circles */}
+    <circle cx="12" cy="12" r="10" opacity="0.3" />
+    <circle cx="12" cy="12" r="6" />
+    
+    {/* The Coin/Goal Center */}
+    <circle cx="12" cy="12" r="2" fill="currentColor" />
+    
+    {/* The Path to Goal */}
+    <path d="M12 2v4" />
+    <path d="M12 18v4" />
+    <path d="M22 12h-4" />
+    <path d="M6 12H2" />
+  </svg>
+),
+ccEmiCalc: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* The Credit Card */}
+    <rect x="2" y="5" width="20" height="14" rx="2" />
+    <line x1="2" y1="10" x2="22" y2="10" />
+    
+  </svg>
+),
+electricityEstimator: (
+  <svg 
+    width="22" 
+    height="22" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    {/* Lightbulb Top */}
+    <path d="M9 18h6" />
+    <path d="M10 22h4" />
+    <path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7z" />
+    
+    {/* Currency Symbol inside or near bulb */}
+    <path d="M12 7v4" opacity="0.6" />
+    <path d="M10 9h4" opacity="0.6" />
+  </svg>
 )
-
-
 
 
 

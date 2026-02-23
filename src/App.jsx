@@ -63,6 +63,33 @@ const DailyAffirmationGenerator          = lazy(() => import("./pages/DailyAffir
 const RelationshipCompatibilityChecker          = lazy(() => import("./pages/RelationshipCompatibilityChecker"));
 const BusinessNameGenerator          = lazy(() => import("./pages/BusinessNameGenerator"));
 const SpeechScriptGenerator          = lazy(() => import("./pages/SpeechScriptGenerator"));
+const StoryGenerator          = lazy(() => import("./pages/StoryGenerator"));
+const ColdEmailGenerator          = lazy(() => import("./pages/ColdEmailGenerator"));
+const ColdWhatsAppGenerator          = lazy(() => import("./pages/WhatsAppGenerator"));
+const StartupValidator          = lazy(() => import("./pages/StartupValidator"));
+const GroceryListGenerator          = lazy(() => import("./pages/GroceryListGenerator"));
+const WaterIntakeCalculator          = lazy(() => import("./pages/WaterIntakeCalculator"));
+const ScreenTimePlanner          = lazy(() => import("./pages/ScreenTimePlanner"));
+const InterviewGenerator          = lazy(() => import("./pages/InterviewGenerator"));
+const SelfIntroGenerator          = lazy(() => import("./pages/SelfIntroGenerator"));
+const ProductComparison          = lazy(() => import("./pages/ProductComparison"));
+const MCQGenerator          = lazy(() => import("./pages/MCQGenerator"));
+const JournalPromptGen          = lazy(() => import("./pages/JournalPromptGen"));
+const ProductivityBooster          = lazy(() => import("./pages/ProductivityBooster"));
+const PomodoroTimer          = lazy(() => import("./pages/PomodoroTimer"));
+const ExamCountdown          = lazy(() => import("./pages/ExamCountdown"));
+const FlipClock          = lazy(() => import("./pages/FlipClock"));
+const FlashcardGenerator          = lazy(() => import("./pages/FlashcardGenerator"));
+const StudyStreakTracker          = lazy(() => import("./pages/StudyStreakTracker"));
+const PercentageCalculator          = lazy(() => import("./pages/PercentageCalculator"));
+const GSTCalculator          = lazy(() => import("./pages/GSTCalculator"));
+const SIPCalculator          = lazy(() => import("./pages/SIPCalculator"));
+const IncomeTaxCalculator         = lazy(() => import("./pages/IncomeTaxCalculator"));
+const FuelCalculator         = lazy(() => import("./pages/FuelCalculator"));
+const BudgetPlanner         = lazy(() => import("./pages/BudgetPlanner"));
+const SavingsGoalCalculator         = lazy(() => import("./pages/SavingsGoalCalculator"));
+const CreditCardEMICalculator         = lazy(() => import("./pages/CreditCardEMICalculator"));
+const ElectricityBillEstimator         = lazy(() => import("./pages/ElectricityBillEstimator"));
 
 
 // ✅ 404 page
@@ -160,15 +187,34 @@ function App() {
           <Route path="/relationship-compatibility-checker"   element={<RelationshipCompatibilityChecker/>} />
           <Route path="/business-name-generator"   element={<BusinessNameGenerator/>} />
           <Route path="/speech-script-generator"   element={<SpeechScriptGenerator/>} />
-
-
-
-
-        
-
-
+          <Route path="/story-generator"   element={<StoryGenerator/>} />
+          <Route path="/cold-email-generator"   element={<ColdEmailGenerator/>} />
+          <Route path="/whatsapp-generator"   element={<ColdWhatsAppGenerator/>} />
+          <Route path="/startup-validator"   element={<StartupValidator/>} />
+          <Route path="/grocery-list-generator"   element={<GroceryListGenerator/>} />
+          <Route path="/water-intake-calculator"   element={<WaterIntakeCalculator/>} />
+          <Route path="/screen-time-planner"   element={<ScreenTimePlanner/>} />
+          <Route path="/interview-generator"   element={<InterviewGenerator/>} />
+          <Route path="/self-intro-generator"   element={<SelfIntroGenerator/>} />
+          <Route path="/product-comparison"   element={<ProductComparison/>} />
+          <Route path="/study-notes-mcq-generator"   element={<MCQGenerator/>} />
+          <Route path="/ai-journal-prompt-generator"   element={<JournalPromptGen/>} />
+          <Route path="/productivity-booster-plan"   element={<ProductivityBooster/>} />
+          <Route path="/pomodoro-timer"   element={<PomodoroTimer/>} />
+          <Route path="/exam-countdown"   element={<ExamCountdown/>} />
+          <Route path="/flip-clock"   element={<FlipClock/>} />
+          <Route path="/flashcard-generator"   element={<FlashcardGenerator/>} />
+          <Route path="/study-streak-tracker"   element={<StudyStreakTracker/>} />
+          <Route path="/marks-percentage-calculator"   element={<PercentageCalculator/>} />
+          <Route path="/gst-calculator"   element={<GSTCalculator/>} />
+          <Route path="/sip-calculator"   element={<SIPCalculator/>} />
+          <Route path="/income-tax-calculator-india"   element={<IncomeTaxCalculator/>} />
+          <Route path="/fuel-expense-calculator"   element={<FuelCalculator/>} />
+          <Route path="/budget-planner"   element={<BudgetPlanner/>} />
+          <Route path="/savings-goal-calculator"   element={<SavingsGoalCalculator/>} />
+          <Route path="/credit-card-emi-calculator"   element={<CreditCardEMICalculator/>} />
+          <Route path="/electricity-bill-estimator"   element={<ElectricityBillEstimator/>} />
           
-
 
 
           {/* ✅ 404 — always last */}

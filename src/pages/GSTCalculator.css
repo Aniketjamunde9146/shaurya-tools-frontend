@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --white:      #ffffff;
+  --black:      #0f0f0f;
+  --grey-1:     #f5f5f5;
+  --grey-2:     #e5e5e5;
+  --grey-3:     #737373;
+  --grey-4:     #404040;
+  --green:      #16a34a;
+  --green-bg:   #f0fdf4;
+  --green-bd:   #bbf7d0;
+  --red:        #ef4444;
+  --red-bg:     #fef2f2;
+  --red-bd:     #fecaca;
+  --blue:       #2563eb;
+  --blue-bg:    #eff6ff;
+  --blue-bd:    #bfdbfe;
+
+  --fg-accent:    #0d9488;
+  --fg-accent-bg: #f0fdfa;
+  --fg-accent-bd: #99f6e4;
+  --fg-accent-dk: #0f766e;
+
+  --fg-violet:    #7c3aed;
+  --fg-violet-bg: #f5f3ff;
+  --fg-violet-bd: #ddd6fe;
+  --fg-amber:     #d97706;
+  --fg-amber-bg:  #fffbeb;
+  --fg-amber-bd:  #fde68a;
+  --fg-indigo:    #4f46e5;
+  --fg-indigo-bg: #eef2ff;
+  --fg-indigo-bd: #c7d2fe;
+
+  --radius: 12px;
+  --font-head: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+/* ── Page ── */
+.gst-page {
+  min-height: 100vh;
+  background: var(--grey-1);
+  font-family: var(--font-body);
+  color: var(--black);
+  padding: 80px 20px 64px;
+  padding-top: 110px;
+}
+
+.gst-inner {
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ── Header ── */
+.gst-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 4px 0 8px;
+}
+
+.gst-icon {
+  width: 48px; height: 48px;
+  background: var(--white);
+  border: 1.5px solid var(--grey-2);
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--fg-accent);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.gst-cat {
+  display: inline-block;
+  font-size: 0.68rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--fg-accent);
+  background: var(--fg-accent-bg);
+  border: 1px solid var(--fg-accent-bd);
+  padding: 3px 10px; border-radius: 100px; margin-bottom: 6px;
+}
+
+.gst-header h1 {
+  font-family: var(--font-head);
+  font-size: clamp(1.4rem, 4vw, 1.75rem);
+  font-weight: 700; color: var(--black);
+  letter-spacing: -0.02em; margin-bottom: 4px; line-height: 1.2;
+}
+.gst-header p { font-size: 0.85rem; color: var(--grey-3); line-height: 1.5; }
+
+/* ── Card ── */
+.gst-card {
+  background: var(--white);
+  border: 1.5px solid var(--grey-2);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.gst-card-title {
+  font-family: var(--font-head);
+  font-size: 0.92rem; font-weight: 700;
+  color: var(--black);
+  display: flex; align-items: center; gap: 7px;
+  padding-bottom: 14px;
+  border-bottom: 1.5px solid var(--grey-2);
+}
+.gst-card-title svg { color: var(--fg-accent); }
+
+/* ── Mode toggle ── */
+.gst-mode-toggle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--grey-1);
+  border: 1.5px solid var(--grey-2);
+  border-radius: 14px;
+  padding: 4px;
+  gap: 4px;
+}
+
+.gst-mode-btn {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 12px 16px;
+  border: none; border-radius: 10px; background: transparent;
+  font-family: var(--font-body); font-size: 0.88rem; font-weight: 600;
+  color: var(--grey-3); cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.gst-mode-btn:hover:not(.gst-mode-on) { color: var(--black); }
+
+.gst-mode-add {
+  /* active */
+}
+.gst-mode-add.gst-mode-on {
+  background: var(--white);
+  color: var(--green);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.gst-mode-remove.gst-mode-on {
+  background: var(--white);
+  color: var(--red);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.gst-mode-icon-add    { color: var(--green); }
+.gst-mode-icon-remove { color: var(--red);   }
+
+.gst-mode-desc {
+  font-size: 0.68rem; font-weight: 500; color: var(--grey-3);
+  margin-top: 1px; text-align: center; line-height: 1.4;
+}
+
+/* ── Label ── */
+.gst-label {
+  font-family: var(--font-head);
+  font-size: 0.85rem; font-weight: 600;
+  color: var(--black);
+  display: flex; align-items: center; gap: 6px;
+  margin-bottom: 7px;
+}
+.gst-lbl-icon { color: var(--fg-accent); flex-shrink: 0; }
+.gst-lbl-sub  { font-size: 0.75rem; font-weight: 400; color: var(--grey-3); margin-left: 4px; }
+
+/* ── Input with prefix/suffix ── */
+.gst-input-wrap {
+  position: relative; display: flex; align-items: center;
+}
+.gst-prefix, .gst-suffix {
+  position: absolute;
+  font-size: 0.9rem; font-weight: 700;
+  color: var(--grey-3); pointer-events: none;
+  line-height: 1;
+}
+.gst-prefix { left: 14px; }
+.gst-suffix { right: 14px; }
+
+.gst-input {
+  width: 100%; padding: 13px 14px;
+  border: 1.5px solid var(--grey-2); border-radius: var(--radius);
+  font-family: var(--font-body); font-size: 1rem; font-weight: 600;
+  color: var(--black); background: var(--white);
+  outline: none; transition: border-color 0.2s, box-shadow 0.2s;
+}
+.gst-input:focus { border-color: var(--fg-accent); box-shadow: 0 0 0 3px rgba(13,148,136,0.1); }
+.gst-input::placeholder { color: var(--grey-3); font-weight: 400; font-size: 0.9rem; }
+.gst-input-has-prefix  { padding-left: 32px; }
+.gst-input-has-suffix  { padding-right: 36px; }
+
+/* ── GST Rate buttons ── */
+.gst-rate-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 7px;
+}
+
+.gst-rate-btn {
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+  padding: 10px 6px;
+  border: 1.5px solid var(--grey-2); border-radius: var(--radius);
+  background: var(--white); cursor: pointer;
+  font-family: var(--font-body); font-size: 0.82rem; font-weight: 700;
+  color: var(--grey-4);
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+}
+.gst-rate-btn:hover:not(.gst-rate-on) { border-color: var(--grey-3); background: var(--grey-1); }
+.gst-rate-on {
+  background: var(--fg-accent-bg) !important;
+  border-color: var(--fg-accent-bd) !important;
+  color: var(--fg-accent-dk) !important;
+}
+.gst-rate-sub {
+  font-size: 0.6rem; font-weight: 500; color: var(--grey-3); text-align: center;
+}
+.gst-rate-on .gst-rate-sub { color: var(--fg-accent); opacity: 0.8; }
+
+/* Custom rate */
+.gst-custom-wrap {
+  display: flex; align-items: center; gap: 10px; margin-top: 4px;
+}
+.gst-custom-input {
+  width: 100px; padding: 9px 12px;
+  border: 1.5px solid var(--grey-2); border-radius: 10px;
+  font-family: var(--font-body); font-size: 0.9rem; font-weight: 600;
+  color: var(--black); outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.gst-custom-input:focus { border-color: var(--fg-accent); box-shadow: 0 0 0 3px rgba(13,148,136,0.1); }
+.gst-custom-label { font-size: 0.8rem; color: var(--grey-3); font-weight: 500; }
+
+/* ── Divider ── */
+.gst-divider { height: 1px; background: var(--grey-2); margin: 2px 0; }
+
+/* ── Row-2 ── */
+.gst-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
+
+/* ── Calculate btn ── */
+.gst-submit {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  width: 100%; padding: 13px 20px;
+  background: var(--fg-accent); color: var(--white);
+  border: none; border-radius: var(--radius);
+  font-family: var(--font-body); font-size: 0.95rem; font-weight: 600;
+  cursor: pointer; transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+}
+.gst-submit:hover:not(:disabled) { background: var(--fg-accent-dk); transform: translateY(-1px); box-shadow: 0 4px 14px rgba(13,148,136,0.35); }
+.gst-submit:active:not(:disabled) { transform: translateY(0); }
+.gst-submit:disabled { opacity: 0.38; cursor: not-allowed; }
+
+/* ── Error ── */
+.gst-error {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 0.8rem; color: var(--red); font-weight: 500;
+  background: var(--red-bg); border: 1px solid var(--red-bd);
+  border-radius: 8px; padding: 8px 12px;
+}
+
+/* ──────────────────────────────────────────
+   RESULT SECTION
+────────────────────────────────────────── */
+.gst-result-hero {
+  border-radius: 16px;
+  padding: 26px 24px;
+  display: flex; align-items: center; justify-content: space-between; gap: 20px;
+  position: relative; overflow: hidden;
+  animation: gst-fade 0.4s cubic-bezier(0.16,1,0.3,1);
+}
+
+.gst-hero-add    { background: linear-gradient(135deg, #f0fdf4, #dcfce7); border: 1.5px solid #86efac; }
+.gst-hero-remove { background: linear-gradient(135deg, var(--red-bg), #fee2e2);  border: 1.5px solid var(--red-bd); }
+
+.gst-hero-left { display: flex; flex-direction: column; gap: 5px; }
+.gst-hero-label {
+  font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.gst-hero-add .gst-hero-label    { color: var(--green); opacity: 0.75; }
+.gst-hero-remove .gst-hero-label { color: var(--red);   opacity: 0.75; }
+
+.gst-hero-amount {
+  font-family: var(--font-head);
+  font-size: clamp(2.2rem, 8vw, 3.5rem);
+  font-weight: 800; line-height: 1; letter-spacing: -0.03em;
+}
+.gst-hero-add .gst-hero-amount    { color: var(--green); }
+.gst-hero-remove .gst-hero-amount { color: var(--red);   }
+
+.gst-hero-sub { font-size: 0.8rem; font-weight: 500; color: var(--grey-3); margin-top: 2px; }
+
+.gst-hero-badge {
+  font-family: var(--font-head);
+  font-size: 1.1rem; font-weight: 800;
+  padding: 8px 18px; border-radius: 100px;
+  white-space: nowrap; flex-shrink: 0;
+}
+.gst-hero-add .gst-hero-badge    { background: var(--green); color: var(--white); }
+.gst-hero-remove .gst-hero-badge { background: var(--red);   color: var(--white); }
+
+/* ── Breakdown card ── */
+.gst-breakdown {
+  display: flex; flex-direction: column; gap: 0;
+}
+
+.gst-bk-row {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--grey-2);
+}
+.gst-bk-row:last-child { border-bottom: none; }
+
+.gst-bk-left { display: flex; align-items: center; gap: 10px; }
+
+.gst-bk-dot {
+  width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
+}
+.gst-bk-dot-base   { background: var(--fg-accent); }
+.gst-bk-dot-cgst   { background: var(--fg-violet); }
+.gst-bk-dot-sgst   { background: var(--fg-indigo); }
+.gst-bk-dot-igst   { background: var(--fg-amber);  }
+.gst-bk-dot-total  { background: var(--green);     }
+.gst-bk-dot-saving { background: var(--red);       }
+
+.gst-bk-label { font-size: 0.85rem; font-weight: 600; color: var(--grey-4); }
+.gst-bk-sub   { font-size: 0.72rem; color: var(--grey-3); margin-top: 1px; }
+
+.gst-bk-right { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
+.gst-bk-amount {
+  font-family: var(--font-head); font-size: 1rem;
+  font-weight: 700; color: var(--black);
+}
+.gst-bk-pct { font-size: 0.7rem; color: var(--grey-3); font-weight: 500; }
+
+/* Total row highlight */
+.gst-bk-total-row {
+  background: var(--grey-1);
+  border-radius: 10px;
+  padding: 14px 12px !important;
+  margin-top: 6px;
+  border-bottom: none !important;
+}
+.gst-bk-total-row .gst-bk-label { font-size: 0.92rem; color: var(--black); }
+.gst-bk-total-row .gst-bk-amount { font-size: 1.15rem; color: var(--green); }
+
+/* ── Stats row ── */
+.gst-stats-row {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
+}
+.gst-stat-box {
+  background: var(--white); border: 1.5px solid var(--grey-2);
+  border-radius: 12px; padding: 14px 12px;
+  display: flex; flex-direction: column; gap: 5px;
+  transition: border-color 0.2s;
+}
+.gst-stat-box:hover { border-color: var(--fg-accent-bd); }
+.gst-stat-icon {
+  width: 28px; height: 28px; border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 2px;
+}
+.gst-si-accent { background: var(--fg-accent-bg); color: var(--fg-accent); }
+.gst-si-violet { background: var(--fg-violet-bg); color: var(--fg-violet); }
+.gst-si-green  { background: var(--green-bg);     color: var(--green);     }
+.gst-stat-val  { font-family: var(--font-head); font-size: 1.15rem; font-weight: 700; color: var(--black); line-height: 1; }
+.gst-stat-lbl  { font-size: 0.67rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; color: var(--grey-3); }
+
+/* ── Visual bar ── */
+.gst-bar-section { display: flex; flex-direction: column; gap: 8px; }
+.gst-bar-label-row { display: flex; justify-content: space-between; }
+.gst-bar-track {
+  height: 12px; background: var(--grey-2); border-radius: 100px; overflow: hidden;
+  display: flex;
+}
+.gst-bar-base {
+  height: 100%; background: var(--fg-accent); border-radius: 100px 0 0 100px;
+  transition: width 0.7s cubic-bezier(0.34,1.56,0.64,1);
+}
+.gst-bar-gst {
+  height: 100%; border-radius: 0 100px 100px 0;
+  transition: width 0.7s cubic-bezier(0.34,1.56,0.64,1) 0.05s;
+}
+.gst-bar-gst-add    { background: var(--green); }
+.gst-bar-gst-remove { background: var(--red);   }
+
+.gst-bar-legend { display: flex; gap: 14px; flex-wrap: wrap; }
+.gst-bar-legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.74rem; font-weight: 600; color: var(--grey-4); }
+.gst-bar-legend-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+
+/* ── History ── */
+.gst-history { display: flex; flex-direction: column; gap: 7px; }
+.gst-history-row {
+  display: flex; align-items: center; gap: 12px;
+  padding: 11px 14px;
+  background: var(--white); border: 1.5px solid var(--grey-2); border-radius: var(--radius);
+  transition: border-color 0.15s;
+  animation: gst-fade 0.25s cubic-bezier(0.16,1,0.3,1);
+  cursor: pointer;
+}
+.gst-history-row:hover { border-color: var(--fg-accent-bd); background: var(--fg-accent-bg); }
+
+.gst-hist-mode-dot {
+  width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+}
+.gst-hist-add    { background: var(--green); }
+.gst-hist-remove { background: var(--red);   }
+
+.gst-hist-info { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+.gst-hist-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.gst-hist-amount { font-size: 0.85rem; font-weight: 700; color: var(--black); }
+.gst-hist-mode-tag {
+  font-size: 0.65rem; font-weight: 700; padding: 2px 7px; border-radius: 100px;
+}
+.gst-hist-tag-add    { background: var(--green-bg); color: var(--green); border: 1px solid var(--green-bd); }
+.gst-hist-tag-remove { background: var(--red-bg);   color: var(--red);   border: 1px solid var(--red-bd);   }
+.gst-hist-sub { font-size: 0.72rem; color: var(--grey-3); }
+
+.gst-hist-result { font-family: var(--font-head); font-size: 0.92rem; font-weight: 700; }
+.gst-hist-result-add    { color: var(--green); }
+.gst-hist-result-remove { color: var(--red);   }
+
+.gst-hist-del {
+  border: none; background: transparent; color: var(--grey-3);
+  cursor: pointer; padding: 4px; border-radius: 6px;
+  display: flex; align-items: center;
+  transition: color 0.15s, background 0.15s; flex-shrink: 0;
+}
+.gst-hist-del:hover { color: var(--red); background: var(--red-bg); }
+
+.gst-history-empty {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  padding: 24px; text-align: center;
+}
+.gst-history-empty-icon { font-size: 2rem; opacity: 0.3; }
+.gst-history-empty-text { font-size: 0.82rem; color: var(--grey-3); }
+
+/* ── Footer actions ── */
+.gst-footer {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 10px; flex-wrap: wrap;
+}
+.gst-footer-note { font-size: 0.74rem; color: var(--grey-3); font-weight: 500; }
+.gst-footer-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.gst-action-btn {
+  display: flex; align-items: center; gap: 6px;
+  padding: 9px 16px; background: var(--white); border: 1.5px solid var(--grey-2);
+  border-radius: var(--radius); font-family: var(--font-body);
+  font-size: 0.82rem; font-weight: 600; color: var(--grey-4);
+  cursor: pointer; transition: border-color 0.15s, background 0.15s;
+}
+.gst-action-btn:hover { border-color: var(--grey-3); background: var(--grey-1); }
+
+.gst-copy-btn {
+  display: flex; align-items: center; gap: 6px;
+  padding: 9px 18px; background: var(--fg-accent); color: var(--white);
+  border: none; border-radius: var(--radius);
+  font-family: var(--font-body); font-size: 0.85rem; font-weight: 600;
+  cursor: pointer; transition: background 0.15s, transform 0.15s;
+}
+.gst-copy-btn:hover { background: var(--fg-accent-dk); transform: translateY(-1px); }
+.gst-copy-btn-done  { background: var(--green) !important; }
+
+/* ── Animate ── */
+.gst-animate { animation: gst-fade 0.38s cubic-bezier(0.16,1,0.3,1); }
+@keyframes gst-fade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .gst-page      { padding: 72px 14px 48px; padding-top: 100px; }
+  .gst-header    { flex-direction: column; gap: 12px; }
+  .gst-card      { padding: 18px 14px; gap: 14px; }
+  .gst-rate-grid { grid-template-columns: repeat(4, 1fr); }
+  .gst-row-2     { grid-template-columns: 1fr; }
+  .gst-stats-row { grid-template-columns: 1fr 1fr 1fr; }
+  .gst-result-hero { flex-direction: column; align-items: flex-start; gap: 10px; }
+  .gst-footer    { flex-direction: column; align-items: stretch; }
+  .gst-footer-btns { flex-direction: column; }
+  .gst-copy-btn, .gst-action-btn { justify-content: center; }
+}
+
+@media (max-width: 400px) {
+  .gst-rate-grid { grid-template-columns: repeat(3, 1fr); }
+  .gst-stats-row { grid-template-columns: 1fr 1fr; }
+}
