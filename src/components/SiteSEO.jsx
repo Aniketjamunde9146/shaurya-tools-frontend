@@ -19,6 +19,24 @@ export default function SiteSEO() {
   const title = tool ? `${tool.name} | Free Online Tool | Shaurya Tools` : titleFromSlug(pathname);
   const description = tool?.description || DEFAULT_DESCRIPTION;
   const pageType = pathname === "/" ? "WebSite" : "WebPage";
+  const faqEntities = tool ? [
+    {
+      "@type": "Question",
+      name: `What is ${tool.name}?`,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: `${tool.name} is a free online tool from Shaurya Tools. ${tool.description}`,
+      },
+    },
+    {
+      "@type": "Question",
+      name: `How do I use the ${tool.name}?`,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: `Open the ${tool.name}, provide the requested information, review the result, and then use or download the output. The tool works in your browser without requiring an account.`,
+      },
+    },
+  ] : [];
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -54,6 +72,11 @@ export default function SiteSEO() {
         sameAs: ["https://instagram.com/aniket_jamunde_002", "https://github.com/Aniketjamunde9146"],
         maintainer: { "@type": "Organization", name: "aniketwebdev.in", url: "https://aniketwebdev.in" },
       },
+      ...(tool ? [{
+        "@type": "FAQPage",
+        "@id": `${canonical}#faq`,
+        mainEntity: faqEntities,
+      }] : []),
     ],
   };
 

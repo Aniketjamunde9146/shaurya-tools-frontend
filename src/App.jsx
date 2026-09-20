@@ -5,6 +5,7 @@ import Analytics from "./components/Analytics";
 import ConsentBanner from "./components/ConsentBanner";
 import SiteFooter from "./components/SiteFooter";
 import SiteSEO from "./components/SiteSEO";
+import ToolSEOContent from "./components/ToolSEOContent";
 
 // ✅ All 30 pages lazy loaded — each page only loads when visited
 const Home                    = lazy(() => import("./Home"));
@@ -325,6 +326,7 @@ function App() {
           <Route path="*"                               element={<NotFound />} />
         </Routes>
       </Suspense>
+      <ToolSEOContent />
       <SiteFooter />
     </Router>
   );
