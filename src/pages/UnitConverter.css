@@ -17,12 +17,12 @@
   --orange-bg: #fff7ed;
   --orange-bd: #fed7aa;
   --radius:    12px;
-  --font-head: "Inter", sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-head: "Manrope", sans-serif;
+  --font-body: "Manrope", sans-serif;
   --font-mono: 'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .uc-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -40,7 +40,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .uc-header {
   display: flex;
   align-items: flex-start;
@@ -92,7 +92,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .uc-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -107,7 +107,7 @@
   gap: 4px;
 }
 
-/* â”€â”€ Labels â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Labels Ã¢â€â‚¬Ã¢â€â‚¬ */
 .uc-label-row {
   display: flex;
   justify-content: space-between;
@@ -133,7 +133,7 @@
   margin-top: -8px;
 }
 
-/* â”€â”€ Category pills â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Category pills Ã¢â€â‚¬Ã¢â€â‚¬ */
 .uc-categories {
   display: flex;
   flex-wrap: wrap;
@@ -173,7 +173,7 @@
   line-height: 1;
 }
 
-/* â”€â”€ Field & inputs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field & inputs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .uc-field {
   display: flex;
   flex-direction: column;
@@ -246,7 +246,7 @@
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
 }
 
-/* â”€â”€ Output box â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output box Ã¢â€â‚¬Ã¢â€â‚¬ */
 .uc-output {
   flex: 1;
   padding: 11px 14px;
@@ -277,7 +277,7 @@
   font-family: var(--font-body);
 }
 
-/* â”€â”€ Swap â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Swap Ã¢â€â‚¬Ã¢â€â‚¬ */
 .uc-swap-row {
   display: flex;
   align-items: center;
@@ -316,7 +316,7 @@
   transform: rotate(180deg);
 }
 
-/* â”€â”€ Formula â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Formula Ã¢â€â‚¬Ã¢â€â‚¬ */
 .uc-formula {
   background: var(--grey-1);
   border: 1.5px solid var(--grey-2);
@@ -336,7 +336,7 @@
   font-weight: 600;
 }
 
-/* â”€â”€ Actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .uc-actions {
   display: flex;
   justify-content: flex-end;
@@ -370,7 +370,7 @@
   cursor: not-allowed;
 }
 
-/* â”€â”€ All conversions grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ All conversions grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .uc-all-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
@@ -420,7 +420,7 @@
   color: var(--grey-3);
 }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: uc-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -430,7 +430,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 600px) {
   .uc-page       { padding: 72px 14px 48px; padding-top: 110px; }
   .uc-header     { flex-direction: column; gap: 12px; }

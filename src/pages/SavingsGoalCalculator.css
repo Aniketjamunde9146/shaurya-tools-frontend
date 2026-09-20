@@ -15,7 +15,7 @@
   --red-bg:     #fef2f2;
   --red-bd:     #fecaca;
 
-  /* Tool accent â€” teal (matches your system) */
+  /* Tool accent Ã¢â‚¬â€ teal (matches your system) */
   --sgc-accent:    #0d9488;
   --sgc-accent-bg: #f0fdfa;
   --sgc-accent-bd: #99f6e4;
@@ -32,12 +32,12 @@
   --sgc-indigo-bd: #c7d2fe;
 
   --radius: 12px;
-  --font-head: "Inter", sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-head: "Manrope", sans-serif;
+  --font-body: "Manrope", sans-serif;
   --font-mono: 'Courier New', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sgc-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -55,7 +55,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sgc-header {
   display: flex;
   align-items: flex-start;
@@ -89,7 +89,7 @@
 }
 .sgc-header p { font-size: 0.85rem; color: var(--grey-3); line-height: 1.5; }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sgc-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -100,7 +100,7 @@
   gap: 18px;
 }
 
-/* â”€â”€ Fields â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Fields Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sgc-field { display: flex; flex-direction: column; gap: 8px; }
 .sgc-label {
   font-family: var(--font-head);
@@ -112,7 +112,7 @@
 .sgc-divider  { height: 1px; background: var(--grey-2); margin: 2px 0; }
 .sgc-hint     { font-size: 0.73rem; color: var(--grey-3); margin-top: 2px; }
 
-/* â”€â”€ Goal Presets â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Goal Presets Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sgc-presets-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -131,7 +131,7 @@
 .sgc-preset-icon { color: var(--grey-3); }
 .sgc-preset-on .sgc-preset-icon { color: var(--sgc-accent); }
 
-/* â”€â”€ Amount Input â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Amount Input Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sgc-amount-input-wrap { position: relative; }
 .sgc-dollar {
   position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
@@ -147,7 +147,7 @@
 .sgc-amount-input:focus { border-color: var(--sgc-accent); box-shadow: 0 0 0 3px rgba(13,148,136,0.1); }
 .sgc-amount-input::placeholder { color: var(--grey-3); }
 
-/* â”€â”€ Rate â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Rate Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sgc-rate-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
 .sgc-rate-input-wrap { position: relative; width: 120px; flex-shrink: 0; }
 .sgc-rate-input {
@@ -175,7 +175,7 @@
 .sgc-rate-chip-sub { font-size: 0.58rem; font-weight: 400; color: var(--grey-3); }
 .sgc-rate-chip-on .sgc-rate-chip-sub { color: var(--sgc-amber); opacity: 0.8; }
 
-/* â”€â”€ Mode toggle â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Mode toggle Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sgc-mode-toggle { display: flex; gap: 7px; }
 .sgc-mode-btn {
   flex: 1; display: flex; align-items: center; justify-content: center; gap: 7px;
@@ -188,12 +188,12 @@
 .sgc-mode-btn:hover:not(.sgc-mode-on) { border-color: var(--grey-3); background: var(--grey-1); }
 .sgc-mode-on { background: var(--sgc-violet-bg) !important; border-color: var(--sgc-violet-bd) !important; color: var(--sgc-violet) !important; }
 
-/* â”€â”€ Contrib row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Contrib row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sgc-contrib-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
 .sgc-months-input-wrap { position: relative; display: flex; align-items: center; gap: 8px; min-width: 160px; }
 .sgc-months-label { font-size: 0.83rem; font-weight: 600; color: var(--grey-3); white-space: nowrap; }
 
-/* â”€â”€ Freq group â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Freq group Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sgc-freq-group { display: flex; gap: 4px; flex-wrap: wrap; }
 .sgc-freq-btn {
   padding: 8px 11px; border: 1.5px solid var(--grey-2); border-radius: 9px;
@@ -205,7 +205,7 @@
 .sgc-freq-btn:hover:not(.sgc-freq-on) { border-color: var(--grey-3); background: var(--grey-1); }
 .sgc-freq-on { background: var(--sgc-accent-bg) !important; border-color: var(--sgc-accent-bd) !important; color: var(--sgc-accent-dk) !important; }
 
-/* â”€â”€ Result top â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result top Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sgc-result-top {
   display: flex; justify-content: space-between; align-items: center;
   flex-wrap: wrap; gap: 10px;
@@ -245,7 +245,7 @@
 }
 .sgc-action-btn:hover { border-color: var(--grey-3); color: var(--black); background: var(--grey-1); }
 
-/* â”€â”€ Results Tab â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Results Tab Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sgc-results { display: flex; flex-direction: column; gap: 18px; }
 
 /* Hero row */
@@ -318,7 +318,7 @@
 }
 .sgc-warn-icon { flex-shrink: 0; margin-top: 1px; }
 
-/* â”€â”€ Milestones Tab â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Milestones Tab Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sgc-milestones { display: flex; flex-direction: column; gap: 14px; }
 .sgc-milestones-intro { font-size: 0.84rem; color: var(--grey-3); }
 .sgc-milestones-list  { display: flex; flex-direction: column; gap: 0; position: relative; padding-left: 20px; }
@@ -354,7 +354,7 @@
 }
 .sgc-info-icon { color: var(--sgc-accent); flex-shrink: 0; margin-top: 1px; }
 
-/* â”€â”€ Breakdown Tab â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Breakdown Tab Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sgc-breakdown { display: flex; flex-direction: column; gap: 18px; }
 
 .sgc-breakdown-bar-wrap { display: flex; flex-direction: column; gap: 10px; }
@@ -390,7 +390,7 @@
 .sgc-breakdown-note { font-size: 0.72rem; color: var(--grey-3); white-space: nowrap; }
 .sgc-breakdown-val  { font-size: 0.88rem; font-weight: 700; color: var(--sgc-accent); text-align: right; min-width: 90px; }
 
-/* â”€â”€ FAQ â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ FAQ Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sgc-faq-header {
   display: flex; align-items: center; gap: 8px;
   margin-bottom: -4px;
@@ -418,11 +418,11 @@
   padding: 0 0 14px;
 }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in { animation: sgc-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes sgc-fade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 640px) {
   .sgc-page           { padding: 72px 14px 48px; padding-top: 100px; }
   .sgc-header         { flex-direction: column; gap: 12px; }

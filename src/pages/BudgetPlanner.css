@@ -18,7 +18,7 @@
   --blue-bg:    #eff6ff;
   --blue-bd:    #bfdbfe;
 
-  /* Tool accent â€” emerald/teal (same as Flashcard) */
+  /* Tool accent Ã¢â‚¬â€ emerald/teal (same as Flashcard) */
   --bp-accent:    #0d9488;
   --bp-accent-bg: #f0fdfa;
   --bp-accent-bd: #99f6e4;
@@ -35,12 +35,12 @@
   --bp-indigo-bd: #c7d2fe;
 
   --radius: 12px;
-  --font-head: "Inter", sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-head: "Manrope", sans-serif;
+  --font-body: "Manrope", sans-serif;
   --font-mono: 'Courier New', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -58,7 +58,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-header {
   display: flex;
   align-items: flex-start;
@@ -95,7 +95,7 @@
 }
 .bp-header p { font-size: 0.85rem; color: var(--grey-3); line-height: 1.5; }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -106,7 +106,7 @@
   gap: 18px;
 }
 
-/* â”€â”€ Fields â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Fields Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-field { display: flex; flex-direction: column; gap: 8px; }
 
 .bp-label {
@@ -121,7 +121,7 @@
 .bp-divider { height: 1px; background: var(--grey-2); margin: 2px 0; }
 .bp-hint    { font-size: 0.73rem; color: var(--grey-3); margin-top: 2px; }
 
-/* â”€â”€ Income Row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Income Row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-income-row {
   display: flex; gap: 10px; align-items: stretch; flex-wrap: wrap;
 }
@@ -157,12 +157,12 @@
 .bp-freq-btn:hover:not(.bp-freq-on) { border-color: var(--grey-3); background: var(--grey-1); }
 .bp-freq-on { background: var(--bp-accent-bg) !important; border-color: var(--bp-accent-bd) !important; color: var(--bp-accent-dk) !important; }
 
-/* â”€â”€ Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-grid { display: grid; gap: 7px; }
 .bp-grid-6 { grid-template-columns: repeat(6, 1fr); }
 .bp-grid-5 { grid-template-columns: repeat(5, 1fr); }
 
-/* â”€â”€ Option buttons (Lifestyle) â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Option buttons (Lifestyle) Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-opt-btn {
   display: flex; flex-direction: column; align-items: center; gap: 3px;
   padding: 10px 6px;
@@ -177,7 +177,7 @@
 .bp-opt-sub  { font-size: 0.62rem; color: var(--grey-3); text-align: center; }
 .bp-opt-on .bp-opt-sub  { color: var(--bp-accent); opacity: 0.85; }
 
-/* â”€â”€ Goal buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Goal buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-goal-btn {
   display: flex; flex-direction: column; align-items: center; gap: 4px;
   padding: 10px 6px;
@@ -206,7 +206,7 @@
 .bp-goal-amt-input:focus { border-color: var(--bp-accent); }
 .bp-goal-amt-input::placeholder { color: var(--grey-3); }
 
-/* â”€â”€ Category rows â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Category rows Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-cats-wrap {
   display: flex; flex-direction: column; gap: 6px;
   max-height: 360px; overflow-y: auto;
@@ -279,7 +279,7 @@
 .bp-add-cat-btn:hover:not(:disabled) { background: var(--bp-accent-dk); }
 .bp-add-cat-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-/* â”€â”€ Textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-textarea {
   width: 100%; padding: 12px 14px;
   border: 1.5px solid var(--grey-2); border-radius: var(--radius);
@@ -290,7 +290,7 @@
 .bp-textarea:focus { border-color: var(--bp-accent); box-shadow: 0 0 0 3px rgba(13,148,136,0.1); }
 .bp-textarea::placeholder { color: var(--grey-3); font-size: 0.83rem; }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-error {
   display: flex; align-items: center; gap: 6px;
   font-size: 0.8rem; color: var(--red); font-weight: 500;
@@ -298,7 +298,7 @@
   border-radius: 8px; padding: 8px 12px;
 }
 
-/* â”€â”€ Summary strip â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Summary strip Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-summary-strip {
   display: flex; align-items: center; gap: 0;
   background: var(--grey-1); border: 1.5px solid var(--grey-2);
@@ -319,7 +319,7 @@
   border-radius: 100px; border: 1.5px solid;
 }
 
-/* â”€â”€ Submit â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Submit Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-submit {
   display: flex; align-items: center; justify-content: center; gap: 8px;
   width: 100%; padding: 13px 20px;
@@ -332,7 +332,7 @@
 .bp-submit:active:not(:disabled) { transform: translateY(0); }
 .bp-submit:disabled { opacity: 0.4; cursor: not-allowed; }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-spinner {
   display: inline-block; width: 16px; height: 16px;
   border: 2px solid rgba(255,255,255,0.3); border-top-color: #fff;
@@ -340,7 +340,7 @@
 }
 @keyframes bp-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-skel-card { gap: 12px; }
 .bp-skel {
   background: linear-gradient(90deg, var(--grey-1) 25%, var(--grey-2) 50%, var(--grey-1) 75%);
@@ -349,7 +349,7 @@
 }
 @keyframes bp-shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
 
-/* â”€â”€ Result top â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result top Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-result-top {
   display: flex; justify-content: space-between; align-items: center;
   flex-wrap: wrap; gap: 10px;
@@ -399,7 +399,7 @@
 .bp-copy-btn:hover { background: #dbeafe; }
 .bp-copied { background: var(--green-bg) !important; border-color: var(--green-bd) !important; color: var(--green) !important; }
 
-/* â”€â”€ Overview Tab â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Overview Tab Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-overview { display: flex; flex-direction: column; gap: 20px; }
 
 /* Donut chart */
@@ -464,7 +464,7 @@
 .bp-view-plan-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(13,148,136,0.2); }
 .bp-view-plan-btn svg:last-child { margin-left: auto; }
 
-/* â”€â”€ AI Plan Tab â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ AI Plan Tab Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-plan { display: flex; flex-direction: column; gap: 8px; }
 
 .bp-plan-section {
@@ -496,7 +496,7 @@
 }
 .bp-plan-arrow { color: var(--bp-accent); flex-shrink: 0; margin-top: 3px; }
 
-/* â”€â”€ Raw â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Raw Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-raw {
   background: var(--grey-1); border: 1.5px solid var(--grey-2); border-radius: var(--radius);
   padding: 20px; font-family: var(--font-mono); font-size: 0.82rem;
@@ -504,7 +504,7 @@
   word-break: break-word; overflow-x: auto; user-select: text;
 }
 
-/* â”€â”€ Result footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bp-result-footer {
   display: flex; align-items: center; justify-content: space-between;
   gap: 12px; flex-wrap: wrap;
@@ -521,11 +521,11 @@
 .bp-copy-full:hover { background: var(--bp-accent-dk); transform: translateY(-1px); box-shadow: 0 4px 14px rgba(13,148,136,0.3); }
 .bp-copy-full.bp-copied { background: var(--green) !important; }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in { animation: bp-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes bp-fade { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 640px) {
   .bp-page        { padding: 72px 14px 48px; padding-top: 100px; }
   .bp-header      { flex-direction: column; gap: 12px; }

@@ -32,12 +32,12 @@
   --violet-bd:  #ddd6fe;
   --code-bg:    #1e1e1e;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -55,7 +55,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-header {
   display: flex;
   align-items: flex-start;
@@ -107,7 +107,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -118,7 +118,7 @@
   gap: 18px;
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-field {
   display: flex;
   flex-direction: column;
@@ -159,7 +159,7 @@
 
 .eg-divider { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* â”€â”€ Email Type Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Email Type Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-types {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -225,7 +225,7 @@
   border-radius: 100px;
 }
 
-/* â”€â”€ Textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-textarea {
   width: 100%;
   padding: 13px 15px;
@@ -247,7 +247,7 @@
   box-shadow: 0 0 0 3px rgba(225,29,72,0.1);
 }
 
-/* â”€â”€ Text Input â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Text Input Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-input {
   width: 100%;
   padding: 10px 13px;
@@ -266,7 +266,7 @@
   box-shadow: 0 0 0 3px rgba(225,29,72,0.1);
 }
 
-/* â”€â”€ Two-column row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Two-column row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -275,7 +275,7 @@
 }
 .eg-field-half { width: 100%; }
 
-/* â”€â”€ Tone pills â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tone pills Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-tones {
   display: flex;
   flex-wrap: wrap;
@@ -305,7 +305,7 @@
   font-weight: 600;
 }
 
-/* â”€â”€ Length buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Length buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-lengths {
   display: flex;
   flex-direction: column;
@@ -344,7 +344,7 @@
 }
 .eg-len-on .eg-len-desc { color: var(--green); opacity: 0.8; }
 
-/* â”€â”€ Language Select â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Language Select Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-select-wrap {
   position: relative;
   display: flex;
@@ -379,7 +379,7 @@
   flex-shrink: 0;
 }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-error-msg {
   display: flex;
   align-items: center;
@@ -393,7 +393,7 @@
   padding: 8px 12px;
 }
 
-/* â”€â”€ Generate Button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generate Button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-gen-btn {
   display: flex;
   align-items: center;
@@ -419,7 +419,7 @@
 .eg-gen-btn:active:not(:disabled) { transform: translateY(0); }
 .eg-gen-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -431,7 +431,7 @@
 }
 @keyframes eg-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-skeleton-card { gap: 14px; }
 
 .eg-skel {
@@ -449,7 +449,7 @@
 .eg-skel-short { width: 40%; }
 .eg-skel-med   { width: 70%; }
 
-/* â”€â”€ Result top bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result top bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-result-top {
   display: flex;
   justify-content: space-between;
@@ -493,7 +493,7 @@
   border-color: var(--sky-bd) !important;
 }
 
-/* â”€â”€ Tabs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tabs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-tabs {
   display: flex;
   background: var(--grey-1);
@@ -524,7 +524,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
-/* â”€â”€ Actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-actions {
   display: flex;
   gap: 7px;
@@ -570,7 +570,7 @@
   color: var(--green) !important;
 }
 
-/* â”€â”€ Email Preview â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Email Preview Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-email-preview {
   border: 1.5px solid var(--grey-2);
   border-radius: var(--radius);
@@ -646,7 +646,7 @@
   margin-top: 8px;
 }
 
-/* â”€â”€ Raw â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Raw Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-raw {
   background: var(--grey-1);
   border: 1.5px solid var(--grey-2);
@@ -662,7 +662,7 @@
   user-select: text;
 }
 
-/* â”€â”€ Result Footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result Footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .eg-result-footer {
   display: flex;
   align-items: center;
@@ -704,7 +704,7 @@
 .eg-copy-full.eg-copied { background: var(--green) !important; }
 .eg-copy-full.eg-copied:hover { background: #15803d !important; }
 
-/* â”€â”€ Animations â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animations Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: eg-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -713,7 +713,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 640px) {
   .eg-page          { padding: 72px 14px 48px; padding-top: 110px; }
   .eg-header        { flex-direction: column; gap: 12px; }

@@ -10,15 +10,15 @@ html, body, #root {
 }
 
 :root {
-  --font-body: "Inter", sans-serif;
-  --font-head: "Inter", sans-serif;
-  --font-ui: "Inter", sans-serif;
-  --font: "Inter", sans-serif;
+  --font-body: "Manrope", sans-serif;
+  --font-head: "Manrope", sans-serif;
+  --font-ui: "Manrope", sans-serif;
+  --font: "Manrope", sans-serif;
 }
 
 body {
   background-color: #080c14;
-  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

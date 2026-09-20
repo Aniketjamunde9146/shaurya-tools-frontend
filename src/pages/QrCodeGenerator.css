@@ -21,12 +21,12 @@
   --amber-bg:  #fffbeb;
   --amber-bd:  #fde68a;
   --radius:    12px;
-  --font-head: "Inter", sans-serif;
-  --font-body: 'Inter', sans-serif;
-  --font-mono: "Inter", 'Courier New', monospace;
+  --font-head: "Manrope", sans-serif;
+  --font-body: "Manrope", sans-serif;
+  --font-mono: "Manrope", 'Courier New', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -44,7 +44,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-header {
   display: flex;
   align-items: flex-start;
@@ -95,7 +95,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Two-column layout â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Two-column layout Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-layout {
   display: grid;
   grid-template-columns: 1fr 300px;
@@ -111,7 +111,7 @@
 .qr-left  { display: flex; flex-direction: column; gap: 14px; }
 .qr-right { position: sticky; top: 110px; }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -135,7 +135,7 @@
   color: var(--black);
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-field { display: flex; flex-direction: column; gap: 6px; }
 
 .qr-fields-grid {
@@ -158,7 +158,7 @@
   color: var(--black);
 }
 
-/* â”€â”€ Input â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Input Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-input {
   width: 100%;
   padding: 10px 12px;
@@ -200,7 +200,7 @@
 }
 .qr-textarea::placeholder { color: var(--grey-3); }
 
-/* â”€â”€ Type grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Type grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-type-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -232,7 +232,7 @@
   font-weight: 600;
 }
 
-/* â”€â”€ Toggle â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Toggle Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-toggle-row {
   display: flex;
   align-items: center;
@@ -273,7 +273,7 @@
 }
 .qr-toggle-on .qr-toggle-thumb { transform: translateX(20px); }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-error {
   display: flex;
   align-items: center;
@@ -287,7 +287,7 @@
   padding: 8px 12px;
 }
 
-/* â”€â”€ Generate button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generate button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-gen-btn {
   display: flex;
   align-items: center;
@@ -313,7 +313,7 @@
 .qr-gen-btn:active:not(:disabled) { transform: translateY(0); }
 .qr-gen-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* â”€â”€ Options toggle â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Options toggle Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-options-toggle {
   display: flex;
   align-items: center;
@@ -341,7 +341,7 @@
   border-top: 1px solid var(--grey-2);
 }
 
-/* â”€â”€ Color presets â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Color presets Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-color-presets {
   display: flex;
   flex-wrap: wrap;
@@ -380,7 +380,7 @@
   white-space: nowrap;
 }
 
-/* â”€â”€ Color pickers â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Color pickers Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-color-row {
   display: flex;
   gap: 8px;
@@ -406,7 +406,7 @@
   flex: 1;
 }
 
-/* â”€â”€ Size buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Size buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-size-btns {
   display: flex;
   flex-wrap: wrap;
@@ -432,7 +432,7 @@
   color: var(--green) !important;
 }
 
-/* â”€â”€ Error correction â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error correction Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-ec-btns {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -469,7 +469,7 @@
 .qr-ec-label { font-size: 0.65rem; font-weight: 600; color: var(--grey-4); }
 .qr-ec-desc  { font-size: 0.6rem;  color: var(--grey-3); line-height: 1.3; }
 
-/* â”€â”€ Preview card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Preview card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-preview-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -512,7 +512,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Meta â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Meta Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-meta { display: flex; justify-content: center; }
 .qr-meta-pills { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; }
 .qr-meta-pill {
@@ -526,7 +526,7 @@
   font-family: var(--font-mono);
 }
 
-/* â”€â”€ Preview actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Preview actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-preview-actions {
   display: flex;
   flex-direction: column;
@@ -565,7 +565,7 @@
 .qr-dl-secondary:hover:not(:disabled) { border-color: var(--grey-3) !important; color: var(--black); background: var(--grey-2); }
 .qr-dl-btn:disabled { opacity: 0.35; cursor: not-allowed; transform: none !important; }
 
-/* â”€â”€ Encoded string â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Encoded string Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-string-box {
   padding: 11px 13px;
   background: var(--grey-1);
@@ -623,7 +623,7 @@
   line-height: 1.55;
 }
 
-/* â”€â”€ Scan tip â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Scan tip Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-scan-tip {
   display: flex;
   align-items: center;
@@ -638,7 +638,7 @@
   text-align: center;
 }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -655,7 +655,7 @@
 }
 @keyframes qr-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Info strip â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Info strip Ã¢â€â‚¬Ã¢â€â‚¬ */
 .qr-info-strip {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -693,7 +693,7 @@
 .qr-info-icon { color: var(--green); flex-shrink: 0; }
 .qr-info-text { font-size: 0.75rem; color: var(--grey-4); line-height: 1.35; font-weight: 500; }
 
-/* â”€â”€ Animations â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animations Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: qr-fade 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -702,7 +702,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 600px) {
   .qr-page    { padding: 72px 14px 48px; padding-top: 110px; }
   .qr-header  { flex-direction: column; gap: 12px; }

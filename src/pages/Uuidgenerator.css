@@ -27,12 +27,12 @@
   --rose-bg:    #fff1f2;
   --rose-bd:    #fecdd3;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
-  --font-mono:  "Inter", 'Menlo', 'Consolas', monospace;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
+  --font-mono:  "Manrope", 'Menlo', 'Consolas', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ug-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -49,7 +49,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ug-header {
   display: flex;
   align-items: flex-start;
@@ -98,7 +98,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ug-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -133,7 +133,7 @@
   flex-wrap: wrap;
 }
 
-/* â”€â”€ Controls â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Controls Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ug-controls-body {
   padding: 16px;
   display: flex;
@@ -165,7 +165,7 @@
   letter-spacing: 0.06em;
 }
 
-/* â”€â”€ Version buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Version buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ug-version-btns {
   display: flex;
   gap: 6px;
@@ -227,7 +227,7 @@
 
 .ug-version-on .ug-version-sub { color: #f87171; }
 
-/* â”€â”€ Format buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Format buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ug-format-btns {
   display: flex;
   gap: 5px;
@@ -258,7 +258,7 @@
   color: var(--blue) !important;
 }
 
-/* â”€â”€ Generate row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generate row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ug-generate-row {
   display: flex;
   align-items: center;
@@ -321,7 +321,7 @@
 
 .ug-generate-btn:active { transform: translateY(0); box-shadow: none; }
 
-/* â”€â”€ Format preview bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Format preview bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ug-fmt-preview {
   padding: 10px 14px;
   background: var(--grey-1);
@@ -338,7 +338,7 @@
   margin-right: 6px;
 }
 
-/* â”€â”€ UUID list â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ UUID list Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ug-list {
   padding: 8px;
   display: flex;
@@ -388,7 +388,7 @@
   flex-shrink: 0;
 }
 
-/* â”€â”€ Buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ug-sm-btn {
   display: inline-flex;
   align-items: center;
@@ -422,7 +422,7 @@
 
 .ug-icon-btn:hover { border-color: var(--grey-3); color: var(--black); }
 
-/* â”€â”€ Anatomy â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Anatomy Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ug-anatomy-body { padding: 16px; }
 
 .ug-anatomy-uuid {
@@ -506,7 +506,7 @@
   font-family: var(--font-body);
 }
 
-/* â”€â”€ Toggle anatomy button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Toggle anatomy button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ug-toggle-anatomy {
   padding: 5px 12px;
   background: var(--white);
@@ -523,7 +523,7 @@
 .ug-toggle-anatomy:hover { border-color: var(--violet-bd); color: var(--violet); background: var(--violet-bg); }
 .ug-toggle-on { background: var(--violet-bg) !important; border-color: var(--violet-bd) !important; color: var(--violet) !important; }
 
-/* â”€â”€ Count badge â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Count badge Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ug-count-badge {
   font-size: 0.7rem;
   font-weight: 700;
@@ -534,7 +534,7 @@
   border: 1px solid var(--green-bd);
 }
 
-/* â”€â”€ Empty state â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Empty state Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ug-empty {
   padding: 40px 20px;
   text-align: center;
@@ -542,7 +542,7 @@
   color: var(--grey-3);
 }
 
-/* â”€â”€ Grid layout â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grid layout Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ug-grid {
   display: grid;
   grid-template-columns: 1fr 340px;
@@ -557,7 +557,7 @@
   gap: 14px;
 }
 
-/* â”€â”€ Reference panel â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Reference panel Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ug-info-section { border-bottom: 1px solid var(--grey-2); }
 .ug-info-section:last-child { border-bottom: none; }
 
@@ -619,7 +619,7 @@
   word-break: break-all;
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 1024px) {
   .ug-grid { grid-template-columns: 1fr; }
   .ug-col-right { order: -1; }

@@ -20,17 +20,17 @@
   --violet:      #7c3aed;
   --violet-bg:   #f5f3ff;
   --violet-bd:   #ddd6fe;
-  /* Brand accent â€” indigo/blue for cover letters */
+  /* Brand accent Ã¢â‚¬â€ indigo/blue for cover letters */
   --accent:      #4f46e5;
   --accent-bg:   #eef2ff;
   --accent-bd:   #c7d2fe;
-  --font-head:   "Inter", sans-serif;
-  --font-body:   'Inter', sans-serif;
-  --font-mono:   "Inter", monospace;
+  --font-head:   "Manrope", sans-serif;
+  --font-body:   "Manrope", sans-serif;
+  --font-mono:   "Manrope", monospace;
   --font-letter: 'Georgia', 'Times New Roman', serif;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -47,7 +47,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-header {
   display: flex;
   align-items: flex-start;
@@ -95,7 +95,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -133,7 +133,7 @@
   border-radius: 100px;
 }
 
-/* â”€â”€ Collapsible section head â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Collapsible section head Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-section-head {
   display: flex;
   align-items: center;
@@ -163,7 +163,7 @@
   color: var(--black);
 }
 
-/* â”€â”€ Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-grid {
   display: grid;
   grid-template-columns: 1fr 420px;
@@ -178,7 +178,7 @@
   gap: 12px;
 }
 
-/* â”€â”€ Presets â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Presets Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-presets {
   display: flex;
   align-items: center;
@@ -214,7 +214,7 @@
   background: var(--accent-bg);
 }
 
-/* â”€â”€ Form body â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Form body Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-form-body {
   padding: 16px;
   display: flex;
@@ -222,7 +222,7 @@
   gap: 12px;
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-field {
   display: flex;
   flex-direction: column;
@@ -245,7 +245,7 @@
   margin-left: 4px;
 }
 
-/* â”€â”€ Inputs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Inputs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-input,
 .cl-textarea,
 .cl-select {
@@ -273,10 +273,10 @@
 .cl-textarea { resize: vertical; min-height: 70px; line-height: 1.65; }
 .cl-select { cursor: pointer; }
 
-/* â”€â”€ Row 2 col â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Row 2 col Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 
-/* â”€â”€ Chips â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Chips Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-chips { display: flex; flex-wrap: wrap; gap: 7px; }
 
 .cl-chip {
@@ -312,7 +312,7 @@
   opacity: 0.7;
 }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-error {
   display: flex;
   align-items: center;
@@ -326,7 +326,7 @@
   color: var(--red);
 }
 
-/* â”€â”€ Generate button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generate button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-gen-btn {
   display: flex;
   align-items: center;
@@ -353,7 +353,7 @@
 .cl-gen-btn:active:not(:disabled) { transform: translateY(0); box-shadow: none; }
 .cl-gen-btn:disabled { opacity: 0.45; cursor: not-allowed; }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-spinner {
   display: inline-block;
   width: 15px; height: 15px;
@@ -364,7 +364,7 @@
 }
 @keyframes cl-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Preview card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Preview card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-preview-body {
   padding: 16px;
   display: flex;
@@ -486,7 +486,7 @@
   margin-top: 5px;
 }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-skeleton-body { padding: 20px; }
 
 .cl-skel {
@@ -507,7 +507,7 @@
 .cl-skel-short  { width: 70% !important; }
 .cl-skel-block  { height: 56px; width: 100%; border-radius: 10px; }
 
-/* â”€â”€ Subject banner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Subject banner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-subject-banner {
   display: flex;
   align-items: center;
@@ -573,7 +573,7 @@
 .cl-subject-copy:hover,
 .cl-subject-copy.copied { background: var(--accent); color: var(--white); border-color: var(--accent); }
 
-/* â”€â”€ Output top â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output top Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-result-top {
   display: flex;
   align-items: center;
@@ -659,7 +659,7 @@
 .cl-copy-btn:hover { background: var(--grey-4); border-color: var(--grey-4); }
 .cl-copy-btn.copied { background: var(--green) !important; border-color: var(--green) !important; }
 
-/* â”€â”€ Letter preview â€” paper style â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Letter preview Ã¢â‚¬â€ paper style Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-letter-preview {
   padding: 16px;
   background: var(--grey-1);
@@ -690,7 +690,7 @@
   word-break: break-word;
 }
 
-/* â”€â”€ Output content â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output content Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-output-content {
   padding: 18px 20px;
   display: flex;
@@ -775,7 +775,7 @@
 
 .cl-point-check { color: var(--green); flex-shrink: 0; margin-top: 3px; }
 
-/* â”€â”€ Raw textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Raw textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-output-textarea {
   width: 100%;
   min-height: 420px;
@@ -790,7 +790,7 @@
   background: var(--white);
 }
 
-/* â”€â”€ Footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cl-result-footer {
   display: flex;
   align-items: center;
@@ -808,7 +808,7 @@
   font-weight: 500;
 }
 
-/* â”€â”€ Animate â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animate Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: cl-fadein 0.3s ease;
 }
@@ -817,7 +817,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 1024px) {
   .cl-grid { grid-template-columns: 1fr; }
   .cl-col-right { order: -1; }

@@ -31,12 +31,12 @@
   --ed-text:    #c0caf5;
 
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
-  --font-mono:  "Inter", 'Courier New', monospace;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
+  --font-mono:  "Manrope", 'Courier New', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -54,7 +54,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-header {
   display: flex;
   align-items: flex-start;
@@ -106,7 +106,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Controls card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Controls card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-controls-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -294,7 +294,7 @@
 .ce-explain-btn:active:not(:disabled) { transform: translateY(0); }
 .ce-explain-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-/* â”€â”€ Main layout â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Main layout Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -302,7 +302,7 @@
   align-items: start;
 }
 
-/* â”€â”€ Panels â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Panels Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-input-panel,
 .ce-output-panel {
   background: var(--ed-bg2);
@@ -370,7 +370,7 @@
 .ce-badge-med  { color: var(--amber);  background: var(--amber-bg);  border-color: var(--amber-bd); }
 .ce-badge-high { color: var(--red);    background: var(--red-bg);    border-color: var(--red-bd); }
 
-/* â”€â”€ Editor â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Editor Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-editor-wrap {
   flex: 1;
   display: flex;
@@ -450,7 +450,7 @@
 
 .ce-explain-fab:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* â”€â”€ Output â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-empty {
   flex: 1;
   display: flex;
@@ -520,7 +520,7 @@
 
 .ce-out-body { flex: 1; overflow-y: auto; }
 
-/* â”€â”€ Summary tab â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Summary tab Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-summary { padding: 20px; display: flex; flex-direction: column; gap: 16px; }
 
 .ce-summary-hero {
@@ -602,7 +602,7 @@
   color: var(--green) !important;
 }
 
-/* â”€â”€ Concepts tab â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Concepts tab Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-concepts { padding: 16px; display: flex; flex-direction: column; gap: 8px; }
 
 .ce-concept-item {
@@ -634,7 +634,7 @@
   line-height: 1.4;
 }
 
-/* â”€â”€ Lines tab â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Lines tab Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-lines { padding: 16px; display: flex; flex-direction: column; gap: 10px; }
 
 .ce-line-item {
@@ -694,7 +694,7 @@
   border-radius: 8px;
 }
 
-/* â”€â”€ Tips tab â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tips tab Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-tips { padding: 16px; display: flex; flex-direction: column; gap: 10px; }
 
 .ce-tips-intro {
@@ -716,7 +716,7 @@
   line-height: 1.55;
 }
 
-/* â”€â”€ Empty tab state â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Empty tab state Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-empty-tab {
   display: flex;
   flex-direction: column;
@@ -729,7 +729,7 @@
   text-align: center;
 }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: ce-fade 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -739,11 +739,11 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Scrollbars â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Scrollbars Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-out-body::-webkit-scrollbar { width: 5px; }
 .ce-out-body::-webkit-scrollbar-thumb { background: var(--grey-2); border-radius: 3px; }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 768px) {
   .ce-page         { padding: 72px 12px 48px; padding-top: 110px; }
   .ce-header       { flex-direction: column; gap: 12px; }

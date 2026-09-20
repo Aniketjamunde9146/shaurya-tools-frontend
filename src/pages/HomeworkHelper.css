@@ -29,12 +29,12 @@
   --amber-bd:   #fde68a;
   --code-bg:    #1e1e1e;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -52,7 +52,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-header {
   display: flex;
   align-items: flex-start;
@@ -104,7 +104,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -115,7 +115,7 @@
   gap: 18px;
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-field {
   display: flex;
   flex-direction: column;
@@ -144,7 +144,7 @@
 
 .hw-divider { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* â”€â”€ Subject Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Subject Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-subjects {
   display: flex;
   flex-wrap: wrap;
@@ -177,7 +177,7 @@
   font-weight: 600;
 }
 
-/* â”€â”€ Subject Icon (lucide) â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Subject Icon (lucide) Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-subject-icon {
   color: var(--grey-3);
   flex-shrink: 0;
@@ -200,7 +200,7 @@
   border-radius: 100px;
 }
 
-/* â”€â”€ Grade Buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grade Buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-grades {
   display: flex;
   gap: 8px;
@@ -230,7 +230,7 @@
   font-weight: 600;
 }
 
-/* â”€â”€ Help Mode â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Help Mode Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-modes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -272,7 +272,7 @@
 }
 .hw-mode-on .hw-mode-desc { color: var(--green); opacity: 0.8; }
 
-/* â”€â”€ Textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-textarea {
   width: 100%;
   padding: 12px 14px;
@@ -301,7 +301,7 @@
 }
 .hw-char-warn { color: var(--orange) !important; }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-error-msg {
   display: flex;
   align-items: center;
@@ -315,7 +315,7 @@
   padding: 8px 12px;
 }
 
-/* â”€â”€ Ask Button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Ask Button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-ask-btn {
   display: flex;
   align-items: center;
@@ -341,7 +341,7 @@
 .hw-ask-btn:active:not(:disabled) { transform: translateY(0); }
 .hw-ask-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -353,7 +353,7 @@
 }
 @keyframes hw-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-skeleton-card { gap: 14px; }
 
 .hw-skel {
@@ -371,7 +371,7 @@
 .hw-skel-short { width: 72% !important; }
 .hw-skel-block { height: 72px; }
 
-/* â”€â”€ Result top bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result top bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-result-top {
   display: flex;
   justify-content: space-between;
@@ -408,7 +408,7 @@
   border-color: var(--green-bd) !important;
 }
 
-/* â”€â”€ Tabs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tabs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-tabs {
   display: flex;
   background: var(--grey-1);
@@ -438,7 +438,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
-/* â”€â”€ Actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-actions {
   display: flex;
   gap: 7px;
@@ -484,7 +484,7 @@
   color: var(--green) !important;
 }
 
-/* â”€â”€ Preview â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Preview Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-preview {
   border: 1.5px solid var(--grey-2);
   border-radius: var(--radius);
@@ -565,7 +565,7 @@
   white-space: pre;
 }
 
-/* â”€â”€ Raw â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Raw Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-raw {
   background: var(--grey-1);
   border: 1.5px solid var(--grey-2);
@@ -581,7 +581,7 @@
   user-select: text;
 }
 
-/* â”€â”€ Result footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .hw-result-footer {
   display: flex;
   align-items: center;
@@ -623,7 +623,7 @@
 .hw-copy-full.hw-copied { background: var(--green) !important; }
 .hw-copy-full.hw-copied:hover { background: #15803d !important; }
 
-/* â”€â”€ Animations â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animations Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: hw-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -632,7 +632,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 600px) {
   .hw-page        { padding: 72px 14px 48px; padding-top: 110px; }
   .hw-header      { flex-direction: column; gap: 12px; }

@@ -26,12 +26,12 @@
   --rose:       #e11d48;
   --rose-bg:    #fff1f2;
   --rose-bd:    #fecdd3;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
-  --font-mono:  "Inter", 'Menlo', 'Consolas', monospace;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
+  --font-mono:  "Manrope", 'Menlo', 'Consolas', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lg-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -48,7 +48,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lg-header {
   display: flex;
   align-items: flex-start;
@@ -97,7 +97,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lg-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -132,7 +132,7 @@
   flex-wrap: wrap;
 }
 
-/* â”€â”€ Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lg-grid {
   display: grid;
   grid-template-columns: 340px 1fr;
@@ -147,7 +147,7 @@
   gap: 14px;
 }
 
-/* â”€â”€ License picker â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ License picker Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lg-license-list {
   display: flex;
   flex-direction: column;
@@ -233,7 +233,7 @@
   border-color: var(--rose-bd);
 }
 
-/* â”€â”€ Fields form â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Fields form Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lg-fields-body {
   padding: 16px;
   display: flex;
@@ -273,7 +273,7 @@
 
 .lg-field-input::placeholder { color: var(--grey-3); }
 
-/* â”€â”€ Permission chips â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Permission chips Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lg-perms {
   padding: 14px 16px;
   display: flex;
@@ -309,7 +309,7 @@
   color: var(--black);
 }
 
-/* â”€â”€ Output â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lg-output-wrap { position: relative; }
 
 .lg-output {
@@ -341,7 +341,7 @@
   pointer-events: none;
 }
 
-/* â”€â”€ Empty state â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Empty state Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lg-empty {
   padding: 60px 20px;
   text-align: center;
@@ -355,7 +355,7 @@
 
 .lg-empty-icon { font-size: 2rem; opacity: 0.3; }
 
-/* â”€â”€ Buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lg-sm-btn {
   display: inline-flex;
   align-items: center;
@@ -375,7 +375,7 @@
 
 .lg-sm-btn:hover { border-color: var(--grey-3); color: var(--black); }
 
-/* â”€â”€ Badge â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Badge Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lg-count-badge {
   font-size: 0.7rem;
   font-weight: 700;
@@ -386,7 +386,7 @@
   border: 1px solid var(--green-bd);
 }
 
-/* â”€â”€ Pill tags (allow/forbid/require) â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Pill tags (allow/forbid/require) Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lg-tags {
   display: flex;
   flex-wrap: wrap;
@@ -408,7 +408,7 @@
 .lg-pill.forbid  { background: var(--red-bg);    border-color: var(--red-bd);    color: var(--red); }
 .lg-pill.require { background: var(--orange-bg); border-color: var(--orange-bd); color: var(--orange); }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 1024px) {
   .lg-grid { grid-template-columns: 1fr; }
 }

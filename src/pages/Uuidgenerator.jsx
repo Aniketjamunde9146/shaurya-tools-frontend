@@ -211,8 +211,8 @@ export default function UUIDGenerator() {
           --rose-bg:    #fff1f2;
           --rose-bd:    #fecdd3;
           --radius:     12px;
-          --font-head:  'Inter', sans-serif;
-          --font-body:  'Inter', sans-serif;
+          --font-head:  'Manrope', sans-serif;
+          --font-body:  'Manrope', sans-serif;
           --font-mono:  'Consolas', monospace;
         }
 

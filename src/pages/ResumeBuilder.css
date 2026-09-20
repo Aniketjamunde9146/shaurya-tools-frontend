@@ -26,16 +26,16 @@
   --teal:        #0d9488;
   --teal-bg:     #f0fdfa;
   --teal-bd:     #99f6e4;
-  /* Brand accent â€” teal for career/resume */
+  /* Brand accent Ã¢â‚¬â€ teal for career/resume */
   --accent:      #0d9488;
   --accent-bg:   #f0fdfa;
   --accent-bd:   #99f6e4;
-  --font-head:   "Inter", sans-serif;
-  --font-body:   'Inter', sans-serif;
-  --font-mono:   "Inter", monospace;
+  --font-head:   "Manrope", sans-serif;
+  --font-body:   "Manrope", sans-serif;
+  --font-mono:   "Manrope", monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -52,7 +52,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-header {
   display: flex;
   align-items: flex-start;
@@ -100,7 +100,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -138,7 +138,7 @@
   border-radius: 100px;
 }
 
-/* â”€â”€ Collapsible section head â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Collapsible section head Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-section-head {
   display: flex;
   align-items: center;
@@ -178,7 +178,7 @@
   border-radius: 100px;
 }
 
-/* â”€â”€ Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-grid {
   display: grid;
   grid-template-columns: 1fr 400px;
@@ -193,7 +193,7 @@
   gap: 12px;
 }
 
-/* â”€â”€ Presets â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Presets Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-presets {
   display: flex;
   align-items: center;
@@ -229,7 +229,7 @@
   background: var(--accent-bg);
 }
 
-/* â”€â”€ Form body â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Form body Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-form-body {
   padding: 16px;
   display: flex;
@@ -237,7 +237,7 @@
   gap: 12px;
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-field {
   display: flex;
   flex-direction: column;
@@ -264,7 +264,7 @@
   margin-left: 4px;
 }
 
-/* â”€â”€ Inputs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Inputs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-input,
 .rb-textarea,
 .rb-select {
@@ -293,11 +293,11 @@
 .rb-textarea { resize: vertical; min-height: 70px; line-height: 1.65; }
 .rb-select { cursor: pointer; }
 
-/* â”€â”€ Grids â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grids Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .rb-row3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
 
-/* â”€â”€ Checkbox â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Checkbox Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-checkbox-label {
   display: flex;
   align-items: center;
@@ -315,7 +315,7 @@
   cursor: pointer;
 }
 
-/* â”€â”€ Entry block â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Entry block Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-entry-block {
   background: var(--grey-1);
   border: 1.5px solid var(--grey-2);
@@ -354,7 +354,7 @@
 
 .rb-remove-btn:hover { background: var(--red-bg); border-color: var(--red-bd); color: var(--red); }
 
-/* â”€â”€ Add button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Add button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-add-btn {
   display: inline-flex;
   align-items: center;
@@ -375,7 +375,7 @@
 
 .rb-add-btn:hover { border-color: var(--accent-bd); color: var(--accent); background: var(--accent-bg); }
 
-/* â”€â”€ Template chips â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Template chips Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-chips { display: flex; flex-wrap: wrap; gap: 7px; }
 
 .rb-chip {
@@ -405,7 +405,7 @@
   font-weight: 700;
 }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-error {
   display: flex;
   align-items: center;
@@ -419,7 +419,7 @@
   color: var(--red);
 }
 
-/* â”€â”€ Generate button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generate button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-gen-btn {
   display: flex;
   align-items: center;
@@ -446,7 +446,7 @@
 .rb-gen-btn:active:not(:disabled) { transform: translateY(0); box-shadow: none; }
 .rb-gen-btn:disabled { opacity: 0.45; cursor: not-allowed; }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-spinner {
   display: inline-block;
   width: 15px; height: 15px;
@@ -457,7 +457,7 @@
 }
 @keyframes rb-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Preview card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Preview card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-preview-body {
   padding: 18px;
   display: flex;
@@ -518,7 +518,7 @@
   color: var(--accent);
 }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-skeleton-body { padding: 20px; }
 
 .rb-skel {
@@ -539,7 +539,7 @@
 .rb-skel-short  { width: 70% !important; }
 .rb-skel-block  { height: 56px; width: 100%; border-radius: 10px; }
 
-/* â”€â”€ ATS Banner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ ATS Banner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-ats-banner {
   display: flex;
   align-items: center;
@@ -587,7 +587,7 @@
 .rb-ats-ring-orange { color: var(--orange); }
 .rb-ats-ring-red { color: var(--red); }
 
-/* â”€â”€ Output top â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output top Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-result-top {
   display: flex;
   align-items: center;
@@ -673,7 +673,7 @@
 .rb-copy-btn:hover { background: var(--grey-4); border-color: var(--grey-4); }
 .rb-copy-btn.copied { background: var(--green) !important; border-color: var(--green) !important; }
 
-/* â”€â”€ Resume Preview â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Resume Preview Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-resume-preview {
   padding: 22px 24px;
   font-family: var(--font-body);
@@ -733,7 +733,7 @@
   word-break: break-word;
 }
 
-/* â”€â”€ Output content â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output content Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-output-content {
   padding: 18px 20px;
   display: flex;
@@ -785,7 +785,7 @@
   margin-top: 1px;
 }
 
-/* â”€â”€ Raw textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Raw textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-output-textarea {
   width: 100%;
   min-height: 400px;
@@ -800,7 +800,7 @@
   background: var(--white);
 }
 
-/* â”€â”€ Keywords â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Keywords Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-kw-list {
   display: flex;
   flex-wrap: wrap;
@@ -818,7 +818,7 @@
   color: var(--accent);
 }
 
-/* â”€â”€ Footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rb-result-footer {
   display: flex;
   align-items: center;
@@ -836,7 +836,7 @@
   font-weight: 500;
 }
 
-/* â”€â”€ Animate â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animate Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: rb-fadein 0.3s ease;
 }
@@ -845,7 +845,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 1024px) {
   .rb-grid { grid-template-columns: 1fr; }
   .rb-col-right { order: -1; }

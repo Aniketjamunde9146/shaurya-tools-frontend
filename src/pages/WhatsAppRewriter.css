@@ -36,12 +36,12 @@
   --amber-bg:   #fffbeb;
   --amber-bd:   #fde68a;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -59,7 +59,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-header {
   display: flex;
   align-items: flex-start;
@@ -111,7 +111,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -122,7 +122,7 @@
   gap: 18px;
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-field {
   display: flex;
   flex-direction: column;
@@ -162,7 +162,7 @@
 
 .wa-divider { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* â”€â”€ Textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-textarea {
   width: 100%;
   padding: 13px 15px;
@@ -184,7 +184,7 @@
   box-shadow: 0 0 0 3px rgba(37,211,102,0.12);
 }
 
-/* â”€â”€ Vibe Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Vibe Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-vibes {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -250,7 +250,7 @@
   border-radius: 100px;
 }
 
-/* â”€â”€ Settings Row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Settings Row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-settings-row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -260,7 +260,7 @@
 
 .wa-field-third { width: 100%; }
 
-/* â”€â”€ Emoji Level buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Emoji Level buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-emoji-btns {
   display: flex;
   flex-direction: column;
@@ -291,7 +291,7 @@
   font-weight: 600;
 }
 
-/* â”€â”€ Length buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Length buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-length-btns {
   display: flex;
   flex-direction: column;
@@ -322,7 +322,7 @@
   font-weight: 600;
 }
 
-/* â”€â”€ Language Select â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Language Select Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-select-wrap {
   position: relative;
   display: flex;
@@ -357,7 +357,7 @@
   flex-shrink: 0;
 }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-error-msg {
   display: flex;
   align-items: center;
@@ -371,7 +371,7 @@
   padding: 8px 12px;
 }
 
-/* â”€â”€ Rewrite Button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Rewrite Button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-rewrite-btn {
   display: flex;
   align-items: center;
@@ -397,7 +397,7 @@
 .wa-rewrite-btn:active:not(:disabled) { transform: translateY(0); }
 .wa-rewrite-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -409,7 +409,7 @@
 }
 @keyframes wa-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-skeleton-card { gap: 14px; }
 
 .wa-skel {
@@ -427,7 +427,7 @@
 .wa-skel-short { width: 40%; }
 .wa-skel-med   { width: 72%; }
 
-/* â”€â”€ Result top bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result top bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-result-top {
   display: flex;
   justify-content: space-between;
@@ -470,7 +470,7 @@
   border-color: var(--sky-bd) !important;
 }
 
-/* â”€â”€ Action button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Action button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-action-btn {
   display: flex;
   align-items: center;
@@ -488,7 +488,7 @@
 }
 .wa-action-btn:hover { border-color: var(--grey-3); color: var(--black); background: var(--grey-1); }
 
-/* â”€â”€ Variant Tabs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Variant Tabs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-variant-tabs {
   display: flex;
   gap: 8px;
@@ -524,7 +524,7 @@
 .wa-vtab-icon { flex-shrink: 0; }
 .wa-vtab-on .wa-vtab-icon { color: var(--wa); }
 
-/* â”€â”€ Bubble wrap â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Bubble wrap Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-bubble-wrap {
   display: flex;
   flex-direction: column;
@@ -633,7 +633,7 @@
   color: var(--green) !important;
 }
 
-/* â”€â”€ All Variants List â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ All Variants List Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-all-variants {
   border: 1.5px solid var(--grey-2);
   border-radius: var(--radius);
@@ -730,7 +730,7 @@
   color: var(--green) !important;
 }
 
-/* â”€â”€ Animations â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animations Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: wa-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -739,7 +739,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 640px) {
   .wa-page         { padding: 72px 14px 48px; padding-top: 110px; }
   .wa-header       { flex-direction: column; gap: 12px; }

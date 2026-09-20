@@ -27,12 +27,12 @@
   --red-bg:     #fef2f2;
   --red-bd:     #fecaca;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
   --font-mono:  'Menlo', 'Consolas', 'Courier New', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cm-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -49,7 +49,7 @@
   gap: 18px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cm-header {
   display: flex;
   align-items: flex-start;
@@ -100,7 +100,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Lang tabs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Lang tabs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cm-lang-bar {
   display: flex;
   gap: 8px;
@@ -141,7 +141,7 @@
 .cm-lang-on-blue   { background: var(--blue-bg)   !important; border-color: var(--blue-bd)   !important; color: var(--blue)   !important; }
 .cm-lang-on-amber  { background: var(--amber-bg)  !important; border-color: var(--amber-bd)  !important; color: var(--amber)  !important; }
 
-/* â”€â”€ Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cm-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -149,7 +149,7 @@
   align-items: start;
 }
 
-/* â”€â”€ Panel â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Panel Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cm-panel {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -199,7 +199,7 @@
 
 .cm-panel-actions { display: flex; gap: 6px; align-items: center; }
 
-/* â”€â”€ Buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cm-action-btn {
   display: inline-flex;
   align-items: center;
@@ -238,7 +238,7 @@
 .cm-copy-btn:hover { background: #dbeafe; }
 .cm-copied { background: var(--green-bg) !important; border-color: var(--green-bd) !important; color: var(--green) !important; }
 
-/* â”€â”€ Textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cm-textarea {
   width: 100%;
   min-height: 340px;
@@ -261,7 +261,7 @@
   line-height: 1.65;
 }
 
-/* â”€â”€ Action buttons row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Action buttons row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cm-actions-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -319,7 +319,7 @@
   color: var(--violet) !important;
 }
 
-/* â”€â”€ Input stats â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Input stats Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cm-input-stats {
   display: flex;
   align-items: center;
@@ -333,7 +333,7 @@
 .cm-input-stats strong { color: var(--grey-4); font-weight: 600; }
 .cm-sep { color: var(--grey-2); }
 
-/* â”€â”€ Output wrap â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output wrap Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cm-output-wrap {
   flex: 1;
   min-height: 340px;
@@ -381,7 +381,7 @@
   max-width: 340px; line-height: 1.5;
 }
 
-/* â”€â”€ Code output â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Code output Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cm-code {
   display: block;
   padding: 16px;
@@ -399,7 +399,7 @@
 .cm-code-blue   { border-left: 3px solid var(--blue-bd); }
 .cm-code-amber  { border-left: 3px solid var(--amber-bd); }
 
-/* â”€â”€ Savings banner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Savings banner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cm-savings-banner {
   display: flex;
   align-items: center;
@@ -492,7 +492,7 @@
 }
 .cm-savings-saved strong { font-weight: 700; }
 
-/* â”€â”€ Output stats â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output stats Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cm-output-stats {
   display: flex;
   align-items: center;
@@ -506,7 +506,7 @@
 .cm-output-stats strong { color: var(--grey-4); font-weight: 600; }
 .cm-stat-green strong { color: var(--green) !important; }
 
-/* â”€â”€ Info strip â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Info strip Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cm-info-strip {
   display: grid;
   grid-template-columns: 1fr auto 1fr auto 1fr;
@@ -545,7 +545,7 @@
   align-self: stretch;
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 900px) {
   .cm-grid { grid-template-columns: 1fr; }
   .cm-textarea { min-height: 240px; }

@@ -23,12 +23,12 @@
   --rose-bg:    #fff1f2;
   --rose-bd:    #fecdd3;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cp-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -46,7 +46,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cp-header {
   display: flex;
   align-items: flex-start;
@@ -98,7 +98,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Tab bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tab bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cp-tab-bar {
   display: flex;
   background: var(--white);
@@ -132,7 +132,7 @@
   border: 1.5px solid var(--violet-bd);
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cp-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -157,7 +157,7 @@
   color: var(--grey-3);
 }
 
-/* â”€â”€ Preview row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Preview row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cp-preview-row {
   display: flex;
   gap: 16px;
@@ -317,7 +317,7 @@
 .cp-copied-mini { background: var(--green-bg) !important; border-color: var(--green-bd) !important; color: var(--green) !important; }
 .cp-copy-small { width: 24px; height: 24px; border-radius: 6px; }
 
-/* â”€â”€ Sliders â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Sliders Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cp-slider-row {
   display: flex;
   align-items: center;
@@ -386,7 +386,7 @@
 .cp-num-input::-webkit-inner-spin-button { -webkit-appearance: none; }
 .cp-num-input[type=number] { -moz-appearance: textfield; }
 
-/* â”€â”€ Values grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Values grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cp-values-grid {
   display: flex;
   flex-direction: column;
@@ -424,7 +424,7 @@
   white-space: nowrap;
 }
 
-/* â”€â”€ Accessibility â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Accessibility Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cp-a11y-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -487,7 +487,7 @@
 .cp-badge-amber  { color: var(--amber); background: var(--amber-bg); border-color: var(--amber-bd); }
 .cp-badge-red    { color: var(--red);   background: var(--red-bg);   border-color: var(--red-bd); }
 
-/* â”€â”€ Quick pick swatches â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Quick pick swatches Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cp-swatches {
   display: flex;
   flex-wrap: wrap;
@@ -506,7 +506,7 @@
 .cp-swatch-sm:hover { transform: scale(1.15); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 .cp-swatch-active { border-color: var(--violet) !important; transform: scale(1.2) !important; box-shadow: 0 2px 10px rgba(99,102,241,0.4) !important; }
 
-/* â”€â”€ Palette tab â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Palette tab Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cp-palette-types {
   display: flex;
   flex-wrap: wrap;
@@ -622,7 +622,7 @@
   color: var(--grey-4);
 }
 
-/* â”€â”€ Random palette â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Random palette Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cp-rand-header {
   display: flex;
   justify-content: space-between;
@@ -702,7 +702,7 @@
   gap: 3px;
 }
 
-/* â”€â”€ Saved tab â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Saved tab Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cp-saved-header {
   display: flex;
   justify-content: space-between;
@@ -805,7 +805,7 @@
 }
 .cp-saved-add:hover { border-color: var(--violet-bd); color: var(--violet); }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: cp-fade 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -815,7 +815,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 600px) {
   .cp-page          { padding: 72px 14px 48px; padding-top: 110px; }
   .cp-header        { flex-direction: column; gap: 12px; }

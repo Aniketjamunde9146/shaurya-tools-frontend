@@ -31,11 +31,11 @@
   --fg-amber-bd:  #fde68a;
 
   --radius: 12px;
-  --font-head: "Inter", sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-head: "Manrope", sans-serif;
+  --font-body: "Manrope", sans-serif;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -53,7 +53,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-header {
   display: flex;
   align-items: flex-start;
@@ -90,7 +90,7 @@
 }
 .sip-header p { font-size: 0.85rem; color: var(--grey-3); line-height: 1.5; }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -115,7 +115,7 @@
   font-size: 0.72rem; font-weight: 500; color: var(--grey-3);
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-field { display: flex; flex-direction: column; gap: 9px; }
 
 .sip-label {
@@ -126,7 +126,7 @@
 }
 .sip-lbl-icon { color: var(--fg-accent); flex-shrink: 0; }
 
-/* â”€â”€ Input â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Input Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-input-wrap { position: relative; display: flex; align-items: center; }
 .sip-prefix {
   position: absolute; left: 14px;
@@ -145,7 +145,7 @@
 .sip-input::placeholder { color: var(--grey-3); font-weight: 400; font-size: 0.9rem; }
 .sip-input-has-prefix { padding-left: 30px; }
 
-/* â”€â”€ SIP preset chips â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ SIP preset chips Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-chips { display: flex; flex-wrap: wrap; gap: 7px; }
 .sip-chip {
   padding: 5px 13px;
@@ -161,7 +161,7 @@
   color: var(--fg-accent-dk) !important;
 }
 
-/* â”€â”€ Rate grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Rate grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-rate-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -184,7 +184,7 @@
 .sip-rate-sub { font-size: 0.6rem; font-weight: 500; color: var(--grey-3); text-align: center; }
 .sip-rate-on .sip-rate-sub { color: var(--fg-accent); opacity: 0.8; }
 
-/* â”€â”€ Year grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Year grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-year-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -205,7 +205,7 @@
   color: var(--fg-violet) !important;
 }
 
-/* â”€â”€ Custom rate/year input â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Custom rate/year input Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-custom-wrap { display: flex; align-items: center; gap: 10px; margin-top: 2px; }
 .sip-custom-input {
   width: 90px; padding: 8px 11px;
@@ -217,10 +217,10 @@
 .sip-custom-input:focus { border-color: var(--fg-accent); box-shadow: 0 0 0 3px rgba(13,148,136,0.1); }
 .sip-custom-label { font-size: 0.78rem; color: var(--grey-3); font-weight: 500; }
 
-/* â”€â”€ Divider â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Divider Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-divider { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-error {
   display: flex; align-items: center; gap: 6px;
   font-size: 0.8rem; color: var(--red); font-weight: 500;
@@ -228,7 +228,7 @@
   border-radius: 8px; padding: 8px 12px;
 }
 
-/* â”€â”€ Submit â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Submit Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-submit {
   display: flex; align-items: center; justify-content: center; gap: 8px;
   width: 100%; padding: 13px 20px;
@@ -241,7 +241,7 @@
 .sip-submit:active:not(:disabled) { transform: translateY(0); }
 .sip-submit:disabled { opacity: 0.38; cursor: not-allowed; }
 
-/* â”€â”€ Result Hero â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result Hero Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-result-hero {
   background: linear-gradient(135deg, var(--fg-accent-bg) 0%, #e0fdf4 100%);
   border: 1.5px solid var(--fg-accent-bd);
@@ -282,7 +282,7 @@
   box-shadow: 0 4px 14px rgba(22,163,74,0.25);
 }
 
-/* â”€â”€ Stats grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Stats grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-stats-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -308,7 +308,7 @@
 .sip-val-green { color: var(--green) !important; }
 .sip-stat-lbl  { font-size: 0.67rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; color: var(--grey-3); }
 
-/* â”€â”€ Chart â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Chart Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-visual-row {
   display: flex; gap: 20px; align-items: flex-end;
 }
@@ -359,7 +359,7 @@
 .sip-dot-inv      { background: var(--fg-accent); }
 .sip-dot-ret      { background: var(--green);     }
 
-/* â”€â”€ Donut â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Donut Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-donut-wrap {
   width: 140px;
   display: flex; flex-direction: column; align-items: center; gap: 12px;
@@ -367,12 +367,12 @@
 }
 .sip-donut { width: 120px; height: 120px; }
 .sip-donut-val {
-  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 14px; font-weight: 800;
   fill: var(--green);
 }
 .sip-donut-sub {
-  font-family: 'Inter', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 8px; font-weight: 600;
   fill: var(--grey-3);
 }
@@ -384,7 +384,7 @@
 .sip-donut-pct { font-size: 0.73rem; font-weight: 700; color: var(--grey-3); }
 .sip-pct-green { color: var(--green) !important; }
 
-/* â”€â”€ Breakdown â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Breakdown Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-breakdown { display: flex; flex-direction: column; gap: 0; }
 .sip-bk-row {
   display: flex; align-items: center; justify-content: space-between;
@@ -410,7 +410,7 @@
 .sip-bk-val-green { color: var(--green) !important; }
 .sip-bk-val-total { font-size: 1.05rem !important; color: var(--fg-violet) !important; }
 
-/* â”€â”€ Milestones â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Milestones Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-milestone-header {
   display: grid;
   grid-template-columns: 60px 1fr 1fr 1fr;
@@ -444,7 +444,7 @@
 .sip-ms-fv   { font-size: 0.88rem; font-weight: 700; color: var(--black);     text-align: right; }
 .sip-ms-final .sip-ms-fv { color: var(--green); }
 
-/* â”€â”€ Footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-footer {
   display: flex; align-items: center; justify-content: space-between;
   gap: 10px; flex-wrap: wrap;
@@ -471,11 +471,11 @@
 .sip-copy-btn:hover { background: var(--fg-accent-dk); transform: translateY(-1px); }
 .sip-copy-done { background: var(--green) !important; }
 
-/* â”€â”€ Animate â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animate Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sip-animate { animation: sip-fade 0.38s cubic-bezier(0.16,1,0.3,1); }
 @keyframes sip-fade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 640px) {
   .sip-page           { padding: 72px 14px 48px; padding-top: 100px; }
   .sip-header         { flex-direction: column; gap: 12px; }

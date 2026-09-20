@@ -29,12 +29,12 @@
   --yt-red:     #ff0000;
   --yt-red-bg:  #fff1f1;
   --yt-red-bd:  #ffd0d0;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
-  --font-mono:  "Inter", 'Menlo', 'Consolas', monospace;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
+  --font-mono:  "Manrope", 'Menlo', 'Consolas', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -51,7 +51,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-header {
   display: flex;
   align-items: flex-start;
@@ -99,7 +99,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -134,7 +134,7 @@
   flex-wrap: wrap;
 }
 
-/* â”€â”€ Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-grid {
   display: grid;
   grid-template-columns: 1fr 380px;
@@ -149,7 +149,7 @@
   gap: 14px;
 }
 
-/* â”€â”€ Presets â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Presets Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-presets {
   display: flex;
   align-items: center;
@@ -185,7 +185,7 @@
   background: var(--yt-red-bg);
 }
 
-/* â”€â”€ Form body â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Form body Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-form-body {
   padding: 18px;
   display: flex;
@@ -193,7 +193,7 @@
   gap: 14px;
 }
 
-/* â”€â”€ Section divider â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Section divider Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-divider {
   font-family: var(--font-head);
   font-size: 0.67rem;
@@ -205,7 +205,7 @@
   padding-bottom: 5px;
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-field {
   display: flex;
   flex-direction: column;
@@ -269,14 +269,14 @@
 .yd-textarea { resize: vertical; min-height: 80px; line-height: 1.65; }
 .yd-select   { cursor: pointer; }
 
-/* â”€â”€ Row 2 col â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Row 2 col Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-row2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
 
-/* â”€â”€ Links section â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Links section Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-links-list {
   display: flex;
   flex-direction: column;
@@ -367,7 +367,7 @@
   background: var(--yt-red-bg);
 }
 
-/* â”€â”€ Hashtag section â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Hashtag section Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-hashtags-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -410,7 +410,7 @@
   padding: 4px 2px;
 }
 
-/* â”€â”€ Generate button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generate button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-gen-btn {
   display: flex;
   align-items: center;
@@ -442,7 +442,7 @@
   cursor: not-allowed;
 }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-spinner {
   display: inline-block;
   width: 15px; height: 15px;
@@ -454,7 +454,7 @@
 
 @keyframes yd-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-skeleton-body { padding: 20px; }
 
 .yd-skel {
@@ -475,7 +475,7 @@
 .yd-skel-short  { width: 70% !important; }
 .yd-skel-block  { height: 56px; width: 100%; border-radius: 10px; }
 
-/* â”€â”€ Output â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-result-top {
   display: flex;
   align-items: center;
@@ -579,7 +579,7 @@
   tab-size: 2;
 }
 
-/* â”€â”€ YouTube mock preview â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ YouTube mock preview Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-yt-preview {
   padding: 16px;
   display: flex;
@@ -688,7 +688,7 @@
   font-style: italic;
 }
 
-/* â”€â”€ Result footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-result-footer {
   display: flex;
   align-items: center;
@@ -706,7 +706,7 @@
   font-weight: 500;
 }
 
-/* â”€â”€ Count badge â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Count badge Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-count-badge {
   font-size: 0.7rem;
   font-weight: 700;
@@ -717,7 +717,7 @@
   border: 1px solid var(--green-bd);
 }
 
-/* â”€â”€ Empty â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Empty Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-empty {
   padding: 48px 20px;
   text-align: center;
@@ -730,7 +730,7 @@
 .yd-empty-icon { font-size: 2rem; opacity: 0.3; }
 .yd-empty-text { font-size: 0.82rem; color: var(--grey-3); }
 
-/* â”€â”€ animate-in â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ animate-in Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: yd-fadein 0.3s ease;
 }
@@ -740,7 +740,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .yd-error {
   display: flex;
   align-items: center;
@@ -754,7 +754,7 @@
   color: var(--red);
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 1024px) {
   .yd-grid { grid-template-columns: 1fr; }
   .yd-col-right { order: -1; }

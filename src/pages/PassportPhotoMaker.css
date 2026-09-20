@@ -25,11 +25,11 @@
   --amber-bg:   #fffbeb;
   --amber-bd:   #fde68a;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -46,7 +46,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-header {
   display: flex; align-items: flex-start; gap: 16px; padding: 4px 0 8px;
 }
@@ -70,7 +70,7 @@
 }
 .ppm-header p { font-size: 0.85rem; color: var(--grey-3); line-height: 1.5; }
 
-/* â”€â”€ Step bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Step bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-steps {
   display: flex; align-items: center; gap: 4px;
   background: var(--white); border: 1.5px solid var(--grey-2);
@@ -93,7 +93,7 @@
 }
 .ppm-step-desc { font-size: 0.8rem; color: var(--grey-3); line-height: 1.55; }
 
-/* â”€â”€ Drop zone â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Drop zone Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-dropzone {
   border: 2px dashed var(--grey-2); border-radius: 16px; padding: 56px 24px;
   display: flex; align-items: center; justify-content: center;
@@ -119,17 +119,17 @@
   border: 1px solid var(--grey-2); padding: 4px 10px; border-radius: 100px; font-weight: 500;
 }
 
-/* â”€â”€ Editor grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Editor grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-editor { display: grid; grid-template-columns: 1fr 340px; gap: 16px; align-items: start; }
 
-/* â”€â”€ Preview column â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Preview column Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-preview-col {
   background: var(--white); border: 1.5px solid var(--grey-2);
   border-radius: 16px; padding: 20px;
   display: flex; flex-direction: column; gap: 12px; align-items: stretch;
 }
 
-/* â”€â”€ Canvas â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Canvas Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-canvas-wrap { display: flex; flex-direction: column; align-items: center; gap: 8px; }
 .ppm-canvas {
   width: 100%; max-width: 420px; border-radius: 10px;
@@ -148,7 +148,7 @@
 .ppm-dot-head   { background: rgba(99,102,241,0.5); border: 1.5px dashed #6366f1; }
 .ppm-dot-thirds { background: rgba(0,0,0,0.06); border: 1px dashed #aaa; }
 
-/* â”€â”€ Zoom row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Zoom row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-zoom-row { display: flex; align-items: center; gap: 8px; width: 100%; max-width: 420px; align-self: center; }
 .ppm-zoom-btn {
   width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;
@@ -167,7 +167,7 @@
 }
 .ppm-zoom-reset:hover { border-color: var(--red-bd); color: var(--red); background: var(--red-bg); }
 
-/* â”€â”€ Transform row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Transform row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-transform-row {
   display: flex; align-items: center; gap: 6px;
   width: 100%; max-width: 420px; align-self: center;
@@ -183,7 +183,7 @@
 .ppm-tf-reset:hover { border-color: var(--red-bd); color: var(--red); background: var(--red-bg); }
 .ppm-rotation-label { font-size: 0.73rem; font-weight: 700; color: var(--grey-3); margin-left: 2px; }
 
-/* â”€â”€ Slider â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Slider Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-slider {
   -webkit-appearance: none; appearance: none;
   width: 100%; height: 5px; border-radius: 100px;
@@ -196,7 +196,7 @@
 }
 .ppm-slider::-webkit-slider-thumb:hover { transform: scale(1.2); }
 
-/* â”€â”€ Canvas actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Canvas actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-canvas-actions { display: flex; gap: 8px; width: 100%; }
 .ppm-change-btn, .ppm-reset-btn {
   flex: 1; display: flex; align-items: center; justify-content: center; gap: 5px;
@@ -208,7 +208,7 @@
 .ppm-change-btn:hover { border-color: var(--indigo-bd); color: var(--indigo); background: var(--indigo-bg); }
 .ppm-reset-btn:hover  { border-color: var(--red-bd); color: var(--red); background: var(--red-bg); }
 
-/* â”€â”€ BG removed success â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ BG removed success Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-bgr-success {
   display: flex; align-items: center; gap: 6px;
   font-size: 0.76rem; font-weight: 600; color: var(--green);
@@ -216,7 +216,7 @@
   border-radius: 8px; padding: 8px 12px;
 }
 
-/* â”€â”€ Controls column â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Controls column Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-controls-col {
   background: var(--white); border: 1.5px solid var(--grey-2);
   border-radius: 16px; padding: 22px;
@@ -226,7 +226,7 @@
 .ppm-controls-col::-webkit-scrollbar { width: 4px; }
 .ppm-controls-col::-webkit-scrollbar-thumb { background: var(--grey-2); border-radius: 100px; }
 
-/* â”€â”€ Field & label â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field & label Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-field { display: flex; flex-direction: column; gap: 8px; }
 .ppm-label {
   font-family: var(--font-head); font-size: 0.88rem; font-weight: 600; color: var(--black);
@@ -235,7 +235,7 @@
 .ppm-label-icon { color: var(--indigo); flex-shrink: 0; }
 .ppm-divider { height: 1px; background: var(--grey-2); }
 
-/* â”€â”€ Country standard â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Country standard Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-std-group { display: flex; flex-direction: column; gap: 5px; }
 .ppm-std-region {
   font-size: 0.68rem; font-weight: 700; color: var(--grey-3);
@@ -262,7 +262,7 @@
 .ppm-chip-px { color: var(--teal) !important; background: var(--teal-bg) !important; border-color: var(--teal-bd) !important; }
 .ppm-info-note { width: 100%; font-size: 0.68rem; color: var(--grey-3); line-height: 1.4; }
 
-/* â”€â”€ Shape grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Shape grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-shapes-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 6px; }
 .ppm-shape-btn {
   display: flex; flex-direction: column; align-items: center; gap: 4px;
@@ -275,7 +275,7 @@
 .ppm-shape-icon { color: inherit; }
 .ppm-shape-label { font-size: 0.65rem; font-weight: 600; color: inherit; }
 
-/* â”€â”€ BG swatches â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ BG swatches Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-bg-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .ppm-bg-swatch-btn {
   width: 30px; height: 30px; border-radius: 8px; border: 2px solid var(--grey-2);
@@ -290,7 +290,7 @@
 }
 .ppm-color-label { font-size: 0.72rem; font-weight: 600; color: var(--grey-3); font-family: 'Courier New', monospace; }
 
-/* â”€â”€ Toggle check â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Toggle check Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-toggle-check {
   display: flex; align-items: center; gap: 8px;
   padding: 6px 10px; border: 1.5px solid var(--grey-2); border-radius: 8px;
@@ -307,7 +307,7 @@
 .ppm-check-on .ppm-check-box { background: var(--indigo); border-color: var(--indigo); color: #fff; }
 .ppm-check-label { font-size: 0.78rem; font-weight: 500; color: var(--grey-4); }
 
-/* â”€â”€ Format buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Format buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-fmt-row { display: flex; gap: 6px; }
 .ppm-fmt-btn {
   flex: 1; padding: 7px 8px; border: 1.5px solid var(--grey-2); border-radius: 9px;
@@ -318,7 +318,7 @@
 .ppm-fmt-btn:hover:not(.ppm-fmt-on) { border-color: var(--grey-3); background: var(--grey-1); }
 .ppm-fmt-on { background: var(--indigo-bg) !important; border-color: var(--indigo-bd) !important; color: var(--indigo) !important; }
 
-/* â”€â”€ Quality â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Quality Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-quality-row { display: flex; flex-direction: column; gap: 6px; }
 .ppm-quality-top { display: flex; justify-content: space-between; align-items: center; }
 .ppm-sub-label { font-size: 0.75rem; font-weight: 600; color: var(--grey-4); }
@@ -328,7 +328,7 @@
   padding: 2px 8px; border-radius: 100px;
 }
 
-/* â”€â”€ API key â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ API key Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-apikey-wrap {
   display: flex; border: 1.5px solid var(--grey-2); border-radius: 9px;
   overflow: hidden; background: var(--white); transition: border-color 0.15s;
@@ -350,7 +350,7 @@
 .ppm-link { color: var(--indigo); text-decoration: underline; font-weight: 500; }
 .ppm-link:hover { color: var(--indigo-dk); }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-error {
   display: flex; align-items: center; gap: 6px;
   font-size: 0.8rem; color: var(--red); font-weight: 500;
@@ -358,7 +358,7 @@
   border-radius: 8px; padding: 8px 12px;
 }
 
-/* â”€â”€ Buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-gen-btn {
   display: flex; align-items: center; justify-content: center; gap: 8px;
   width: 100%; padding: 12px 16px; background: var(--indigo); color: var(--white);
@@ -395,7 +395,7 @@
 }
 .ppm-skip-link:hover { color: var(--indigo); }
 
-/* â”€â”€ Print layout â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Print layout Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-layout-row { display: flex; gap: 6px; }
 .ppm-layout-btn {
   flex: 1; padding: 7px 8px; border: 1.5px solid var(--grey-2); border-radius: 9px;
@@ -406,7 +406,7 @@
 .ppm-layout-btn:hover:not(.ppm-layout-on) { border-color: var(--grey-3); background: var(--grey-1); }
 .ppm-layout-on { background: var(--amber-bg) !important; border-color: var(--amber-bd) !important; color: var(--amber) !important; }
 
-/* â”€â”€ Result box â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result box Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-result-box {
   border: 1.5px solid var(--green-bd); background: var(--green-bg);
   border-radius: var(--radius); padding: 12px;
@@ -436,7 +436,7 @@
 }
 .ppm-dl-btn:hover { background: #15803d; transform: translateY(-1px); }
 
-/* â”€â”€ Spinners â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinners Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-spinner {
   display: inline-block; width: 15px; height: 15px;
   border: 2px solid rgba(255,255,255,0.3); border-top-color: #fff;
@@ -445,18 +445,18 @@
 .ppm-spinner-sm { width: 13px; height: 13px; border-top-color: var(--amber); border-color: rgba(217,119,6,0.25); }
 @keyframes ppm-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Privacy â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Privacy Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ppm-privacy {
   display: flex; align-items: center; gap: 7px;
   font-size: 0.76rem; color: var(--grey-3); font-weight: 500; padding: 0 2px;
 }
 .ppm-privacy svg { color: var(--green); flex-shrink: 0; }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in { animation: ppm-fade 0.3s cubic-bezier(0.16,1,0.3,1); }
 @keyframes ppm-fade { from { opacity:0;transform:translateY(10px); } to { opacity:1;transform:translateY(0); } }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 820px) {
   .ppm-editor { grid-template-columns: 1fr; }
   .ppm-controls-col { max-height: none; }

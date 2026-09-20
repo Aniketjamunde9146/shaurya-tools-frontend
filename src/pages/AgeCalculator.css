@@ -25,12 +25,12 @@
   --pink-bg:    #fdf2f8;
   --pink-bd:    #fbcfe8;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ac-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -48,7 +48,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ac-header {
   display: flex;
   align-items: flex-start;
@@ -100,7 +100,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ac-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -111,7 +111,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Fields â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Fields Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ac-field {
   display: flex;
   flex-direction: column;
@@ -203,7 +203,7 @@
 }
 .ac-reset-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-/* â”€â”€ Result â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ac-result-card { gap: 20px; }
 
 /* Hero age display */
@@ -388,7 +388,7 @@
   text-overflow: ellipsis;
 }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: ac-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -398,7 +398,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 600px) {
   .ac-page        { padding: 72px 14px 48px; padding-top: 110px; }
   .ac-header      { flex-direction: column; gap: 12px; }

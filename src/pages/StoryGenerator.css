@@ -54,12 +54,12 @@
   --orange:      #ea580c;
 
   --radius:      12px;
-  --font-head:   "Inter", sans-serif;
-  --font-body:   'Inter', sans-serif;
+  --font-head:   "Manrope", sans-serif;
+  --font-body:   "Manrope", sans-serif;
   --font-mono:   'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -77,7 +77,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-header {
   display: flex;
   align-items: flex-start;
@@ -129,7 +129,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -140,7 +140,7 @@
   gap: 18px;
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-field {
   display: flex;
   flex-direction: column;
@@ -194,7 +194,7 @@
 
 .sg-divider { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* â”€â”€ Genre Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Genre Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-genres {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -260,7 +260,7 @@
   border-radius: 100px;
 }
 
-/* â”€â”€ Textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-textarea {
   width: 100%;
   padding: 13px 15px;
@@ -282,7 +282,7 @@
   box-shadow: 0 0 0 3px rgba(79,70,229,0.1);
 }
 
-/* â”€â”€ Text Input â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Text Input Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-input {
   width: 100%;
   padding: 10px 13px;
@@ -301,7 +301,7 @@
   box-shadow: 0 0 0 3px rgba(79,70,229,0.1);
 }
 
-/* â”€â”€ Media / Visual Prompt Row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Media / Visual Prompt Row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-media-prompt-wrap {
   display: flex;
   align-items: center;
@@ -348,7 +348,7 @@
   line-height: 1.4;
 }
 
-/* â”€â”€ Two/Three-column row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Two/Three-column row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -360,7 +360,7 @@
 }
 .sg-field-half { width: 100%; }
 
-/* â”€â”€ Tone pills â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tone pills Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-tones {
   display: flex;
   flex-wrap: wrap;
@@ -390,7 +390,7 @@
   font-weight: 600;
 }
 
-/* â”€â”€ POV buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ POV buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-povs {
   display: flex;
   flex-direction: column;
@@ -421,7 +421,7 @@
   font-weight: 600;
 }
 
-/* â”€â”€ Length buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Length buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-lengths {
   display: flex;
   flex-direction: column;
@@ -460,7 +460,7 @@
 }
 .sg-len-on .sg-len-desc { color: var(--green); opacity: 0.8; }
 
-/* â”€â”€ Language Select â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Language Select Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-select-wrap {
   position: relative;
   display: flex;
@@ -495,7 +495,7 @@
   flex-shrink: 0;
 }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-error-msg {
   display: flex;
   align-items: center;
@@ -509,7 +509,7 @@
   padding: 8px 12px;
 }
 
-/* â”€â”€ Generate Button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generate Button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-gen-btn {
   display: flex;
   align-items: center;
@@ -535,7 +535,7 @@
 .sg-gen-btn:active:not(:disabled) { transform: translateY(0); }
 .sg-gen-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -547,7 +547,7 @@
 }
 @keyframes sg-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-skeleton-card { gap: 14px; }
 
 .sg-skel {
@@ -565,7 +565,7 @@
 .sg-skel-short { width: 40%; }
 .sg-skel-med   { width: 70%; }
 
-/* â”€â”€ Result top bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result top bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-result-top {
   display: flex;
   justify-content: space-between;
@@ -615,7 +615,7 @@
   border-color: var(--sky-bd) !important;
 }
 
-/* â”€â”€ Tabs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tabs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-tabs {
   display: flex;
   background: var(--grey-1);
@@ -649,7 +649,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
-/* â”€â”€ Actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-actions {
   display: flex;
   gap: 7px;
@@ -695,7 +695,7 @@
   color: var(--green) !important;
 }
 
-/* â”€â”€ Story Preview â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Story Preview Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-story-preview {
   border: 1.5px solid var(--grey-2);
   border-radius: var(--radius);
@@ -769,7 +769,7 @@
   color: var(--green) !important;
 }
 
-/* â”€â”€ Prompts Tab â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Prompts Tab Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-prompts-view {
   display: flex;
   flex-direction: column;
@@ -831,7 +831,7 @@
   font-style: italic;
 }
 
-/* â”€â”€ Raw â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Raw Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-raw {
   background: var(--grey-1);
   border: 1.5px solid var(--grey-2);
@@ -847,7 +847,7 @@
   user-select: text;
 }
 
-/* â”€â”€ Result Footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result Footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sg-result-footer {
   display: flex;
   align-items: center;
@@ -889,7 +889,7 @@
 .sg-copy-full.sg-copied { background: var(--green) !important; }
 .sg-copy-full.sg-copied:hover { background: #15803d !important; }
 
-/* â”€â”€ Animations â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animations Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: sg-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -898,7 +898,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 640px) {
   .sg-page         { padding: 72px 14px 48px; padding-top: 110px; }
   .sg-header       { flex-direction: column; gap: 12px; }

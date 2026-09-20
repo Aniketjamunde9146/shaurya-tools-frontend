@@ -28,12 +28,12 @@
   --teal-bd:    #99f6e4;
   --code-bg:    #fafafa;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
   --font-mono:  'Menlo', 'Consolas', 'Courier New', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jyc-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -50,7 +50,7 @@
   gap: 18px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jyc-header {
   display: flex;
   align-items: flex-start;
@@ -108,7 +108,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Mode bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Mode bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jyc-mode-bar {
   display: flex;
   align-items: center;
@@ -182,7 +182,7 @@
   box-shadow: 0 2px 10px rgba(13,148,136,0.1);
 }
 
-/* â”€â”€ Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jyc-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -190,7 +190,7 @@
   align-items: start;
 }
 
-/* â”€â”€ Panel â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Panel Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jyc-panel {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -200,7 +200,7 @@
   overflow: hidden;
 }
 
-/* â”€â”€ Panel head â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Panel head Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jyc-panel-head {
   display: flex;
   justify-content: space-between;
@@ -245,7 +245,7 @@
   flex-wrap: wrap;
 }
 
-/* â”€â”€ Buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jyc-action-btn {
   display: inline-flex;
   align-items: center;
@@ -284,7 +284,7 @@
 .jyc-copy-btn:hover { background: #dbeafe; }
 .jyc-copied { background: var(--green-bg) !important; border-color: var(--green-bd) !important; color: var(--green) !important; }
 
-/* â”€â”€ Indent group â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Indent group Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jyc-indent-group {
   display: flex;
   align-items: center;
@@ -312,7 +312,7 @@
 .jyc-indent-btn:hover { border-color: var(--grey-3); }
 .jyc-indent-on { background: var(--blue-bg) !important; border-color: var(--blue-bd) !important; color: var(--blue) !important; }
 
-/* â”€â”€ Textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jyc-textarea-wrap {
   position: relative;
   display: flex;
@@ -356,7 +356,7 @@
   white-space: nowrap;
 }
 
-/* â”€â”€ Status bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Status bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jyc-status-bar {
   display: flex;
   align-items: center;
@@ -372,7 +372,7 @@
 .jyc-status-idle  { border-top-color: var(--grey-2); }
 .jyc-idle { color: var(--grey-3); font-weight: 400; }
 
-/* â”€â”€ Output â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jyc-output-wrap {
   flex: 1;
   min-height: 420px;
@@ -438,7 +438,7 @@
 }
 .jyc-error-tip { font-size: 0.75rem; color: var(--grey-3); }
 
-/* â”€â”€ Code â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Code Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jyc-code {
   display: block;
   padding: 16px;
@@ -452,18 +452,18 @@
   color: var(--grey-4);
 }
 
-/* â”€â”€ Syntax: JSON colors â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Syntax: JSON colors Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jyc-key  { color: #0550ae; font-weight: 600; }
 .jyc-str  { color: #0a7a45; }
 .jyc-num  { color: #a93226; }
 .jyc-bool { color: #7d3c98; }
 .jyc-null { color: var(--grey-3); font-style: italic; }
 
-/* â”€â”€ Syntax: YAML colors â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Syntax: YAML colors Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jyc-comment { color: #9ca3af; font-style: italic; }
 .jyc-dash    { color: var(--teal); font-weight: 700; }
 
-/* â”€â”€ Stats bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Stats bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jyc-stats-bar {
   display: flex;
   align-items: center;
@@ -477,7 +477,7 @@
 .jyc-stat strong { color: var(--grey-4); font-weight: 600; }
 .jyc-stat-sep { color: var(--grey-2); font-size: 0.8rem; }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 900px) {
   .jyc-grid { grid-template-columns: 1fr; }
   .jyc-textarea-wrap,

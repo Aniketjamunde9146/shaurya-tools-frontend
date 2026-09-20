@@ -32,12 +32,12 @@
   --pt-ring-track: #e5e5e5;
 
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
-  --font-mono:  "Inter", 'Courier New', monospace;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
+  --font-mono:  "Manrope", 'Courier New', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -61,7 +61,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-header {
   display: flex;
   align-items: center;
@@ -128,7 +128,7 @@
 }
 .pt-settings-btn:hover { color: var(--black); border-color: var(--grey-3); background: var(--grey-1); }
 
-/* â”€â”€ Session Tabs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Session Tabs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-session-tabs {
   display: flex;
   background: var(--white);
@@ -177,7 +177,7 @@
   box-shadow: 0 1px 4px rgba(124,58,237,0.12);
 }
 
-/* â”€â”€ Timer Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Timer Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-timer-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -194,7 +194,7 @@
 .pt-timer-card[data-session="short_break"] { border-color: var(--pt-short-bd); }
 .pt-timer-card[data-session="long_break"]  { border-color: var(--pt-long-bd); }
 
-/* â”€â”€ SVG Ring â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ SVG Ring Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-ring-wrap {
   position: relative;
   width: 200px;
@@ -249,7 +249,7 @@
   font-weight: 500;
 }
 
-/* â”€â”€ Session Dots â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Session Dots Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-dots {
   display: flex;
   gap: 8px;
@@ -279,7 +279,7 @@
   border-color: var(--pt-long);
 }
 
-/* â”€â”€ Controls â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Controls Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-controls {
   display: flex;
   align-items: center;
@@ -341,7 +341,7 @@
   box-shadow: 0 8px 24px rgba(124,58,237,0.45);
 }
 
-/* â”€â”€ Sound Toggle â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Sound Toggle Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-sound-btn {
   display: flex;
   align-items: center;
@@ -360,7 +360,7 @@
 .pt-sound-btn:hover { border-color: var(--grey-3); color: var(--grey-4); }
 .pt-sound-btn.pt-sound-on { color: var(--pt-focus); background: var(--pt-focus-bg); border-color: var(--pt-focus-bd); }
 
-/* â”€â”€ Stats Row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Stats Row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-stats-row {
   display: flex;
   align-items: center;
@@ -403,7 +403,7 @@
   flex-shrink: 0;
 }
 
-/* â”€â”€ Task Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Task Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-task-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -441,7 +441,7 @@
   border-radius: 100px;
 }
 
-/* â”€â”€ Task Form â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Task Form Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-task-form {
   display: flex;
   gap: 8px;
@@ -482,7 +482,7 @@
 .pt-task-add-btn:hover:not(:disabled) { background: var(--indigo-dk, #4338ca); transform: scale(1.05); }
 .pt-task-add-btn:disabled { opacity: 0.35; cursor: not-allowed; }
 
-/* â”€â”€ Task Empty â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Task Empty Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-task-empty {
   display: flex;
   flex-direction: column;
@@ -494,7 +494,7 @@
   font-weight: 500;
 }
 
-/* â”€â”€ Task List â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Task List Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-task-list {
   display: flex;
   flex-direction: column;
@@ -568,7 +568,7 @@
 .pt-task-item:hover .pt-task-del { opacity: 1; }
 .pt-task-del:hover { color: var(--red, #ef4444); background: var(--red-bg, #fef2f2); }
 
-/* â”€â”€ Settings Overlay â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Settings Overlay Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-overlay {
   position: fixed;
   inset: 0;
@@ -586,7 +586,7 @@
   to   { opacity: 1; }
 }
 
-/* â”€â”€ Settings Modal â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Settings Modal Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-modal {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -750,7 +750,7 @@
   box-shadow: 0 4px 12px rgba(79,70,229,0.3);
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 600px) {
   .pt-page          { padding: 72px 14px 48px; padding-top: 100px; }
   .pt-ring-wrap,

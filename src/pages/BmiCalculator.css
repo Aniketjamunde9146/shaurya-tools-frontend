@@ -22,12 +22,12 @@
   --purple-bg: #f5f3ff;
   --purple-bd: #ddd6fe;
   --radius:    12px;
-  --font-head: "Inter", sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-head: "Manrope", sans-serif;
+  --font-body: "Manrope", sans-serif;
   --font-mono: 'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bmi-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -45,7 +45,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bmi-header {
   display: flex;
   align-items: flex-start;
@@ -97,7 +97,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bmi-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -108,7 +108,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Tabs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tabs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bmi-tabs {
   display: flex;
   background: var(--grey-1);
@@ -141,7 +141,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
-/* â”€â”€ Labels & fields â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Labels & fields Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bmi-label-row {
   display: flex;
   justify-content: space-between;
@@ -225,13 +225,13 @@
   padding-right: 36px;
 }
 
-/* â”€â”€ Divider â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Divider Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bmi-divider {
   height: 1px;
   background: var(--grey-2);
 }
 
-/* â”€â”€ Actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bmi-actions {
   display: flex;
   justify-content: flex-end;
@@ -264,7 +264,7 @@
   cursor: not-allowed;
 }
 
-/* â”€â”€ Result Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bmi-result-card { gap: 18px; }
 
 /* Score */
@@ -319,7 +319,7 @@
   color: var(--black);
 }
 
-/* â”€â”€ Gauge â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Gauge Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bmi-gauge-wrap {
   display: flex;
   flex-direction: column;
@@ -372,7 +372,7 @@
   padding: 0 2px;
 }
 
-/* â”€â”€ Range rows â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Range rows Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bmi-ranges {
   display: flex;
   flex-direction: column;
@@ -423,7 +423,7 @@
   font-family: var(--font-mono);
 }
 
-/* â”€â”€ Healthy hint â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Healthy hint Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bmi-healthy-hint {
   display: flex;
   align-items: center;
@@ -447,7 +447,7 @@
   color: var(--green);
 }
 
-/* â”€â”€ Disclaimer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Disclaimer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bmi-disclaimer {
   font-size: 0.73rem;
   color: var(--grey-3);
@@ -456,7 +456,7 @@
   border-top: 1px solid var(--grey-2);
 }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: bmi-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -466,7 +466,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 600px) {
   .bmi-page        { padding: 72px 14px 48px; padding-top: 110px; }
   .bmi-header      { flex-direction: column; gap: 12px; }

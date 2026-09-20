@@ -29,12 +29,12 @@
   --li-blue:    #0a66c2;
   --li-blue-bg: #e8f0fe;
   --li-blue-bd: #b3c8f5;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
-  --font-mono:  "Inter", 'Menlo', 'Consolas', monospace;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
+  --font-mono:  "Manrope", 'Menlo', 'Consolas', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -51,7 +51,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-header {
   display: flex;
   align-items: flex-start;
@@ -99,7 +99,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -134,7 +134,7 @@
   flex-wrap: wrap;
 }
 
-/* â”€â”€ Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-grid {
   display: grid;
   grid-template-columns: 1fr 380px;
@@ -149,7 +149,7 @@
   gap: 14px;
 }
 
-/* â”€â”€ Presets â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Presets Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-presets {
   display: flex;
   align-items: center;
@@ -185,7 +185,7 @@
   background: var(--li-blue-bg);
 }
 
-/* â”€â”€ Form â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Form Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-form-body {
   padding: 18px;
   display: flex;
@@ -204,7 +204,7 @@
   padding-bottom: 5px;
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-field {
   display: flex;
   flex-direction: column;
@@ -268,14 +268,14 @@
 .lp-textarea { resize: vertical; min-height: 80px; line-height: 1.65; }
 .lp-select   { cursor: pointer; }
 
-/* â”€â”€ 2-col row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ 2-col row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-row2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
 
-/* â”€â”€ Pill button group â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Pill button group Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-pill-group {
   display: flex;
   flex-wrap: wrap;
@@ -303,7 +303,7 @@
   color: var(--li-blue) !important;
 }
 
-/* â”€â”€ Hashtag chips â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Hashtag chips Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-hashtags-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -341,7 +341,7 @@
 
 .lp-ht-empty { font-size: 0.73rem; color: var(--grey-3); padding: 4px 2px; }
 
-/* â”€â”€ Toggle (switch) â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Toggle (switch) Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-toggle-row {
   display: flex;
   align-items: center;
@@ -395,7 +395,7 @@
 
 .lp-switch.on .lp-switch-dot { left: 18px; }
 
-/* â”€â”€ Generate button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generate button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-gen-btn {
   display: flex;
   align-items: center;
@@ -427,7 +427,7 @@
   cursor: not-allowed;
 }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-spinner {
   display: inline-block;
   width: 15px; height: 15px;
@@ -439,7 +439,7 @@
 
 @keyframes lp-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-skeleton-body { padding: 20px; }
 
 .lp-skel {
@@ -460,7 +460,7 @@
 .lp-skel-short { width: 65% !important; }
 .lp-skel-block { height: 52px; width: 100%; border-radius: 10px; }
 
-/* â”€â”€ LinkedIn mock preview â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ LinkedIn mock preview Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-li-card {
   background: var(--white);
   border: 1px solid #dce6f1;
@@ -607,7 +607,7 @@
 
 .lp-li-action:hover { background: var(--grey-1); }
 
-/* â”€â”€ Output â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-result-top {
   display: flex;
   align-items: center;
@@ -737,7 +737,7 @@
   font-weight: 500;
 }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-error {
   display: flex;
   align-items: center;
@@ -751,7 +751,7 @@
   color: var(--red);
 }
 
-/* â”€â”€ Count badge â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Count badge Ã¢â€â‚¬Ã¢â€â‚¬ */
 .lp-count-badge {
   font-size: 0.7rem;
   font-weight: 700;
@@ -762,7 +762,7 @@
   border: 1px solid var(--green-bd);
 }
 
-/* â”€â”€ animate-in â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ animate-in Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: lp-fadein 0.3s ease;
 }
@@ -772,7 +772,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 1024px) {
   .lp-grid { grid-template-columns: 1fr; }
   .lp-col-right { order: -1; }

@@ -24,12 +24,12 @@
   --amber-bg:  #fffbeb;
   --amber-bd:  #fde68a;
   --radius:    12px;
-  --font-head: "Inter", sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-head: "Manrope", sans-serif;
+  --font-body: "Manrope", sans-serif;
   --font-mono: 'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -47,7 +47,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-header {
   display: flex;
   align-items: flex-start;
@@ -99,7 +99,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -112,7 +112,7 @@
 
 .kd-divider { height: 1px; background: var(--grey-2); }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-field { display: flex; flex-direction: column; gap: 7px; }
 
 .kd-label-row {
@@ -153,7 +153,7 @@
   border-radius: 100px;
 }
 
-/* â”€â”€ Top row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Top row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-top-row {
   display: flex;
   gap: 20px;
@@ -214,7 +214,7 @@
 }
 .kd-clear:hover { color: var(--black); }
 
-/* â”€â”€ Toggles â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Toggles Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-options { display: flex; flex-direction: column; gap: 9px; }
 
 .kd-toggle {
@@ -257,7 +257,7 @@
   color: var(--grey-4);
 }
 
-/* â”€â”€ Textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-textarea {
   width: 100%;
   padding: 14px 16px;
@@ -281,7 +281,7 @@
 
 .kd-textarea::placeholder { color: var(--grey-3); font-style: italic; }
 
-/* â”€â”€ Actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-actions {
   display: flex;
   justify-content: flex-end;
@@ -328,7 +328,7 @@
 .kd-analyze-btn:active:not(:disabled) { transform: translateY(0); }
 .kd-analyze-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-/* â”€â”€ Stats Strip â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Stats Strip Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-stats-strip {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -370,7 +370,7 @@
   white-space: nowrap;
 }
 
-/* â”€â”€ Target keyword card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Target keyword card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-target-card {
   border: 1.5px solid;
   border-radius: 14px;
@@ -453,7 +453,7 @@
 .kd-badge-high { color: var(--red);   background: var(--white); border-color: var(--red-bd);   }
 .kd-badge-low  { color: var(--amber); background: var(--white); border-color: var(--amber-bd); }
 
-/* â”€â”€ Card top â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card top Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-card-top {
   display: flex;
   align-items: center;
@@ -516,7 +516,7 @@
 .kd-copy-btn:hover { background: #dbeafe; }
 .kd-copied { background: var(--green-bg) !important; border-color: var(--green-bd) !important; color: var(--green) !important; }
 
-/* â”€â”€ Legend â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Legend Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-legend {
   display: flex;
   align-items: center;
@@ -554,7 +554,7 @@
   font-style: italic;
 }
 
-/* â”€â”€ Column headers â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Column headers Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-col-headers {
   display: grid;
   grid-template-columns: 32px 160px 1fr 52px 70px;
@@ -571,7 +571,7 @@
   gap: 10px;
 }
 
-/* â”€â”€ Keyword List â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Keyword List Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-kw-list {
   display: flex;
   flex-direction: column;
@@ -591,7 +591,7 @@
   font-size: 0.85rem;
 }
 
-/* â”€â”€ Keyword Row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Keyword Row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-kw-row {
   display: grid;
   grid-template-columns: 32px 160px 1fr 52px 70px;
@@ -632,7 +632,7 @@
   text-overflow: ellipsis;
 }
 
-/* â”€â”€ Bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-bar-track {
   height: 7px;
   background: var(--grey-2);
@@ -675,7 +675,7 @@
 .kd-density-high { color: var(--red);   background: var(--red-bg);   border-color: var(--red-bd);   }
 .kd-density-low  { color: var(--grey-3); background: var(--grey-1);  border-color: var(--grey-2);   }
 
-/* â”€â”€ Top keyword callout â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Top keyword callout Ã¢â€â‚¬Ã¢â€â‚¬ */
 .kd-top-callout {
   display: flex;
   align-items: center;
@@ -709,7 +709,7 @@
   margin-left: auto;
 }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in { animation: kd-fade 0.35s cubic-bezier(0.16,1,0.3,1); }
 
 @keyframes kd-fade {
@@ -717,7 +717,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 680px) {
   .kd-page         { padding: 80px 14px 48px; padding-top: 110px; }
   .kd-header       { flex-direction: column; gap: 12px; }

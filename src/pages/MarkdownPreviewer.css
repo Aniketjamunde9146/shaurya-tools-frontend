@@ -25,12 +25,12 @@
   --code-bg:    #1a1a2e;
   --code-fg:    #e2e8f0;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
-  --font-mono:  "Inter", 'Menlo', 'Consolas', monospace;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
+  --font-mono:  "Manrope", 'Menlo', 'Consolas', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mp-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -47,7 +47,7 @@
   gap: 14px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mp-header {
   display: flex;
   align-items: center;
@@ -135,7 +135,7 @@
   color: var(--green) !important;
 }
 
-/* â”€â”€ View bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ View bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mp-view-bar {
   display: flex;
   align-items: center;
@@ -182,7 +182,7 @@
 .mp-stats strong { color: var(--grey-4); font-weight: 600; }
 .mp-st-sep { color: var(--grey-2); }
 
-/* â”€â”€ Toolbar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Toolbar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mp-toolbar {
   display: flex;
   align-items: center;
@@ -233,7 +233,7 @@
 
 .mp-tb-spacer { flex: 1; }
 
-/* â”€â”€ Workspace â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Workspace Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mp-workspace {
   display: grid;
   gap: 14px;
@@ -243,7 +243,7 @@
 .mp-ws-editor  { grid-template-columns: 1fr; }
 .mp-ws-preview { grid-template-columns: 1fr; }
 
-/* â”€â”€ Pane â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Pane Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mp-pane {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -279,7 +279,7 @@
   border-radius: 100px;
 }
 
-/* â”€â”€ Textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mp-textarea {
   flex: 1;
   width: 100%;
@@ -298,7 +298,7 @@
 .mp-textarea::placeholder { color: var(--grey-3); font-family: var(--font-body); font-size: 0.85rem; line-height: 1.7; }
 .mp-textarea.mp-drag-over { background: var(--violet-bg); outline: 2px dashed var(--violet); outline-offset: -4px; }
 
-/* â”€â”€ Preview â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Preview Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mp-preview {
   flex: 1;
   padding: 28px 32px;
@@ -314,7 +314,7 @@
   font-style: italic;
 }
 
-/* â”€â”€ Markdown rendered styles â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Markdown rendered styles Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mp-preview .mp-h1 {
   font-family: var(--font-head);
   font-size: 2rem;
@@ -528,7 +528,7 @@
   margin: 8px 0;
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 960px) {
   .mp-ws-split { grid-template-columns: 1fr; }
   .mp-pane { min-height: 400px; }

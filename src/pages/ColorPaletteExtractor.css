@@ -25,11 +25,11 @@
   --violet-bg:  #f5f3ff;
   --violet-bd:  #ddd6fe;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cpe-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -46,7 +46,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cpe-header {
   display: flex; align-items: flex-start; gap: 16px; padding: 4px 0 8px;
 }
@@ -69,7 +69,7 @@
 }
 .cpe-header p { font-size: 0.85rem; color: var(--grey-3); line-height: 1.5; }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cpe-card {
   background: var(--white); border: 1.5px solid var(--grey-2);
   border-radius: 16px; padding: 24px;
@@ -83,7 +83,7 @@
 .cpe-label-icon { color: var(--emerald); flex-shrink: 0; }
 .cpe-divider    { height: 1px; background: var(--grey-2); }
 
-/* â”€â”€ Settings row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Settings row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cpe-settings-row {
   display: flex; align-items: flex-start; gap: 32px; flex-wrap: wrap;
 }
@@ -99,7 +99,7 @@
   padding: 2px 9px; border-radius: 100px;
 }
 
-/* â”€â”€ Slider â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Slider Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cpe-slider {
   -webkit-appearance: none; appearance: none;
   width: 100%; height: 5px; border-radius: 100px;
@@ -118,7 +118,7 @@
 }
 .cpe-slider-hints { display: flex; justify-content: space-between; font-size: 0.67rem; color: var(--grey-3); }
 
-/* â”€â”€ Info pills â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Info pills Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cpe-info-pills {
   display: flex; flex-direction: column; gap: 6px; padding-top: 4px;
 }
@@ -133,7 +133,7 @@
 .cpe-dot-rgb { background: var(--violet); }
 .cpe-dot-pct { background: var(--amber); }
 
-/* â”€â”€ Drop zone â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Drop zone Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cpe-dropzone {
   border: 2px dashed var(--grey-2); border-radius: 16px; padding: 56px 24px;
   display: flex; align-items: center; justify-content: center;
@@ -154,7 +154,7 @@
 .cpe-dz-link  { color: var(--emerald); text-decoration: underline; }
 .cpe-dz-sub   { font-size: 0.78rem; color: var(--grey-3); }
 
-/* â”€â”€ Results layout: image left, swatches right â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Results layout: image left, swatches right Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cpe-results {
   display: grid;
   grid-template-columns: 280px 1fr;
@@ -162,7 +162,7 @@
   align-items: start;
 }
 
-/* â”€â”€ Image panel â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Image panel Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cpe-image-panel {
   display: flex; flex-direction: column; gap: 10px;
   position: sticky; top: 100px;
@@ -204,14 +204,14 @@
 }
 .cpe-change-btn:hover { border-color: var(--emerald-bd); background: var(--emerald-bg); color: var(--emerald); }
 
-/* â”€â”€ Palette bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Palette bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cpe-palette-bar {
   display: flex; height: 28px; border-radius: 10px; overflow: hidden;
   border: 1.5px solid var(--grey-2);
 }
 .cpe-bar-segment { transition: flex 0.4s ease; cursor: default; }
 
-/* â”€â”€ Actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cpe-actions { display: flex; gap: 8px; }
 .cpe-action-btn {
   flex: 1; display: flex; align-items: center; justify-content: center; gap: 5px;
@@ -231,7 +231,7 @@
 }
 .cpe-btn-export:hover { background: #d1fae5 !important; }
 
-/* â”€â”€ Swatches panel â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Swatches panel Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cpe-swatches-panel {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
@@ -245,7 +245,7 @@
   font-size: 0.88rem; color: var(--grey-3); font-weight: 500;
 }
 
-/* â”€â”€ Swatch card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Swatch card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cpe-swatch-card {
   background: var(--white); border: 1.5px solid var(--grey-2); border-radius: 14px;
   overflow: hidden;
@@ -269,7 +269,7 @@
   padding: 2px 7px; border-radius: 100px;
 }
 
-/* â”€â”€ Swatch info â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Swatch info Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cpe-swatch-info {
   padding: 10px 12px;
   display: flex; flex-direction: column; gap: 5px;
@@ -298,7 +298,7 @@
 .cpe-copy-btn:hover { border-color: var(--emerald-bd); color: var(--emerald); background: var(--emerald-bg); }
 .cpe-copy-done { border-color: var(--green-bd) !important; color: var(--green) !important; background: var(--green-bg) !important; }
 
-/* â”€â”€ Spinners â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinners Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cpe-big-spinner {
   display: inline-block; width: 28px; height: 28px;
   border: 3px solid var(--emerald-bd); border-top-color: var(--emerald);
@@ -308,21 +308,21 @@
 
 .cpe-loading-text { font-size: 0.85rem; color: var(--grey-3); font-weight: 500; }
 
-/* â”€â”€ Privacy â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Privacy Ã¢â€â‚¬Ã¢â€â‚¬ */
 .cpe-privacy {
   display: flex; align-items: center; gap: 7px;
   font-size: 0.76rem; color: var(--grey-3); font-weight: 500; padding: 0 2px;
 }
 .cpe-privacy svg { color: var(--emerald); flex-shrink: 0; }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in { animation: cpe-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes cpe-fade {
   from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 760px) {
   .cpe-results { grid-template-columns: 1fr; }
   .cpe-image-panel { position: static; }

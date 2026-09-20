@@ -20,11 +20,11 @@
   --red:        #ef4444;
   --red-bg:     #fef2f2;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -52,7 +52,7 @@
 }
 
 
-/* â”€â”€ Page Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-header {
   display: flex;
   align-items: flex-start;
@@ -102,7 +102,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Step Bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Step Bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-steps {
   display: flex;
   align-items: center;
@@ -168,7 +168,7 @@
 /* Upcoming */
 .ps-upcoming .pt-dot { color: var(--grey-3); }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -204,7 +204,7 @@
 
 .pt-divider { height: 1px; background: var(--grey-2); }
 
-/* â”€â”€ Inputs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Inputs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-input,
 .pt-textarea {
   width: 100%;
@@ -230,7 +230,7 @@
 
 .pt-char { font-size: 0.7rem; color: var(--grey-3); text-align: right; }
 
-/* â”€â”€ AI Tool Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ AI Tool Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-tool-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -257,7 +257,7 @@
 
 .pt-tool-icon { font-size: 1rem; flex-shrink: 0; }
 
-/* â”€â”€ Output Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-output-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -285,7 +285,7 @@
 .pt-out-icon { font-size: 1.2rem; }
 .pt-output-btn:hover { border-color: var(--grey-3); color: var(--black); }
 
-/* â”€â”€ Selected state (shared) â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Selected state (shared) Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-sel {
   background: var(--blue-bg) !important;
   border-color: var(--blue) !important;
@@ -293,7 +293,7 @@
   font-weight: 600 !important;
 }
 
-/* â”€â”€ Tone â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tone Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-tone-wrap { display: flex; flex-wrap: wrap; gap: 8px; }
 
 .pt-tone-btn {
@@ -310,7 +310,7 @@
 }
 .pt-tone-btn:hover { border-color: var(--grey-3); color: var(--black); }
 
-/* â”€â”€ Length Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Length Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-length-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -349,7 +349,7 @@
 .pt-sel .pt-len-label { color: var(--blue) !important; }
 .pt-sel .pt-len-desc  { color: rgba(37,99,235,0.6) !important; }
 
-/* â”€â”€ Loading â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Loading Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-loading {
   display: flex;
   flex-direction: column;
@@ -385,7 +385,7 @@
 
 @keyframes pt-pulse { 0%,100% { opacity: 0.4; } 50% { opacity: 1; } }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-error {
   display: flex;
   flex-direction: column;
@@ -411,7 +411,7 @@
 }
 .pt-retry-btn:hover { background: #fee2e2; }
 
-/* â”€â”€ Result â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-result {
   display: flex;
   flex-direction: column;
@@ -448,7 +448,7 @@
   border-color: var(--orange-bd) !important;
 }
 
-/* â”€â”€ Prompt Box â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Prompt Box Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-prompt-box {
   background: var(--grey-1);
   border: 1.5px solid var(--grey-2);
@@ -468,7 +468,7 @@
   user-select: text;
 }
 
-/* â”€â”€ Copy Button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Copy Button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-copy-btn {
   display: flex;
   align-items: center;
@@ -501,7 +501,7 @@
   margin-top: -4px;
 }
 
-/* â”€â”€ Navigation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Navigation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pt-nav {
   display: flex;
   justify-content: space-between;
@@ -563,7 +563,7 @@
 }
 .pt-gen-btn:hover { background: #15803d; transform: translateY(-1px); }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: pt-fade 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -572,7 +572,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 600px) {
   .pt-page { padding: 72px 14px 48px;  padding-top: 110px;}
   .pt-header { flex-direction: column; gap: 12px; }

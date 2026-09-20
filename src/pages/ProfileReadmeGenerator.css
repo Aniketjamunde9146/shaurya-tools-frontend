@@ -26,12 +26,12 @@
   --rose:       #e11d48;
   --rose-bg:    #fff1f2;
   --rose-bd:    #fecdd3;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
-  --font-mono:  "Inter", 'Menlo', 'Consolas', monospace;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
+  --font-mono:  "Manrope", 'Menlo', 'Consolas', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pg-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -48,7 +48,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pg-header {
   display: flex;
   align-items: flex-start;
@@ -97,7 +97,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pg-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -132,7 +132,7 @@
   flex-wrap: wrap;
 }
 
-/* â”€â”€ Input section â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Input section Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pg-input-body {
   padding: 20px;
   display: flex;
@@ -246,7 +246,7 @@
   border-radius: 8px;
 }
 
-/* â”€â”€ Sections picker â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Sections picker Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pg-sections-wrap {
   display: flex;
   flex-direction: column;
@@ -311,7 +311,7 @@
   color: var(--grey-3);
 }
 
-/* â”€â”€ Style picker â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Style picker Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pg-style-row {
   display: flex;
   flex-direction: column;
@@ -355,13 +355,13 @@
 
 .pg-style-emoji { font-size: 1.1rem; }
 
-/* â”€â”€ Divider â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Divider Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pg-divider {
   border: none;
   border-top: 1.5px solid var(--grey-2);
 }
 
-/* â”€â”€ Generate button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generate button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pg-gen-btn {
   display: flex;
   align-items: center;
@@ -396,7 +396,7 @@
   box-shadow: none;
 }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pg-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -409,7 +409,7 @@
 
 @keyframes pg-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Profile banner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Profile banner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pg-profile-banner {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -478,7 +478,7 @@
 .pg-stat-repo  { background: var(--blue-bg); color: var(--blue); border-color: var(--blue-bd); }
 .pg-stat-follow { background: var(--green-bg); color: var(--green); border-color: var(--green-bd); }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pg-skeleton-card { padding: 20px; }
 
 .pg-skel {
@@ -499,7 +499,7 @@
 .pg-skel-short  { width: 68% !important; }
 .pg-skel-block  { height: 64px; width: 100%; border-radius: 10px; }
 
-/* â”€â”€ Result card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pg-result-top {
   display: flex;
   align-items: center;
@@ -587,7 +587,7 @@
 .pg-copy-btn:hover { background: var(--grey-4); border-color: var(--grey-4); }
 .pg-copied { background: var(--green) !important; border-color: var(--green) !important; }
 
-/* â”€â”€ Preview â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Preview Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pg-preview {
   padding: 28px 32px;
   font-family: var(--font-body);
@@ -637,7 +637,7 @@
   color: var(--rose);
 }
 
-/* â”€â”€ Raw output â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Raw output Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pg-raw {
   padding: 20px 24px;
   font-family: var(--font-mono);
@@ -650,7 +650,7 @@
   overflow-x: auto;
 }
 
-/* â”€â”€ Footer strip â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Footer strip Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pg-result-footer {
   display: flex;
   align-items: center;
@@ -687,7 +687,7 @@
 .pg-copy-full:hover { border-color: var(--grey-3); color: var(--black); }
 .pg-copy-full.pg-copied { background: var(--green-bg); border-color: var(--green-bd); color: var(--green); }
 
-/* â”€â”€ Animate in â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animate in Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: pg-fadein 0.3s ease;
 }
@@ -697,7 +697,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 640px) {
   .pg-page    { padding: 72px 14px 48px; }
   .pg-header  { flex-direction: column; gap: 10px; }

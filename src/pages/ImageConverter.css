@@ -31,11 +31,11 @@
   --amber-bg:   #fffbeb;
   --amber-bd:   #fde68a;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -53,7 +53,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-header {
   display: flex;
   align-items: flex-start;
@@ -105,7 +105,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Support Strip â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Support Strip Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-support-strip {
   display: flex;
   flex-wrap: wrap;
@@ -135,7 +135,7 @@
 .iconv-from { color: var(--grey-4); }
 .iconv-to   { color: var(--emerald); }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -146,7 +146,7 @@
   gap: 18px;
 }
 
-/* â”€â”€ Field & Label â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field & Label Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-field { display: flex; flex-direction: column; gap: 14px; }
 
 .iconv-label {
@@ -161,7 +161,7 @@
 .iconv-label-icon { color: var(--emerald); flex-shrink: 0; }
 .iconv-divider    { height: 1px; background: var(--grey-2); }
 
-/* â”€â”€ Settings Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Settings Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-settings-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -202,7 +202,7 @@
   border-color: var(--grey-2) !important;
 }
 
-/* â”€â”€ Slider â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Slider Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-slider {
   -webkit-appearance: none;
   appearance: none;
@@ -242,7 +242,7 @@
 
 .iconv-hint { font-size: 0.68rem; color: var(--grey-3); line-height: 1.4; }
 
-/* â”€â”€ Format buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Format buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-fmt-row { display: flex; gap: 8px; }
 
 .iconv-fmt-btn {
@@ -269,7 +269,7 @@
   color: var(--emerald) !important;
 }
 
-/* â”€â”€ Info Box â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Info Box Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-info-box {
   display: flex;
   flex-direction: column;
@@ -304,7 +304,7 @@
   font-weight: 500;
 }
 
-/* â”€â”€ Drop Zone â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Drop Zone Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-dropzone {
   border: 2px dashed var(--grey-2);
   border-radius: 16px;
@@ -354,7 +354,7 @@
 .iconv-dz-link { color: var(--emerald); text-decoration: underline; }
 .iconv-dz-sub  { font-size: 0.78rem; color: var(--grey-3); }
 
-/* â”€â”€ Summary Bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Summary Bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-summary-bar {
   display: flex;
   justify-content: space-between;
@@ -410,7 +410,7 @@
 }
 .iconv-btn-dl-all:hover { background: #d1fae5 !important; }
 
-/* â”€â”€ File List â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ File List Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-file-list { display: flex; flex-direction: column; gap: 10px; }
 
 .iconv-file-row {
@@ -427,7 +427,7 @@
 .iconv-row-error      { border-color: var(--red-bd)     !important; background: var(--red-bg)     !important; }
 .iconv-row-processing { border-color: var(--amber-bd)   !important; background: var(--amber-bg)   !important; }
 
-/* â”€â”€ Thumbnail â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Thumbnail Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-thumb-wrap {
   width: 52px;
   height: 52px;
@@ -439,7 +439,7 @@
 }
 .iconv-thumb { width: 100%; height: 100%; object-fit: cover; display: block; }
 
-/* â”€â”€ File Info â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ File Info Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-file-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 5px; }
 
 .iconv-file-name {
@@ -498,7 +498,7 @@
   font-weight: 500;
 }
 
-/* â”€â”€ File Actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ File Actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-file-actions { display: flex; align-items: center; gap: 7px; flex-shrink: 0; }
 
 .iconv-status-pill {
@@ -549,7 +549,7 @@
 }
 .iconv-remove-btn:hover { border-color: var(--red-bd); color: var(--red); background: var(--red-bg); }
 
-/* â”€â”€ Convert CTA button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Convert CTA button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-convert-btn {
   display: flex;
   align-items: center;
@@ -575,7 +575,7 @@
 .iconv-convert-btn:active:not(:disabled) { transform: translateY(0); }
 .iconv-convert-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
 
-/* â”€â”€ Spinners â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinners Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -596,7 +596,7 @@
 }
 @keyframes iconv-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Privacy note â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Privacy note Ã¢â€â‚¬Ã¢â€â‚¬ */
 .iconv-privacy {
   display: flex;
   align-items: center;
@@ -608,14 +608,14 @@
 }
 .iconv-privacy svg { color: var(--emerald); flex-shrink: 0; }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in { animation: iconv-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes iconv-fade {
   from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 640px) {
   .iconv-page             { padding: 72px 14px 48px; padding-top: 110px; }
   .iconv-header           { flex-direction: column; gap: 12px; }

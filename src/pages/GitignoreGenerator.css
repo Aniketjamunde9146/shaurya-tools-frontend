@@ -26,12 +26,12 @@
   --rose:       #e11d48;
   --rose-bg:    #fff1f2;
   --rose-bd:    #fecdd3;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
-  --font-mono:  "Inter", 'Menlo', 'Consolas', monospace;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
+  --font-mono:  "Manrope", 'Menlo', 'Consolas', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .gi-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -48,7 +48,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .gi-header {
   display: flex;
   align-items: flex-start;
@@ -97,7 +97,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .gi-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -132,7 +132,7 @@
   flex-wrap: wrap;
 }
 
-/* â”€â”€ Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .gi-grid {
   display: grid;
   grid-template-columns: 320px 1fr;
@@ -147,7 +147,7 @@
   gap: 14px;
 }
 
-/* â”€â”€ Search â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Search Ã¢â€â‚¬Ã¢â€â‚¬ */
 .gi-search-wrap {
   padding: 12px;
   border-bottom: 1.5px solid var(--grey-2);
@@ -183,7 +183,7 @@
 
 .gi-search::placeholder { color: var(--grey-3); }
 
-/* â”€â”€ Category list â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Category list Ã¢â€â‚¬Ã¢â€â‚¬ */
 .gi-categories {
   max-height: 520px;
   overflow-y: auto;
@@ -233,7 +233,7 @@
   gap: 2px;
 }
 
-/* â”€â”€ Template item â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Template item Ã¢â€â‚¬Ã¢â€â‚¬ */
 .gi-template-item {
   display: flex;
   align-items: center;
@@ -289,7 +289,7 @@
   white-space: nowrap;
 }
 
-/* â”€â”€ Selected tags strip â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Selected tags strip Ã¢â€â‚¬Ã¢â€â‚¬ */
 .gi-selected-strip {
   padding: 10px 12px;
   display: flex;
@@ -336,7 +336,7 @@
 
 .gi-tag-remove:hover { background: var(--red-bg); color: var(--red); }
 
-/* â”€â”€ Output area â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output area Ã¢â€â‚¬Ã¢â€â‚¬ */
 .gi-output-wrap {
   position: relative;
 }
@@ -371,7 +371,7 @@
   pointer-events: none;
 }
 
-/* â”€â”€ Custom rule input â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Custom rule input Ã¢â€â‚¬Ã¢â€â‚¬ */
 .gi-custom-body {
   padding: 14px 16px;
   display: flex;
@@ -455,7 +455,7 @@
 
 .gi-custom-tag-remove:hover { background: var(--red-bg); color: var(--red); }
 
-/* â”€â”€ Buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .gi-sm-btn {
   display: inline-flex;
   align-items: center;
@@ -500,7 +500,7 @@
 
 .gi-generate-btn:active { transform: translateY(0); box-shadow: none; }
 
-/* â”€â”€ Count badge â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Count badge Ã¢â€â‚¬Ã¢â€â‚¬ */
 .gi-count-badge {
   font-size: 0.7rem;
   font-weight: 700;
@@ -511,7 +511,7 @@
   border: 1px solid var(--green-bd);
 }
 
-/* â”€â”€ Empty state â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Empty state Ã¢â€â‚¬Ã¢â€â‚¬ */
 .gi-empty {
   padding: 48px 20px;
   text-align: center;
@@ -528,10 +528,10 @@
   opacity: 0.3;
 }
 
-/* â”€â”€ Comment lines in output â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Comment lines in output Ã¢â€â‚¬Ã¢â€â‚¬ */
 .gi-output-comment { color: var(--grey-3); }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 1024px) {
   .gi-grid { grid-template-columns: 1fr; }
 }

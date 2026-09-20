@@ -22,11 +22,11 @@
   --amber-bg:   #fffbeb;
   --amber-bd:   #fde68a;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -43,7 +43,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-header {
   display: flex; align-items: flex-start; gap: 16px; padding: 4px 0 8px;
 }
@@ -66,7 +66,7 @@
 }
 .col-header p { font-size: 0.85rem; color: var(--grey-3); line-height: 1.5; }
 
-/* â”€â”€ Two-col layout â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Two-col layout Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-layout-wrapper {
   display: grid;
   grid-template-columns: 320px 1fr;
@@ -74,17 +74,17 @@
   align-items: start;
 }
 
-/* â”€â”€ Controls column â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Controls column Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-controls { display: flex; flex-direction: column; gap: 12px; }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-card {
   background: var(--white); border: 1.5px solid var(--grey-2);
   border-radius: 16px; padding: 20px;
   display: flex; flex-direction: column; gap: 14px;
 }
 
-/* â”€â”€ Label â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Label Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-label {
   font-family: var(--font-head); font-size: 0.88rem; font-weight: 600;
   color: var(--black); display: flex; align-items: center; gap: 6px;
@@ -92,7 +92,7 @@
 .col-label-icon { color: var(--emerald); flex-shrink: 0; }
 .col-divider    { height: 1px; background: var(--grey-2); }
 
-/* â”€â”€ Layout picker grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Layout picker grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-layout-grid {
   display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px;
 }
@@ -116,7 +116,7 @@
 }
 .col-layout-on .col-layout-label { color: var(--emerald); }
 
-/* â”€â”€ Setting group â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Setting group Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-setting-group { display: flex; flex-direction: column; gap: 7px; }
 .col-setting-top   { display: flex; justify-content: space-between; align-items: center; }
 .col-setting-label {
@@ -129,7 +129,7 @@
   padding: 2px 8px; border-radius: 100px;
 }
 
-/* â”€â”€ Slider â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Slider Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-slider {
   -webkit-appearance: none; appearance: none;
   width: 100%; height: 5px; border-radius: 100px;
@@ -148,7 +148,7 @@
 }
 .col-slider-hints { display: flex; justify-content: space-between; font-size: 0.63rem; color: var(--grey-3); }
 
-/* â”€â”€ Color row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Color row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-color-row { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
 .col-color-input {
   width: 34px; height: 34px; border: 1.5px solid var(--grey-2); border-radius: 8px;
@@ -163,7 +163,7 @@
 .col-swatch:hover { transform: scale(1.2); }
 .col-swatch-on { border-color: var(--emerald) !important; transform: scale(1.15); }
 
-/* â”€â”€ Output size row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output size row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-size-row { display: flex; gap: 6px; flex-wrap: wrap; }
 .col-size-btn {
   padding: 6px 10px;
@@ -179,7 +179,7 @@
   color: var(--emerald) !important;
 }
 
-/* â”€â”€ Drop zone â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Drop zone Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-dropzone {
   border: 2px dashed var(--grey-2); border-radius: 14px; padding: 24px 18px;
   display: flex; align-items: center; justify-content: center;
@@ -201,10 +201,10 @@
 .col-dz-link  { color: var(--emerald); text-decoration: underline; }
 .col-dz-sub   { font-size: 0.72rem; color: var(--grey-3); }
 
-/* â”€â”€ Footer card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Footer card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-footer-card { gap: 12px; }
 
-/* â”€â”€ Progress bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Progress bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-progress-row { display: flex; flex-direction: column; gap: 6px; }
 .col-progress-label {
   font-size: 0.72rem; font-weight: 600; color: var(--grey-3);
@@ -218,7 +218,7 @@
   transition: width 0.35s ease;
 }
 
-/* â”€â”€ Download button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Download button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-download-btn {
   display: flex; align-items: center; justify-content: center; gap: 8px;
   width: 100%; padding: 13px 20px;
@@ -234,7 +234,7 @@
 .col-download-btn:active:not(:disabled) { transform: translateY(0); }
 .col-download-btn:disabled { opacity: 0.45; cursor: not-allowed; transform: none; }
 
-/* â”€â”€ Preview column â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Preview column Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-preview-col {
   display: flex; flex-direction: column; gap: 10px;
   position: sticky; top: 100px;
@@ -254,7 +254,7 @@
 }
 .col-canvas { display: block; width: 100%; height: 100%; }
 
-/* â”€â”€ Slots grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Slots grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-slots-label {
   font-size: 0.7rem; font-weight: 600; color: var(--grey-3);
   text-transform: uppercase; letter-spacing: 0.06em;
@@ -308,7 +308,7 @@
 }
 .col-slot-add span { font-size: 0.62rem; font-weight: 700; }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-spinner {
   display: inline-block; width: 15px; height: 15px;
   border: 2px solid rgba(255,255,255,0.3); border-top-color: #fff;
@@ -316,21 +316,21 @@
 }
 @keyframes col-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Privacy â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Privacy Ã¢â€â‚¬Ã¢â€â‚¬ */
 .col-privacy {
   display: flex; align-items: center; gap: 7px;
   font-size: 0.76rem; color: var(--grey-3); font-weight: 500; padding: 0 2px;
 }
 .col-privacy svg { color: var(--emerald); flex-shrink: 0; }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in { animation: col-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes col-fade {
   from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 900px) {
   .col-layout-wrapper { grid-template-columns: 1fr; }
   .col-preview-col { position: static; }

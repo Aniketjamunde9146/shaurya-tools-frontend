@@ -9,7 +9,7 @@
   --grey-3:      #8888a0;
   --grey-4:      #3d3d50;
 
-  /* Amber / gold primary â€” "money" energy */
+  /* Amber / gold primary Ã¢â‚¬â€ "money" energy */
   --amber:       #d97706;
   --amber-light: #f59e0b;
   --amber-bg:    #fffbeb;
@@ -47,12 +47,12 @@
   --red-bd:      #fecaca;
 
 --radius:      12px;
-  --font-head:   "Inter",  sans-serif;
-  --font-body:   "Inter", sans-serif;
+  --font-head:   "Manrope",  sans-serif;
+  --font-body:   "Manrope", sans-serif;
   --font-mono:   'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -70,7 +70,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-header {
   display: flex;
   align-items: flex-start;
@@ -123,7 +123,7 @@
   max-width: 520px;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -134,7 +134,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Section Head â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Section Head Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-section-head {
   display: inline-flex;
   align-items: center;
@@ -155,7 +155,7 @@
 
 .ce-section-icon { flex-shrink: 0; }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-field {
   display: flex;
   flex-direction: column;
@@ -200,7 +200,7 @@
 
 .ce-divider { height: 1px; background: var(--grey-2); margin: 4px 0; }
 
-/* â”€â”€ Skills Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skills Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-skills {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -265,7 +265,7 @@
   border-radius: 100px;
 }
 
-/* â”€â”€ Industries â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Industries Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-industries {
   display: flex;
   flex-wrap: wrap;
@@ -295,7 +295,7 @@
   font-weight: 600;
 }
 
-/* â”€â”€ Goals â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Goals Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-goals {
   display: flex;
   flex-wrap: wrap;
@@ -325,7 +325,7 @@
   font-weight: 700;
 }
 
-/* â”€â”€ Tones â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tones Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-tones {
   display: flex;
   flex-wrap: wrap;
@@ -355,7 +355,7 @@
   font-weight: 600;
 }
 
-/* â”€â”€ Input â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Input Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-input {
   width: 100%;
   padding: 10px 13px;
@@ -374,7 +374,7 @@
   box-shadow: 0 0 0 3px rgba(217,119,6,0.12);
 }
 
-/* â”€â”€ Lengths â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Lengths Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-lengths {
   display: flex;
   flex-direction: column;
@@ -412,7 +412,7 @@
 }
 .ce-len-on .ce-len-desc { color: rgba(255,255,255,0.55); }
 
-/* â”€â”€ Select â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Select Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-select-wrap {
   position: relative;
 }
@@ -456,7 +456,7 @@
   padding: 5px 10px;
 }
 
-/* â”€â”€ Rows â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Rows Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -467,7 +467,7 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-error-msg {
   display: flex;
   align-items: center;
@@ -481,7 +481,7 @@
   padding: 8px 12px;
 }
 
-/* â”€â”€ Generate Button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generate Button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-gen-btn {
   display: flex;
   align-items: center;
@@ -508,7 +508,7 @@
 .ce-gen-btn:active:not(:disabled) { transform: translateY(0); }
 .ce-gen-btn:disabled { opacity: 0.35; cursor: not-allowed; transform: none; }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -520,7 +520,7 @@
 }
 @keyframes ce-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-skeleton-card { gap: 13px; }
 
 .ce-skel {
@@ -538,7 +538,7 @@
 .ce-skel-short { width: 38%; }
 .ce-skel-med   { width: 65%; }
 
-/* â”€â”€ Result top bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result top bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-result-top {
   display: flex;
   justify-content: space-between;
@@ -589,7 +589,7 @@
   border-color: #c8ccde !important;
 }
 
-/* â”€â”€ Tabs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tabs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-tabs {
   display: flex;
   background: var(--grey-1);
@@ -620,7 +620,7 @@
   box-shadow: 0 2px 8px rgba(27,27,46,0.2);
 }
 
-/* â”€â”€ Actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-actions {
   display: flex;
   gap: 7px;
@@ -666,7 +666,7 @@
   color: var(--emerald) !important;
 }
 
-/* â”€â”€ Email Preview â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Email Preview Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-email-preview {
   border: 1.5px solid var(--grey-2);
   border-radius: var(--radius);
@@ -749,7 +749,7 @@
   margin-top: 8px;
 }
 
-/* â”€â”€ Result Footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result Footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ce-result-footer {
   display: flex;
   align-items: center;
@@ -795,7 +795,7 @@
 }
 .ce-copy-full.ce-copied:hover { background: #047857 !important; }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: ce-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -804,7 +804,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 640px) {
   .ce-page         { padding: 72px 14px 48px; padding-top: 110px; }
   .ce-header       { flex-direction: column; gap: 12px; }

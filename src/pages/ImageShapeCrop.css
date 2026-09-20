@@ -28,11 +28,11 @@
   --teal-bg:    #f0fdfa;
   --teal-bd:    #99f6e4;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -50,7 +50,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-header {
   display: flex;
   align-items: flex-start;
@@ -102,7 +102,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Drop Zone â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Drop Zone Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-dropzone {
   border: 2px dashed var(--grey-2);
   border-radius: 16px;
@@ -152,7 +152,7 @@
 .isc-dz-link { color: var(--purple); text-decoration: underline; cursor: pointer; }
 .isc-dz-sub  { font-size: 0.78rem; color: var(--grey-3); }
 
-/* â”€â”€ Editor Layout â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Editor Layout Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-editor {
   display: grid;
   grid-template-columns: 1fr 320px;
@@ -160,7 +160,7 @@
   align-items: start;
 }
 
-/* â”€â”€ Preview Column â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Preview Column Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-preview-col {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -205,7 +205,7 @@
   justify-content: center;
 }
 
-/* â”€â”€ Transform row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Transform row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-transform-row {
   display: flex;
   gap: 7px;
@@ -256,7 +256,7 @@
 }
 .isc-change-btn:hover { border-color: var(--grey-3); background: var(--grey-1); color: var(--black); }
 
-/* â”€â”€ Controls Column â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Controls Column Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-controls-col {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -267,7 +267,7 @@
   gap: 14px;
 }
 
-/* â”€â”€ Field & Labels â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field & Labels Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-field { display: flex; flex-direction: column; gap: 8px; }
 
 .isc-label {
@@ -283,7 +283,7 @@
 .isc-divider    { height: 1px; background: var(--grey-2); }
 .isc-sub-label  { font-size: 0.73rem; font-weight: 600; color: var(--grey-4); text-transform: uppercase; letter-spacing: 0.05em; }
 
-/* â”€â”€ Shapes Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Shapes Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-shapes-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -319,7 +319,7 @@
 .isc-shape-desc  { font-size: 0.6rem; color: var(--grey-3); }
 .isc-shape-on .isc-shape-desc  { color: var(--purple); opacity: 0.8; }
 
-/* â”€â”€ Format buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Format buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-fmt-row { display: flex; gap: 7px; }
 
 .isc-fmt-btn {
@@ -342,7 +342,7 @@
   color: var(--teal) !important;
 }
 
-/* â”€â”€ Quality slider â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Quality slider Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-quality-row { display: flex; flex-direction: column; gap: 6px; }
 
 .isc-quality-top {
@@ -383,7 +383,7 @@
 }
 .isc-slider::-webkit-slider-thumb:hover { transform: scale(1.2); }
 
-/* â”€â”€ Transparent bg toggle â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Transparent bg toggle Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-toggle-check {
   display: flex;
   align-items: center;
@@ -425,7 +425,7 @@
 .isc-check-label { font-size: 0.82rem; font-weight: 600; color: var(--black); }
 .isc-check-on .isc-check-label { color: var(--purple-dk); }
 
-/* â”€â”€ Background color row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Background color row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-bg-row {
   display: flex;
   align-items: center;
@@ -452,7 +452,7 @@
   font-family: 'Courier New', monospace;
 }
 
-/* â”€â”€ Process Button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Process Button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-process-btn {
   display: flex;
   align-items: center;
@@ -485,7 +485,7 @@
   font-weight: 500;
 }
 
-/* â”€â”€ Result Box â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result Box Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-result-box {
   border: 1.5px solid var(--green-bd);
   background: var(--green-bg);
@@ -552,7 +552,7 @@
 }
 .isc-dl-btn:hover { background: #15803d; transform: translateY(-1px); }
 
-/* â”€â”€ Reset button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Reset button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-reset-btn {
   display: flex;
   align-items: center;
@@ -572,7 +572,7 @@
 }
 .isc-reset-btn:hover { border-color: var(--red-bd); color: var(--red); background: var(--red-bg); }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-spinner {
   display: inline-block;
   width: 15px; height: 15px;
@@ -584,7 +584,7 @@
 }
 @keyframes isc-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Privacy â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Privacy Ã¢â€â‚¬Ã¢â€â‚¬ */
 .isc-privacy {
   display: flex;
   align-items: center;
@@ -596,14 +596,14 @@
 }
 .isc-privacy svg { color: var(--green); flex-shrink: 0; }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in { animation: isc-fade 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes isc-fade {
   from { opacity: 0; transform: translateY(10px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 768px) {
   .isc-editor { grid-template-columns: 1fr; }
   .isc-controls-col { order: -1; }

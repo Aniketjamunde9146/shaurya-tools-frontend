@@ -28,11 +28,11 @@
   --fg-amber-bd:  #fde68a;
 
   --radius: 12px;
-  --font-head: "Inter", sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-head: "Manrope", sans-serif;
+  --font-body: "Manrope", sans-serif;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fc-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -50,7 +50,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fc-header {
   display: flex;
   align-items: flex-start;
@@ -87,7 +87,7 @@
 }
 .fc-header p { font-size: 0.85rem; color: var(--grey-3); line-height: 1.5; }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fc-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -108,7 +108,7 @@
 }
 .fc-card-title svg { color: var(--fg-accent); }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fc-field { display: flex; flex-direction: column; gap: 9px; }
 
 .fc-label {
@@ -120,7 +120,7 @@
 .fc-lbl-icon { color: var(--fg-accent); flex-shrink: 0; }
 .fc-lbl-sub  { font-size: 0.74rem; font-weight: 400; color: var(--grey-3); margin-left: 2px; }
 
-/* â”€â”€ Vehicle grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Vehicle grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fc-vehicle-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -150,7 +150,7 @@
 }
 .fc-vehicle-on .fc-vehicle-mil { color: var(--fg-amber); opacity: 0.8; }
 
-/* â”€â”€ Input â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Input Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fc-input-wrap { position: relative; display: flex; align-items: center; }
 .fc-prefix {
   position: absolute; left: 13px;
@@ -173,7 +173,7 @@
 .fc-input-has-prefix { padding-left: 28px; }
 .fc-input-has-suffix { padding-right: 42px; }
 
-/* â”€â”€ Chips â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Chips Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fc-chips { display: flex; flex-wrap: wrap; gap: 7px; }
 .fc-chip {
   display: flex; align-items: center; gap: 6px;
@@ -195,10 +195,10 @@
 }
 .fc-chip-on .fc-chip-price { color: var(--fg-accent); opacity: 0.8; }
 
-/* â”€â”€ Row-2 â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Row-2 Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fc-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
 
-/* â”€â”€ Trip toggle â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Trip toggle Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fc-toggle {
   display: grid; grid-template-columns: 1fr 1fr;
   background: var(--grey-1); border: 1.5px solid var(--grey-2);
@@ -217,10 +217,10 @@
   box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
 
-/* â”€â”€ Divider â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Divider Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fc-divider { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fc-error {
   display: flex; align-items: center; gap: 6px;
   font-size: 0.8rem; color: var(--red); font-weight: 500;
@@ -228,7 +228,7 @@
   border-radius: 8px; padding: 8px 12px;
 }
 
-/* â”€â”€ Submit â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Submit Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fc-submit {
   display: flex; align-items: center; justify-content: center; gap: 8px;
   width: 100%; padding: 13px 20px;
@@ -241,9 +241,9 @@
 .fc-submit:active:not(:disabled) { transform: translateY(0); }
 .fc-submit:disabled { opacity: 0.38; cursor: not-allowed; }
 
-/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
    RESULTS
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 
 /* Hero */
 .fc-result-hero {
@@ -367,7 +367,7 @@
 .fc-detail-total .fc-detail-cost  { color: var(--green); font-size: 0.95rem; }
 .fc-detail-total .fc-detail-label { color: var(--green); }
 
-/* â”€â”€ Tips â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tips Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fc-tips-card { background: var(--fg-accent-bg) !important; border-color: var(--fg-accent-bd) !important; }
 .fc-tips { display: flex; flex-direction: column; gap: 10px; }
 .fc-tip-row { display: flex; align-items: flex-start; gap: 12px; }
@@ -380,7 +380,7 @@
 }
 .fc-tip-text { font-size: 0.82rem; color: var(--fg-accent-dk); line-height: 1.5; font-weight: 500; }
 
-/* â”€â”€ Footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fc-footer {
   display: flex; align-items: center; justify-content: space-between;
   gap: 10px; flex-wrap: wrap;
@@ -407,11 +407,11 @@
 .fc-copy-btn:hover { background: var(--fg-accent-dk); transform: translateY(-1px); }
 .fc-copy-done { background: var(--green) !important; }
 
-/* â”€â”€ Animate â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animate Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fc-animate { animation: fc-fade 0.38s cubic-bezier(0.16,1,0.3,1); }
 @keyframes fc-fade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 640px) {
   .fc-page          { padding: 72px 14px 48px; padding-top: 100px; }
   .fc-header        { flex-direction: column; gap: 12px; }

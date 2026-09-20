@@ -21,12 +21,12 @@
   --red-bg:    #fef2f2;
   --red-bd:    #fecaca;
   --radius:    12px;
-  --font-head: "Inter", sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-head: "Manrope", sans-serif;
+  --font-body: "Manrope", sans-serif;
   --font-mono: 'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -44,7 +44,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-header {
   display: flex;
   align-items: flex-start;
@@ -96,7 +96,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -107,7 +107,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Input Row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Input Row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-input-row {
   display: flex;
   gap: 16px;
@@ -192,7 +192,7 @@
 }
 .psa-clear:hover { color: var(--black); }
 
-/* â”€â”€ Strategy toggle â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Strategy toggle Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-strategy-field {
   display: flex;
   flex-direction: column;
@@ -233,7 +233,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
-/* â”€â”€ Error + Info â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error + Info Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-error-msg {
   display: flex;
   align-items: center;
@@ -260,7 +260,7 @@
   line-height: 1.4;
 }
 
-/* â”€â”€ Actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-actions {
   display: flex;
   justify-content: flex-end;
@@ -307,7 +307,7 @@
 .psa-analyze-btn:active:not(:disabled) { transform: translateY(0); }
 .psa-analyze-btn:disabled { opacity: 0.5; cursor: not-allowed; }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-spinner {
   width: 14px;
   height: 14px;
@@ -319,7 +319,7 @@
 }
 @keyframes psa-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-skeleton-card { gap: 12px; }
 
 .psa-skel-scores {
@@ -353,14 +353,14 @@
 .psa-skel-sm    { width: 60px !important; }
 .psa-skel-title { height: 20px; width: 40%; margin-bottom: 4px; }
 
-/* â”€â”€ Results â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Results Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-results {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-/* â”€â”€ Score Cards Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Score Cards Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-scores-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -444,7 +444,7 @@
 .psa-badge-needs { color: var(--amber); background: var(--amber-bg); border-color: var(--amber-bd); }
 .psa-badge-poor  { color: var(--red);   background: var(--red-bg);   border-color: var(--red-bd);   }
 
-/* â”€â”€ Stats Strip â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Stats Strip Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-stats-strip {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -484,7 +484,7 @@
   white-space: nowrap;
 }
 
-/* â”€â”€ Detail Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Detail Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-detail-top {
   display: flex;
   align-items: center;
@@ -495,7 +495,7 @@
   border-bottom: 1.5px solid var(--grey-2);
 }
 
-/* â”€â”€ Tabs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tabs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-tabs {
   display: flex;
   background: var(--grey-1);
@@ -558,7 +558,7 @@
 .psa-copy-btn:hover { background: #dbeafe; }
 .psa-copied { background: var(--green-bg) !important; border-color: var(--green-bd) !important; color: var(--green) !important; }
 
-/* â”€â”€ Legend â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Legend Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-legend {
   display: flex;
   gap: 14px;
@@ -585,7 +585,7 @@
 .psa-dot-needs { background: var(--amber); }
 .psa-dot-poor  { background: var(--red);   }
 
-/* â”€â”€ Metrics List â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Metrics List Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-metrics-list { display: flex; flex-direction: column; gap: 6px; }
 
 .psa-metric {
@@ -658,7 +658,7 @@
   font-weight: 500;
 }
 
-/* â”€â”€ Opportunities â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Opportunities Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-opps-list { display: flex; flex-direction: column; gap: 8px; }
 
 .psa-no-opps {
@@ -718,7 +718,7 @@
   white-space: nowrap;
 }
 
-/* â”€â”€ Info Tab â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Info Tab Ã¢â€â‚¬Ã¢â€â‚¬ */
 .psa-info-tab {
   display: flex;
   flex-direction: column;
@@ -772,14 +772,14 @@
 }
 .psa-psi-link:hover { background: #dbeafe; transform: translateY(-1px); }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in { animation: psa-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes psa-fade {
   from { opacity: 0; transform: translateY(10px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 700px) {
   .psa-page         { padding: 80px 14px 48px; padding-top: 110px; }
   .psa-header       { flex-direction: column; gap: 12px; }

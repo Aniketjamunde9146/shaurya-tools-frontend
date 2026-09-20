@@ -22,11 +22,11 @@
   --red-bg:     #fef2f2;
   --red-bd:     #fecaca;
   --radius:     14px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .itp-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -42,7 +42,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .itp-header { display: flex; align-items: flex-start; gap: 16px; padding: 4px 0 8px; }
 .itp-icon {
   width: 48px; height: 48px; background: var(--white);
@@ -64,13 +64,13 @@
 }
 .itp-header p { font-size: 0.85rem; color: var(--grey-3); line-height: 1.5; }
 
-/* â”€â”€ Layout â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Layout Ã¢â€â‚¬Ã¢â€â‚¬ */
 .itp-layout { display: grid; grid-template-columns: 1fr 300px; gap: 16px; align-items: start; }
 
-/* â”€â”€ Left â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Left Ã¢â€â‚¬Ã¢â€â‚¬ */
 .itp-left { display: flex; flex-direction: column; gap: 12px; }
 
-/* â”€â”€ Dropzone â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Dropzone Ã¢â€â‚¬Ã¢â€â‚¬ */
 .itp-file-input { display: none; }
 .itp-dropzone {
   border: 2px dashed var(--grey-2); border-radius: var(--radius);
@@ -94,7 +94,7 @@
 .itp-dz-link { color: var(--indigo); text-decoration: underline; }
 .itp-dz-sub  { font-size: 0.75rem; color: var(--grey-3); }
 
-/* â”€â”€ Image list â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Image list Ã¢â€â‚¬Ã¢â€â‚¬ */
 .itp-list {
   background: var(--white); border: 1.5px solid var(--grey-2);
   border-radius: var(--radius); overflow: hidden;
@@ -113,7 +113,7 @@
 }
 .itp-clear-btn:hover { border-color: var(--red-bd); color: var(--red); background: var(--red-bg); }
 
-/* â”€â”€ Image item â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Image item Ã¢â€â‚¬Ã¢â€â‚¬ */
 .itp-item {
   display: flex; align-items: center; gap: 10px;
   padding: 10px 14px; border-bottom: 1px solid var(--grey-2);
@@ -156,7 +156,7 @@
 }
 .itp-remove-btn:hover { border-color: var(--red-bd); color: var(--red); background: var(--red-bg); }
 
-/* â”€â”€ Right: settings â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Right: settings Ã¢â€â‚¬Ã¢â€â‚¬ */
 .itp-right {}
 .itp-settings {
   background: var(--white); border: 1.5px solid var(--grey-2);
@@ -172,7 +172,7 @@
 }
 .itp-divider { height: 1px; background: var(--grey-2); }
 
-/* â”€â”€ Option grids â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Option grids Ã¢â€â‚¬Ã¢â€â‚¬ */
 .itp-grid-2 { display: grid; grid-template-columns: repeat(3,1fr); gap: 5px; }
 .itp-grid-4 { display: grid; grid-template-columns: repeat(2,1fr); gap: 5px; }
 
@@ -189,7 +189,7 @@
   color: var(--indigo) !important;
 }
 
-/* â”€â”€ Toggle â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Toggle Ã¢â€â‚¬Ã¢â€â‚¬ */
 .itp-field:has(.itp-toggle) { flex-direction: row; align-items: center; gap: 10px; }
 .itp-toggle {
   width: 40px; height: 22px; border-radius: 100px; border: none; cursor: pointer;
@@ -206,7 +206,7 @@
 .itp-toggle-on .itp-toggle-knob { transform: translateX(18px); }
 .itp-toggle-label { font-size: 0.8rem; font-weight: 500; color: var(--grey-4); }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .itp-error {
   display: flex; align-items: center; gap: 7px;
   font-size: 0.8rem; color: var(--red); font-weight: 500;
@@ -214,7 +214,7 @@
   border-radius: 9px; padding: 9px 12px;
 }
 
-/* â”€â”€ Convert button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Convert button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .itp-convert-btn {
   display: flex; align-items: center; justify-content: center; gap: 8px;
   width: 100%; padding: 13px 16px;
@@ -230,7 +230,7 @@
 
 .itp-hint { font-size: 0.74rem; color: var(--grey-3); text-align: center; font-weight: 500; }
 
-/* â”€â”€ Result â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result Ã¢â€â‚¬Ã¢â€â‚¬ */
 .itp-result {
   border: 1.5px solid var(--green-bd); background: var(--green-bg);
   border-radius: var(--radius); padding: 14px;
@@ -261,7 +261,7 @@
 }
 .itp-dl-btn:hover { background: #15803d; transform: translateY(-1px); }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .itp-spinner {
   display: inline-block; width: 16px; height: 16px;
   border: 2px solid rgba(255,255,255,0.3); border-top-color: #fff;
@@ -269,18 +269,18 @@
 }
 @keyframes itp-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Privacy â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Privacy Ã¢â€â‚¬Ã¢â€â‚¬ */
 .itp-privacy {
   display: flex; align-items: center; gap: 7px;
   font-size: 0.76rem; color: var(--grey-3); font-weight: 500;
 }
 .itp-privacy svg { color: var(--green); flex-shrink: 0; }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in { animation: itp-fade 0.3s cubic-bezier(0.16,1,0.3,1); }
 @keyframes itp-fade { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 760px) {
   .itp-layout { grid-template-columns: 1fr; }
   .itp-settings { position: static; }

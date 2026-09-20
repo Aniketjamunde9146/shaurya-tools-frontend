@@ -27,12 +27,12 @@
   --rose-bg:    #fff1f2;
   --rose-bd:    #fecdd3;
   --ig-grad:    linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
-  --font-mono:  "Inter", 'Menlo', 'Consolas', monospace;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
+  --font-mono:  "Manrope", 'Menlo', 'Consolas', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -49,7 +49,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-header {
   display: flex;
   align-items: flex-start;
@@ -97,7 +97,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -132,7 +132,7 @@
   flex-wrap: wrap;
 }
 
-/* â”€â”€ Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-grid {
   display: grid;
   grid-template-columns: 1fr 360px;
@@ -147,7 +147,7 @@
   gap: 14px;
 }
 
-/* â”€â”€ Presets â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Presets Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-presets {
   display: flex;
   align-items: center;
@@ -183,7 +183,7 @@
   background: #fff1f2;
 }
 
-/* â”€â”€ Form body â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Form body Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-form-body {
   padding: 18px;
   display: flex;
@@ -191,7 +191,7 @@
   gap: 14px;
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-field {
   display: flex;
   flex-direction: column;
@@ -262,14 +262,14 @@
 
 .ib-select { cursor: pointer; }
 
-/* â”€â”€ Row 2 col â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Row 2 col Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-row2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
 
-/* â”€â”€ Emoji style picker â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Emoji style picker Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-emoji-row {
   display: flex;
   flex-wrap: wrap;
@@ -300,7 +300,7 @@
   color: var(--violet) !important;
 }
 
-/* â”€â”€ Divider â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Divider Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-divider {
   font-family: var(--font-head);
   font-size: 0.67rem;
@@ -312,7 +312,7 @@
   padding-bottom: 5px;
 }
 
-/* â”€â”€ Generate button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generate button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-gen-btn {
   display: flex;
   align-items: center;
@@ -335,7 +335,7 @@
 .ib-gen-btn:hover { opacity: 0.9; transform: translateY(-1px); box-shadow: 0 6px 20px rgba(220,39,67,0.3); }
 .ib-gen-btn:active { transform: translateY(0); box-shadow: none; }
 
-/* â”€â”€ Right: Phone preview â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Right: Phone preview Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-phone-wrap {
   display: flex;
   flex-direction: column;
@@ -525,7 +525,7 @@
 .ig-grid-cell:nth-child(5) { background: var(--grey-2); }
 .ig-grid-cell:nth-child(6) { background: var(--grey-1); }
 
-/* â”€â”€ Generated bios list â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generated bios list Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-bios-list {
   display: flex;
   flex-direction: column;
@@ -623,7 +623,7 @@
 .ib-bio-copy:hover { border-color: var(--grey-3); color: var(--black); }
 .ib-bio-copy.copied { background: var(--green-bg); border-color: var(--green-bd); color: var(--green); }
 
-/* â”€â”€ Buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-sm-btn {
   display: inline-flex;
   align-items: center;
@@ -643,7 +643,7 @@
 
 .ib-sm-btn:hover { border-color: var(--grey-3); color: var(--black); }
 
-/* â”€â”€ Count badge â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Count badge Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-count-badge {
   font-size: 0.7rem;
   font-weight: 700;
@@ -654,7 +654,7 @@
   border: 1px solid var(--green-bd);
 }
 
-/* â”€â”€ Empty state â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Empty state Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-empty {
   padding: 44px 20px;
   text-align: center;
@@ -671,7 +671,7 @@
   color: var(--grey-3);
 }
 
-/* â”€â”€ Tips card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tips card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ib-tips-body {
   padding: 14px 16px;
   display: flex;
@@ -701,7 +701,7 @@
 
 .ib-tip-text strong { color: var(--grey-4); font-weight: 600; }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 1024px) {
   .ib-grid { grid-template-columns: 1fr; }
   .ib-col-right { order: -1; }

@@ -19,12 +19,12 @@
   --orange-bd: #fed7aa;
   --code-bg:   #1e1e1e;
   --radius:    12px;
-  --font-head: "Inter", sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-head: "Manrope", sans-serif;
+  --font-body: "Manrope", sans-serif;
   --font-mono: 'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ctd-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -42,7 +42,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ctd-header {
   display: flex;
   align-items: flex-start;
@@ -94,7 +94,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ctd-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -107,7 +107,7 @@
 
 .ctd-divider { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* â”€â”€ Config Row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Config Row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ctd-config-row {
   display: flex;
   gap: 16px;
@@ -274,7 +274,7 @@
   box-shadow: 0 0 0 3px rgba(37,99,235,0.08);
 }
 
-/* â”€â”€ Workspace â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Workspace Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ctd-workspace {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -282,7 +282,7 @@
   min-height: 420px;
 }
 
-/* â”€â”€ Pane â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Pane Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ctd-pane {
   display: flex;
   flex-direction: column;
@@ -388,7 +388,7 @@
   color: var(--green) !important;
 }
 
-/* â”€â”€ Editor â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Editor Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ctd-editor-wrap {
   flex: 1;
   display: flex;
@@ -436,7 +436,7 @@
 
 .ctd-textarea::placeholder { color: var(--grey-3); }
 
-/* â”€â”€ Output body â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output body Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ctd-output-body {
   flex: 1;
   display: flex;
@@ -526,7 +526,7 @@
   padding: 20px 22px;
 }
 
-/* â”€â”€ Actions Row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Actions Row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ctd-actions-row {
   display: flex;
   align-items: center;
@@ -625,9 +625,9 @@
 .ctd-gen-btn:active:not(:disabled) { transform: translateY(0); }
 .ctd-gen-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
    MARKDOWN PREVIEW (light theme)
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */
 .ctd-md { display: flex; flex-direction: column; }
 
 .ctd-h1 {
@@ -786,7 +786,7 @@
 .ctd-tbl tbody tr:last-child td { border-bottom: none; }
 .ctd-tbl tbody tr:hover { background: var(--grey-1); }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: ctd-fade 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -796,7 +796,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 860px) {
   .ctd-page       { padding: 80px 14px 48px; padding-top: 110px; }
   .ctd-workspace  { grid-template-columns: 1fr; }

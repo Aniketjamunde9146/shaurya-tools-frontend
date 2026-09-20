@@ -18,7 +18,7 @@
   --blue-bg:    #eff6ff;
   --blue-bd:    #bfdbfe;
 
-  /* Tool accent â€” emerald/teal */
+  /* Tool accent Ã¢â‚¬â€ emerald/teal */
   --fg-accent:    #0d9488;
   --fg-accent-bg: #f0fdfa;
   --fg-accent-bd: #99f6e4;
@@ -35,12 +35,12 @@
   --fg-indigo-bd: #c7d2fe;
 
   --radius: 12px;
-  --font-head: "Inter", sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-head: "Manrope", sans-serif;
+  --font-body: "Manrope", sans-serif;
   --font-mono: 'Courier New', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -58,7 +58,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-header {
   display: flex;
   align-items: flex-start;
@@ -95,7 +95,7 @@
 }
 .fg-header p { font-size: 0.85rem; color: var(--grey-3); line-height: 1.5; }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -106,7 +106,7 @@
   gap: 18px;
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-field { display: flex; flex-direction: column; gap: 8px; }
 
 .fg-label {
@@ -131,7 +131,7 @@
 .fg-or::before, .fg-or::after { content: ""; flex: 1; height: 1px; background: var(--grey-2); }
 .fg-or span { font-size: 0.72rem; font-weight: 600; color: var(--grey-3); text-transform: uppercase; letter-spacing: 0.08em; white-space: nowrap; }
 
-/* â”€â”€ Input / Textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Input / Textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-input {
   width: 100%; padding: 11px 14px;
   border: 1.5px solid var(--grey-2); border-radius: var(--radius);
@@ -151,7 +151,7 @@
 .fg-textarea:focus { border-color: var(--fg-accent); box-shadow: 0 0 0 3px rgba(13,148,136,0.1); }
 .fg-textarea::placeholder { color: var(--grey-3); font-size: 0.84rem; }
 
-/* â”€â”€ Option grids â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Option grids Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-grid { display: grid; gap: 7px; }
 .fg-grid-6 { grid-template-columns: repeat(6, 1fr); }
 .fg-grid-5 { grid-template-columns: repeat(5, 1fr); }
@@ -171,7 +171,7 @@
 .fg-opt-icon { color: var(--grey-3); transition: color 0.15s; }
 .fg-opt-on .fg-opt-icon { color: var(--fg-accent); }
 
-/* â”€â”€ Format buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Format buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-fmt-btn {
   display: flex; flex-direction: column; align-items: flex-start; gap: 3px;
   padding: 10px 12px;
@@ -188,7 +188,7 @@
 .fg-fmt-desc { font-size: 0.67rem; color: var(--grey-3); line-height: 1.3; }
 .fg-fmt-on .fg-fmt-desc { color: var(--fg-accent); opacity: 0.85; }
 
-/* â”€â”€ Count buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Count buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-cnt-btn {
   display: flex; flex-direction: column; align-items: center; gap: 2px;
   padding: 9px 6px;
@@ -203,7 +203,7 @@
 .fg-cnt-desc { font-size: 0.62rem; color: var(--grey-3); text-align: center; }
 .fg-cnt-on .fg-cnt-desc { color: var(--fg-violet); opacity: 0.8; }
 
-/* â”€â”€ Difficulty â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Difficulty Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-diff-btn {
   display: flex; flex-direction: column; gap: 2px;
   padding: 8px 10px;
@@ -218,10 +218,10 @@
 .fg-diff-desc { font-size: 0.65rem; color: var(--grey-3); }
 .fg-diff-on .fg-diff-desc { color: var(--fg-amber); opacity: 0.85; }
 
-/* â”€â”€ 2-col row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ 2-col row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; align-items: start; }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-error {
   display: flex; align-items: center; gap: 6px;
   font-size: 0.8rem; color: var(--red); font-weight: 500;
@@ -229,7 +229,7 @@
   border-radius: 8px; padding: 8px 12px;
 }
 
-/* â”€â”€ Submit button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Submit button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-submit {
   display: flex; align-items: center; justify-content: center; gap: 8px;
   width: 100%; padding: 13px 20px;
@@ -242,7 +242,7 @@
 .fg-submit:active:not(:disabled) { transform: translateY(0); }
 .fg-submit:disabled { opacity: 0.4; cursor: not-allowed; }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-spinner {
   display: inline-block; width: 16px; height: 16px;
   border: 2px solid rgba(255,255,255,0.3); border-top-color: #fff;
@@ -250,7 +250,7 @@
 }
 @keyframes fg-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-skel-card { gap: 12px; }
 .fg-skel {
   background: linear-gradient(90deg, var(--grey-1) 25%, var(--grey-2) 50%, var(--grey-1) 75%);
@@ -259,7 +259,7 @@
 }
 @keyframes fg-shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
 
-/* â”€â”€ Result top â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result top Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-result-top {
   display: flex; justify-content: space-between; align-items: center;
   flex-wrap: wrap; gap: 10px;
@@ -333,9 +333,9 @@
 .fg-study-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(13,148,136,0.2); }
 .fg-study-btn svg:last-child { margin-left: auto; }
 
-/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
    FLIP CARD
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fcard-scene {
   perspective: 900px;
   cursor: pointer;
@@ -399,7 +399,7 @@
   opacity: 0.5;
 }
 
-/* â”€â”€ Cards grid / list â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Cards grid / list Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -441,7 +441,7 @@
 .fg-list-back { color: var(--grey-3); font-weight: 400; }
 .fg-list-back svg { color: var(--grey-3); flex-shrink: 0; margin-top: 2px; }
 
-/* â”€â”€ Raw â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Raw Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-raw {
   background: var(--grey-1); border: 1.5px solid var(--grey-2); border-radius: var(--radius);
   padding: 20px; font-family: var(--font-mono); font-size: 0.82rem;
@@ -449,7 +449,7 @@
   word-break: break-word; overflow-x: auto; user-select: text;
 }
 
-/* â”€â”€ Result footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .fg-result-footer {
   display: flex; align-items: center; justify-content: space-between;
   gap: 12px; flex-wrap: wrap;
@@ -466,9 +466,9 @@
 .fg-copy-full:hover { background: var(--fg-accent-dk); transform: translateY(-1px); box-shadow: 0 4px 14px rgba(13,148,136,0.3); }
 .fg-copy-full.fg-copied { background: var(--green) !important; }
 
-/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
    STUDY MODE OVERLAY
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 .study-overlay {
   position: fixed; inset: 0; z-index: 1000;
   background: rgba(10,10,10,0.6);
@@ -588,11 +588,11 @@
 }
 .study-btn-pri:hover { background: var(--fg-accent-dk); transform: translateY(-1px); }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in { animation: fg-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes fg-fade { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 640px) {
   .fg-page          { padding: 72px 14px 48px; padding-top: 100px; }
   .fg-header        { flex-direction: column; gap: 12px; }

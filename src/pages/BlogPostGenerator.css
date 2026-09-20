@@ -21,11 +21,11 @@
   --amber-bg:  #fffbeb;
   --amber-bd:  #fde68a;
   --radius:    12px;
-  --font-head: "Inter", sans-serif;
-  --font-body: 'Inter', "Inter", sans-serif;
+  --font-head: "Manrope", sans-serif;
+  --font-body: "Manrope", "Manrope", sans-serif;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-page {
   min-height: 100vh;
   background: linear-gradient(135deg, var(--grey-1) 0%, #f8f8f8 100%);
@@ -43,7 +43,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-header {
   display: flex;
   align-items: flex-start;
@@ -97,7 +97,7 @@
 }
 .bg-header-sub strong { color: var(--grey-4); font-weight: 600; }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -111,7 +111,7 @@
 
 .bg-divider { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-field { display: flex; flex-direction: column; gap: 8px; }
 
 .bg-label-row {
@@ -137,7 +137,7 @@
   border-radius: 100px;
 }
 
-/* â”€â”€ Textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-textarea {
   width: 100%;
   padding: 11px 14px;
@@ -162,7 +162,7 @@
 .bg-char-row { display: flex; align-items: center; gap: 8px; }
 .bg-char-hint { font-size: 0.73rem; color: var(--grey-3); }
 
-/* â”€â”€ Grid 2 (Post Type) â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grid 2 (Post Type) Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-grid-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -198,7 +198,7 @@
 }
 .bg-type-on .bg-type-label { color: var(--blue); font-weight: 700; }
 
-/* â”€â”€ Chips â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Chips Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-chips { display: flex; flex-wrap: wrap; gap: 8px; }
 
 .bg-chip {
@@ -234,14 +234,14 @@
   opacity: 0.7;
 }
 
-/* â”€â”€ Options Flex â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Options Flex Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-options-flex {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-/* â”€â”€ Language â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Language Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-lang-row { display: flex; gap: 8px; flex-wrap: wrap; }
 
 .bg-lang-btn {
@@ -266,7 +266,7 @@
 }
 .bg-lang-on span:last-child { color: var(--green); font-weight: 700; }
 
-/* â”€â”€ Toggles â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Toggles Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-toggles { display: flex; flex-direction: column; gap: 10px; }
 
 .bg-toggle-row {
@@ -307,7 +307,7 @@
 }
 .bg-toggle-on .bg-toggle-thumb { transform: translateX(20px); }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-error-msg {
   display: flex;
   align-items: center;
@@ -321,7 +321,7 @@
   padding: 8px 12px;
 }
 
-/* â”€â”€ Generate Button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generate Button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-gen-btn {
   display: flex;
   align-items: center;
@@ -346,7 +346,7 @@
 .bg-gen-btn:active:not(:disabled) { transform: translateY(0); }
 .bg-gen-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -358,7 +358,7 @@
 }
 @keyframes bg-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-skel-container { display: flex; flex-direction: column; gap: 12px; }
 
 .bg-skel-card { gap: 12px !important; }
@@ -377,7 +377,7 @@
 .bg-skel-line { height: 12px; width: 100%; }
 .bg-skel-short { width: 70% !important; }
 
-/* â”€â”€ Results â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Results Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-results {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -464,7 +464,7 @@
 }
 .bg-regen-btn:hover { background: #dcfce7; }
 
-/* â”€â”€ Tab Navigation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tab Navigation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-tab-nav {
   display: flex;
   gap: 4px;
@@ -495,7 +495,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
-/* â”€â”€ Content View â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Content View Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-content-view {
   display: flex;
   flex-direction: column;
@@ -553,7 +553,7 @@
   word-break: break-word;
 }
 
-/* â”€â”€ FAQ Section â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ FAQ Section Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-faq-section {
   background: var(--green-bg);
   border: 1.5px solid var(--green-bd);
@@ -583,7 +583,7 @@
   line-height: 1.6;
 }
 
-/* â”€â”€ CTA Box â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ CTA Box Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-cta-box {
   background: linear-gradient(135deg, var(--blue) 0%, #1d4ed8 100%);
   color: var(--white);
@@ -596,7 +596,7 @@
   font-weight: 500;
 }
 
-/* â”€â”€ Copy Button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Copy Button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-copy-full-btn {
   display: flex;
   align-items: center;
@@ -621,7 +621,7 @@
   color: var(--white) !important;
 }
 
-/* â”€â”€ SEO View â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ SEO View Ã¢â€â‚¬Ã¢â€â‚¬ */
 .bg-seo-view {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -714,7 +714,7 @@
   padding-left: 10px;
 }
 
-/* â”€â”€ Animations â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animations Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: bg-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -723,7 +723,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 600px) {
   .bg-page {
     padding: 72px 14px 48px;

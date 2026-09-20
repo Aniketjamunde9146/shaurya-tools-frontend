@@ -22,12 +22,12 @@
   --red-bd:    #fecaca;
   --code-bg:   #1a1f2e;
   --radius:    12px;
-  --font-head: "Inter", sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-head: "Manrope", sans-serif;
+  --font-body: "Manrope", sans-serif;
   --font-mono: 'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sm-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -45,7 +45,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sm-header {
   display: flex;
   align-items: flex-start;
@@ -97,7 +97,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sm-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -118,7 +118,7 @@
   margin-bottom: 2px;
 }
 
-/* â”€â”€ Type grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Type grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sm-type-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
@@ -170,7 +170,7 @@
   font-weight: 400;
 }
 
-/* â”€â”€ Card head â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card head Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sm-card-head {
   display: flex;
   align-items: center;
@@ -188,7 +188,7 @@
   color: var(--black);
 }
 
-/* â”€â”€ Fields grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Fields grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sm-fields-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -251,7 +251,7 @@
   font-family: var(--font-body);
 }
 
-/* â”€â”€ FAQ UI â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ FAQ UI Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sm-faq-list {
   display: flex;
   flex-direction: column;
@@ -291,7 +291,7 @@
   gap: 8px;
 }
 
-/* â”€â”€ Breadcrumbs UI â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Breadcrumbs UI Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sm-bc-list {
   display: flex;
   flex-direction: column;
@@ -320,7 +320,7 @@
   color: var(--grey-3);
 }
 
-/* â”€â”€ Add / Delete buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Add / Delete buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sm-add-btn {
   display: flex;
   align-items: center;
@@ -356,7 +356,7 @@
 }
 .sm-del-btn:hover { background: var(--red-bg); color: var(--red); border-color: var(--red-bd); }
 
-/* â”€â”€ Generate row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generate row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sm-gen-row {
   display: flex;
   align-items: center;
@@ -382,7 +382,7 @@
   color: var(--orange);
 }
 
-/* â”€â”€ Buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sm-btn-ghost {
   display: flex;
   align-items: center;
@@ -424,7 +424,7 @@
 }
 .sm-generate-btn:active { transform: translateY(0); }
 
-/* â”€â”€ Result top â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result top Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sm-result-top {
   display: flex;
   align-items: center;
@@ -518,7 +518,7 @@
 .sm-copy-btn:hover { background: #dbeafe; }
 .sm-copied { background: var(--green-bg) !important; border-color: var(--green-bd) !important; color: var(--green) !important; }
 
-/* â”€â”€ Code block â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Code block Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sm-code-block {
   background: var(--code-bg);
   border-radius: var(--radius);
@@ -540,7 +540,7 @@
 .sm-json-bool { color: #569cd6; }
 .sm-json-null { color: #569cd6; }
 
-/* â”€â”€ Result footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sm-result-footer {
   display: flex;
   align-items: center;
@@ -596,14 +596,14 @@
 .sm-copy-full:hover { background: #15803d; transform: translateY(-1px); box-shadow: 0 4px 14px rgba(22,163,74,0.25); }
 .sm-copy-full.sm-copied { background: var(--green) !important; }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in { animation: sm-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes sm-fade {
   from { opacity: 0; transform: translateY(10px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 680px) {
   .sm-page          { padding: 80px 14px 48px; padding-top: 110px; }
   .sm-header        { flex-direction: column; gap: 12px; }

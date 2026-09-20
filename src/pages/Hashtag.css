@@ -1,5 +1,5 @@
 
-/* â”€â”€ Base â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Base Ã¢â€â‚¬Ã¢â€â‚¬ */
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
@@ -19,11 +19,11 @@
   --orange-bg:  #fff7ed;
   --orange-bd:  #fed7aa;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ht-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -41,7 +41,7 @@
   gap: 20px;
 }
 
-/* â”€â”€ Page Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ht-header {
   display: flex;
   align-items: flex-start;
@@ -92,7 +92,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ht-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -103,7 +103,7 @@
   gap: 18px;
 }
 
-/* â”€â”€ Field / Label â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field / Label Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ht-field {
   display: flex;
   flex-direction: column;
@@ -118,7 +118,7 @@
   color: var(--grey-3);
 }
 
-/* â”€â”€ Input â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Input Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ht-input {
   width: 100%;
   padding: 11px 14px;
@@ -138,7 +138,7 @@
   box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
 }
 
-/* â”€â”€ Pills â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Pills Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ht-pills {
   display: flex;
   flex-wrap: wrap;
@@ -172,7 +172,7 @@
 
 .ht-pill-num { min-width: 52px; text-align: center; }
 
-/* â”€â”€ Generate Button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generate Button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ht-generate-btn {
   display: flex;
   align-items: center;
@@ -202,7 +202,7 @@
   transform: none;
 }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ht-spinner {
   display: inline-block;
   width: 16px;
@@ -216,7 +216,7 @@
 
 @keyframes ht-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Results â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Results Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ht-results {
   display: flex;
   flex-direction: column;
@@ -309,7 +309,7 @@
   font-style: italic;
 }
 
-/* â”€â”€ Hashtag Chips â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Hashtag Chips Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ht-chips {
   display: flex;
   flex-wrap: wrap;
@@ -351,7 +351,7 @@
   color: var(--blue);
 }
 
-/* â”€â”€ Add to Caption Button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Add to Caption Button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ht-add-btn {
   display: flex;
   align-items: center;
@@ -378,7 +378,7 @@
 
 .ht-add-btn:disabled { opacity: 0.35; cursor: not-allowed; }
 
-/* â”€â”€ Caption Builder â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Caption Builder Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ht-caption-head {
   display: flex;
   justify-content: space-between;
@@ -418,7 +418,7 @@
 }
 .ht-danger-btn:hover { border-color: #ef4444; color: #ef4444; }
 
-/* â”€â”€ Textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ht-textarea {
   width: 100%;
   padding: 12px 14px;
@@ -441,7 +441,7 @@
   box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
 }
 
-/* â”€â”€ Caption Footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Caption Footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ht-caption-foot {
   display: flex;
   justify-content: space-between;
@@ -478,7 +478,7 @@
 
 .ht-copy-btn:disabled { opacity: 0.35; cursor: not-allowed; }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 600px) {
   .ht-page { padding: 72px 14px 48px; 
 padding-top: 110px;}

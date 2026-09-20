@@ -26,12 +26,12 @@
   --rose:       #e11d48;
   --rose-bg:    #fff1f2;
   --rose-bd:    #fecdd3;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
-  --font-mono:  "Inter", 'Menlo', 'Consolas', monospace;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
+  --font-mono:  "Manrope", 'Menlo', 'Consolas', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mt-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -48,7 +48,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mt-header {
   display: flex;
   align-items: flex-start;
@@ -97,7 +97,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mt-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -132,7 +132,7 @@
   flex-wrap: wrap;
 }
 
-/* â”€â”€ Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mt-grid {
   display: grid;
   grid-template-columns: 1fr 380px;
@@ -147,7 +147,7 @@
   gap: 14px;
 }
 
-/* â”€â”€ Section tabs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Section tabs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mt-tabs {
   display: flex;
   gap: 0;
@@ -180,7 +180,7 @@
   border-bottom-color: var(--rose) !important;
 }
 
-/* â”€â”€ Form body â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Form body Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mt-form-body {
   padding: 16px;
   display: flex;
@@ -188,7 +188,7 @@
   gap: 14px;
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mt-field {
   display: flex;
   flex-direction: column;
@@ -275,7 +275,7 @@
   transition: width 0.2s, background 0.2s;
 }
 
-/* â”€â”€ Toggle row (checkbox) â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Toggle row (checkbox) Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mt-toggle-row {
   display: flex;
   align-items: center;
@@ -329,14 +329,14 @@
 
 .mt-switch.on .mt-switch-dot { left: 18px; }
 
-/* â”€â”€ Two-col row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Two-col row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mt-row-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
 
-/* â”€â”€ Preview card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Preview card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mt-preview-body { padding: 14px 16px; }
 
 /* Google preview */
@@ -471,7 +471,7 @@
   color: var(--blue);
 }
 
-/* â”€â”€ Output â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mt-output {
   width: 100%;
   min-height: 280px;
@@ -487,7 +487,7 @@
   tab-size: 2;
 }
 
-/* â”€â”€ Buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mt-sm-btn {
   display: inline-flex;
   align-items: center;
@@ -507,7 +507,7 @@
 
 .mt-sm-btn:hover { border-color: var(--grey-3); color: var(--black); }
 
-/* â”€â”€ Count badge â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Count badge Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mt-count-badge {
   font-size: 0.7rem;
   font-weight: 700;
@@ -518,7 +518,7 @@
   border: 1px solid var(--green-bd);
 }
 
-/* â”€â”€ Section divider â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Section divider Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mt-divider {
   font-family: var(--font-head);
   font-size: 0.68rem;
@@ -531,7 +531,7 @@
   margin-bottom: 2px;
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 1024px) {
   .mt-grid { grid-template-columns: 1fr; }
   .mt-col-right { order: -1; }

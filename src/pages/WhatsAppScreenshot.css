@@ -24,8 +24,8 @@
   --blue-bg:    #eff6ff;
   --blue-bd:    #bfdbfe;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
 
   /* WhatsApp chat specific */
   --wa-bubble-out:      #dcf8c6;
@@ -36,7 +36,7 @@
   --wa-bar:             #075e54;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ws-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -45,7 +45,7 @@
   padding: 110px 20px 64px;
 }
 
-/* â”€â”€ Layout â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Layout Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ws-layout {
   max-width: 1100px;
   margin: 0 auto;
@@ -55,7 +55,7 @@
   align-items: start;
 }
 
-/* â•â•â•â•â•â•â•â•â•â•â•â•â•â• LEFT PANEL â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â LEFT PANEL Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */
 .ws-panel {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -156,7 +156,7 @@
   gap: 12px;
 }
 
-/* â”€â”€ Message list â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Message list Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ws-msg-list {
   display: flex;
   flex-direction: column;
@@ -261,7 +261,7 @@
 }
 .ws-msg-textarea:focus { border-color: var(--wa); }
 
-/* â”€â”€ Add message â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Add message Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ws-add-msg {
   border: 1.5px dashed var(--grey-2);
   border-radius: var(--radius);
@@ -373,7 +373,7 @@
 .ws-add-btn:hover:not(:disabled) { background: var(--wa-dk); transform: translateY(-1px); }
 .ws-add-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-/* â”€â”€ Settings â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Settings Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ws-setting-group {
   display: flex;
   flex-direction: column;
@@ -531,7 +531,7 @@
 }
 @keyframes ws-spin { to { transform: rotate(360deg); } }
 
-/* â•â•â•â•â•â•â•â•â•â•â•â•â•â• PHONE PREVIEW â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â PHONE PREVIEW Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */
 .ws-preview-wrap {
   display: flex;
   flex-direction: column;
@@ -613,7 +613,7 @@
   border-radius: 22px;
 }
 
-/* â”€â”€ Status bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Status bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ws-statusbar {
   display: flex;
   justify-content: space-between;
@@ -648,7 +648,7 @@
   font-weight: 600;
 }
 
-/* â”€â”€ Nav bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Nav bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ws-navbar {
   display: flex;
   align-items: center;
@@ -714,7 +714,7 @@
   flex-shrink: 0;
 }
 
-/* â”€â”€ Chat area â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Chat area Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ws-chat {
   flex: 1;
   overflow-y: auto;
@@ -842,7 +842,7 @@
   30%           { transform: translateY(-5px); }
 }
 
-/* â”€â”€ Input bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Input bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ws-input-bar {
   display: flex;
   align-items: center;
@@ -902,7 +902,7 @@
   background: var(--wa) !important;
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 900px) {
   .ws-layout {
     grid-template-columns: 1fr;

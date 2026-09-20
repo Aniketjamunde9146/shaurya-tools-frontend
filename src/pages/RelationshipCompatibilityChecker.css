@@ -1,7 +1,7 @@
-/* â”€â”€ RelationshipCompatibilityChecker.css â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ RelationshipCompatibilityChecker.css Ã¢â€â‚¬Ã¢â€â‚¬ */
 
 
-/* â”€â”€ Variables â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Variables Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-page {
   --rcc-bg:         #0f0a14;
   --rcc-surface:    #1a1224;
@@ -20,7 +20,7 @@
   --rcc-radius:     14px;
   --rcc-radius-sm:  8px;
 
-  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
   background: var(--rcc-bg);
   min-height: 100vh;
   color: var(--rcc-text);
@@ -54,7 +54,7 @@
   z-index: 0;
 }
 
-/* â”€â”€ Inner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Inner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-inner {
   max-width: 820px;
   margin: 0 auto;
@@ -66,7 +66,7 @@
   padding-top: 90px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-header {
   display: flex;
   align-items: flex-start;
@@ -116,7 +116,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-card {
   background: var(--rcc-card-bg);
   border: 1px solid var(--rcc-border);
@@ -129,7 +129,7 @@
   border-color: var(--rcc-border-h);
 }
 
-/* â”€â”€ Relationship Type â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Relationship Type Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-types {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
@@ -167,7 +167,7 @@
 .rcc-type-desc  { font-size: 10.5px; color: var(--rcc-muted); line-height: 1.2; }
 .rcc-type-btn.rcc-type-on .rcc-type-desc { color: #c084fc; }
 
-/* â”€â”€ Person Cards Row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Person Cards Row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-persons-row {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -230,7 +230,7 @@
   border: none;
   outline: none;
   color: var(--rcc-text);
-  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 14px;
   font-weight: 600;
   width: 100%;
@@ -238,7 +238,7 @@
 }
 .rcc-name-input::placeholder { color: #4a3560; font-weight: 400; }
 
-/* â”€â”€ VS Divider â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ VS Divider Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-vs {
   display: flex;
   flex-direction: column;
@@ -274,7 +274,7 @@
   color: var(--rcc-muted);
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-field {
   margin-bottom: 14px;
 }
@@ -312,7 +312,7 @@
   padding: 2px 8px;
 }
 
-/* â”€â”€ Select â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Select Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-select-wrap {
   position: relative;
 }
@@ -323,7 +323,7 @@
   border: 1px solid var(--rcc-border);
   border-radius: var(--rcc-radius-sm);
   color: var(--rcc-text);
-  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 13px;
   cursor: pointer;
   appearance: none;
@@ -340,7 +340,7 @@
   pointer-events: none;
 }
 
-/* â”€â”€ Traits â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Traits Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-traits {
   display: flex;
   flex-wrap: wrap;
@@ -356,7 +356,7 @@
   border-radius: 20px;
   background: transparent;
   color: var(--rcc-muted);
-  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 11.5px;
   font-weight: 500;
   cursor: pointer;
@@ -372,7 +372,7 @@
   color: var(--rcc-primary);
 }
 
-/* â”€â”€ Textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-textarea {
   width: 100%;
   padding: 9px 12px;
@@ -380,7 +380,7 @@
   border: 1px solid var(--rcc-border);
   border-radius: var(--rcc-radius-sm);
   color: var(--rcc-text);
-  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 13px;
   resize: none;
   transition: border-color 0.2s;
@@ -391,18 +391,18 @@
 .rcc-textarea:focus { border-color: var(--rcc-primary); }
 .rcc-textarea::placeholder { color: #4a3560; }
 
-/* â”€â”€ Char Count â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Char Count Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-char-count { font-size: 11px; color: var(--rcc-muted); }
 .rcc-char-warn  { color: var(--rcc-amber); }
 
-/* â”€â”€ Divider â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Divider Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-divider {
   height: 1px;
   background: var(--rcc-border);
   margin: 14px 0;
 }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-error-msg {
   display: flex;
   align-items: center;
@@ -415,7 +415,7 @@
   font-size: 13px;
 }
 
-/* â”€â”€ Generate Button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generate Button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-gen-btn {
   width: 100%;
   padding: 14px;
@@ -423,7 +423,7 @@
   border: none;
   border-radius: var(--rcc-radius);
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
@@ -445,7 +445,7 @@
   cursor: not-allowed;
 }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-spinner {
   width: 16px;
   height: 16px;
@@ -457,7 +457,7 @@
 }
 @keyframes rcc-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-skeleton-card { padding: 24px; }
 .rcc-skel {
   background: linear-gradient(90deg, #1e1530 0%, #2a1d42 50%, #1e1530 100%);
@@ -475,10 +475,10 @@
   100% { background-position: -200% 0; }
 }
 
-/* â”€â”€ Result â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-result { padding: 24px; }
 
-/* â”€â”€ Score Section â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Score Section Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-score-section {
   display: flex;
   align-items: center;
@@ -551,7 +551,7 @@
   line-height: 1.6;
 }
 
-/* â”€â”€ Bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-bar-wrap { margin-bottom: 4px; }
 .rcc-bar-track {
   height: 8px;
@@ -576,7 +576,7 @@
   color: #4a3560;
 }
 
-/* â”€â”€ Insights â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Insights Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-insights-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -633,7 +633,7 @@
 .rcc-challenge-item { color: #fde68a; }
 .rcc-challenge-item svg { color: var(--rcc-amber); flex-shrink: 0; margin-top: 1px; }
 
-/* â”€â”€ Notes â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Notes Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-notes-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -663,7 +663,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Advice â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Advice Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-advice-block {
   padding: 16px;
   background: linear-gradient(135deg, #1a0f2e, #1f0d1a);
@@ -690,7 +690,7 @@
   line-height: 1.6;
 }
 
-/* â”€â”€ Footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rcc-result-footer {
   display: flex;
   align-items: center;
@@ -712,7 +712,7 @@
   border: 1px solid var(--rcc-border);
   border-radius: var(--rcc-radius-sm);
   color: var(--rcc-muted);
-  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 12.5px;
   font-weight: 600;
   cursor: pointer;
@@ -723,7 +723,7 @@
   color: var(--rcc-primary);
 }
 
-/* â”€â”€ Animate In â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animate In Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: rcc-fadein 0.45s cubic-bezier(0.4, 0, 0.2, 1) both;
 }
@@ -732,7 +732,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 660px) {
   .rcc-persons-row {
     grid-template-columns: 1fr;

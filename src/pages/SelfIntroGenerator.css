@@ -32,12 +32,12 @@
   --violet-bd:  #ddd6fe;
   --code-bg:    #1e1e1e;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -55,7 +55,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-header {
   display: flex;
   align-items: flex-start;
@@ -107,7 +107,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -118,7 +118,7 @@
   gap: 18px;
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-field {
   display: flex;
   flex-direction: column;
@@ -138,7 +138,7 @@
 .sig-label-icon { color: var(--rose); flex-shrink: 0; }
 .sig-divider    { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* â”€â”€ Grid rows â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grid rows Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-row-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -169,7 +169,7 @@
 .sig-required { color: var(--red); }
 .sig-optional { font-weight: 400; color: var(--grey-3); text-transform: none; letter-spacing: 0; }
 
-/* â”€â”€ Input â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Input Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-input {
   width: 100%;
   padding: 11px 14px;
@@ -188,7 +188,7 @@
 }
 .sig-input::placeholder { color: var(--grey-3); font-size: 0.86rem; }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-error-msg {
   display: flex;
   align-items: center;
@@ -202,7 +202,7 @@
   padding: 8px 12px;
 }
 
-/* â”€â”€ Context Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Context Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-formats { display: grid; gap: 8px; }
 .sig-formats-4 { grid-template-columns: repeat(4, 1fr); }
 
@@ -238,7 +238,7 @@
 .sig-fmt-desc  { font-size: 0.67rem; color: var(--grey-3); line-height: 1.3; }
 .sig-fmt-on .sig-fmt-desc  { color: var(--rose); opacity: 0.85; }
 
-/* â”€â”€ Tone Buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tone Buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-tones {
   display: flex;
   flex-direction: column;
@@ -269,7 +269,7 @@
 .sig-tone-desc  { font-size: 0.7rem; color: var(--grey-3); }
 .sig-tone-on .sig-tone-desc  { color: var(--teal); opacity: 0.8; }
 
-/* â”€â”€ Length Buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Length Buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-lengths {
   display: flex;
   flex-direction: column;
@@ -303,7 +303,7 @@
 .sig-len-desc  { font-size: 0.69rem; color: var(--grey-3); white-space: nowrap; }
 .sig-len-on .sig-len-desc  { color: var(--violet); opacity: 0.8; }
 
-/* â”€â”€ Checkbox Toggle â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Checkbox Toggle Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-toggle-check {
   display: flex;
   align-items: center;
@@ -348,7 +348,7 @@
 .sig-check-on .sig-check-label { color: var(--rose-dk); }
 .sig-check-desc  { font-size: 0.73rem; color: var(--grey-3); }
 
-/* â”€â”€ Submit Button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Submit Button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-submit-btn {
   display: flex;
   align-items: center;
@@ -374,7 +374,7 @@
 .sig-submit-btn:active:not(:disabled) { transform: translateY(0); }
 .sig-submit-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -386,7 +386,7 @@
 }
 @keyframes sig-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-skeleton-card { gap: 14px; }
 
 .sig-skel {
@@ -404,7 +404,7 @@
 .sig-skel-short { width: 70% !important; }
 .sig-skel-block { height: 80px; }
 
-/* â”€â”€ Result Top â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result Top Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-result-top {
   display: flex;
   justify-content: space-between;
@@ -440,7 +440,7 @@
   border-color: var(--violet-bd) !important;
 }
 
-/* â”€â”€ Tabs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tabs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-tabs {
   display: flex;
   background: var(--grey-1);
@@ -470,7 +470,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
-/* â”€â”€ Actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-actions { display: flex; gap: 7px; align-items: center; }
 
 .sig-action-btn {
@@ -512,7 +512,7 @@
   color: var(--green) !important;
 }
 
-/* â”€â”€ Preview â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Preview Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-preview {
   border: 1.5px solid var(--grey-2);
   border-radius: var(--radius);
@@ -592,7 +592,7 @@
   white-space: pre;
 }
 
-/* â”€â”€ Raw â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Raw Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-raw {
   background: var(--grey-1);
   border: 1.5px solid var(--grey-2);
@@ -608,7 +608,7 @@
   user-select: text;
 }
 
-/* â”€â”€ Result Footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result Footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .sig-result-footer {
   display: flex;
   align-items: center;
@@ -646,14 +646,14 @@
 .sig-copy-full.sig-copied { background: var(--green) !important; }
 .sig-copy-full.sig-copied:hover { background: #15803d !important; }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in { animation: sig-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes sig-fade {
   from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 640px) {
   .sig-page          { padding: 72px 14px 48px; padding-top: 110px; }
   .sig-header        { flex-direction: column; gap: 12px; }

@@ -27,12 +27,12 @@
   --rose-bg:    #fff1f2;
   --rose-bd:    #fecdd3;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
-  --font-mono:  "Inter", 'Menlo', 'Consolas', monospace;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
+  --font-mono:  "Manrope", 'Menlo', 'Consolas', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rx-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -49,7 +49,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rx-header {
   display: flex;
   align-items: flex-start;
@@ -98,7 +98,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Presets â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Presets Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rx-presets {
   display: flex;
   align-items: center;
@@ -133,7 +133,7 @@
   background: var(--rose-bg);
 }
 
-/* â”€â”€ Card base â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card base Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rx-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -167,7 +167,7 @@
   gap: 8px;
 }
 
-/* â”€â”€ Regex input card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Regex input card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rx-regex-card { }
 
 .rx-regex-row {
@@ -234,7 +234,7 @@
 }
 .rx-copy-pattern-btn:hover { border-color: var(--grey-3); color: var(--black); }
 
-/* â”€â”€ Flag toggles â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Flag toggles Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rx-flags-row {
   display: flex;
   align-items: center;
@@ -273,7 +273,7 @@
   opacity: 0.75;
 }
 
-/* â”€â”€ Status bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Status bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rx-status-bar {
   display: flex;
   align-items: center;
@@ -295,7 +295,7 @@
 .rx-status-match   .rx-status-dot { background: var(--green); }
 .rx-status-nomatch .rx-status-dot { background: var(--orange); }
 
-/* â”€â”€ Error bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rx-error-bar {
   display: flex;
   align-items: center;
@@ -315,7 +315,7 @@
   flex-shrink: 0;
 }
 
-/* â”€â”€ Main grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Main grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rx-grid {
   display: grid;
   grid-template-columns: 1fr 320px;
@@ -329,7 +329,7 @@
   gap: 14px;
 }
 
-/* â”€â”€ Test string â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Test string Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rx-test-card { }
 
 .rx-char-count {
@@ -354,7 +354,7 @@
 }
 .rx-test-textarea::placeholder { color: var(--grey-3); font-family: var(--font-body); }
 
-/* â”€â”€ Highlighted view â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Highlighted view Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rx-highlighted {
   padding: 16px;
   font-family: var(--font-mono);
@@ -385,7 +385,7 @@
   border: 1px solid var(--green-bd);
 }
 
-/* â”€â”€ Tabs mini â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tabs mini Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rx-tabs-mini {
   display: flex;
   background: var(--white);
@@ -413,7 +413,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.07);
 }
 
-/* â”€â”€ Match summary â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Match summary Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rx-match-summary {
   padding: 8px;
   display: flex;
@@ -516,7 +516,7 @@
 }
 .rx-group-named { border-color: var(--blue-bd); }
 
-/* â”€â”€ Replace â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Replace Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rx-replace-section {
   padding: 14px 16px;
   display: flex;
@@ -570,7 +570,7 @@
   overflow-y: auto;
 }
 
-/* â”€â”€ Small buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Small buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rx-sm-btn {
   display: inline-flex;
   align-items: center;
@@ -590,7 +590,7 @@
 .rx-sm-btn:hover { border-color: var(--grey-3); color: var(--black); }
 .rx-danger:hover { border-color: var(--red-bd) !important; color: var(--red) !important; background: var(--red-bg) !important; }
 
-/* â”€â”€ Reference panel â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Reference panel Ã¢â€â‚¬Ã¢â€â‚¬ */
 .rx-ref-card { }
 
 .rx-ref-body {
@@ -679,7 +679,7 @@
 .rx-ref-item:hover .rx-ref-copy { opacity: 1; }
 .rx-ref-copy:hover { background: var(--grey-2); color: var(--black); }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 1024px) {
   .rx-grid { grid-template-columns: 1fr; }
   .rx-col-right { order: -1; }

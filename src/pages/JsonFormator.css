@@ -27,12 +27,12 @@
   --amber-bg:   #fffbeb;
   --code-bg:    #fafafa;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
   --font-mono:  'Menlo', 'Consolas', 'Courier New', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -49,7 +49,7 @@
   gap: 20px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-header {
   display: flex;
   align-items: flex-start;
@@ -103,7 +103,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Two-col grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Two-col grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -111,7 +111,7 @@
   align-items: start;
 }
 
-/* â”€â”€ Panel â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Panel Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-col { display: flex; flex-direction: column; }
 
 .jf-panel {
@@ -124,7 +124,7 @@
   height: 100%;
 }
 
-/* â”€â”€ Panel header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Panel header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-panel-head {
   display: flex;
   justify-content: space-between;
@@ -151,7 +151,7 @@
   align-items: center;
 }
 
-/* â”€â”€ Buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-action-btn {
   display: inline-flex;
   align-items: center;
@@ -195,7 +195,7 @@
   color: var(--green) !important;
 }
 
-/* â”€â”€ Textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-textarea-wrap {
   position: relative;
   flex: 1;
@@ -242,7 +242,7 @@
   white-space: nowrap;
 }
 
-/* â”€â”€ Status bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Status bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-status-bar {
   display: flex;
   align-items: center;
@@ -261,7 +261,7 @@
 
 .jf-status-bar span { line-height: 1.4; }
 
-/* â”€â”€ Controls â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Controls Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-controls {
   display: flex;
   justify-content: space-between;
@@ -273,7 +273,7 @@
   background: var(--grey-1);
 }
 
-/* â”€â”€ Tabs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tabs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-tabs {
   display: flex;
   background: var(--white);
@@ -304,7 +304,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.07);
 }
 
-/* â”€â”€ Indent selector â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Indent selector Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-indent-group {
   display: flex;
   align-items: center;
@@ -341,7 +341,7 @@
   color: var(--blue) !important;
 }
 
-/* â”€â”€ Search â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Search Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-search-wrap {
   display: flex;
   align-items: center;
@@ -374,7 +374,7 @@
 }
 .jf-search-clear:hover { color: var(--black); }
 
-/* â”€â”€ Output wrap â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output wrap Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-output-wrap {
   flex: 1;
   min-height: 400px;
@@ -382,7 +382,7 @@
   position: relative;
 }
 
-/* â”€â”€ Empty state â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Empty state Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-empty {
   display: flex;
   flex-direction: column;
@@ -411,7 +411,7 @@
   color: var(--grey-3);
 }
 
-/* â”€â”€ Error panel â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error panel Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-error-panel {
   display: flex;
   flex-direction: column;
@@ -461,7 +461,7 @@
   color: var(--grey-3);
 }
 
-/* â”€â”€ Code output â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Code output Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-code {
   display: block;
   padding: 16px;
@@ -481,7 +481,7 @@
   color: var(--grey-4);
 }
 
-/* â”€â”€ Syntax colors â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Syntax colors Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-key  { color: #0550ae; font-weight: 600; }
 .jf-str  { color: #0a7a45; }
 .jf-num  { color: #a93226; }
@@ -490,14 +490,14 @@
 .jf-punct { color: var(--grey-3); }
 .jf-bracket { color: var(--grey-3); font-weight: 600; }
 
-/* â”€â”€ Search highlight â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Search highlight Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-mark {
   background: #fef08a;
   border-radius: 2px;
   padding: 0 1px;
 }
 
-/* â”€â”€ Tree view â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tree view Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-tree {
   padding: 14px 16px;
   font-family: var(--font-mono);
@@ -565,7 +565,7 @@
 }
 .jf-collapsed:hover { background: #dbeafe; }
 
-/* â”€â”€ Stats bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Stats bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .jf-stats-bar {
   display: flex;
   align-items: center;
@@ -583,7 +583,7 @@
 .jf-stat strong { color: var(--grey-4); font-weight: 600; }
 .jf-stat-sep { color: var(--grey-2); font-size: 0.8rem; }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 900px) {
   .jf-grid { grid-template-columns: 1fr; }
   .jf-textarea-wrap,

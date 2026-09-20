@@ -25,12 +25,12 @@
   --teal-bg:   #f0fdfa;
   --teal-bd:   #99f6e4;
   --radius:    12px;
-  --font-head: "Inter", sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-head: "Manrope", sans-serif;
+  --font-body: "Manrope", sans-serif;
   --font-mono: 'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .emi-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -48,7 +48,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .emi-header {
   display: flex;
   align-items: flex-start;
@@ -100,7 +100,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .emi-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -111,7 +111,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Labels â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Labels Ã¢â€â‚¬Ã¢â€â‚¬ */
 .emi-label-row {
   display: flex;
   justify-content: space-between;
@@ -143,7 +143,7 @@
   background: var(--grey-2);
 }
 
-/* â”€â”€ Currency pills â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Currency pills Ã¢â€â‚¬Ã¢â€â‚¬ */
 .emi-currency-pills {
   display: flex;
   gap: 6px;
@@ -174,7 +174,7 @@
   color: var(--teal) !important;
 }
 
-/* â”€â”€ Fields â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Fields Ã¢â€â‚¬Ã¢â€â‚¬ */
 .emi-field {
   display: flex;
   flex-direction: column;
@@ -238,7 +238,7 @@
 .emi-input::-webkit-inner-spin-button { -webkit-appearance: none; }
 .emi-input[type=number] { -moz-appearance: textfield; }
 
-/* â”€â”€ Tenure row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tenure row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .emi-tenure-row {
   display: flex;
   gap: 10px;
@@ -277,7 +277,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
-/* â”€â”€ Actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .emi-actions {
   display: flex;
   justify-content: flex-end;
@@ -307,7 +307,7 @@
 
 .emi-reset-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-/* â”€â”€ Result Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .emi-result-card { gap: 18px; }
 
 /* Hero */
@@ -414,7 +414,7 @@
   font-family: var(--font-mono);
 }
 
-/* â”€â”€ Stat grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Stat grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .emi-stats {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -454,7 +454,7 @@
 .emi-stat-orange .emi-stat-val { color: var(--orange); }
 .emi-stat-purple .emi-stat-val { color: var(--purple); }
 
-/* â”€â”€ Schedule toggle â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Schedule toggle Ã¢â€â‚¬Ã¢â€â‚¬ */
 .emi-schedule-toggle {
   display: flex;
   align-items: center;
@@ -479,7 +479,7 @@
   color: var(--black);
 }
 
-/* â”€â”€ Table â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Table Ã¢â€â‚¬Ã¢â€â‚¬ */
 .emi-table-wrap {
   overflow-x: auto;
   border: 1.5px solid var(--grey-2);
@@ -536,7 +536,7 @@
 .emi-td-interest  { color: var(--orange); font-weight: 600; }
 .emi-td-balance   { color: var(--black); font-weight: 600; }
 
-/* â”€â”€ Disclaimer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Disclaimer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .emi-disclaimer {
   font-size: 0.73rem;
   color: var(--grey-3);
@@ -545,7 +545,7 @@
   border-top: 1px solid var(--grey-2);
 }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: emi-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -555,7 +555,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 600px) {
   .emi-page          { padding: 72px 14px 48px; padding-top: 110px; }
   .emi-header        { flex-direction: column; gap: 12px; }

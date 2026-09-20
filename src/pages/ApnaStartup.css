@@ -36,12 +36,12 @@
 
   --code-bg:    #1e1e1e;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -58,7 +58,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-header {
   display: flex;
   align-items: flex-start;
@@ -110,7 +110,7 @@
   line-height: 1.6;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -121,7 +121,7 @@
   gap: 18px;
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-field { display: flex; flex-direction: column; gap: 8px; }
 
 .as-label-row {
@@ -160,7 +160,7 @@
 
 .as-divider { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* â”€â”€ Textarea â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Textarea Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-textarea {
   width: 100%;
   padding: 12px 14px;
@@ -184,7 +184,7 @@
 .as-textarea.ok:not(:focus)   { border-color: var(--green-bd); }
 .as-textarea.warn:not(:focus) { border-color: var(--amber-bd); background: var(--amber-bg); }
 
-/* â”€â”€ Categories â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Categories Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-categories { display: flex; flex-wrap: wrap; gap: 8px; }
 
 .as-cat-btn {
@@ -210,7 +210,7 @@
   font-weight: 600;
 }
 
-/* â”€â”€ Stage Buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Stage Buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-stages { display: flex; gap: 8px; flex-wrap: wrap; }
 
 .as-stage-btn {
@@ -238,7 +238,7 @@
 .as-stage-label { font-family: var(--font-head); font-size: 0.82rem; font-weight: 600; color: var(--black); }
 .as-stage-desc  { font-size: 0.72rem; color: var(--grey-3); }
 
-/* â”€â”€ Sections â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Sections Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-sec-actions { display: flex; align-items: center; gap: 8px; }
 
 .as-text-btn {
@@ -281,7 +281,7 @@
   font-weight: 600;
 }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-error {
   display: flex;
   align-items: center;
@@ -295,7 +295,7 @@
   font-weight: 500;
 }
 
-/* â”€â”€ Analyze Button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Analyze Button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-analyze-btn {
   display: flex;
   align-items: center;
@@ -321,7 +321,7 @@
 .as-analyze-btn:active:not(:disabled) { transform: translateY(0); }
 .as-analyze-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -332,7 +332,7 @@
 }
 @keyframes as-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-skel {
   background: linear-gradient(90deg, var(--grey-1) 25%, var(--grey-2) 50%, var(--grey-1) 75%);
   background-size: 200% 100%;
@@ -344,7 +344,7 @@
   100% { background-position: -200% 0; }
 }
 
-/* â”€â”€ Score Banner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Score Banner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-score-banner {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -458,7 +458,7 @@
   flex-shrink: 0;
 }
 
-/* â”€â”€ Advice Strip â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Advice Strip Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-advice-strip {
   background: var(--indigo-bg);
   border: 1.5px solid var(--indigo-bd);
@@ -488,7 +488,7 @@
   margin-top: 1px;
 }
 
-/* â”€â”€ Result Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-result-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -506,7 +506,7 @@
   border-bottom: 1.5px solid var(--grey-2);
 }
 
-/* â”€â”€ Tabs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tabs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-tabs {
   display: flex;
   background: var(--grey-1);
@@ -540,7 +540,7 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
-/* â”€â”€ Actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-actions { display: flex; gap: 7px; align-items: center; }
 
 .as-action-btn {
@@ -582,7 +582,7 @@
   color: var(--green);
 }
 
-/* â”€â”€ Tab Content â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tab Content Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-tab-content { padding: 20px; display: flex; flex-direction: column; gap: 24px; }
 
 .as-section-title {
@@ -596,7 +596,7 @@
   margin-bottom: 12px;
 }
 
-/* â”€â”€ Market Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Market Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-market-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -640,7 +640,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Competitors â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Competitors Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-comp-list { display: flex; flex-direction: column; gap: 8px; }
 .as-comp-card {
   background: var(--grey-1);
@@ -669,7 +669,7 @@
 .as-comp-tag.strong { color: var(--green); background: var(--green-bg); border-color: var(--green-bd); }
 .as-comp-tag.weak   { color: var(--red);   background: var(--red-bg);   border-color: var(--red-bd); }
 
-/* â”€â”€ Revenue â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Revenue Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-rev-meta { font-size: 0.84rem; color: var(--grey-4); margin-bottom: 12px; }
 .as-tiers { display: flex; gap: 10px; flex-wrap: wrap; }
 .as-tier {
@@ -705,7 +705,7 @@
   line-height: 1.4;
 }
 .as-tier-features li::before {
-  content: "âœ“";
+  content: "Ã¢Å“â€œ";
   position: absolute;
   left: 0;
   color: var(--green);
@@ -713,7 +713,7 @@
   top: 1px;
 }
 
-/* â”€â”€ Risks â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Risks Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-risks { display: flex; flex-direction: column; gap: 8px; }
 .as-risk-item {
   border-radius: 10px;
@@ -740,7 +740,7 @@
 .as-risk-text { font-size: 0.84rem; font-weight: 600; color: var(--black); line-height: 1.4; }
 .as-risk-mit  { font-size: 0.78rem; color: var(--grey-4); line-height: 1.5; }
 
-/* â”€â”€ Roadmap â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Roadmap Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-roadmap { display: flex; flex-direction: column; gap: 10px; }
 .as-phase {
   background: var(--indigo-bg);
@@ -771,9 +771,9 @@
   position: relative;
   line-height: 1.5;
 }
-.as-phase-goals li::before { content: "â†’"; position: absolute; left: 0; color: var(--indigo); }
+.as-phase-goals li::before { content: "Ã¢â€ â€™"; position: absolute; left: 0; color: var(--indigo); }
 
-/* â”€â”€ Tech Stack â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tech Stack Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-tech-why {
   font-size: 0.82rem;
   color: var(--grey-4);
@@ -812,7 +812,7 @@
   border-radius: 100px;
 }
 
-/* â”€â”€ MVP â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ MVP Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-mvp-meta { font-size: 0.83rem; color: var(--grey-4); margin-bottom: 14px; display: flex; align-items: center; gap: 6px; }
 .as-sub-head  { font-family: var(--font-head); font-size: 0.82rem; font-weight: 700; color: var(--black); margin-bottom: 10px; }
 .as-sub-head.muted { color: var(--grey-3); margin-top: 16px; }
@@ -856,7 +856,7 @@
   text-decoration-color: var(--grey-3);
 }
 
-/* â”€â”€ Daily Routine â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Daily Routine Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-routine-intro { font-size: 0.82rem; color: var(--grey-4); line-height: 1.5; margin-bottom: 14px; }
 .as-routine-list  { display: flex; flex-direction: column; gap: 3px; }
 .as-routine-item  {
@@ -893,7 +893,7 @@
 .as-routine-item.health   .as-routine-cat { color: var(--green);  background: var(--green-bg);  border: 1px solid var(--green-bd); }
 .as-routine-item.learning .as-routine-cat { color: var(--blue);   background: var(--blue-bg);   border: 1px solid var(--blue-bd); }
 
-/* â”€â”€ Folder Structure â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Folder Structure Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-folder-tree {
   background: var(--code-bg);
   color: #d4d4d4;
@@ -906,17 +906,17 @@
   overflow-x: auto;
 }
 
-/* â”€â”€ Results wrapper â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Results wrapper Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-results { display: flex; flex-direction: column; gap: 14px; }
 
-/* â”€â”€ Animations â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animations Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in { animation: as-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes as-fade {
   from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 640px) {
   .as-page          { padding: 32px 14px 48px; }
   .as-header        { flex-direction: column; gap: 12px; }
@@ -932,9 +932,9 @@
 }
 
 
-/* â”€â”€ APPEND THIS TO THE BOTTOM OF ApnaStartup.css â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ APPEND THIS TO THE BOTTOM OF ApnaStartup.css Ã¢â€â‚¬Ã¢â€â‚¬ */
 
-/* â”€â”€ History Button & Panel â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ History Button & Panel Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-history-btn {
   display: flex;
   align-items: center;
@@ -1015,7 +1015,7 @@
   border-radius: 100px;
 }
 
-/* â”€â”€ Pros & Cons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Pros & Cons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-pros-cons {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1056,7 +1056,7 @@
   .as-pros-cons { grid-template-columns: 1fr; }
 }
 
-/* â”€â”€ Hiring Plan â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Hiring Plan Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-hiring-list { display: flex; flex-direction: column; gap: 10px; }
 .as-hire-card {
   background: var(--grey-1);
@@ -1095,7 +1095,7 @@
 }
 .as-hire-why { font-size: 0.8rem; color: var(--grey-4); line-height: 1.5; }
 
-/* â”€â”€ Pitch Deck â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Pitch Deck Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-pitch-highlights { display: flex; flex-direction: column; gap: 10px; }
 .as-pitch-block {
   background: var(--indigo-bg);
@@ -1139,7 +1139,7 @@
 }
 .as-slide-text { font-size: 0.8rem; color: var(--grey-4); line-height: 1.5; }
 
-/* â”€â”€ Feedback â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Feedback Ã¢â€â‚¬Ã¢â€â‚¬ */
 .as-feedback {
   display: flex;
   align-items: center;

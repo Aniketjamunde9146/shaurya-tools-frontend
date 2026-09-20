@@ -29,12 +29,12 @@
   --violet-bd:  #ddd6fe;
   --code-bg:    #1e1e1e;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -52,7 +52,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-header {
   display: flex;
   align-items: flex-start;
@@ -104,7 +104,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -115,7 +115,7 @@
   gap: 18px;
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-field {
   display: flex;
   flex-direction: column;
@@ -135,7 +135,7 @@
 .wic-label-icon { color: var(--blue); flex-shrink: 0; }
 .wic-divider    { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* â”€â”€ 3-col row â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ 3-col row Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-row-3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -156,7 +156,7 @@
   letter-spacing: 0.06em;
 }
 
-/* â”€â”€ Weight input + unit addon â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Weight input + unit addon Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-input-with-addon {
   display: flex;
   border: 1.5px solid var(--grey-2);
@@ -191,7 +191,7 @@
   flex-shrink: 0;
 }
 
-/* â”€â”€ Generic Input â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generic Input Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-input {
   width: 100%;
   padding: 11px 14px;
@@ -219,7 +219,7 @@
   padding-right: 36px;
 }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-error-msg {
   display: flex;
   align-items: center;
@@ -233,7 +233,7 @@
   padding: 8px 12px;
 }
 
-/* â”€â”€ Format/Option Grids â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Format/Option Grids Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-formats {
   display: grid;
   gap: 8px;
@@ -288,7 +288,7 @@
 }
 .wic-fmt-on .wic-fmt-desc { color: var(--blue); opacity: 0.85; }
 
-/* â”€â”€ Checkbox toggle â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Checkbox toggle Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-toggle-check {
   display: flex;
   align-items: center;
@@ -348,7 +348,7 @@
   color: var(--grey-3);
 }
 
-/* â”€â”€ Submit Button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Submit Button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-submit-btn {
   display: flex;
   align-items: center;
@@ -374,7 +374,7 @@
 .wic-submit-btn:active:not(:disabled) { transform: translateY(0); }
 .wic-submit-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -386,7 +386,7 @@
 }
 @keyframes wic-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-skeleton-card { gap: 14px; }
 
 .wic-skel {
@@ -404,7 +404,7 @@
 .wic-skel-short { width: 70% !important; }
 .wic-skel-block { height: 80px; }
 
-/* â”€â”€ Result Top â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result Top Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-result-top {
   display: flex;
   justify-content: space-between;
@@ -441,7 +441,7 @@
   border-color: var(--violet-bd) !important;
 }
 
-/* â”€â”€ Tabs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tabs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-tabs {
   display: flex;
   background: var(--grey-1);
@@ -471,7 +471,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
-/* â”€â”€ Actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-actions {
   display: flex;
   gap: 7px;
@@ -517,7 +517,7 @@
   color: var(--green) !important;
 }
 
-/* â”€â”€ Preview â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Preview Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-preview {
   border: 1.5px solid var(--grey-2);
   border-radius: var(--radius);
@@ -597,7 +597,7 @@
   white-space: pre;
 }
 
-/* â”€â”€ Raw â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Raw Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-raw {
   background: var(--grey-1);
   border: 1.5px solid var(--grey-2);
@@ -613,7 +613,7 @@
   user-select: text;
 }
 
-/* â”€â”€ Result Footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result Footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wic-result-footer {
   display: flex;
   align-items: center;
@@ -655,7 +655,7 @@
 .wic-copy-full.wic-copied { background: var(--green) !important; }
 .wic-copy-full.wic-copied:hover { background: #15803d !important; }
 
-/* â”€â”€ Animations â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animations Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: wic-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -664,7 +664,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 640px) {
   .wic-page         { padding: 72px 14px 48px; padding-top: 110px; }
   .wic-header       { flex-direction: column; gap: 12px; }

@@ -26,16 +26,16 @@
   --amber:       #d97706;
   --amber-bg:    #fffbeb;
   --amber-bd:    #fde68a;
-  /* Brand accent â€” orange for ecommerce */
+  /* Brand accent Ã¢â‚¬â€ orange for ecommerce */
   --accent:      #ea580c;
   --accent-bg:   #fff7ed;
   --accent-bd:   #fed7aa;
-  --font-head:   "Inter", sans-serif;
-  --font-body:   'Inter', sans-serif;
-  --font-mono:   "Inter", 'Menlo', 'Consolas', monospace;
+  --font-head:   "Manrope", sans-serif;
+  --font-body:   "Manrope", sans-serif;
+  --font-mono:   "Manrope", 'Menlo', 'Consolas', monospace;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -52,7 +52,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-header {
   display: flex;
   align-items: flex-start;
@@ -100,7 +100,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -138,7 +138,7 @@
   border-radius: 100px;
 }
 
-/* â”€â”€ Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-grid {
   display: grid;
   grid-template-columns: 1fr 400px;
@@ -153,7 +153,7 @@
   gap: 14px;
 }
 
-/* â”€â”€ Presets â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Presets Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-presets {
   display: flex;
   align-items: center;
@@ -189,7 +189,7 @@
   background: var(--accent-bg);
 }
 
-/* â”€â”€ Form body â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Form body Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-form-body {
   padding: 18px;
   display: flex;
@@ -197,7 +197,7 @@
   gap: 14px;
 }
 
-/* â”€â”€ Section divider â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Section divider Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-divider {
   font-family: var(--font-head);
   font-size: 0.67rem;
@@ -209,7 +209,7 @@
   padding-bottom: 5px;
 }
 
-/* â”€â”€ Field â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-field {
   display: flex;
   flex-direction: column;
@@ -245,7 +245,7 @@
 .pd-char.good { color: var(--green); }
 .pd-char.over { color: var(--red); }
 
-/* â”€â”€ Inputs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Inputs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-input,
 .pd-textarea,
 .pd-select {
@@ -273,14 +273,14 @@
 .pd-textarea { resize: vertical; min-height: 80px; line-height: 1.65; }
 .pd-select   { cursor: pointer; }
 
-/* â”€â”€ Row 2 col â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Row 2 col Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-row2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
 
-/* â”€â”€ Bullet suggestions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Bullet suggestions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-bullets-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -314,7 +314,7 @@
   background: var(--accent-bg);
 }
 
-/* â”€â”€ Tone / Length chips â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Tone / Length chips Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-chips {
   display: flex;
   flex-wrap: wrap;
@@ -357,7 +357,7 @@
   opacity: 0.7;
 }
 
-/* â”€â”€ Generate button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Generate button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-gen-btn {
   display: flex;
   align-items: center;
@@ -385,7 +385,7 @@
 .pd-gen-btn:active:not(:disabled) { transform: translateY(0); box-shadow: none; }
 .pd-gen-btn:disabled { opacity: 0.45; cursor: not-allowed; }
 
-/* â”€â”€ Spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-spinner {
   display: inline-block;
   width: 15px; height: 15px;
@@ -396,7 +396,7 @@
 }
 @keyframes pd-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Error â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Error Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-error {
   display: flex;
   align-items: center;
@@ -410,7 +410,7 @@
   color: var(--red);
 }
 
-/* â”€â”€ Product Mock Preview â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Product Mock Preview Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-preview-body {
   padding: 16px;
   display: flex;
@@ -512,7 +512,7 @@
   gap: 3px;
 }
 
-/* â”€â”€ Skeleton â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Skeleton Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-skeleton-body { padding: 20px; }
 
 .pd-skel {
@@ -533,7 +533,7 @@
 .pd-skel-short  { width: 70% !important; }
 .pd-skel-block  { height: 56px; width: 100%; border-radius: 10px; }
 
-/* â”€â”€ Output card top â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output card top Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-result-top {
   display: flex;
   align-items: center;
@@ -622,7 +622,7 @@
 .pd-copy-btn:hover { background: var(--grey-4); border-color: var(--grey-4); }
 .pd-copy-btn.copied { background: var(--green) !important; border-color: var(--green) !important; }
 
-/* â”€â”€ Output content â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output content Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-output-content {
   padding: 18px 20px;
   display: flex;
@@ -661,7 +661,7 @@
   word-break: break-word;
 }
 
-/* â”€â”€ Output bullets â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Output bullets Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-output-bullets {
   list-style: none;
   display: flex;
@@ -703,7 +703,7 @@
 
 .pd-bullet-copy:hover { border-color: var(--accent-bd); color: var(--accent); background: var(--accent-bg); }
 
-/* â”€â”€ SEO grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ SEO grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-seo-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -783,7 +783,7 @@
   color: var(--blue);
 }
 
-/* â”€â”€ Result footer â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Result footer Ã¢â€â‚¬Ã¢â€â‚¬ */
 .pd-result-footer {
   display: flex;
   align-items: center;
@@ -801,7 +801,7 @@
   font-weight: 500;
 }
 
-/* â”€â”€ Animate in â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animate in Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in {
   animation: pd-fadein 0.3s ease;
 }
@@ -811,7 +811,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 1024px) {
   .pd-grid { grid-template-columns: 1fr; }
   .pd-col-right { order: -1; }

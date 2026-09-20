@@ -32,11 +32,11 @@
   --amber-bd:   #fde68a;
   --code-bg:    #1e1e1e;
   --radius:     12px;
-  --font-head:  "Inter", sans-serif;
-  --font-body:  'Inter', sans-serif;
+  --font-head:  "Manrope", sans-serif;
+  --font-body:  "Manrope", sans-serif;
 }
 
-/* â”€â”€ Page â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -54,7 +54,7 @@
   gap: 16px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Header Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-header {
   display: flex;
   align-items: flex-start;
@@ -106,7 +106,7 @@
   line-height: 1.5;
 }
 
-/* â”€â”€ Card â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Card Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -117,7 +117,7 @@
   gap: 18px;
 }
 
-/* â”€â”€ Field & Label â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Field & Label Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-field { display: flex; flex-direction: column; gap: 10px; }
 
 .ic-label {
@@ -132,7 +132,7 @@
 .ic-label-icon { color: var(--emerald); flex-shrink: 0; }
 .ic-divider    { height: 1px; background: var(--grey-2); }
 
-/* â”€â”€ Settings Grid â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Settings Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-settings-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -170,7 +170,7 @@
   border-radius: 100px;
 }
 
-/* â”€â”€ Slider â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Slider Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-slider {
   -webkit-appearance: none;
   appearance: none;
@@ -208,7 +208,7 @@
   color: var(--grey-3);
 }
 
-/* â”€â”€ Dimension inputs â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Dimension inputs Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-dim-row {
   display: flex;
   align-items: center;
@@ -254,7 +254,7 @@
 
 .ic-dim-hint { font-size: 0.68rem; color: var(--grey-3); line-height: 1.4; }
 
-/* â”€â”€ Format buttons â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Format buttons Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-fmt-row { display: flex; gap: 8px; }
 
 .ic-fmt-btn {
@@ -281,7 +281,7 @@
   color: var(--emerald) !important;
 }
 
-/* â”€â”€ Drop Zone â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Drop Zone Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-dropzone {
   border: 2px dashed var(--grey-2);
   border-radius: 16px;
@@ -332,7 +332,7 @@
 .ic-dz-link { color: var(--emerald); text-decoration: underline; }
 .ic-dz-sub  { font-size: 0.78rem; color: var(--grey-3); }
 
-/* â”€â”€ Summary Bar â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Summary Bar Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-summary-bar {
   display: flex;
   justify-content: space-between;
@@ -389,7 +389,7 @@
 }
 .ic-btn-dl-all:hover { background: #d1fae5 !important; }
 
-/* â”€â”€ File List â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ File List Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-file-list { display: flex; flex-direction: column; gap: 10px; }
 
 .ic-file-row {
@@ -406,7 +406,7 @@
 .ic-row-error     { border-color: var(--red-bd)     !important; background: var(--red-bg)     !important; }
 .ic-row-processing { border-color: var(--amber-bd)  !important; background: var(--amber-bg)   !important; }
 
-/* â”€â”€ Thumbnail â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Thumbnail Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-thumb-wrap {
   width: 52px;
   height: 52px;
@@ -418,7 +418,7 @@
 }
 .ic-thumb { width: 100%; height: 100%; object-fit: cover; display: block; }
 
-/* â”€â”€ File Info â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ File Info Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-file-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
 
 .ic-file-name {
@@ -470,7 +470,7 @@
   font-weight: 500;
 }
 
-/* â”€â”€ File Actions â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ File Actions Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-file-actions { display: flex; align-items: center; gap: 7px; flex-shrink: 0; }
 
 .ic-status-pill {
@@ -521,7 +521,7 @@
 }
 .ic-remove-btn:hover { border-color: var(--red-bd); color: var(--red); background: var(--red-bg); }
 
-/* â”€â”€ Compress CTA button â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Compress CTA button Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-compress-btn {
   display: flex;
   align-items: center;
@@ -547,7 +547,7 @@
 .ic-compress-btn:active:not(:disabled) { transform: translateY(0); }
 .ic-compress-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
 
-/* â”€â”€ Spinner & mini spinner â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner & mini spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -569,7 +569,7 @@
 }
 @keyframes ic-spin { to { transform: rotate(360deg); } }
 
-/* â”€â”€ Privacy note â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Privacy note Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ic-privacy {
   display: flex;
   align-items: center;
@@ -581,14 +581,14 @@
 }
 .ic-privacy svg { color: var(--emerald); flex-shrink: 0; }
 
-/* â”€â”€ Animation â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Animation Ã¢â€â‚¬Ã¢â€â‚¬ */
 .animate-in { animation: ic-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes ic-fade {
   from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€ Responsive â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬ Responsive Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 640px) {
   .ic-page           { padding: 72px 14px 48px; padding-top: 110px; }
   .ic-header         { flex-direction: column; gap: 12px; }
