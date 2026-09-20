@@ -1,8 +1,7 @@
-/* ── RelationshipCompatibilityChecker.css ── */
+/* â”€â”€ RelationshipCompatibilityChecker.css â”€â”€ */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=DM+Sans:wght@300;400;500;600&display=swap');
 
-/* ── Variables ── */
+/* â”€â”€ Variables â”€â”€ */
 .rcc-page {
   --rcc-bg:         #0f0a14;
   --rcc-surface:    #1a1224;
@@ -21,7 +20,7 @@
   --rcc-radius:     14px;
   --rcc-radius-sm:  8px;
 
-  font-family: 'DM Sans', sans-serif;
+  font-family: "Inter", sans-serif;
   background: var(--rcc-bg);
   min-height: 100vh;
   color: var(--rcc-text);
@@ -55,7 +54,7 @@
   z-index: 0;
 }
 
-/* ── Inner ── */
+/* â”€â”€ Inner â”€â”€ */
 .rcc-inner {
   max-width: 820px;
   margin: 0 auto;
@@ -67,7 +66,7 @@
   padding-top: 90px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .rcc-header {
   display: flex;
   align-items: flex-start;
@@ -117,7 +116,7 @@
   line-height: 1.5;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .rcc-card {
   background: var(--rcc-card-bg);
   border: 1px solid var(--rcc-border);
@@ -130,7 +129,7 @@
   border-color: var(--rcc-border-h);
 }
 
-/* ── Relationship Type ── */
+/* â”€â”€ Relationship Type â”€â”€ */
 .rcc-types {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
@@ -168,7 +167,7 @@
 .rcc-type-desc  { font-size: 10.5px; color: var(--rcc-muted); line-height: 1.2; }
 .rcc-type-btn.rcc-type-on .rcc-type-desc { color: #c084fc; }
 
-/* ── Person Cards Row ── */
+/* â”€â”€ Person Cards Row â”€â”€ */
 .rcc-persons-row {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -231,7 +230,7 @@
   border: none;
   outline: none;
   color: var(--rcc-text);
-  font-family: 'DM Sans', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 600;
   width: 100%;
@@ -239,7 +238,7 @@
 }
 .rcc-name-input::placeholder { color: #4a3560; font-weight: 400; }
 
-/* ── VS Divider ── */
+/* â”€â”€ VS Divider â”€â”€ */
 .rcc-vs {
   display: flex;
   flex-direction: column;
@@ -275,7 +274,7 @@
   color: var(--rcc-muted);
 }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .rcc-field {
   margin-bottom: 14px;
 }
@@ -313,7 +312,7 @@
   padding: 2px 8px;
 }
 
-/* ── Select ── */
+/* â”€â”€ Select â”€â”€ */
 .rcc-select-wrap {
   position: relative;
 }
@@ -324,7 +323,7 @@
   border: 1px solid var(--rcc-border);
   border-radius: var(--rcc-radius-sm);
   color: var(--rcc-text);
-  font-family: 'DM Sans', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 13px;
   cursor: pointer;
   appearance: none;
@@ -341,7 +340,7 @@
   pointer-events: none;
 }
 
-/* ── Traits ── */
+/* â”€â”€ Traits â”€â”€ */
 .rcc-traits {
   display: flex;
   flex-wrap: wrap;
@@ -357,7 +356,7 @@
   border-radius: 20px;
   background: transparent;
   color: var(--rcc-muted);
-  font-family: 'DM Sans', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 11.5px;
   font-weight: 500;
   cursor: pointer;
@@ -373,7 +372,7 @@
   color: var(--rcc-primary);
 }
 
-/* ── Textarea ── */
+/* â”€â”€ Textarea â”€â”€ */
 .rcc-textarea {
   width: 100%;
   padding: 9px 12px;
@@ -381,7 +380,7 @@
   border: 1px solid var(--rcc-border);
   border-radius: var(--rcc-radius-sm);
   color: var(--rcc-text);
-  font-family: 'DM Sans', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 13px;
   resize: none;
   transition: border-color 0.2s;
@@ -392,18 +391,18 @@
 .rcc-textarea:focus { border-color: var(--rcc-primary); }
 .rcc-textarea::placeholder { color: #4a3560; }
 
-/* ── Char Count ── */
+/* â”€â”€ Char Count â”€â”€ */
 .rcc-char-count { font-size: 11px; color: var(--rcc-muted); }
 .rcc-char-warn  { color: var(--rcc-amber); }
 
-/* ── Divider ── */
+/* â”€â”€ Divider â”€â”€ */
 .rcc-divider {
   height: 1px;
   background: var(--rcc-border);
   margin: 14px 0;
 }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .rcc-error-msg {
   display: flex;
   align-items: center;
@@ -416,7 +415,7 @@
   font-size: 13px;
 }
 
-/* ── Generate Button ── */
+/* â”€â”€ Generate Button â”€â”€ */
 .rcc-gen-btn {
   width: 100%;
   padding: 14px;
@@ -424,7 +423,7 @@
   border: none;
   border-radius: var(--rcc-radius);
   color: #fff;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
@@ -446,7 +445,7 @@
   cursor: not-allowed;
 }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .rcc-spinner {
   width: 16px;
   height: 16px;
@@ -458,7 +457,7 @@
 }
 @keyframes rcc-spin { to { transform: rotate(360deg); } }
 
-/* ── Skeleton ── */
+/* â”€â”€ Skeleton â”€â”€ */
 .rcc-skeleton-card { padding: 24px; }
 .rcc-skel {
   background: linear-gradient(90deg, #1e1530 0%, #2a1d42 50%, #1e1530 100%);
@@ -476,10 +475,10 @@
   100% { background-position: -200% 0; }
 }
 
-/* ── Result ── */
+/* â”€â”€ Result â”€â”€ */
 .rcc-result { padding: 24px; }
 
-/* ── Score Section ── */
+/* â”€â”€ Score Section â”€â”€ */
 .rcc-score-section {
   display: flex;
   align-items: center;
@@ -552,7 +551,7 @@
   line-height: 1.6;
 }
 
-/* ── Bar ── */
+/* â”€â”€ Bar â”€â”€ */
 .rcc-bar-wrap { margin-bottom: 4px; }
 .rcc-bar-track {
   height: 8px;
@@ -577,7 +576,7 @@
   color: #4a3560;
 }
 
-/* ── Insights ── */
+/* â”€â”€ Insights â”€â”€ */
 .rcc-insights-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -634,7 +633,7 @@
 .rcc-challenge-item { color: #fde68a; }
 .rcc-challenge-item svg { color: var(--rcc-amber); flex-shrink: 0; margin-top: 1px; }
 
-/* ── Notes ── */
+/* â”€â”€ Notes â”€â”€ */
 .rcc-notes-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -664,7 +663,7 @@
   line-height: 1.5;
 }
 
-/* ── Advice ── */
+/* â”€â”€ Advice â”€â”€ */
 .rcc-advice-block {
   padding: 16px;
   background: linear-gradient(135deg, #1a0f2e, #1f0d1a);
@@ -691,7 +690,7 @@
   line-height: 1.6;
 }
 
-/* ── Footer ── */
+/* â”€â”€ Footer â”€â”€ */
 .rcc-result-footer {
   display: flex;
   align-items: center;
@@ -713,7 +712,7 @@
   border: 1px solid var(--rcc-border);
   border-radius: var(--rcc-radius-sm);
   color: var(--rcc-muted);
-  font-family: 'DM Sans', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 12.5px;
   font-weight: 600;
   cursor: pointer;
@@ -724,7 +723,7 @@
   color: var(--rcc-primary);
 }
 
-/* ── Animate In ── */
+/* â”€â”€ Animate In â”€â”€ */
 .animate-in {
   animation: rcc-fadein 0.45s cubic-bezier(0.4, 0, 0.2, 1) both;
 }
@@ -733,7 +732,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 660px) {
   .rcc-persons-row {
     grid-template-columns: 1fr;

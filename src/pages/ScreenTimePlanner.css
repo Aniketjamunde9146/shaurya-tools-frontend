@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -30,12 +29,12 @@
   --blue-bd:    #bfdbfe;
   --code-bg:    #1e1e1e;
   --radius:     12px;
-  --font-head:  'Poppins', sans-serif;
+  --font-head:  "Inter", sans-serif;
   --font-body:  'Inter', sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .stp-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -53,7 +52,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .stp-header {
   display: flex;
   align-items: flex-start;
@@ -105,7 +104,7 @@
   line-height: 1.5;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .stp-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -116,7 +115,7 @@
   gap: 18px;
 }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .stp-field {
   display: flex;
   flex-direction: column;
@@ -137,7 +136,7 @@
 .stp-label-hint  { font-family: var(--font-body); font-size: 0.75rem; font-weight: 400; color: var(--grey-3); }
 .stp-divider     { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* ── Grid rows ── */
+/* â”€â”€ Grid rows â”€â”€ */
 .stp-row-3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -164,7 +163,7 @@
   letter-spacing: 0.06em;
 }
 
-/* ── Input ── */
+/* â”€â”€ Input â”€â”€ */
 .stp-input {
   width: 100%;
   padding: 11px 14px;
@@ -184,7 +183,7 @@
 }
 .stp-input::placeholder { color: var(--grey-3); font-size: 0.86rem; }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .stp-error-msg {
   display: flex;
   align-items: center;
@@ -198,7 +197,7 @@
   padding: 8px 12px;
 }
 
-/* ── Format/Option Grids ── */
+/* â”€â”€ Format/Option Grids â”€â”€ */
 .stp-formats {
   display: grid;
   gap: 8px;
@@ -252,7 +251,7 @@
 }
 .stp-fmt-on .stp-fmt-desc { color: var(--purple); opacity: 0.85; }
 
-/* ── Checkbox toggle ── */
+/* â”€â”€ Checkbox toggle â”€â”€ */
 .stp-toggle-check {
   display: flex;
   align-items: center;
@@ -312,7 +311,7 @@
   color: var(--grey-3);
 }
 
-/* ── Submit Button ── */
+/* â”€â”€ Submit Button â”€â”€ */
 .stp-submit-btn {
   display: flex;
   align-items: center;
@@ -338,7 +337,7 @@
 .stp-submit-btn:active:not(:disabled) { transform: translateY(0); }
 .stp-submit-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .stp-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -350,7 +349,7 @@
 }
 @keyframes stp-spin { to { transform: rotate(360deg); } }
 
-/* ── Skeleton ── */
+/* â”€â”€ Skeleton â”€â”€ */
 .stp-skeleton-card { gap: 14px; }
 
 .stp-skel {
@@ -368,7 +367,7 @@
 .stp-skel-short { width: 70% !important; }
 .stp-skel-block { height: 80px; }
 
-/* ── Result Top ── */
+/* â”€â”€ Result Top â”€â”€ */
 .stp-result-top {
   display: flex;
   justify-content: space-between;
@@ -405,7 +404,7 @@
   border-color: var(--teal-bd) !important;
 }
 
-/* ── Tabs ── */
+/* â”€â”€ Tabs â”€â”€ */
 .stp-tabs {
   display: flex;
   background: var(--grey-1);
@@ -435,7 +434,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
-/* ── Actions ── */
+/* â”€â”€ Actions â”€â”€ */
 .stp-actions {
   display: flex;
   gap: 7px;
@@ -481,7 +480,7 @@
   color: var(--green) !important;
 }
 
-/* ── Preview ── */
+/* â”€â”€ Preview â”€â”€ */
 .stp-preview {
   border: 1.5px solid var(--grey-2);
   border-radius: var(--radius);
@@ -561,7 +560,7 @@
   white-space: pre;
 }
 
-/* ── Raw ── */
+/* â”€â”€ Raw â”€â”€ */
 .stp-raw {
   background: var(--grey-1);
   border: 1.5px solid var(--grey-2);
@@ -577,7 +576,7 @@
   user-select: text;
 }
 
-/* ── Result Footer ── */
+/* â”€â”€ Result Footer â”€â”€ */
 .stp-result-footer {
   display: flex;
   align-items: center;
@@ -619,7 +618,7 @@
 .stp-copy-full.stp-copied { background: var(--green) !important; }
 .stp-copy-full.stp-copied:hover { background: #15803d !important; }
 
-/* ── Animations ── */
+/* â”€â”€ Animations â”€â”€ */
 .animate-in {
   animation: stp-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -628,7 +627,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 640px) {
   .stp-page         { padding: 72px 14px 48px; padding-top: 110px; }
   .stp-header       { flex-direction: column; gap: 12px; }

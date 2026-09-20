@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -28,12 +27,12 @@
   --rose-bg:    #fff1f2;
   --rose-bd:    #fecdd3;
   --radius:     12px;
-  --font-head:  'Poppins', sans-serif;
+  --font-head:  "Inter", sans-serif;
   --font-body:  'Inter', sans-serif;
-  --font-mono:  'JetBrains Mono', 'Menlo', 'Consolas', monospace;
+  --font-mono:  "Inter", 'Menlo', 'Consolas', monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .rx-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -50,7 +49,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .rx-header {
   display: flex;
   align-items: flex-start;
@@ -99,7 +98,7 @@
   line-height: 1.5;
 }
 
-/* ── Presets ── */
+/* â”€â”€ Presets â”€â”€ */
 .rx-presets {
   display: flex;
   align-items: center;
@@ -134,7 +133,7 @@
   background: var(--rose-bg);
 }
 
-/* ── Card base ── */
+/* â”€â”€ Card base â”€â”€ */
 .rx-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -168,7 +167,7 @@
   gap: 8px;
 }
 
-/* ── Regex input card ── */
+/* â”€â”€ Regex input card â”€â”€ */
 .rx-regex-card { }
 
 .rx-regex-row {
@@ -235,7 +234,7 @@
 }
 .rx-copy-pattern-btn:hover { border-color: var(--grey-3); color: var(--black); }
 
-/* ── Flag toggles ── */
+/* â”€â”€ Flag toggles â”€â”€ */
 .rx-flags-row {
   display: flex;
   align-items: center;
@@ -274,7 +273,7 @@
   opacity: 0.75;
 }
 
-/* ── Status bar ── */
+/* â”€â”€ Status bar â”€â”€ */
 .rx-status-bar {
   display: flex;
   align-items: center;
@@ -296,7 +295,7 @@
 .rx-status-match   .rx-status-dot { background: var(--green); }
 .rx-status-nomatch .rx-status-dot { background: var(--orange); }
 
-/* ── Error bar ── */
+/* â”€â”€ Error bar â”€â”€ */
 .rx-error-bar {
   display: flex;
   align-items: center;
@@ -316,7 +315,7 @@
   flex-shrink: 0;
 }
 
-/* ── Main grid ── */
+/* â”€â”€ Main grid â”€â”€ */
 .rx-grid {
   display: grid;
   grid-template-columns: 1fr 320px;
@@ -330,7 +329,7 @@
   gap: 14px;
 }
 
-/* ── Test string ── */
+/* â”€â”€ Test string â”€â”€ */
 .rx-test-card { }
 
 .rx-char-count {
@@ -355,7 +354,7 @@
 }
 .rx-test-textarea::placeholder { color: var(--grey-3); font-family: var(--font-body); }
 
-/* ── Highlighted view ── */
+/* â”€â”€ Highlighted view â”€â”€ */
 .rx-highlighted {
   padding: 16px;
   font-family: var(--font-mono);
@@ -386,7 +385,7 @@
   border: 1px solid var(--green-bd);
 }
 
-/* ── Tabs mini ── */
+/* â”€â”€ Tabs mini â”€â”€ */
 .rx-tabs-mini {
   display: flex;
   background: var(--white);
@@ -414,7 +413,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.07);
 }
 
-/* ── Match summary ── */
+/* â”€â”€ Match summary â”€â”€ */
 .rx-match-summary {
   padding: 8px;
   display: flex;
@@ -517,7 +516,7 @@
 }
 .rx-group-named { border-color: var(--blue-bd); }
 
-/* ── Replace ── */
+/* â”€â”€ Replace â”€â”€ */
 .rx-replace-section {
   padding: 14px 16px;
   display: flex;
@@ -571,7 +570,7 @@
   overflow-y: auto;
 }
 
-/* ── Small buttons ── */
+/* â”€â”€ Small buttons â”€â”€ */
 .rx-sm-btn {
   display: inline-flex;
   align-items: center;
@@ -591,7 +590,7 @@
 .rx-sm-btn:hover { border-color: var(--grey-3); color: var(--black); }
 .rx-danger:hover { border-color: var(--red-bd) !important; color: var(--red) !important; background: var(--red-bg) !important; }
 
-/* ── Reference panel ── */
+/* â”€â”€ Reference panel â”€â”€ */
 .rx-ref-card { }
 
 .rx-ref-body {
@@ -680,7 +679,7 @@
 .rx-ref-item:hover .rx-ref-copy { opacity: 1; }
 .rx-ref-copy:hover { background: var(--grey-2); color: var(--black); }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 1024px) {
   .rx-grid { grid-template-columns: 1fr; }
   .rx-col-right { order: -1; }

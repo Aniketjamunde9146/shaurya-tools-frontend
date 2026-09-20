@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -29,11 +28,11 @@
   --teal-bg:    #f0fdfa;
   --teal-bd:    #99f6e4;
   --radius:     12px;
-  --font-head:  'Poppins', sans-serif;
+  --font-head:  "Inter", sans-serif;
   --font-body:  'Inter', sans-serif;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .isc-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -51,7 +50,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .isc-header {
   display: flex;
   align-items: flex-start;
@@ -103,7 +102,7 @@
   line-height: 1.5;
 }
 
-/* ── Drop Zone ── */
+/* â”€â”€ Drop Zone â”€â”€ */
 .isc-dropzone {
   border: 2px dashed var(--grey-2);
   border-radius: 16px;
@@ -153,7 +152,7 @@
 .isc-dz-link { color: var(--purple); text-decoration: underline; cursor: pointer; }
 .isc-dz-sub  { font-size: 0.78rem; color: var(--grey-3); }
 
-/* ── Editor Layout ── */
+/* â”€â”€ Editor Layout â”€â”€ */
 .isc-editor {
   display: grid;
   grid-template-columns: 1fr 320px;
@@ -161,7 +160,7 @@
   align-items: start;
 }
 
-/* ── Preview Column ── */
+/* â”€â”€ Preview Column â”€â”€ */
 .isc-preview-col {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -206,7 +205,7 @@
   justify-content: center;
 }
 
-/* ── Transform row ── */
+/* â”€â”€ Transform row â”€â”€ */
 .isc-transform-row {
   display: flex;
   gap: 7px;
@@ -257,7 +256,7 @@
 }
 .isc-change-btn:hover { border-color: var(--grey-3); background: var(--grey-1); color: var(--black); }
 
-/* ── Controls Column ── */
+/* â”€â”€ Controls Column â”€â”€ */
 .isc-controls-col {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -268,7 +267,7 @@
   gap: 14px;
 }
 
-/* ── Field & Labels ── */
+/* â”€â”€ Field & Labels â”€â”€ */
 .isc-field { display: flex; flex-direction: column; gap: 8px; }
 
 .isc-label {
@@ -284,7 +283,7 @@
 .isc-divider    { height: 1px; background: var(--grey-2); }
 .isc-sub-label  { font-size: 0.73rem; font-weight: 600; color: var(--grey-4); text-transform: uppercase; letter-spacing: 0.05em; }
 
-/* ── Shapes Grid ── */
+/* â”€â”€ Shapes Grid â”€â”€ */
 .isc-shapes-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -320,7 +319,7 @@
 .isc-shape-desc  { font-size: 0.6rem; color: var(--grey-3); }
 .isc-shape-on .isc-shape-desc  { color: var(--purple); opacity: 0.8; }
 
-/* ── Format buttons ── */
+/* â”€â”€ Format buttons â”€â”€ */
 .isc-fmt-row { display: flex; gap: 7px; }
 
 .isc-fmt-btn {
@@ -343,7 +342,7 @@
   color: var(--teal) !important;
 }
 
-/* ── Quality slider ── */
+/* â”€â”€ Quality slider â”€â”€ */
 .isc-quality-row { display: flex; flex-direction: column; gap: 6px; }
 
 .isc-quality-top {
@@ -384,7 +383,7 @@
 }
 .isc-slider::-webkit-slider-thumb:hover { transform: scale(1.2); }
 
-/* ── Transparent bg toggle ── */
+/* â”€â”€ Transparent bg toggle â”€â”€ */
 .isc-toggle-check {
   display: flex;
   align-items: center;
@@ -426,7 +425,7 @@
 .isc-check-label { font-size: 0.82rem; font-weight: 600; color: var(--black); }
 .isc-check-on .isc-check-label { color: var(--purple-dk); }
 
-/* ── Background color row ── */
+/* â”€â”€ Background color row â”€â”€ */
 .isc-bg-row {
   display: flex;
   align-items: center;
@@ -453,7 +452,7 @@
   font-family: 'Courier New', monospace;
 }
 
-/* ── Process Button ── */
+/* â”€â”€ Process Button â”€â”€ */
 .isc-process-btn {
   display: flex;
   align-items: center;
@@ -486,7 +485,7 @@
   font-weight: 500;
 }
 
-/* ── Result Box ── */
+/* â”€â”€ Result Box â”€â”€ */
 .isc-result-box {
   border: 1.5px solid var(--green-bd);
   background: var(--green-bg);
@@ -553,7 +552,7 @@
 }
 .isc-dl-btn:hover { background: #15803d; transform: translateY(-1px); }
 
-/* ── Reset button ── */
+/* â”€â”€ Reset button â”€â”€ */
 .isc-reset-btn {
   display: flex;
   align-items: center;
@@ -573,7 +572,7 @@
 }
 .isc-reset-btn:hover { border-color: var(--red-bd); color: var(--red); background: var(--red-bg); }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .isc-spinner {
   display: inline-block;
   width: 15px; height: 15px;
@@ -585,7 +584,7 @@
 }
 @keyframes isc-spin { to { transform: rotate(360deg); } }
 
-/* ── Privacy ── */
+/* â”€â”€ Privacy â”€â”€ */
 .isc-privacy {
   display: flex;
   align-items: center;
@@ -597,14 +596,14 @@
 }
 .isc-privacy svg { color: var(--green); flex-shrink: 0; }
 
-/* ── Animation ── */
+/* â”€â”€ Animation â”€â”€ */
 .animate-in { animation: isc-fade 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes isc-fade {
   from { opacity: 0; transform: translateY(10px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 768px) {
   .isc-editor { grid-template-columns: 1fr; }
   .isc-controls-col { order: -1; }

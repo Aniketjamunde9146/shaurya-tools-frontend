@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&family=Oswald:wght@700&family=Bebas+Neue&family=Bangers&family=Anton&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -23,11 +22,11 @@
   --amber-bg:   #fffbeb;
   --amber-bd:   #fde68a;
   --radius:     12px;
-  --font-head:  'Poppins', sans-serif;
+  --font-head:  "Inter", sans-serif;
   --font-body:  'Inter', sans-serif;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .mg-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -44,7 +43,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .mg-header {
   display: flex; align-items: flex-start; gap: 16px; padding: 4px 0 8px;
 }
@@ -66,7 +65,7 @@
 }
 .mg-header p { font-size: 0.85rem; color: var(--grey-3); line-height: 1.5; }
 
-/* ── Two-column layout ── */
+/* â”€â”€ Two-column layout â”€â”€ */
 .mg-layout {
   display: grid;
   grid-template-columns: 380px 1fr;
@@ -74,19 +73,19 @@
   align-items: start;
 }
 
-/* ── Controls column ── */
+/* â”€â”€ Controls column â”€â”€ */
 .mg-controls {
   display: flex; flex-direction: column; gap: 12px;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .mg-card {
   background: var(--white); border: 1.5px solid var(--grey-2);
   border-radius: 16px; padding: 20px;
   display: flex; flex-direction: column; gap: 14px;
 }
 
-/* ── Image info row ── */
+/* â”€â”€ Image info row â”€â”€ */
 .mg-img-info-row {
   flex-direction: row !important;
   align-items: center; gap: 12px; padding: 14px 16px;
@@ -111,7 +110,7 @@
 }
 .mg-change-btn:hover { border-color: var(--emerald-bd); background: var(--emerald-bg); color: var(--emerald); }
 
-/* ── Drop zone ── */
+/* â”€â”€ Drop zone â”€â”€ */
 .mg-dropzone {
   border: 2px dashed var(--grey-2); border-radius: 16px; padding: 36px 24px;
   display: flex; align-items: center; justify-content: center;
@@ -132,7 +131,7 @@
 .mg-dz-link  { color: var(--emerald); text-decoration: underline; }
 .mg-dz-sub   { font-size: 0.75rem; color: var(--grey-3); }
 
-/* ── Label ── */
+/* â”€â”€ Label â”€â”€ */
 .mg-label {
   font-family: var(--font-head); font-size: 0.88rem; font-weight: 600;
   color: var(--black); display: flex; align-items: center; gap: 6px;
@@ -140,7 +139,7 @@
 .mg-label-icon { color: var(--emerald); flex-shrink: 0; }
 .mg-divider    { height: 1px; background: var(--grey-2); }
 
-/* ── Text inputs ── */
+/* â”€â”€ Text inputs â”€â”€ */
 .mg-text-group { display: flex; flex-direction: column; gap: 10px; }
 .mg-setting-group { display: flex; flex-direction: column; gap: 6px; }
 .mg-setting-top { display: flex; justify-content: space-between; align-items: center; }
@@ -161,7 +160,7 @@
 .mg-text-top { border-left: 3px solid var(--emerald); }
 .mg-text-bottom { border-left: 3px solid var(--amber); }
 
-/* ── Font grid ── */
+/* â”€â”€ Font grid â”€â”€ */
 .mg-font-grid {
   display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px;
 }
@@ -179,12 +178,12 @@
   color: var(--emerald) !important;
 }
 
-/* ── 3-col row ── */
+/* â”€â”€ 3-col row â”€â”€ */
 .mg-row-3 {
   display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; align-items: start;
 }
 
-/* ── Slider ── */
+/* â”€â”€ Slider â”€â”€ */
 .mg-badge {
   font-size: 0.72rem; font-weight: 700;
   color: var(--emerald); background: var(--emerald-bg); border: 1px solid var(--emerald-bd);
@@ -210,7 +209,7 @@
   display: flex; justify-content: space-between; font-size: 0.63rem; color: var(--grey-3);
 }
 
-/* ── Align buttons ── */
+/* â”€â”€ Align buttons â”€â”€ */
 .mg-align-row { display: flex; gap: 5px; }
 .mg-align-btn {
   flex: 1; padding: 7px 4px;
@@ -226,7 +225,7 @@
   color: var(--emerald) !important;
 }
 
-/* ── Color picker ── */
+/* â”€â”€ Color picker â”€â”€ */
 .mg-color-row { display: flex; align-items: center; gap: 8px; }
 .mg-color-input {
   width: 34px; height: 34px; border: 1.5px solid var(--grey-2); border-radius: 8px;
@@ -243,7 +242,7 @@
 .mg-swatch:hover { transform: scale(1.2); }
 .mg-swatch-on { border-color: var(--emerald) !important; transform: scale(1.15); }
 
-/* ── Download button ── */
+/* â”€â”€ Download button â”€â”€ */
 .mg-download-btn {
   display: flex; align-items: center; justify-content: center; gap: 8px;
   width: 100%; padding: 13px 20px;
@@ -259,7 +258,7 @@
 .mg-download-btn:active:not(:disabled) { transform: translateY(0); }
 .mg-download-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* ── Preview panel ── */
+/* â”€â”€ Preview panel â”€â”€ */
 .mg-preview-panel {
   position: sticky; top: 100px;
   display: flex; flex-direction: column; gap: 10px;
@@ -296,21 +295,21 @@
   font-size: 0.7rem; color: var(--grey-3); text-align: center;
 }
 
-/* ── Privacy ── */
+/* â”€â”€ Privacy â”€â”€ */
 .mg-privacy {
   display: flex; align-items: center; gap: 7px;
   font-size: 0.76rem; color: var(--grey-3); font-weight: 500; padding: 0 2px;
 }
 .mg-privacy svg { color: var(--emerald); flex-shrink: 0; }
 
-/* ── Animation ── */
+/* â”€â”€ Animation â”€â”€ */
 .animate-in { animation: mg-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes mg-fade {
   from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 860px) {
   .mg-layout { grid-template-columns: 1fr; }
   .mg-preview-panel { position: static; }

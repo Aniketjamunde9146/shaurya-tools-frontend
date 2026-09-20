@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@700&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -37,12 +36,12 @@
   --ec-blue-bd:  #bfdbfe;
 
   --radius: 12px;
-  --font-head: 'Poppins', sans-serif;
+  --font-head: "Inter", sans-serif;
   --font-body: 'Inter', sans-serif;
-  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+  --font-mono: "Inter", 'Courier New', monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .ec-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -60,7 +59,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .ec-header {
   display: flex;
   align-items: flex-start;
@@ -145,7 +144,7 @@
 }
 .ec-add-btn:active { transform: translateY(0); }
 
-/* ── Stats pills ── */
+/* â”€â”€ Stats pills â”€â”€ */
 .ec-stats-row {
   display: flex;
   gap: 8px;
@@ -175,7 +174,7 @@
 .ec-stat-critical strong { color: var(--ec-red) !important; }
 .ec-stat-critical svg    { color: var(--ec-red) !important; }
 
-/* ── Form Card ── */
+/* â”€â”€ Form Card â”€â”€ */
 .ec-form-card {
   background: var(--white);
   border: 1.5px solid var(--ec-indigo-bd);
@@ -203,7 +202,7 @@
 }
 .ec-form-title svg { color: var(--ec-indigo); }
 
-/* ── Form fields ── */
+/* â”€â”€ Form fields â”€â”€ */
 .ec-form { display: flex; flex-direction: column; gap: 14px; }
 
 .ec-form-row-2 {
@@ -256,7 +255,7 @@
 }
 .ec-input::placeholder { color: var(--grey-3); }
 
-/* ── Priority row ── */
+/* â”€â”€ Priority row â”€â”€ */
 .ec-priority-row {
   display: flex;
   gap: 8px;
@@ -277,7 +276,7 @@
 }
 .ec-pri-btn:hover:not(.ec-pri-on) { border-color: var(--grey-3); background: var(--grey-1); }
 
-/* ── Form error ── */
+/* â”€â”€ Form error â”€â”€ */
 .ec-form-error {
   display: flex;
   align-items: center;
@@ -291,7 +290,7 @@
   padding: 8px 12px;
 }
 
-/* ── Form footer ── */
+/* â”€â”€ Form footer â”€â”€ */
 .ec-form-footer {
   display: flex;
   gap: 8px;
@@ -334,7 +333,7 @@
   box-shadow: 0 4px 12px rgba(79,70,229,0.3);
 }
 
-/* ── Controls bar ── */
+/* â”€â”€ Controls bar â”€â”€ */
 .ec-controls-bar {
   display: flex;
   gap: 8px;
@@ -377,14 +376,14 @@
 }
 .ec-select:focus { border-color: var(--ec-indigo); }
 
-/* ── Cards grid ── */
+/* â”€â”€ Cards grid â”€â”€ */
 .ec-cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 14px;
 }
 
-/* ── Exam Card ── */
+/* â”€â”€ Exam Card â”€â”€ */
 .ec-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -405,7 +404,7 @@
 .ec-card.ec-upcoming { border-left: 4px solid var(--ec-indigo); }
 .ec-card.ec-passed   { border-left: 4px solid var(--grey-3); opacity: 0.65; }
 
-/* ── Card top row ── */
+/* â”€â”€ Card top row â”€â”€ */
 .ec-card-top {
   display: flex;
   align-items: center;
@@ -416,7 +415,7 @@
 
 .ec-card-meta { display: flex; gap: 5px; align-items: center; flex-wrap: wrap; }
 
-/* ── Badges ── */
+/* â”€â”€ Badges â”€â”€ */
 .ec-urgency-badge {
   display: inline-flex;
   align-items: center;
@@ -459,7 +458,7 @@
   border-radius: 100px;
 }
 
-/* ── Card actions ── */
+/* â”€â”€ Card actions â”€â”€ */
 .ec-card-actions { display: flex; gap: 4px; align-items: center; }
 
 .ec-icon-btn {
@@ -478,7 +477,7 @@
 .ec-icon-btn:hover { color: var(--black); border-color: var(--grey-3); background: var(--grey-1); }
 .ec-icon-del:hover { color: var(--ec-red) !important; background: var(--ec-red-bg) !important; border-color: var(--ec-red-bd) !important; }
 
-/* ── Card name ── */
+/* â”€â”€ Card name â”€â”€ */
 .ec-card-name {
   font-family: var(--font-head);
   font-size: 1.05rem;
@@ -488,7 +487,7 @@
   line-height: 1.3;
 }
 
-/* ── Card date ── */
+/* â”€â”€ Card date â”€â”€ */
 .ec-card-date {
   display: flex;
   align-items: center;
@@ -507,7 +506,7 @@
   font-size: 0.77rem;
 }
 
-/* ── Countdown grid ── */
+/* â”€â”€ Countdown grid â”€â”€ */
 .ec-countdown-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -553,7 +552,7 @@
   letter-spacing: 0.06em;
 }
 
-/* ── Passed message ── */
+/* â”€â”€ Passed message â”€â”€ */
 .ec-passed-msg {
   display: flex;
   align-items: center;
@@ -567,7 +566,7 @@
   padding: 12px 14px;
 }
 
-/* ── Notes ── */
+/* â”€â”€ Notes â”€â”€ */
 .ec-card-notes {
   font-size: 0.78rem;
   color: var(--grey-3);
@@ -578,7 +577,7 @@
   border: 1px solid var(--grey-2);
 }
 
-/* ── Progress bar ── */
+/* â”€â”€ Progress bar â”€â”€ */
 .ec-progress-wrap {
   height: 4px;
   background: var(--grey-2);
@@ -592,7 +591,7 @@
   transition: width 1s linear;
 }
 
-/* ── Empty state ── */
+/* â”€â”€ Empty state â”€â”€ */
 .ec-empty {
   display: flex;
   flex-direction: column;
@@ -606,14 +605,14 @@
 .ec-empty p   { font-family: var(--font-head); font-size: 1rem; font-weight: 600; color: var(--grey-4); }
 .ec-empty span { font-size: 0.83rem; }
 
-/* ── Animation ── */
+/* â”€â”€ Animation â”€â”€ */
 .ec-animate-in { animation: ec-fade 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes ec-fade {
   from { opacity: 0; transform: translateY(10px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 640px) {
   .ec-page         { padding: 72px 14px 48px; padding-top: 100px; }
   .ec-header       { flex-direction: column; gap: 12px; }

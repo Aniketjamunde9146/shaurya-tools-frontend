@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -21,17 +20,17 @@
   --violet:      #7c3aed;
   --violet-bg:   #f5f3ff;
   --violet-bd:   #ddd6fe;
-  /* Brand accent — indigo/blue for cover letters */
+  /* Brand accent â€” indigo/blue for cover letters */
   --accent:      #4f46e5;
   --accent-bg:   #eef2ff;
   --accent-bd:   #c7d2fe;
-  --font-head:   'Poppins', sans-serif;
+  --font-head:   "Inter", sans-serif;
   --font-body:   'Inter', sans-serif;
-  --font-mono:   'JetBrains Mono', monospace;
+  --font-mono:   "Inter", monospace;
   --font-letter: 'Georgia', 'Times New Roman', serif;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .cl-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -48,7 +47,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .cl-header {
   display: flex;
   align-items: flex-start;
@@ -96,7 +95,7 @@
   line-height: 1.5;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .cl-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -134,7 +133,7 @@
   border-radius: 100px;
 }
 
-/* ── Collapsible section head ── */
+/* â”€â”€ Collapsible section head â”€â”€ */
 .cl-section-head {
   display: flex;
   align-items: center;
@@ -164,7 +163,7 @@
   color: var(--black);
 }
 
-/* ── Grid ── */
+/* â”€â”€ Grid â”€â”€ */
 .cl-grid {
   display: grid;
   grid-template-columns: 1fr 420px;
@@ -179,7 +178,7 @@
   gap: 12px;
 }
 
-/* ── Presets ── */
+/* â”€â”€ Presets â”€â”€ */
 .cl-presets {
   display: flex;
   align-items: center;
@@ -215,7 +214,7 @@
   background: var(--accent-bg);
 }
 
-/* ── Form body ── */
+/* â”€â”€ Form body â”€â”€ */
 .cl-form-body {
   padding: 16px;
   display: flex;
@@ -223,7 +222,7 @@
   gap: 12px;
 }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .cl-field {
   display: flex;
   flex-direction: column;
@@ -246,7 +245,7 @@
   margin-left: 4px;
 }
 
-/* ── Inputs ── */
+/* â”€â”€ Inputs â”€â”€ */
 .cl-input,
 .cl-textarea,
 .cl-select {
@@ -274,10 +273,10 @@
 .cl-textarea { resize: vertical; min-height: 70px; line-height: 1.65; }
 .cl-select { cursor: pointer; }
 
-/* ── Row 2 col ── */
+/* â”€â”€ Row 2 col â”€â”€ */
 .cl-row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 
-/* ── Chips ── */
+/* â”€â”€ Chips â”€â”€ */
 .cl-chips { display: flex; flex-wrap: wrap; gap: 7px; }
 
 .cl-chip {
@@ -313,7 +312,7 @@
   opacity: 0.7;
 }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .cl-error {
   display: flex;
   align-items: center;
@@ -327,7 +326,7 @@
   color: var(--red);
 }
 
-/* ── Generate button ── */
+/* â”€â”€ Generate button â”€â”€ */
 .cl-gen-btn {
   display: flex;
   align-items: center;
@@ -354,7 +353,7 @@
 .cl-gen-btn:active:not(:disabled) { transform: translateY(0); box-shadow: none; }
 .cl-gen-btn:disabled { opacity: 0.45; cursor: not-allowed; }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .cl-spinner {
   display: inline-block;
   width: 15px; height: 15px;
@@ -365,7 +364,7 @@
 }
 @keyframes cl-spin { to { transform: rotate(360deg); } }
 
-/* ── Preview card ── */
+/* â”€â”€ Preview card â”€â”€ */
 .cl-preview-body {
   padding: 16px;
   display: flex;
@@ -487,7 +486,7 @@
   margin-top: 5px;
 }
 
-/* ── Skeleton ── */
+/* â”€â”€ Skeleton â”€â”€ */
 .cl-skeleton-body { padding: 20px; }
 
 .cl-skel {
@@ -508,7 +507,7 @@
 .cl-skel-short  { width: 70% !important; }
 .cl-skel-block  { height: 56px; width: 100%; border-radius: 10px; }
 
-/* ── Subject banner ── */
+/* â”€â”€ Subject banner â”€â”€ */
 .cl-subject-banner {
   display: flex;
   align-items: center;
@@ -574,7 +573,7 @@
 .cl-subject-copy:hover,
 .cl-subject-copy.copied { background: var(--accent); color: var(--white); border-color: var(--accent); }
 
-/* ── Output top ── */
+/* â”€â”€ Output top â”€â”€ */
 .cl-result-top {
   display: flex;
   align-items: center;
@@ -660,7 +659,7 @@
 .cl-copy-btn:hover { background: var(--grey-4); border-color: var(--grey-4); }
 .cl-copy-btn.copied { background: var(--green) !important; border-color: var(--green) !important; }
 
-/* ── Letter preview — paper style ── */
+/* â”€â”€ Letter preview â€” paper style â”€â”€ */
 .cl-letter-preview {
   padding: 16px;
   background: var(--grey-1);
@@ -691,7 +690,7 @@
   word-break: break-word;
 }
 
-/* ── Output content ── */
+/* â”€â”€ Output content â”€â”€ */
 .cl-output-content {
   padding: 18px 20px;
   display: flex;
@@ -776,7 +775,7 @@
 
 .cl-point-check { color: var(--green); flex-shrink: 0; margin-top: 3px; }
 
-/* ── Raw textarea ── */
+/* â”€â”€ Raw textarea â”€â”€ */
 .cl-output-textarea {
   width: 100%;
   min-height: 420px;
@@ -791,7 +790,7 @@
   background: var(--white);
 }
 
-/* ── Footer ── */
+/* â”€â”€ Footer â”€â”€ */
 .cl-result-footer {
   display: flex;
   align-items: center;
@@ -809,7 +808,7 @@
   font-weight: 500;
 }
 
-/* ── Animate ── */
+/* â”€â”€ Animate â”€â”€ */
 .animate-in {
   animation: cl-fadein 0.3s ease;
 }
@@ -818,7 +817,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 1024px) {
   .cl-grid { grid-template-columns: 1fr; }
   .cl-col-right { order: -1; }

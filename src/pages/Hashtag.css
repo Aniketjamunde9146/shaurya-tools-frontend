@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
-/* ── Base ── */
+/* â”€â”€ Base â”€â”€ */
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
@@ -20,11 +19,11 @@
   --orange-bg:  #fff7ed;
   --orange-bd:  #fed7aa;
   --radius:     12px;
-  --font-head:  'Poppins', sans-serif;
+  --font-head:  "Inter", sans-serif;
   --font-body:  'Inter', sans-serif;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .ht-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -42,7 +41,7 @@
   gap: 20px;
 }
 
-/* ── Page Header ── */
+/* â”€â”€ Page Header â”€â”€ */
 .ht-header {
   display: flex;
   align-items: flex-start;
@@ -93,7 +92,7 @@
   line-height: 1.5;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .ht-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -104,7 +103,7 @@
   gap: 18px;
 }
 
-/* ── Field / Label ── */
+/* â”€â”€ Field / Label â”€â”€ */
 .ht-field {
   display: flex;
   flex-direction: column;
@@ -119,7 +118,7 @@
   color: var(--grey-3);
 }
 
-/* ── Input ── */
+/* â”€â”€ Input â”€â”€ */
 .ht-input {
   width: 100%;
   padding: 11px 14px;
@@ -139,7 +138,7 @@
   box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
 }
 
-/* ── Pills ── */
+/* â”€â”€ Pills â”€â”€ */
 .ht-pills {
   display: flex;
   flex-wrap: wrap;
@@ -173,7 +172,7 @@
 
 .ht-pill-num { min-width: 52px; text-align: center; }
 
-/* ── Generate Button ── */
+/* â”€â”€ Generate Button â”€â”€ */
 .ht-generate-btn {
   display: flex;
   align-items: center;
@@ -203,7 +202,7 @@
   transform: none;
 }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .ht-spinner {
   display: inline-block;
   width: 16px;
@@ -217,7 +216,7 @@
 
 @keyframes ht-spin { to { transform: rotate(360deg); } }
 
-/* ── Results ── */
+/* â”€â”€ Results â”€â”€ */
 .ht-results {
   display: flex;
   flex-direction: column;
@@ -310,7 +309,7 @@
   font-style: italic;
 }
 
-/* ── Hashtag Chips ── */
+/* â”€â”€ Hashtag Chips â”€â”€ */
 .ht-chips {
   display: flex;
   flex-wrap: wrap;
@@ -352,7 +351,7 @@
   color: var(--blue);
 }
 
-/* ── Add to Caption Button ── */
+/* â”€â”€ Add to Caption Button â”€â”€ */
 .ht-add-btn {
   display: flex;
   align-items: center;
@@ -379,7 +378,7 @@
 
 .ht-add-btn:disabled { opacity: 0.35; cursor: not-allowed; }
 
-/* ── Caption Builder ── */
+/* â”€â”€ Caption Builder â”€â”€ */
 .ht-caption-head {
   display: flex;
   justify-content: space-between;
@@ -419,7 +418,7 @@
 }
 .ht-danger-btn:hover { border-color: #ef4444; color: #ef4444; }
 
-/* ── Textarea ── */
+/* â”€â”€ Textarea â”€â”€ */
 .ht-textarea {
   width: 100%;
   padding: 12px 14px;
@@ -442,7 +441,7 @@
   box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
 }
 
-/* ── Caption Footer ── */
+/* â”€â”€ Caption Footer â”€â”€ */
 .ht-caption-foot {
   display: flex;
   justify-content: space-between;
@@ -479,7 +478,7 @@
 
 .ht-copy-btn:disabled { opacity: 0.35; cursor: not-allowed; }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 600px) {
   .ht-page { padding: 72px 14px 48px; 
 padding-top: 110px;}

@@ -183,8 +183,6 @@ export default function UUIDGenerator() {
       </Helmet>
 
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
-
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
         :root {
@@ -213,9 +211,9 @@ export default function UUIDGenerator() {
           --rose-bg:    #fff1f2;
           --rose-bd:    #fecdd3;
           --radius:     12px;
-          --font-head:  'Poppins', sans-serif;
+          --font-head:  'Inter', sans-serif;
           --font-body:  'Inter', sans-serif;
-          --font-mono:  'JetBrains Mono', 'Menlo', 'Consolas', monospace;
+          --font-mono:  'Consolas', monospace;
         }
 
         .ug-page {

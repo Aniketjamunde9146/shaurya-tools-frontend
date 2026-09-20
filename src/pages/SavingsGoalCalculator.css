@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -16,7 +15,7 @@
   --red-bg:     #fef2f2;
   --red-bd:     #fecaca;
 
-  /* Tool accent — teal (matches your system) */
+  /* Tool accent â€” teal (matches your system) */
   --sgc-accent:    #0d9488;
   --sgc-accent-bg: #f0fdfa;
   --sgc-accent-bd: #99f6e4;
@@ -33,12 +32,12 @@
   --sgc-indigo-bd: #c7d2fe;
 
   --radius: 12px;
-  --font-head: 'Poppins', sans-serif;
+  --font-head: "Inter", sans-serif;
   --font-body: 'Inter', sans-serif;
   --font-mono: 'Courier New', monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .sgc-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -56,7 +55,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .sgc-header {
   display: flex;
   align-items: flex-start;
@@ -90,7 +89,7 @@
 }
 .sgc-header p { font-size: 0.85rem; color: var(--grey-3); line-height: 1.5; }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .sgc-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -101,7 +100,7 @@
   gap: 18px;
 }
 
-/* ── Fields ── */
+/* â”€â”€ Fields â”€â”€ */
 .sgc-field { display: flex; flex-direction: column; gap: 8px; }
 .sgc-label {
   font-family: var(--font-head);
@@ -113,7 +112,7 @@
 .sgc-divider  { height: 1px; background: var(--grey-2); margin: 2px 0; }
 .sgc-hint     { font-size: 0.73rem; color: var(--grey-3); margin-top: 2px; }
 
-/* ── Goal Presets ── */
+/* â”€â”€ Goal Presets â”€â”€ */
 .sgc-presets-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -132,7 +131,7 @@
 .sgc-preset-icon { color: var(--grey-3); }
 .sgc-preset-on .sgc-preset-icon { color: var(--sgc-accent); }
 
-/* ── Amount Input ── */
+/* â”€â”€ Amount Input â”€â”€ */
 .sgc-amount-input-wrap { position: relative; }
 .sgc-dollar {
   position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
@@ -148,7 +147,7 @@
 .sgc-amount-input:focus { border-color: var(--sgc-accent); box-shadow: 0 0 0 3px rgba(13,148,136,0.1); }
 .sgc-amount-input::placeholder { color: var(--grey-3); }
 
-/* ── Rate ── */
+/* â”€â”€ Rate â”€â”€ */
 .sgc-rate-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
 .sgc-rate-input-wrap { position: relative; width: 120px; flex-shrink: 0; }
 .sgc-rate-input {
@@ -176,7 +175,7 @@
 .sgc-rate-chip-sub { font-size: 0.58rem; font-weight: 400; color: var(--grey-3); }
 .sgc-rate-chip-on .sgc-rate-chip-sub { color: var(--sgc-amber); opacity: 0.8; }
 
-/* ── Mode toggle ── */
+/* â”€â”€ Mode toggle â”€â”€ */
 .sgc-mode-toggle { display: flex; gap: 7px; }
 .sgc-mode-btn {
   flex: 1; display: flex; align-items: center; justify-content: center; gap: 7px;
@@ -189,12 +188,12 @@
 .sgc-mode-btn:hover:not(.sgc-mode-on) { border-color: var(--grey-3); background: var(--grey-1); }
 .sgc-mode-on { background: var(--sgc-violet-bg) !important; border-color: var(--sgc-violet-bd) !important; color: var(--sgc-violet) !important; }
 
-/* ── Contrib row ── */
+/* â”€â”€ Contrib row â”€â”€ */
 .sgc-contrib-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
 .sgc-months-input-wrap { position: relative; display: flex; align-items: center; gap: 8px; min-width: 160px; }
 .sgc-months-label { font-size: 0.83rem; font-weight: 600; color: var(--grey-3); white-space: nowrap; }
 
-/* ── Freq group ── */
+/* â”€â”€ Freq group â”€â”€ */
 .sgc-freq-group { display: flex; gap: 4px; flex-wrap: wrap; }
 .sgc-freq-btn {
   padding: 8px 11px; border: 1.5px solid var(--grey-2); border-radius: 9px;
@@ -206,7 +205,7 @@
 .sgc-freq-btn:hover:not(.sgc-freq-on) { border-color: var(--grey-3); background: var(--grey-1); }
 .sgc-freq-on { background: var(--sgc-accent-bg) !important; border-color: var(--sgc-accent-bd) !important; color: var(--sgc-accent-dk) !important; }
 
-/* ── Result top ── */
+/* â”€â”€ Result top â”€â”€ */
 .sgc-result-top {
   display: flex; justify-content: space-between; align-items: center;
   flex-wrap: wrap; gap: 10px;
@@ -246,7 +245,7 @@
 }
 .sgc-action-btn:hover { border-color: var(--grey-3); color: var(--black); background: var(--grey-1); }
 
-/* ── Results Tab ── */
+/* â”€â”€ Results Tab â”€â”€ */
 .sgc-results { display: flex; flex-direction: column; gap: 18px; }
 
 /* Hero row */
@@ -319,7 +318,7 @@
 }
 .sgc-warn-icon { flex-shrink: 0; margin-top: 1px; }
 
-/* ── Milestones Tab ── */
+/* â”€â”€ Milestones Tab â”€â”€ */
 .sgc-milestones { display: flex; flex-direction: column; gap: 14px; }
 .sgc-milestones-intro { font-size: 0.84rem; color: var(--grey-3); }
 .sgc-milestones-list  { display: flex; flex-direction: column; gap: 0; position: relative; padding-left: 20px; }
@@ -355,7 +354,7 @@
 }
 .sgc-info-icon { color: var(--sgc-accent); flex-shrink: 0; margin-top: 1px; }
 
-/* ── Breakdown Tab ── */
+/* â”€â”€ Breakdown Tab â”€â”€ */
 .sgc-breakdown { display: flex; flex-direction: column; gap: 18px; }
 
 .sgc-breakdown-bar-wrap { display: flex; flex-direction: column; gap: 10px; }
@@ -391,7 +390,7 @@
 .sgc-breakdown-note { font-size: 0.72rem; color: var(--grey-3); white-space: nowrap; }
 .sgc-breakdown-val  { font-size: 0.88rem; font-weight: 700; color: var(--sgc-accent); text-align: right; min-width: 90px; }
 
-/* ── FAQ ── */
+/* â”€â”€ FAQ â”€â”€ */
 .sgc-faq-header {
   display: flex; align-items: center; gap: 8px;
   margin-bottom: -4px;
@@ -419,11 +418,11 @@
   padding: 0 0 14px;
 }
 
-/* ── Animation ── */
+/* â”€â”€ Animation â”€â”€ */
 .animate-in { animation: sgc-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes sgc-fade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 640px) {
   .sgc-page           { padding: 72px 14px 48px; padding-top: 100px; }
   .sgc-header         { flex-direction: column; gap: 12px; }

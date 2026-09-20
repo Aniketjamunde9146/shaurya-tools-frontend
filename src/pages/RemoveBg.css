@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -29,11 +28,11 @@
   --violet-bg:  #f5f3ff;
   --violet-bd:  #ddd6fe;
   --radius:     12px;
-  --font-head:  'Poppins', sans-serif;
+  --font-head:  "Inter", sans-serif;
   --font-body:  'Inter', sans-serif;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .rb-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -51,7 +50,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .rb-header {
   display: flex;
   align-items: flex-start;
@@ -98,7 +97,7 @@
 
 .rb-header p { font-size: 0.85rem; color: var(--grey-3); line-height: 1.5; }
 
-/* ── Drop Zone ── */
+/* â”€â”€ Drop Zone â”€â”€ */
 .rb-dropzone {
   border: 2px dashed var(--grey-2);
   border-radius: 16px;
@@ -151,7 +150,7 @@
   font-weight: 500;
 }
 
-/* ── Editor layout ── */
+/* â”€â”€ Editor layout â”€â”€ */
 .rb-editor {
   display: grid;
   grid-template-columns: 1fr 280px;
@@ -159,7 +158,7 @@
   align-items: start;
 }
 
-/* ── Preview Card ── */
+/* â”€â”€ Preview Card â”€â”€ */
 .rb-preview-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -169,7 +168,7 @@
   flex-direction: column;
 }
 
-/* ── View tabs ── */
+/* â”€â”€ View tabs â”€â”€ */
 .rb-view-tabs {
   display: flex;
   background: var(--grey-1);
@@ -199,7 +198,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
-/* ── Preview area ── */
+/* â”€â”€ Preview area â”€â”€ */
 .rb-preview-area {
   display: flex;
   align-items: stretch;
@@ -255,7 +254,7 @@
   position: relative;
 }
 .rb-split-divider::after {
-  content: "⟷";
+  content: "âŸ·";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -273,7 +272,7 @@
   box-shadow: 0 1px 4px rgba(0,0,0,0.1);
 }
 
-/* ── Loading Overlay ── */
+/* â”€â”€ Loading Overlay â”€â”€ */
 .rb-loading-overlay {
   position: absolute;
   inset: 0;
@@ -337,7 +336,7 @@
   max-width: 240px;
 }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .rb-error-msg {
   display: flex;
   align-items: center;
@@ -350,7 +349,7 @@
   padding: 10px 16px;
 }
 
-/* ── Result bar ── */
+/* â”€â”€ Result bar â”€â”€ */
 .rb-result-bar {
   display: flex;
   align-items: center;
@@ -398,7 +397,7 @@
 }
 .rb-dl-btn:hover { background: var(--pink-dk); transform: translateY(-1px); }
 
-/* ── Controls Card ── */
+/* â”€â”€ Controls Card â”€â”€ */
 .rb-controls-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -409,7 +408,7 @@
   gap: 14px;
 }
 
-/* ── Field & Label ── */
+/* â”€â”€ Field & Label â”€â”€ */
 .rb-field { display: flex; flex-direction: column; gap: 8px; }
 
 .rb-label {
@@ -425,7 +424,7 @@
 .rb-divider    { height: 1px; background: var(--grey-2); }
 .rb-sub-label  { font-size: 0.73rem; font-weight: 600; color: var(--grey-4); text-transform: uppercase; letter-spacing: 0.05em; }
 
-/* ── BG option buttons ── */
+/* â”€â”€ BG option buttons â”€â”€ */
 .rb-bg-options { display: flex; flex-direction: column; gap: 6px; }
 
 .rb-bg-btn {
@@ -443,7 +442,7 @@
 .rb-bg-btn:hover:not(.rb-bg-on) { border-color: var(--grey-3); background: var(--grey-1); }
 .rb-bg-on { background: var(--pink-bg) !important; border-color: var(--pink-bd) !important; }
 
-/* ── Swatch ── */
+/* â”€â”€ Swatch â”€â”€ */
 .rb-bg-swatch {
   width: 28px; height: 28px;
   border-radius: 7px;
@@ -475,7 +474,7 @@
 
 .rb-bg-desc  { font-size: 0.67rem; color: var(--grey-3); }
 
-/* ── Custom color row ── */
+/* â”€â”€ Custom color row â”€â”€ */
 .rb-custom-color-row {
   display: flex;
   align-items: center;
@@ -505,7 +504,7 @@
   font-family: 'Courier New', monospace;
 }
 
-/* ── File info ── */
+/* â”€â”€ File info â”€â”€ */
 .rb-file-info {
   display: flex;
   align-items: center;
@@ -527,7 +526,7 @@
 }
 .rb-file-size { font-size: 0.72rem; color: var(--grey-3); flex-shrink: 0; }
 
-/* ── Process button ── */
+/* â”€â”€ Process button â”€â”€ */
 .rb-process-btn {
   display: flex;
   align-items: center;
@@ -553,7 +552,7 @@
 .rb-process-btn:active:not(:disabled) { transform: translateY(0); }
 .rb-process-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
 
-/* ── Secondary row ── */
+/* â”€â”€ Secondary row â”€â”€ */
 .rb-secondary-row { display: flex; gap: 8px; }
 
 .rb-secondary-btn {
@@ -576,7 +575,7 @@
 .rb-secondary-btn:hover { border-color: var(--grey-3); background: var(--grey-1); color: var(--black); }
 .rb-reset:hover { border-color: var(--red-bd) !important; color: var(--red) !important; background: var(--red-bg) !important; }
 
-/* ── Tips ── */
+/* â”€â”€ Tips â”€â”€ */
 .rb-tips {
   background: var(--grey-1);
   border: 1.5px solid var(--grey-2);
@@ -606,7 +605,7 @@
 }
 .rb-tips li { font-size: 0.73rem; color: var(--grey-3); line-height: 1.5; }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .rb-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -618,7 +617,7 @@
 }
 @keyframes rb-spin { to { transform: rotate(360deg); } }
 
-/* ── Privacy ── */
+/* â”€â”€ Privacy â”€â”€ */
 .rb-privacy {
   display: flex;
   align-items: center;
@@ -630,14 +629,14 @@
 }
 .rb-privacy svg { color: var(--green); flex-shrink: 0; }
 
-/* ── Animation ── */
+/* â”€â”€ Animation â”€â”€ */
 .animate-in { animation: rb-fade 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes rb-fade {
   from { opacity: 0; transform: translateY(10px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 768px) {
   .rb-editor { grid-template-columns: 1fr; }
   .rb-controls-card { order: -1; }

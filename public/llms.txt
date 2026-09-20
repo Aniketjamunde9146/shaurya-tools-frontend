@@ -1,0 +1,185 @@
+# Shaurya Tools
+
+> Free browser-based tools for developers, creators, students, and everyday tasks. Tools run directly in the browser where possible, with no login required.
+
+Shaurya Tools provides focused utilities for formatting, generating, converting, calculating, writing, image editing, and SEO workflows. Each tool has a stable direct URL and a descriptive page title.
+
+## Important Pages
+
+- [Homepage](https://shauryatools.vercel.app/): Browse and search all available tools.
+- [XML Sitemap](https://shauryatools.vercel.app/sitemap.xml): Complete crawlable URL inventory.
+
+## Social Media
+
+- [Hashtag Generator](https://shauryatools.vercel.app/hashtag-generator): Generate trending hashtags for Instagram, YouTube, and Twitter.
+- [Instagram Bio](https://shauryatools.vercel.app/instagram-bio-generator): Create catchy, emoji-rich bios for your social profiles.
+- [YT Description](https://shauryatools.vercel.app/youtube-description-generator): SEO descriptions for YouTube videos to rank higher.
+- [LinkedIn Post](https://shauryatools.vercel.app/linkedin-post-generator): Write professional LinkedIn posts that boost engagement.
+- [Caption Gen](https://shauryatools.vercel.app/social-media-caption-generator): Engaging captions for all social platforms with hashtags.
+- [YT Title Optimizer](https://shauryatools.vercel.app/youtube-title-optimizer): High-CTR titles for YouTube videos using AI keywords.
+
+## AI Tools
+
+- [Prompt Generator](https://shauryatools.vercel.app/prompt-generator): Get perfect AI prompts for ChatGPT, Claude, and Midjourney.
+- [Blog Post Generator](https://shauryatools.vercel.app/blog-post-generator): Transform a simple headline into a full-length, SEO-optimized blog post with AI-powered structure.
+
+## Development
+
+- [README Generator](https://shauryatools.vercel.app/readme-generator): Generate a professional GitHub README.md file instantly.
+- [Code Minifier](https://shauryatools.vercel.app/code-minifier): Minify HTML, CSS, and JS to improve site performance.
+- [Markdown Preview](https://shauryatools.vercel.app/markdown-previewer): Live editor to write and preview Markdown documents.
+- [Regex Tester](https://shauryatools.vercel.app/regex-tester): Test and debug regular expressions with live highlights.
+- [.gitignore Gen](https://shauryatools.vercel.app/gitignore-generator): Create .gitignore files for any framework or language.
+- [License Gen](https://shauryatools.vercel.app/license-generator): Generate MIT, GNU, or Apache open-source licenses.
+- [Meta Tag Gen](https://shauryatools.vercel.app/metatag-generator): Generate SEO meta tags and social media open graph cards.
+- [Profile README](https://shauryatools.vercel.app/profile-readme-generator): Design a stunning GitHub profile with stats and badges.
+- [Code Prettifier](https://shauryatools.vercel.app/code-prettifier): Format and beautify your code instantly for better readability and clean structure.
+- [Code Explainer](https://shauryatools.vercel.app/code-explainer): Paste complex code snippets and get a plain-English breakdown of how the logic works step-by-step.
+- [Code To Document](https://shauryatools.vercel.app/code-to-document): Instantly convert your source code into professional technical documentation, READMEs, or API references.
+- [Error Debugger](https://shauryatools.vercel.app/error-debugger): Paste your error logs or broken code to identify the root cause and get optimized, working solutions instantly.
+
+## Data
+
+- [JSON Formatter](https://shauryatools.vercel.app/json-formatter): Format, validate, and minify JSON data in your browser.
+- [JSON to YAML](https://shauryatools.vercel.app/json-to-yaml): Convert JSON to clean, readable YAML format instantly.
+- [UUID Generator](https://shauryatools.vercel.app/uuid-generator): Generate secure, random V4 Universally Unique Identifiers.
+
+## Converters
+
+- [Base64 Converter](https://shauryatools.vercel.app/base64): Encode or decode strings and files to Base64 format.
+- [URL Encoder](https://shauryatools.vercel.app/url-encoder): Safe encoding and decoding for web URLs and parameters.
+
+## Creative
+
+- [Emoji Combiner](https://shauryatools.vercel.app/emoji-combiner): Fuse two emojis together to create unique stickers.
+- [Color Picker](https://shauryatools.vercel.app/color-picker): Select colors from a visual palette and get instant Hex, RGB, and HSL codes for your designs.
+- [AI Story Generator](https://shauryatools.vercel.app/story-generator): Bring your ideas to life. Generate short stories, plot outlines, or character backstories based on your genre and creative prompts.
+
+## Security
+
+- [Password Gen](https://shauryatools.vercel.app/password-generator): Random secure passwords with symbols and numbers.
+
+## Utilities
+
+- [QR Code Gen](https://shauryatools.vercel.app/qr-code-generator): Generate QR codes for URLs, WiFi, and V-Cards.
+- [Unit Converter](https://shauryatools.vercel.app/unit-converter): Quickly convert metric and imperial measurements.
+- [Age Calculator](https://shauryatools.vercel.app/age-calculator): Find out your exact age in years, months, and days.
+- [Retro Flip Clock](https://shauryatools.vercel.app/flip-clock): A stylish, full-screen retro flip clock for your workspace. Perfect for focus sessions, livestream backgrounds, or a minimalist desk setup.
+- [Fuel Expense Calculator](https://shauryatools.vercel.app/fuel-expense-calculator): Calculate the total cost of your trip or monthly commute. Factor in distance, fuel efficiency, and current gas prices to optimize your travel budget.
+- [Electricity Bill Estimator](https://shauryatools.vercel.app/electricity-bill-estimator): Forecast your monthly utility costs. Input your appliance usage and local unit rates to see a detailed breakdown of your power consumption.
+- [AI Image Compressor](https://shauryatools.vercel.app/image-compressor): Reduce image file size by up to 90% without losing quality. Perfect for optimizing websites, social media, and email attachments.
+- [Image to PDF Converter](https://shauryatools.vercel.app/image-to-pdf): Convert JPG, PNG, and WebP images into professional PDF documents. Arrange pages, set margins, and optimize file size for easy sharing.
+- [Image Resizer](https://shauryatools.vercel.app/image-resizer): Change image dimensions in seconds. Resize by pixels or percentage, lock aspect ratios, and export in multiple formats for any project.
+- [Image Converter](https://shauryatools.vercel.app/image-converter): Seamlessly convert between JPG, PNG, WebP, GIF, and AVIF. Support for modern formats and batch processing with zero quality loss.
+- [Image Metadata Viewer](https://shauryatools.vercel.app/image-metadata-viewer): Peek behind the pixels. Extract and view EXIF, IPTC, and XMP data, including camera settings, GPS location, and timestamps.
+- [Screenshot Editor](https://shauryatools.vercel.app/screenshot-editor): Annotate, redact, and enhance your screenshots. Add arrows, text, and blur sensitive information with a professional-grade markup tool.
+
+## Health
+
+- [BMI Calculator](https://shauryatools.vercel.app/bmi-calculator): Check your health category with height and weight.
+- [ Diet Plan Generator](https://shauryatools.vercel.app/diet-plan-generator): Get a personalized 7-day meal plan based on your fitness goals, dietary preferences, and allergies.
+- [Water Intake Calculator](https://shauryatools.vercel.app/water-intake-calculator): Calculate your ideal daily hydration needs based on your body weight, exercise intensity, and environmental climate.
+
+## Finance
+
+- [EMI Calculator](https://shauryatools.vercel.app/loan-emi-calculator): Calculate monthly installments for any type of loan.
+- [Expense Split Calculator](https://shauryatools.vercel.app/expense-split-calculator): Easily split bills and shared expenses among friends. Supports custom splits, tax calculations, and tip percentages.
+- [GST Calculator](https://shauryatools.vercel.app/gst-calculator): Accurately calculate GST for any transaction. Switch between inclusive and exclusive tax modes and get a detailed breakdown of tax components.
+- [SIP Calculator](https://shauryatools.vercel.app/sip-calculator): Calculate the future value of your monthly investments. Visualize wealth gain through compounding and plan your long-term financial goals.
+- [India Income Tax Calculator](https://shauryatools.vercel.app/income-tax-calculator-india): Compare Old vs. New Tax Regimes for FY 2025-26. Calculate deductions, HRA, and cess to find your optimal tax saving strategy.
+- [AI Budget Planner](https://shauryatools.vercel.app/budget-planner): Take control of your finances with a structured spending plan. Categorize expenses, set savings goals, and visualize your cash flow using the 50/30/20 rule.
+- [Savings Goal Calculator](https://shauryatools.vercel.app/savings-goal-calculator): Reverse-engineer your financial goals. Calculate how much to save monthly to reach your target, or discover when you'll hit your goal based on your current pace.
+- [Credit Card EMI Calculator](https://shauryatools.vercel.app/credit-card-emi-calculator): Calculate monthly installments for credit card purchases. Compare interest costs across different tenures and understand the impact of processing fees.
+
+## Text
+
+- [Word Counter & Case Converter](https://shauryatools.vercel.app/text-tools): Count words, characters, and sentences, and convert between letter cases.
+
+## Business
+
+- [Apna Startup](https://shauryatools.vercel.app/apna-startup): A comprehensive business toolkit to brainstorm ideas, calculate burn rate, and generate pitch decks.
+- [Business Name Generator](https://shauryatools.vercel.app/business-name-generator): Transform your startup idea into a brand. Generate creative, catchy, and industry-relevant business names along with matching slogan ideas.
+- [Cold Email Generator](https://shauryatools.vercel.app/cold-email-generator): Generate high-converting outreach emails for sales, networking, or partnerships. Includes personalized hooks and clear calls-to-action.
+- [AI Startup Validator](https://shauryatools.vercel.app/startup-validator): Put your business idea to the test. Get an objective analysis of your market fit, potential risks, and a roadmap for your Minimum Viable Product (MVP).
+- [Interview Question Generator](https://shauryatools.vercel.app/interview-generator): Generate tailored interview questions based on job descriptions and candidate experience levels. Includes model answers and evaluation tips.
+
+## AI & Business
+
+- [Product Description Generator](https://shauryatools.vercel.app/product-description-generator): Generate persuasive, high-converting descriptions for your e-commerce products in seconds.
+
+## Career
+
+- [Resume Builder](https://shauryatools.vercel.app/resume-builder): Create a professional, ATS-friendly resume in minutes with guided templates and AI suggestions.
+- [Cover Letter Generator](https://shauryatools.vercel.app/cover-letter-generator): Write a compelling, tailored cover letter for any job role based on your experience and the job description.
+
+## SEO & Web
+
+- [Sitemap Generator](https://shauryatools.vercel.app/sitemap-generator): Automatically crawl your website to create XML or HTML sitemaps for better SEO and Google indexing.
+- [Keyword Density Checker](https://shauryatools.vercel.app/keyword-density-checker): Analyze your content to find the percentage of specific keywords and avoid over-optimization or keyword stuffing.
+- [Schema Markup Generator](https://shauryatools.vercel.app/schema-markup-generator): Generate structured JSON-LD data for Articles, Products, and Events to improve your Google Rich Snippets.
+- [Page Speed Analyzer](https://shauryatools.vercel.app/page-speed-analyzer): Analyze your website's loading speed and get actionable tips to improve Core Web Vitals and user experience.
+
+## AI & Marketing
+
+- [Landing Page Generator](https://shauryatools.vercel.app/landing-page-generator): Create high-converting landing page structures and copy instantly for your products or marketing campaigns.
+
+## Education
+
+- [Homework Helper AI](https://shauryatools.vercel.app/homework-helper-ai): Get step-by-step explanations and answers to complex academic questions across math, science, and history.
+- [Notes Simplifier](https://shauryatools.vercel.app/notes-simplifier): Paste your messy lecture notes or meeting transcripts and get a clear, concise, and structured summary.
+- [Study Time Calculator](https://shauryatools.vercel.app/study-time-calculator): Calculate exactly how many hours you need to study per day to ace your exams based on subject difficulty and remaining time.
+- [AI Study Notes Question Maker](https://shauryatools.vercel.app/study-notes-mcq-generator): Convert your study notes, textbook excerpts, or lecture transcripts into challenging multiple-choice questions with detailed explanations.
+- [Exam Countdown Timer](https://shauryatools.vercel.app/exam-countdown): Track your study milestones and stay on top of deadlines. Get a visual breakdown of your remaining time and AI-optimized study schedules.
+- [AI Flashcard Generator](https://shauryatools.vercel.app/flashcard-generator): Instantly turn any text, article, or notes into a deck of digital flashcards. Perfect for memorizing definitions, formulas, or foreign languages.
+- [Study Streak Tracker](https://shauryatools.vercel.app/study-streak-tracker): Visualize your consistency and build a long-term learning habit. Track daily goals, visualize your progress with heatmaps, and never break the chain.
+- [Marks Percentage Calculator](https://shauryatools.vercel.app/marks-percentage-calculator): Quickly calculate your exam percentages and letter grades. Supports weighted averages for complex grading systems and GPA conversions.
+
+## Productivity
+
+- [AI Email Reply Generator](https://shauryatools.vercel.app/ai-email-reply-generator): Generate professional, context-aware email replies in seconds. Just paste the received email and set your preferred tone.
+- [Daily Planner Generator](https://shauryatools.vercel.app/daily-planner-generator): Turn your chaotic to-do list into a structured, time-blocked daily schedule. Prioritize tasks and find focus in seconds.
+- [Habit Tracker Generator](https://shauryatools.vercel.app/habit-tracker-generator): Create a customized daily or weekly habit tracking template. Define your goals, set frequencies, and generate a printable or digital tracker.
+- [Screen Time Planner](https://shauryatools.vercel.app/screen-time-planner): Take control of your digital habits. Design a personalized schedule for app usage, schedule 'deep work' blocks, and reclaim your focus.
+- [AI Productivity Booster Plan](https://shauryatools.vercel.app/productivity-booster-plan): Stop procrastinating and start executing. Input your messy task list and get a structured, high-efficiency plan based on peak energy levels and task priority.
+- [AI Pomodoro Timer](https://shauryatools.vercel.app/pomodoro-timer): Boost your focus with customizable work-rest intervals. Get AI-generated break ideas and focus tips tailored to your current project or energy level.
+
+## Communication
+
+- [AI Email Generator](https://shauryatools.vercel.app/email-generator): Craft professional emails from scratch. Just provide a few bullet points, and the AI will handle the structure and tone.
+- [Speech Script Generator](https://shauryatools.vercel.app/speech-script-generator): Craft compelling speeches for weddings, keynotes, or presentations. Input your key points and tone, and get a structured script with delivery cues.
+- [Self-Introduction Generator](https://shauryatools.vercel.app/self-intro-generator): Create the perfect elevator pitch or personal bio. Tailor your introduction for networking, interviews, or social media in seconds.
+
+## Social
+
+- [WhatsApp Rewriter](https://shauryatools.vercel.app/whatsapp-rewriter): Transform your rough thoughts into perfectly phrased WhatsApp messages. Choose between casual, professional, or 'straight to the point'.
+- [WhatsApp Screen Generator](https://shauryatools.vercel.app/whatsapp-screenshot-generator): Visualize your messages before sending. Create a realistic preview of your rewritten WhatsApp messages with custom names and timestamps.
+- [Cold WhatsApp Message Generator](https://shauryatools.vercel.app/whatsapp-generator): Draft the perfect WhatsApp message for any situation. From professional follow-ups to casual group chats, get the tone and emojis just right.
+
+## Personal
+
+- [AI Excuse Generator](https://shauryatools.vercel.app/excuse-generator): Need a believable way out? Generate creative, context-aware excuses for work, social events, or missed deadlines.
+- [Relationship Compatibility Checker](https://shauryatools.vercel.app/relationship-compatibility-checker): Analyze the harmony between two personalities. Input values, communication styles, and goals to get an AI-powered compatibility deep dive.
+
+## Wellness
+
+- [Daily Affirmation Generator](https://shauryatools.vercel.app/daily-affirmation-generator): Generate personalized, empowering affirmations based on your current feelings, goals, or challenges to boost your confidence and mental clarity.
+- [AI Daily Journal Prompt Generator](https://shauryatools.vercel.app/ai-journal-prompt-generator): Break through writer's block with personalized, high-intent journal prompts. Choose your focus—growth, gratitude, or shadow work—and get deep reflection questions.
+
+## Home & Life
+
+- [Grocery List Generator](https://shauryatools.vercel.app/grocery-list-generator): Turn your meal ideas or diet plans into an organized shopping list. Categorized by aisle to save you time at the store.
+
+## Shopping
+
+- [Product Comparison Generator](https://shauryatools.vercel.app/product-comparison): Create side-by-side comparisons of products. Analyze specs, pros, cons, and value-for-money to make informed purchasing decisions.
+
+## Design
+
+- [Image Shape Converter & Crop](https://shauryatools.vercel.app/image-shape-converter): Transform your photos into unique shapes. Crop images into circles, polygons, or rounded squares and export with transparent backgrounds.
+- [AI Background Remover](https://shauryatools.vercel.app/remove-background): Remove backgrounds from any image in seconds. Powered by AI to handle hair, fur, and complex edges with professional precision.
+- [Passport Photo Maker](https://shauryatools.vercel.app/passport-photo-maker): Create compliant passport and visa photos in seconds. Automatically crop to official sizes and remove backgrounds for any country's requirements.
+- [AI Image Quality Enhancer](https://shauryatools.vercel.app/image-quality-enhancer): Upscale and sharpen low-resolution images instantly. Use AI to remove noise, fix motion blur, and enhance details for crystal clear results.
+- [Watermark Adder](https://shauryatools.vercel.app/watermark-adder): Protect your images with custom text or logo watermarks. Adjust opacity, position, and tiling to secure your creative work effortlessly.
+- [Meme Generator](https://shauryatools.vercel.app/meme-generator): Create viral memes in seconds. Access trending templates, add custom text with classic fonts, and use AI to auto-generate witty captions.
+- [AI Color Palette Extractor](https://shauryatools.vercel.app/color-palette-extractor): Generate beautiful color schemes from any image. Extract dominant hues, hex codes, and RGB values to build perfect design palettes instantly.
+- [Photo Collage Maker](https://shauryatools.vercel.app/collage-maker): Combine multiple photos into stunning layouts. Choose from dozens of grids, customize borders, and add filters to create the perfect photo story.

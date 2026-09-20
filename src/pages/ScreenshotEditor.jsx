@@ -363,7 +363,7 @@ export default function ScreenshotEditor() {
       const ctx = c.getContext("2d");
       const w   = fontBold ? "bold" : "600";
       ctx.save();
-      ctx.font          = `${w} ${fontSize}px 'Figtree', sans-serif`;
+      ctx.font          = `${w} ${fontSize}px Inter, sans-serif`;
       ctx.fillStyle     = color;
       ctx.shadowColor   = color === "#ffffff" ? "rgba(0,0,0,0.6)" : "rgba(0,0,0,0.5)";
       ctx.shadowBlur    = 5;

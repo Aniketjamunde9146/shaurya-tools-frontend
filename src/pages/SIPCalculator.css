@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -32,11 +31,11 @@
   --fg-amber-bd:  #fde68a;
 
   --radius: 12px;
-  --font-head: 'Poppins', sans-serif;
+  --font-head: "Inter", sans-serif;
   --font-body: 'Inter', sans-serif;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .sip-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -54,7 +53,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .sip-header {
   display: flex;
   align-items: flex-start;
@@ -91,7 +90,7 @@
 }
 .sip-header p { font-size: 0.85rem; color: var(--grey-3); line-height: 1.5; }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .sip-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -116,7 +115,7 @@
   font-size: 0.72rem; font-weight: 500; color: var(--grey-3);
 }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .sip-field { display: flex; flex-direction: column; gap: 9px; }
 
 .sip-label {
@@ -127,7 +126,7 @@
 }
 .sip-lbl-icon { color: var(--fg-accent); flex-shrink: 0; }
 
-/* ── Input ── */
+/* â”€â”€ Input â”€â”€ */
 .sip-input-wrap { position: relative; display: flex; align-items: center; }
 .sip-prefix {
   position: absolute; left: 14px;
@@ -146,7 +145,7 @@
 .sip-input::placeholder { color: var(--grey-3); font-weight: 400; font-size: 0.9rem; }
 .sip-input-has-prefix { padding-left: 30px; }
 
-/* ── SIP preset chips ── */
+/* â”€â”€ SIP preset chips â”€â”€ */
 .sip-chips { display: flex; flex-wrap: wrap; gap: 7px; }
 .sip-chip {
   padding: 5px 13px;
@@ -162,7 +161,7 @@
   color: var(--fg-accent-dk) !important;
 }
 
-/* ── Rate grid ── */
+/* â”€â”€ Rate grid â”€â”€ */
 .sip-rate-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -185,7 +184,7 @@
 .sip-rate-sub { font-size: 0.6rem; font-weight: 500; color: var(--grey-3); text-align: center; }
 .sip-rate-on .sip-rate-sub { color: var(--fg-accent); opacity: 0.8; }
 
-/* ── Year grid ── */
+/* â”€â”€ Year grid â”€â”€ */
 .sip-year-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -206,7 +205,7 @@
   color: var(--fg-violet) !important;
 }
 
-/* ── Custom rate/year input ── */
+/* â”€â”€ Custom rate/year input â”€â”€ */
 .sip-custom-wrap { display: flex; align-items: center; gap: 10px; margin-top: 2px; }
 .sip-custom-input {
   width: 90px; padding: 8px 11px;
@@ -218,10 +217,10 @@
 .sip-custom-input:focus { border-color: var(--fg-accent); box-shadow: 0 0 0 3px rgba(13,148,136,0.1); }
 .sip-custom-label { font-size: 0.78rem; color: var(--grey-3); font-weight: 500; }
 
-/* ── Divider ── */
+/* â”€â”€ Divider â”€â”€ */
 .sip-divider { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .sip-error {
   display: flex; align-items: center; gap: 6px;
   font-size: 0.8rem; color: var(--red); font-weight: 500;
@@ -229,7 +228,7 @@
   border-radius: 8px; padding: 8px 12px;
 }
 
-/* ── Submit ── */
+/* â”€â”€ Submit â”€â”€ */
 .sip-submit {
   display: flex; align-items: center; justify-content: center; gap: 8px;
   width: 100%; padding: 13px 20px;
@@ -242,7 +241,7 @@
 .sip-submit:active:not(:disabled) { transform: translateY(0); }
 .sip-submit:disabled { opacity: 0.38; cursor: not-allowed; }
 
-/* ── Result Hero ── */
+/* â”€â”€ Result Hero â”€â”€ */
 .sip-result-hero {
   background: linear-gradient(135deg, var(--fg-accent-bg) 0%, #e0fdf4 100%);
   border: 1.5px solid var(--fg-accent-bd);
@@ -283,7 +282,7 @@
   box-shadow: 0 4px 14px rgba(22,163,74,0.25);
 }
 
-/* ── Stats grid ── */
+/* â”€â”€ Stats grid â”€â”€ */
 .sip-stats-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -309,7 +308,7 @@
 .sip-val-green { color: var(--green) !important; }
 .sip-stat-lbl  { font-size: 0.67rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; color: var(--grey-3); }
 
-/* ── Chart ── */
+/* â”€â”€ Chart â”€â”€ */
 .sip-visual-row {
   display: flex; gap: 20px; align-items: flex-end;
 }
@@ -360,7 +359,7 @@
 .sip-dot-inv      { background: var(--fg-accent); }
 .sip-dot-ret      { background: var(--green);     }
 
-/* ── Donut ── */
+/* â”€â”€ Donut â”€â”€ */
 .sip-donut-wrap {
   width: 140px;
   display: flex; flex-direction: column; align-items: center; gap: 12px;
@@ -368,7 +367,7 @@
 }
 .sip-donut { width: 120px; height: 120px; }
 .sip-donut-val {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px; font-weight: 800;
   fill: var(--green);
 }
@@ -385,7 +384,7 @@
 .sip-donut-pct { font-size: 0.73rem; font-weight: 700; color: var(--grey-3); }
 .sip-pct-green { color: var(--green) !important; }
 
-/* ── Breakdown ── */
+/* â”€â”€ Breakdown â”€â”€ */
 .sip-breakdown { display: flex; flex-direction: column; gap: 0; }
 .sip-bk-row {
   display: flex; align-items: center; justify-content: space-between;
@@ -411,7 +410,7 @@
 .sip-bk-val-green { color: var(--green) !important; }
 .sip-bk-val-total { font-size: 1.05rem !important; color: var(--fg-violet) !important; }
 
-/* ── Milestones ── */
+/* â”€â”€ Milestones â”€â”€ */
 .sip-milestone-header {
   display: grid;
   grid-template-columns: 60px 1fr 1fr 1fr;
@@ -445,7 +444,7 @@
 .sip-ms-fv   { font-size: 0.88rem; font-weight: 700; color: var(--black);     text-align: right; }
 .sip-ms-final .sip-ms-fv { color: var(--green); }
 
-/* ── Footer ── */
+/* â”€â”€ Footer â”€â”€ */
 .sip-footer {
   display: flex; align-items: center; justify-content: space-between;
   gap: 10px; flex-wrap: wrap;
@@ -472,11 +471,11 @@
 .sip-copy-btn:hover { background: var(--fg-accent-dk); transform: translateY(-1px); }
 .sip-copy-done { background: var(--green) !important; }
 
-/* ── Animate ── */
+/* â”€â”€ Animate â”€â”€ */
 .sip-animate { animation: sip-fade 0.38s cubic-bezier(0.16,1,0.3,1); }
 @keyframes sip-fade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 640px) {
   .sip-page           { padding: 72px 14px 48px; padding-top: 100px; }
   .sip-header         { flex-direction: column; gap: 12px; }

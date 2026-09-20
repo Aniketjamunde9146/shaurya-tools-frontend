@@ -740,7 +740,7 @@ const styles = {
     padding: "3px 10px", borderRadius: 100, marginBottom: 6,
   },
   h1: {
-    fontFamily: "'Poppins', sans-serif",
+    fontFamily: "Inter, sans-serif",
     fontSize: "clamp(1.4rem, 4vw, 1.75rem)",
     fontWeight: 700, color: "#0f0f0f",
     letterSpacing: "-0.02em", marginBottom: 4, lineHeight: 1.2,
@@ -762,7 +762,7 @@ const styles = {
   field: { display: "flex", flexDirection: "column", gap: 8 },
   twoCol: { display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, alignItems: "start" },
   label: {
-    fontFamily: "'Poppins', sans-serif", fontSize: "0.88rem", fontWeight: 600,
+    fontFamily: "Inter, sans-serif", fontSize: "0.88rem", fontWeight: 600,
     color: "#0f0f0f", display: "flex", alignItems: "center", gap: 6,
   },
   labelRow: { display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10 },
@@ -807,7 +807,7 @@ const styles = {
     borderRadius: 12,
   },
   gtLabel: { fontSize: "0.8rem", fontWeight: 600, color: "var(--ac-dk)" },
-  gtAmount: { fontSize: "1.1rem", fontWeight: 700, color: "var(--ac-dk)", fontFamily: "'Poppins', sans-serif" },
+  gtAmount: { fontSize: "1.1rem", fontWeight: 700, color: "var(--ac-dk)", fontFamily: "Inter, sans-serif" },
   gtBreakdown: { fontSize: "0.75rem", color: "var(--ac)", marginLeft: "auto" },
 
   /* Split Mode Grid */
@@ -928,7 +928,7 @@ const styles = {
     background: "var(--ac-bg)", borderBottom: "1.5px solid var(--ac-bd)",
   },
   planTitle: {
-    fontFamily: "'Poppins', sans-serif", fontSize: "1.05rem",
+    fontFamily: "Inter, sans-serif", fontSize: "1.05rem",
     fontWeight: 700, color: "var(--ac-dk)", marginBottom: 6,
   },
   planSummary: { fontSize: "0.87rem", color: "var(--ac)", lineHeight: 1.6, fontStyle: "italic" },
@@ -951,7 +951,7 @@ const styles = {
     marginBottom: 8,
   },
   personName: { fontSize: "0.82rem", fontWeight: 600, color: "#0f0f0f", marginBottom: 4 },
-  personOwes: { fontSize: "1rem", fontWeight: 700, color: "var(--ac-dk)", fontFamily: "'Poppins', sans-serif", marginBottom: 2 },
+  personOwes: { fontSize: "1rem", fontWeight: 700, color: "var(--ac-dk)", fontFamily: "Inter, sans-serif", marginBottom: 2 },
   personPct: { fontSize: "0.7rem", color: "#737373", background: "#f5f5f5", padding: "1px 8px", borderRadius: 100 },
 
   insightBlock: {
@@ -960,7 +960,7 @@ const styles = {
   },
   blockHeader: {
     display: "flex", alignItems: "center", gap: 7,
-    fontFamily: "'Poppins', sans-serif", fontSize: "0.8rem", fontWeight: 700,
+    fontFamily: "Inter, sans-serif", fontSize: "0.8rem", fontWeight: 700,
     color: "#404040", textTransform: "uppercase", letterSpacing: "0.07em",
     marginBottom: 10,
   },
@@ -979,7 +979,7 @@ const styles = {
   settleArrow: { display: "flex", alignItems: "center" },
   settleAmount: {
     marginLeft: "auto", fontSize: "0.95rem", fontWeight: 700,
-    color: "var(--ac-dk)", fontFamily: "'Poppins', sans-serif",
+    color: "var(--ac-dk)", fontFamily: "Inter, sans-serif",
     background: "var(--ac-bg)", border: "1px solid var(--ac-bd)",
     padding: "3px 12px", borderRadius: 100,
   },

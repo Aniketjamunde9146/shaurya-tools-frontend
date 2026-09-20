@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -36,12 +35,12 @@
   --amber-bd:   #fde68a;
   --code-bg:    #1e1e1e;
   --radius:     12px;
-  --font-head:  'Poppins', sans-serif;
+  --font-head:  "Inter", sans-serif;
   --font-body:  'Inter', sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .mcq-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -59,7 +58,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .mcq-header {
   display: flex;
   align-items: flex-start;
@@ -111,7 +110,7 @@
   line-height: 1.5;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .mcq-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -122,7 +121,7 @@
   gap: 18px;
 }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .mcq-field {
   display: flex;
   flex-direction: column;
@@ -142,7 +141,7 @@
 .mcq-label-icon { color: var(--cyan); flex-shrink: 0; }
 .mcq-divider    { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* ── OR divider ── */
+/* â”€â”€ OR divider â”€â”€ */
 .mcq-or-divider {
   display: flex;
   align-items: center;
@@ -165,7 +164,7 @@
   white-space: nowrap;
 }
 
-/* ── Label Row (for textarea) ── */
+/* â”€â”€ Label Row (for textarea) â”€â”€ */
 .mcq-label-row {
   display: flex;
   justify-content: space-between;
@@ -190,7 +189,7 @@
 .mcq-char-warn  { color: var(--orange) !important; }
 .mcq-hint       { font-size: 0.73rem; color: var(--grey-3); line-height: 1.4; margin-top: 5px; }
 
-/* ── Input / Textarea ── */
+/* â”€â”€ Input / Textarea â”€â”€ */
 .mcq-input-group { display: flex; flex-direction: column; gap: 5px; }
 
 .mcq-input-label {
@@ -241,7 +240,7 @@
   box-shadow: 0 0 0 3px rgba(8,145,178,0.1);
 }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .mcq-error-msg {
   display: flex;
   align-items: center;
@@ -255,7 +254,7 @@
   padding: 8px 12px;
 }
 
-/* ── Format Grids ── */
+/* â”€â”€ Format Grids â”€â”€ */
 .mcq-formats { display: grid; gap: 8px; }
 .mcq-formats-4 { grid-template-columns: repeat(4, 1fr); }
 
@@ -291,7 +290,7 @@
 .mcq-fmt-desc  { font-size: 0.67rem; color: var(--grey-3); line-height: 1.3; }
 .mcq-fmt-on .mcq-fmt-desc  { color: var(--cyan); opacity: 0.85; }
 
-/* ── 2-col side by side ── */
+/* â”€â”€ 2-col side by side â”€â”€ */
 .mcq-row-2-gap {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -299,7 +298,7 @@
   align-items: start;
 }
 
-/* ── Count Grid ── */
+/* â”€â”€ Count Grid â”€â”€ */
 .mcq-counts {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -329,7 +328,7 @@
 .mcq-cnt-desc  { font-size: 0.63rem; color: var(--grey-3); text-align: center; }
 .mcq-cnt-on .mcq-cnt-desc  { color: var(--violet); opacity: 0.8; }
 
-/* ── Difficulty Buttons ── */
+/* â”€â”€ Difficulty Buttons â”€â”€ */
 .mcq-difficulties {
   display: flex;
   flex-direction: column;
@@ -359,7 +358,7 @@
 .mcq-diff-desc  { font-size: 0.7rem; color: var(--grey-3); }
 .mcq-diff-on .mcq-diff-desc  { color: var(--amber); opacity: 0.8; }
 
-/* ── Checkbox Toggle ── */
+/* â”€â”€ Checkbox Toggle â”€â”€ */
 .mcq-toggle-check {
   display: flex;
   align-items: center;
@@ -404,7 +403,7 @@
 .mcq-check-on .mcq-check-label { color: var(--cyan-dk); }
 .mcq-check-desc  { font-size: 0.73rem; color: var(--grey-3); }
 
-/* ── Submit Button ── */
+/* â”€â”€ Submit Button â”€â”€ */
 .mcq-submit-btn {
   display: flex;
   align-items: center;
@@ -430,7 +429,7 @@
 .mcq-submit-btn:active:not(:disabled) { transform: translateY(0); }
 .mcq-submit-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .mcq-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -442,7 +441,7 @@
 }
 @keyframes mcq-spin { to { transform: rotate(360deg); } }
 
-/* ── Skeleton ── */
+/* â”€â”€ Skeleton â”€â”€ */
 .mcq-skeleton-card { gap: 14px; }
 
 .mcq-skel {
@@ -460,7 +459,7 @@
 .mcq-skel-short { width: 70% !important; }
 .mcq-skel-block { height: 80px; }
 
-/* ── Result Top ── */
+/* â”€â”€ Result Top â”€â”€ */
 .mcq-result-top {
   display: flex;
   justify-content: space-between;
@@ -496,7 +495,7 @@
   border-color: var(--amber-bd) !important;
 }
 
-/* ── Tabs ── */
+/* â”€â”€ Tabs â”€â”€ */
 .mcq-tabs {
   display: flex;
   background: var(--grey-1);
@@ -526,7 +525,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
-/* ── Actions ── */
+/* â”€â”€ Actions â”€â”€ */
 .mcq-actions { display: flex; gap: 7px; align-items: center; }
 
 .mcq-action-btn {
@@ -568,7 +567,7 @@
   color: var(--green) !important;
 }
 
-/* ── Preview ── */
+/* â”€â”€ Preview â”€â”€ */
 .mcq-preview {
   border: 1.5px solid var(--grey-2);
   border-radius: var(--radius);
@@ -649,7 +648,7 @@
   white-space: pre;
 }
 
-/* ── Raw ── */
+/* â”€â”€ Raw â”€â”€ */
 .mcq-raw {
   background: var(--grey-1);
   border: 1.5px solid var(--grey-2);
@@ -665,7 +664,7 @@
   user-select: text;
 }
 
-/* ── Result Footer ── */
+/* â”€â”€ Result Footer â”€â”€ */
 .mcq-result-footer {
   display: flex;
   align-items: center;
@@ -703,14 +702,14 @@
 .mcq-copy-full.mcq-copied { background: var(--green) !important; }
 .mcq-copy-full.mcq-copied:hover { background: #15803d !important; }
 
-/* ── Animation ── */
+/* â”€â”€ Animation â”€â”€ */
 .animate-in { animation: mcq-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes mcq-fade {
   from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 640px) {
   .mcq-page          { padding: 72px 14px 48px; padding-top: 110px; }
   .mcq-header        { flex-direction: column; gap: 12px; }

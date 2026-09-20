@@ -19,9 +19,9 @@ const FONTS = [
   { label: "Arial Black",   value: "'Arial Black', Gadget, sans-serif" },
   { label: "Comic Sans",    value: "'Comic Sans MS', cursive" },
   { label: "Oswald",        value: "Oswald, Impact, sans-serif" },
-  { label: "Bebas",         value: "'Bebas Neue', Impact, sans-serif" },
-  { label: "Bangers",       value: "Bangers, Impact, sans-serif" },
-  { label: "Anton",         value: "Anton, Impact, sans-serif" },
+  { label: "Inter Bold",    value: "Inter, sans-serif" },
+  { label: "Inter Black",   value: "Inter, sans-serif" },
+  { label: "System Bold",   value: "Arial, sans-serif" },
 ];
 
 /* ── Text align options ── */
@@ -189,10 +189,6 @@ export default function MemeGenerator() {
         <meta name="keywords" content="meme generator, meme maker, add text to image, meme creator, impact font meme, free meme tool" />
         <link rel="canonical" href="https://shauryatools.vercel.app/meme-generator" />
       </Helmet>
-
-      {/* Google Fonts for meme fonts */}
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Bebas+Neue&family=Bangers&family=Anton&display=swap" rel="stylesheet" />
 
       <div className="mg-page">
         <div className="mg-inner">

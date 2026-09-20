@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 :root {
   --white:      #ffffff;
@@ -26,12 +25,12 @@
   --pink-bg:    #fdf2f8;
   --pink-bd:    #fbcfe8;
   --radius:     12px;
-  --font-head:  'Poppins', sans-serif;
+  --font-head:  "Inter", sans-serif;
   --font-body:  'Inter', sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .ac-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -49,7 +48,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .ac-header {
   display: flex;
   align-items: flex-start;
@@ -101,7 +100,7 @@
   line-height: 1.5;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .ac-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -112,7 +111,7 @@
   gap: 16px;
 }
 
-/* ── Fields ── */
+/* â”€â”€ Fields â”€â”€ */
 .ac-field {
   display: flex;
   flex-direction: column;
@@ -204,7 +203,7 @@
 }
 .ac-reset-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-/* ── Result ── */
+/* â”€â”€ Result â”€â”€ */
 .ac-result-card { gap: 20px; }
 
 /* Hero age display */
@@ -389,7 +388,7 @@
   text-overflow: ellipsis;
 }
 
-/* ── Animation ── */
+/* â”€â”€ Animation â”€â”€ */
 .animate-in {
   animation: ac-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -399,7 +398,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 600px) {
   .ac-page        { padding: 72px 14px 48px; padding-top: 110px; }
   .ac-header      { flex-direction: column; gap: 12px; }

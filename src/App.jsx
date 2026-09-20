@@ -1,6 +1,9 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Analytics from "./components/Analytics";
+import SiteFooter from "./components/SiteFooter";
+import SiteSEO from "./components/SiteSEO";
 
 // ✅ All 30 pages lazy loaded — each page only loads when visited
 const Home                    = lazy(() => import("./Home"));
@@ -205,6 +208,8 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <SiteSEO />
+      <Analytics />
 
       {/* ✅ Suspense wraps all routes — shows spinner while any page loads */}
       <Suspense fallback={<PageLoader />}>
@@ -318,6 +323,7 @@ function App() {
           <Route path="*"                               element={<NotFound />} />
         </Routes>
       </Suspense>
+      <SiteFooter />
     </Router>
   );
 }

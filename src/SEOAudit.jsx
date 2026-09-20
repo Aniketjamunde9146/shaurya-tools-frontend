@@ -55,7 +55,7 @@ const fixes = [
     status: "fixed",
     area: "Font Loading",
     before: "Direct <link> to Google Fonts (render blocking)",
-    after: "Added rel=preconnect to fonts.googleapis.com and fonts.gstatic.com first",
+    after: "Consolidated all UI pages to one shared Inter font request",
     why: "Preconnect shaves ~200-300ms off font load. Better Core Web Vitals = better rankings.",
   },
   {
@@ -127,7 +127,7 @@ export default function SEOAudit() {
   const actions = fixes.filter((f) => f.status === "action");
 
   return (
-    <div style={{ fontFamily: "'DM Sans', 'Segoe UI', sans-serif", background: "#0a0a0f", minHeight: "100vh", padding: "32px 16px", color: "#e2e2ef" }}>
+    <div style={{ fontFamily: "Inter, sans-serif", background: "#0a0a0f", minHeight: "100vh", padding: "32px 16px", color: "#e2e2ef" }}>
       <div style={{ maxWidth: 760, margin: "0 auto" }}>
         {/* Header */}
         <div style={{ marginBottom: 32 }}>

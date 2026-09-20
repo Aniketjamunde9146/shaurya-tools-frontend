@@ -222,17 +222,6 @@ const Home = () => {
           </div>
         </main>
 
-        {/* ════ FOOTER ════ */}
-        <footer className="hp-footer">
-          <div className="hp-footer-inner">
-            <span className="hp-footer-brand">ShauryaTools</span>
-            <span className="hp-footer-sep">·</span>
-            <span>© 2026 — Built with ♥</span>
-            <span className="hp-footer-sep">·</span>
-            <span>Free forever</span>
-          </div>
-        </footer>
-
       </div>
     </>
   );

@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 :root {
   --white:      #ffffff;
@@ -29,12 +28,12 @@
   --green-bg:   #f0fdf4;
   --green-bd:   #bbf7d0;
   --radius:     12px;
-  --font-head:  'Poppins', sans-serif;
+  --font-head:  "Inter", sans-serif;
   --font-body:  'Inter', sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .tt-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -52,7 +51,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .tt-header {
   display: flex;
   align-items: flex-start;
@@ -104,7 +103,7 @@
   line-height: 1.5;
 }
 
-/* ── Tab bar ── */
+/* â”€â”€ Tab bar â”€â”€ */
 .tt-tab-bar {
   display: flex;
   background: var(--white);
@@ -137,7 +136,7 @@
   border: 1.5px solid var(--indigo-bd);
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .tt-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -148,7 +147,7 @@
   gap: 16px;
 }
 
-/* ── Textarea header ── */
+/* â”€â”€ Textarea header â”€â”€ */
 .tt-textarea-header {
   display: flex;
   justify-content: space-between;
@@ -219,7 +218,7 @@
   color: var(--green) !important;
 }
 
-/* ── Textarea ── */
+/* â”€â”€ Textarea â”€â”€ */
 .tt-textarea {
   width: 100%;
   min-height: 180px;
@@ -243,7 +242,7 @@
   box-shadow: 0 0 0 3px rgba(67, 56, 202, 0.08);
 }
 
-/* ── Stats grid ── */
+/* â”€â”€ Stats grid â”€â”€ */
 .tt-stats-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -290,7 +289,7 @@
   color: var(--grey-3);
 }
 
-/* ── Read time ── */
+/* â”€â”€ Read time â”€â”€ */
 .tt-readtime {
   display: flex;
   align-items: center;
@@ -306,7 +305,7 @@
 .tt-readtime-icon { font-size: 1rem; }
 .tt-readtime strong { color: var(--black); }
 
-/* ── Keywords ── */
+/* â”€â”€ Keywords â”€â”€ */
 .tt-keywords { display: flex; flex-direction: column; gap: 10px; }
 
 .tt-kw-title {
@@ -371,7 +370,7 @@
   flex-shrink: 0;
 }
 
-/* ── Empty state ── */
+/* â”€â”€ Empty state â”€â”€ */
 .tt-empty {
   font-size: 0.82rem;
   color: var(--grey-3);
@@ -379,7 +378,7 @@
   padding: 8px 0;
 }
 
-/* ── Case converter ── */
+/* â”€â”€ Case converter â”€â”€ */
 .tt-cases-grid {
   display: flex;
   flex-wrap: wrap;
@@ -506,7 +505,7 @@
   color: var(--green) !important;
 }
 
-/* ── Animation ── */
+/* â”€â”€ Animation â”€â”€ */
 .animate-in {
   animation: tt-fade 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -516,7 +515,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 600px) {
   .tt-page         { padding: 72px 14px 48px; padding-top: 110px; }
   .tt-header       { flex-direction: column; gap: 12px; }

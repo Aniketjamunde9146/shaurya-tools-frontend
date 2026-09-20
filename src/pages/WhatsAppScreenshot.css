@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -25,7 +24,7 @@
   --blue-bg:    #eff6ff;
   --blue-bd:    #bfdbfe;
   --radius:     12px;
-  --font-head:  'Poppins', sans-serif;
+  --font-head:  "Inter", sans-serif;
   --font-body:  'Inter', sans-serif;
 
   /* WhatsApp chat specific */
@@ -37,7 +36,7 @@
   --wa-bar:             #075e54;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .ws-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -46,7 +45,7 @@
   padding: 110px 20px 64px;
 }
 
-/* ── Layout ── */
+/* â”€â”€ Layout â”€â”€ */
 .ws-layout {
   max-width: 1100px;
   margin: 0 auto;
@@ -56,7 +55,7 @@
   align-items: start;
 }
 
-/* ══════════════ LEFT PANEL ══════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â• LEFT PANEL â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .ws-panel {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -157,7 +156,7 @@
   gap: 12px;
 }
 
-/* ── Message list ── */
+/* â”€â”€ Message list â”€â”€ */
 .ws-msg-list {
   display: flex;
   flex-direction: column;
@@ -262,7 +261,7 @@
 }
 .ws-msg-textarea:focus { border-color: var(--wa); }
 
-/* ── Add message ── */
+/* â”€â”€ Add message â”€â”€ */
 .ws-add-msg {
   border: 1.5px dashed var(--grey-2);
   border-radius: var(--radius);
@@ -374,7 +373,7 @@
 .ws-add-btn:hover:not(:disabled) { background: var(--wa-dk); transform: translateY(-1px); }
 .ws-add-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-/* ── Settings ── */
+/* â”€â”€ Settings â”€â”€ */
 .ws-setting-group {
   display: flex;
   flex-direction: column;
@@ -532,7 +531,7 @@
 }
 @keyframes ws-spin { to { transform: rotate(360deg); } }
 
-/* ══════════════ PHONE PREVIEW ══════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â• PHONE PREVIEW â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .ws-preview-wrap {
   display: flex;
   flex-direction: column;
@@ -614,7 +613,7 @@
   border-radius: 22px;
 }
 
-/* ── Status bar ── */
+/* â”€â”€ Status bar â”€â”€ */
 .ws-statusbar {
   display: flex;
   justify-content: space-between;
@@ -649,7 +648,7 @@
   font-weight: 600;
 }
 
-/* ── Nav bar ── */
+/* â”€â”€ Nav bar â”€â”€ */
 .ws-navbar {
   display: flex;
   align-items: center;
@@ -715,7 +714,7 @@
   flex-shrink: 0;
 }
 
-/* ── Chat area ── */
+/* â”€â”€ Chat area â”€â”€ */
 .ws-chat {
   flex: 1;
   overflow-y: auto;
@@ -843,7 +842,7 @@
   30%           { transform: translateY(-5px); }
 }
 
-/* ── Input bar ── */
+/* â”€â”€ Input bar â”€â”€ */
 .ws-input-bar {
   display: flex;
   align-items: center;
@@ -903,7 +902,7 @@
   background: var(--wa) !important;
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 900px) {
   .ws-layout {
     grid-template-columns: 1fr;

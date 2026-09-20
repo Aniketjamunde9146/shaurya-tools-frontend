@@ -9,8 +9,16 @@ html, body, #root {
   min-height: 100%;
 }
 
+:root {
+  --font-body: "Inter", sans-serif;
+  --font-head: "Inter", sans-serif;
+  --font-ui: "Inter", sans-serif;
+  --font: "Inter", sans-serif;
+}
+
 body {
   background-color: #080c14;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

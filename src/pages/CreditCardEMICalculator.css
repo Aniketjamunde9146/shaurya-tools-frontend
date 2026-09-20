@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -16,7 +15,7 @@
   --red-bg:     #fef2f2;
   --red-bd:     #fecaca;
 
-  /* Tool accent — teal */
+  /* Tool accent â€” teal */
   --emi-accent:    #0d9488;
   --emi-accent-bg: #f0fdfa;
   --emi-accent-bd: #99f6e4;
@@ -30,12 +29,12 @@
   --emi-amber-bd:  #fde68a;
 
   --radius: 12px;
-  --font-head: 'Poppins', sans-serif;
+  --font-head: "Inter", sans-serif;
   --font-body: 'Inter', sans-serif;
   --font-mono: 'Courier New', monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .emi-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -52,7 +51,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .emi-header {
   display: flex; align-items: flex-start; gap: 16px; padding: 4px 0 8px;
 }
@@ -76,14 +75,14 @@
 }
 .emi-header p { font-size: 0.85rem; color: var(--grey-3); line-height: 1.5; }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .emi-card {
   background: var(--white); border: 1.5px solid var(--grey-2);
   border-radius: 16px; padding: 24px;
   display: flex; flex-direction: column; gap: 18px;
 }
 
-/* ── Fields ── */
+/* â”€â”€ Fields â”€â”€ */
 .emi-field { display: flex; flex-direction: column; gap: 8px; }
 .emi-label {
   font-family: var(--font-head); font-size: 0.88rem; font-weight: 600;
@@ -94,7 +93,7 @@
 .emi-divider  { height: 1px; background: var(--grey-2); margin: 2px 0; }
 .emi-hint     { font-size: 0.73rem; color: var(--grey-3); margin-top: 2px; }
 
-/* ── Bank Presets ── */
+/* â”€â”€ Bank Presets â”€â”€ */
 .emi-presets-grid {
   display: grid; grid-template-columns: repeat(4, 1fr); gap: 7px;
 }
@@ -112,7 +111,7 @@
 .emi-preset-rate { font-size: 0.62rem; color: var(--grey-3); font-weight: 500; }
 .emi-preset-on .emi-preset-rate { color: var(--emi-accent); }
 
-/* ── Amount input ── */
+/* â”€â”€ Amount input â”€â”€ */
 .emi-amount-wrap { position: relative; }
 .emi-rupee {
   position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
@@ -128,7 +127,7 @@
 .emi-amount-input:focus { border-color: var(--emi-accent); box-shadow: 0 0 0 3px rgba(13,148,136,0.1); }
 .emi-amount-input::placeholder { color: var(--grey-3); }
 
-/* ── Rate ── */
+/* â”€â”€ Rate â”€â”€ */
 .emi-rate-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 .emi-rate-wrap { position: relative; display: flex; align-items: center; width: 180px; flex-shrink: 0; }
 .emi-rate-input {
@@ -158,7 +157,7 @@
 .emi-chip-sub { font-size: 0.58rem; font-weight: 400; color: var(--grey-3); }
 .emi-rate-chip-on .emi-chip-sub { color: var(--emi-accent); opacity: 0.8; }
 
-/* ── Tenure grid ── */
+/* â”€â”€ Tenure grid â”€â”€ */
 .emi-tenure-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 7px; }
 .emi-tenure-btn {
   display: flex; flex-direction: column; align-items: center; gap: 2px;
@@ -174,7 +173,7 @@
 .emi-tenure-mo { font-size: 0.6rem; color: var(--grey-3); font-weight: 500; }
 .emi-tenure-on .emi-tenure-mo { color: var(--emi-violet); opacity: 0.8; }
 
-/* ── Fee grid ── */
+/* â”€â”€ Fee grid â”€â”€ */
 .emi-fee-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 7px; }
 .emi-fee-btn {
   padding: 9px 4px; border: 1.5px solid var(--grey-2); border-radius: var(--radius);
@@ -185,7 +184,7 @@
 .emi-fee-btn:hover:not(.emi-fee-on) { border-color: var(--grey-3); background: var(--grey-1); }
 .emi-fee-on { background: var(--emi-amber-bg) !important; border-color: var(--emi-amber-bd) !important; color: var(--emi-amber) !important; }
 
-/* ── Compare toggle ── */
+/* â”€â”€ Compare toggle â”€â”€ */
 .emi-compare-toggle-row {
   display: flex; align-items: center; justify-content: space-between; gap: 12px;
 }
@@ -206,7 +205,7 @@
 }
 .emi-toggle-on .emi-toggle-knob { transform: translateX(20px); }
 
-/* ── Result top ── */
+/* â”€â”€ Result top â”€â”€ */
 .emi-result-top {
   display: flex; justify-content: space-between; align-items: center;
   flex-wrap: wrap; gap: 10px;
@@ -246,7 +245,7 @@
 }
 .emi-action-btn:hover { border-color: var(--grey-3); color: var(--black); background: var(--grey-1); }
 
-/* ── Summary Tab ── */
+/* â”€â”€ Summary Tab â”€â”€ */
 .emi-summary { display: flex; flex-direction: column; gap: 16px; }
 
 /* Hero */
@@ -316,7 +315,7 @@
 .emi-tip-icon { flex-shrink: 0; color: var(--green); margin-top: 1px; }
 .emi-tip-banner strong { font-weight: 700; }
 
-/* ── Schedule Tab ── */
+/* â”€â”€ Schedule Tab â”€â”€ */
 .emi-schedule { display: flex; flex-direction: column; gap: 14px; }
 .emi-schedule-summary {
   display: flex; justify-content: space-between; align-items: center;
@@ -368,7 +367,7 @@
 .emi-tot-amber  { font-weight: 700; color: var(--emi-amber); }
 .emi-tot-grand  { background: var(--grey-1); border-radius: 8px; font-weight: 700; font-size: 0.92rem; }
 
-/* ── Compare Tab ── */
+/* â”€â”€ Compare Tab â”€â”€ */
 .emi-compare { display: flex; flex-direction: column; gap: 16px; }
 .emi-compare-intro { font-size: 0.84rem; color: var(--grey-3); line-height: 1.55; }
 .emi-compare-grid  { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
@@ -405,7 +404,7 @@
 .emi-diff-icon { flex-shrink: 0; margin-top: 2px; color: var(--emi-accent); }
 .emi-diff-callout strong { font-weight: 700; }
 
-/* ── FAQ ── */
+/* â”€â”€ FAQ â”€â”€ */
 .emi-faq-header { display: flex; align-items: center; gap: 8px; margin-bottom: -4px; }
 .emi-faq-title  { font-family: var(--font-head); font-size: 0.9rem; font-weight: 600; color: var(--black); }
 .emi-faq-item   { border-bottom: 1px solid var(--grey-2); padding: 2px 0; }
@@ -420,11 +419,11 @@
 .emi-faq-chevron { flex-shrink: 0; color: var(--grey-3); }
 .emi-faq-a { font-size: 0.82rem; color: var(--grey-4); line-height: 1.65; padding: 0 0 14px; }
 
-/* ── Animation ── */
+/* â”€â”€ Animation â”€â”€ */
 .animate-in { animation: emi-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes emi-fade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 640px) {
   .emi-page          { padding: 72px 14px 48px; padding-top: 100px; }
   .emi-header        { flex-direction: column; gap: 12px; }

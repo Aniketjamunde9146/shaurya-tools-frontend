@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -51,12 +50,12 @@
   --blue-bd:    #bfdbfe;
 
  --radius:      12px;
-  --font-head:   'Poppins', sans-serif;
+  --font-head:   "Inter", sans-serif;
   --font-body:   'Inter', sans-serif;
   --font-mono:   'Courier New', Courier, monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .sv-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -74,7 +73,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .sv-header {
   display: flex;
   align-items: flex-start;
@@ -127,7 +126,7 @@
   max-width: 500px;
 }
 
-/* ── Input Card ── */
+/* â”€â”€ Input Card â”€â”€ */
 .sv-card {
   background: var(--card-bg);
   border: 1.5px solid var(--card-bd);
@@ -138,7 +137,7 @@
   gap: 16px;
 }
 
-/* ── Section head ── */
+/* â”€â”€ Section head â”€â”€ */
 .sv-section-head {
   display: inline-flex;
   align-items: center;
@@ -156,7 +155,7 @@
   margin-bottom: 2px;
 }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .sv-field {
   display: flex;
   flex-direction: column;
@@ -186,7 +185,7 @@
 
 .sv-divider { height: 1px; background: var(--grey-2); margin: 4px 0; }
 
-/* ── Input / Textarea ── */
+/* â”€â”€ Input / Textarea â”€â”€ */
 .sv-input {
   width: 100%;
   padding: 10px 14px;
@@ -226,7 +225,7 @@
   box-shadow: 0 0 0 3px rgba(0,212,255,0.1);
 }
 
-/* ── Row grid ── */
+/* â”€â”€ Row grid â”€â”€ */
 .sv-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -235,7 +234,7 @@
 }
 .sv-row-3 { grid-template-columns: 1fr 1fr 1fr; }
 
-/* ── Stages ── */
+/* â”€â”€ Stages â”€â”€ */
 .sv-stages {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -266,7 +265,7 @@
 .sv-stage-desc  { font-size: 0.67rem; color: var(--grey-3); }
 .sv-stage-on .sv-stage-desc  { color: rgba(255,255,255,0.45); }
 
-/* ── Markets ── */
+/* â”€â”€ Markets â”€â”€ */
 .sv-markets {
   display: flex;
   flex-wrap: wrap;
@@ -293,7 +292,7 @@
   font-weight: 700;
 }
 
-/* ── Select ── */
+/* â”€â”€ Select â”€â”€ */
 .sv-select-wrap { position: relative; }
 .sv-select {
   width: 100%;
@@ -320,7 +319,7 @@
   color: var(--grey-3); pointer-events: none;
 }
 
-/* ── Depths ── */
+/* â”€â”€ Depths â”€â”€ */
 .sv-depths {
   display: flex;
   flex-direction: column;
@@ -348,7 +347,7 @@
 .sv-depth-desc  { font-size: 0.69rem; color: var(--grey-3); }
 .sv-depth-on .sv-depth-desc  { color: rgba(255,255,255,0.5); }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .sv-error {
   display: flex; align-items: center; gap: 6px;
   font-size: 0.8rem; color: var(--error-red); font-weight: 600;
@@ -356,7 +355,7 @@
   border-radius: 8px; padding: 8px 12px;
 }
 
-/* ── Generate Button ── */
+/* â”€â”€ Generate Button â”€â”€ */
 .sv-gen-btn {
   display: flex; align-items: center; justify-content: center; gap: 9px;
   width: 100%; padding: 14px 24px;
@@ -377,7 +376,7 @@
 
 .sv-hint { font-size: 0.73rem; color: var(--grey-3); text-align: center; }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .sv-spinner {
   display: inline-block; width: 16px; height: 16px;
   border: 2px solid rgba(0,212,255,0.25); border-top-color: var(--cyan);
@@ -385,7 +384,7 @@
 }
 @keyframes sv-spin { to { transform: rotate(360deg); } }
 
-/* ── Skeleton ── */
+/* â”€â”€ Skeleton â”€â”€ */
 .sv-skeleton-card { gap: 13px; }
 .sv-skel {
   background: linear-gradient(90deg, var(--grey-1) 25%, var(--grey-2) 50%, var(--grey-1) 75%);
@@ -399,9 +398,9 @@
 .sv-skel-short { width: 35%; }
 .sv-skel-med   { width: 60%; }
 
-/* ══════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    RESULT CARD
-══════════════════════════════════════════ */
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .sv-result-card {
   background: var(--card-bg);
   border: 1.5px solid var(--card-bd);
@@ -411,7 +410,7 @@
   flex-direction: column;
 }
 
-/* ── Hero Panel ── */
+/* â”€â”€ Hero Panel â”€â”€ */
 .sv-hero {
   background: var(--ink);
   padding: 28px 28px 24px;
@@ -549,7 +548,7 @@
   color: var(--score-green) !important;
 }
 
-/* ── Tabs ── */
+/* â”€â”€ Tabs â”€â”€ */
 .sv-tabs-wrap {
   background: var(--ink-2);
   padding: 0 20px;
@@ -574,7 +573,7 @@
   border-bottom-color: var(--cyan) !important;
 }
 
-/* ── Tab Content ── */
+/* â”€â”€ Tab Content â”€â”€ */
 .sv-tab-content {
   padding: 24px 26px;
   display: flex;
@@ -582,7 +581,7 @@
   gap: 20px;
 }
 
-/* ── Mini score grid (overview) ── */
+/* â”€â”€ Mini score grid (overview) â”€â”€ */
 .sv-mini-scores {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -614,7 +613,7 @@
 
 .sv-mini-label { font-size: 0.72rem; font-weight: 700; color: var(--grey-4); line-height: 1.2; }
 
-/* ── Strengths / Risks two-col ── */
+/* â”€â”€ Strengths / Risks two-col â”€â”€ */
 .sv-two-col {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -647,14 +646,14 @@
   padding-left: 14px; position: relative;
 }
 .sv-list li::before {
-  content: "→";
+  content: "â†’";
   position: absolute; left: 0;
   font-weight: 700;
 }
 .sv-list-green .sv-list li::before { color: var(--score-green); }
 .sv-list-red   .sv-list li::before { color: var(--score-red);   }
 
-/* ── Pivot box ── */
+/* â”€â”€ Pivot box â”€â”€ */
 .sv-pivot-box {
   background: rgba(139,92,246,0.06);
   border: 1.5px solid rgba(139,92,246,0.2);
@@ -670,7 +669,7 @@
 
 .sv-pivot-box p { font-size: 0.88rem; line-height: 1.65; color: #334155; }
 
-/* ── Score bars (scores tab) ── */
+/* â”€â”€ Score bars (scores tab) â”€â”€ */
 .sv-score-list {
   display: flex; flex-direction: column; gap: 18px;
 }
@@ -726,7 +725,7 @@
 .sv-score-tag.score-amber { color: var(--score-amber); }
 .sv-score-tag.score-red   { color: var(--score-red);   }
 
-/* ── Risks tab ── */
+/* â”€â”€ Risks tab â”€â”€ */
 .sv-risks-section { display: flex; flex-direction: column; gap: 20px; }
 
 .sv-risk-group { display: flex; flex-direction: column; gap: 10px; }
@@ -757,7 +756,7 @@
 
 .sv-risk-item p { font-size: 0.87rem; line-height: 1.65; color: #334155; }
 
-/* ── Market tab ── */
+/* â”€â”€ Market tab â”€â”€ */
 .sv-market-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -780,7 +779,7 @@
 
 .sv-market-card p { font-size: 0.88rem; line-height: 1.7; color: #334155; }
 
-/* ── Next Steps tab ── */
+/* â”€â”€ Next Steps tab â”€â”€ */
 .sv-steps { display: flex; flex-direction: column; gap: 12px; }
 
 .sv-step {
@@ -799,7 +798,7 @@
 
 .sv-step-text { font-size: 0.9rem; line-height: 1.7; color: #334155; padding-top: 4px; }
 
-/* ── VC tab ── */
+/* â”€â”€ VC tab â”€â”€ */
 .sv-vc-card {
   display: flex; align-items: flex-start; gap: 16px;
   padding: 22px; background: var(--ink); border-radius: 16px;
@@ -826,19 +825,19 @@
 
 .sv-pivot-vc { margin-top: 0; }
 
-/* ── Animation ── */
+/* â”€â”€ Animation â”€â”€ */
 .animate-in { animation: sv-fade 0.4s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes sv-fade {
   from { opacity: 0; transform: translateY(14px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Score color helpers (non-element) ── */
+/* â”€â”€ Score color helpers (non-element) â”€â”€ */
 .score-green { color: var(--score-green); }
 .score-amber { color: var(--score-amber); }
 .score-red   { color: var(--score-red);   }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 680px) {
   .sv-page          { padding: 72px 14px 56px; padding-top: 110px; }
   .sv-header        { flex-direction: column; gap: 12px; }

@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -25,12 +24,12 @@
   --amber-bg:  #fffbeb;
   --amber-bd:  #fde68a;
   --radius:    12px;
-  --font-head: 'Poppins', sans-serif;
+  --font-head: "Inter", sans-serif;
   --font-body: 'Inter', sans-serif;
   --font-mono: 'Courier New', Courier, monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .kd-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -48,7 +47,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .kd-header {
   display: flex;
   align-items: flex-start;
@@ -100,7 +99,7 @@
   line-height: 1.5;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .kd-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -113,7 +112,7 @@
 
 .kd-divider { height: 1px; background: var(--grey-2); }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .kd-field { display: flex; flex-direction: column; gap: 7px; }
 
 .kd-label-row {
@@ -154,7 +153,7 @@
   border-radius: 100px;
 }
 
-/* ── Top row ── */
+/* â”€â”€ Top row â”€â”€ */
 .kd-top-row {
   display: flex;
   gap: 20px;
@@ -215,7 +214,7 @@
 }
 .kd-clear:hover { color: var(--black); }
 
-/* ── Toggles ── */
+/* â”€â”€ Toggles â”€â”€ */
 .kd-options { display: flex; flex-direction: column; gap: 9px; }
 
 .kd-toggle {
@@ -258,7 +257,7 @@
   color: var(--grey-4);
 }
 
-/* ── Textarea ── */
+/* â”€â”€ Textarea â”€â”€ */
 .kd-textarea {
   width: 100%;
   padding: 14px 16px;
@@ -282,7 +281,7 @@
 
 .kd-textarea::placeholder { color: var(--grey-3); font-style: italic; }
 
-/* ── Actions ── */
+/* â”€â”€ Actions â”€â”€ */
 .kd-actions {
   display: flex;
   justify-content: flex-end;
@@ -329,7 +328,7 @@
 .kd-analyze-btn:active:not(:disabled) { transform: translateY(0); }
 .kd-analyze-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-/* ── Stats Strip ── */
+/* â”€â”€ Stats Strip â”€â”€ */
 .kd-stats-strip {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -371,7 +370,7 @@
   white-space: nowrap;
 }
 
-/* ── Target keyword card ── */
+/* â”€â”€ Target keyword card â”€â”€ */
 .kd-target-card {
   border: 1.5px solid;
   border-radius: 14px;
@@ -454,7 +453,7 @@
 .kd-badge-high { color: var(--red);   background: var(--white); border-color: var(--red-bd);   }
 .kd-badge-low  { color: var(--amber); background: var(--white); border-color: var(--amber-bd); }
 
-/* ── Card top ── */
+/* â”€â”€ Card top â”€â”€ */
 .kd-card-top {
   display: flex;
   align-items: center;
@@ -517,7 +516,7 @@
 .kd-copy-btn:hover { background: #dbeafe; }
 .kd-copied { background: var(--green-bg) !important; border-color: var(--green-bd) !important; color: var(--green) !important; }
 
-/* ── Legend ── */
+/* â”€â”€ Legend â”€â”€ */
 .kd-legend {
   display: flex;
   align-items: center;
@@ -555,7 +554,7 @@
   font-style: italic;
 }
 
-/* ── Column headers ── */
+/* â”€â”€ Column headers â”€â”€ */
 .kd-col-headers {
   display: grid;
   grid-template-columns: 32px 160px 1fr 52px 70px;
@@ -572,7 +571,7 @@
   gap: 10px;
 }
 
-/* ── Keyword List ── */
+/* â”€â”€ Keyword List â”€â”€ */
 .kd-kw-list {
   display: flex;
   flex-direction: column;
@@ -592,7 +591,7 @@
   font-size: 0.85rem;
 }
 
-/* ── Keyword Row ── */
+/* â”€â”€ Keyword Row â”€â”€ */
 .kd-kw-row {
   display: grid;
   grid-template-columns: 32px 160px 1fr 52px 70px;
@@ -633,7 +632,7 @@
   text-overflow: ellipsis;
 }
 
-/* ── Bar ── */
+/* â”€â”€ Bar â”€â”€ */
 .kd-bar-track {
   height: 7px;
   background: var(--grey-2);
@@ -676,7 +675,7 @@
 .kd-density-high { color: var(--red);   background: var(--red-bg);   border-color: var(--red-bd);   }
 .kd-density-low  { color: var(--grey-3); background: var(--grey-1);  border-color: var(--grey-2);   }
 
-/* ── Top keyword callout ── */
+/* â”€â”€ Top keyword callout â”€â”€ */
 .kd-top-callout {
   display: flex;
   align-items: center;
@@ -710,7 +709,7 @@
   margin-left: auto;
 }
 
-/* ── Animation ── */
+/* â”€â”€ Animation â”€â”€ */
 .animate-in { animation: kd-fade 0.35s cubic-bezier(0.16,1,0.3,1); }
 
 @keyframes kd-fade {
@@ -718,7 +717,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 680px) {
   .kd-page         { padding: 80px 14px 48px; padding-top: 110px; }
   .kd-header       { flex-direction: column; gap: 12px; }

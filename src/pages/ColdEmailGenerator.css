@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -10,7 +9,7 @@
   --grey-3:      #8888a0;
   --grey-4:      #3d3d50;
 
-  /* Amber / gold primary — "money" energy */
+  /* Amber / gold primary â€” "money" energy */
   --amber:       #d97706;
   --amber-light: #f59e0b;
   --amber-bg:    #fffbeb;
@@ -48,12 +47,12 @@
   --red-bd:      #fecaca;
 
 --radius:      12px;
-  --font-head:   'Outfit',  sans-serif;
-  --font-body:   'DM Sans', sans-serif;
+  --font-head:   "Inter",  sans-serif;
+  --font-body:   "Inter", sans-serif;
   --font-mono:   'Courier New', Courier, monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .ce-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -71,7 +70,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .ce-header {
   display: flex;
   align-items: flex-start;
@@ -124,7 +123,7 @@
   max-width: 520px;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .ce-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -135,7 +134,7 @@
   gap: 16px;
 }
 
-/* ── Section Head ── */
+/* â”€â”€ Section Head â”€â”€ */
 .ce-section-head {
   display: inline-flex;
   align-items: center;
@@ -156,7 +155,7 @@
 
 .ce-section-icon { flex-shrink: 0; }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .ce-field {
   display: flex;
   flex-direction: column;
@@ -201,7 +200,7 @@
 
 .ce-divider { height: 1px; background: var(--grey-2); margin: 4px 0; }
 
-/* ── Skills Grid ── */
+/* â”€â”€ Skills Grid â”€â”€ */
 .ce-skills {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -266,7 +265,7 @@
   border-radius: 100px;
 }
 
-/* ── Industries ── */
+/* â”€â”€ Industries â”€â”€ */
 .ce-industries {
   display: flex;
   flex-wrap: wrap;
@@ -296,7 +295,7 @@
   font-weight: 600;
 }
 
-/* ── Goals ── */
+/* â”€â”€ Goals â”€â”€ */
 .ce-goals {
   display: flex;
   flex-wrap: wrap;
@@ -326,7 +325,7 @@
   font-weight: 700;
 }
 
-/* ── Tones ── */
+/* â”€â”€ Tones â”€â”€ */
 .ce-tones {
   display: flex;
   flex-wrap: wrap;
@@ -356,7 +355,7 @@
   font-weight: 600;
 }
 
-/* ── Input ── */
+/* â”€â”€ Input â”€â”€ */
 .ce-input {
   width: 100%;
   padding: 10px 13px;
@@ -375,7 +374,7 @@
   box-shadow: 0 0 0 3px rgba(217,119,6,0.12);
 }
 
-/* ── Lengths ── */
+/* â”€â”€ Lengths â”€â”€ */
 .ce-lengths {
   display: flex;
   flex-direction: column;
@@ -413,7 +412,7 @@
 }
 .ce-len-on .ce-len-desc { color: rgba(255,255,255,0.55); }
 
-/* ── Select ── */
+/* â”€â”€ Select â”€â”€ */
 .ce-select-wrap {
   position: relative;
 }
@@ -457,7 +456,7 @@
   padding: 5px 10px;
 }
 
-/* ── Rows ── */
+/* â”€â”€ Rows â”€â”€ */
 .ce-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -468,7 +467,7 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .ce-error-msg {
   display: flex;
   align-items: center;
@@ -482,7 +481,7 @@
   padding: 8px 12px;
 }
 
-/* ── Generate Button ── */
+/* â”€â”€ Generate Button â”€â”€ */
 .ce-gen-btn {
   display: flex;
   align-items: center;
@@ -509,7 +508,7 @@
 .ce-gen-btn:active:not(:disabled) { transform: translateY(0); }
 .ce-gen-btn:disabled { opacity: 0.35; cursor: not-allowed; transform: none; }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .ce-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -521,7 +520,7 @@
 }
 @keyframes ce-spin { to { transform: rotate(360deg); } }
 
-/* ── Skeleton ── */
+/* â”€â”€ Skeleton â”€â”€ */
 .ce-skeleton-card { gap: 13px; }
 
 .ce-skel {
@@ -539,7 +538,7 @@
 .ce-skel-short { width: 38%; }
 .ce-skel-med   { width: 65%; }
 
-/* ── Result top bar ── */
+/* â”€â”€ Result top bar â”€â”€ */
 .ce-result-top {
   display: flex;
   justify-content: space-between;
@@ -590,7 +589,7 @@
   border-color: #c8ccde !important;
 }
 
-/* ── Tabs ── */
+/* â”€â”€ Tabs â”€â”€ */
 .ce-tabs {
   display: flex;
   background: var(--grey-1);
@@ -621,7 +620,7 @@
   box-shadow: 0 2px 8px rgba(27,27,46,0.2);
 }
 
-/* ── Actions ── */
+/* â”€â”€ Actions â”€â”€ */
 .ce-actions {
   display: flex;
   gap: 7px;
@@ -667,7 +666,7 @@
   color: var(--emerald) !important;
 }
 
-/* ── Email Preview ── */
+/* â”€â”€ Email Preview â”€â”€ */
 .ce-email-preview {
   border: 1.5px solid var(--grey-2);
   border-radius: var(--radius);
@@ -750,7 +749,7 @@
   margin-top: 8px;
 }
 
-/* ── Result Footer ── */
+/* â”€â”€ Result Footer â”€â”€ */
 .ce-result-footer {
   display: flex;
   align-items: center;
@@ -796,7 +795,7 @@
 }
 .ce-copy-full.ce-copied:hover { background: #047857 !important; }
 
-/* ── Animation ── */
+/* â”€â”€ Animation â”€â”€ */
 .animate-in {
   animation: ce-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -805,7 +804,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 640px) {
   .ce-page         { padding: 72px 14px 48px; padding-top: 110px; }
   .ce-header       { flex-direction: column; gap: 12px; }

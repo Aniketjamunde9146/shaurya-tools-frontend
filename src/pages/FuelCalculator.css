@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -29,11 +28,11 @@
   --fg-amber-bd:  #fde68a;
 
   --radius: 12px;
-  --font-head: 'Poppins', sans-serif;
+  --font-head: "Inter", sans-serif;
   --font-body: 'Inter', sans-serif;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .fc-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -51,7 +50,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .fc-header {
   display: flex;
   align-items: flex-start;
@@ -88,7 +87,7 @@
 }
 .fc-header p { font-size: 0.85rem; color: var(--grey-3); line-height: 1.5; }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .fc-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -109,7 +108,7 @@
 }
 .fc-card-title svg { color: var(--fg-accent); }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .fc-field { display: flex; flex-direction: column; gap: 9px; }
 
 .fc-label {
@@ -121,7 +120,7 @@
 .fc-lbl-icon { color: var(--fg-accent); flex-shrink: 0; }
 .fc-lbl-sub  { font-size: 0.74rem; font-weight: 400; color: var(--grey-3); margin-left: 2px; }
 
-/* ── Vehicle grid ── */
+/* â”€â”€ Vehicle grid â”€â”€ */
 .fc-vehicle-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -151,7 +150,7 @@
 }
 .fc-vehicle-on .fc-vehicle-mil { color: var(--fg-amber); opacity: 0.8; }
 
-/* ── Input ── */
+/* â”€â”€ Input â”€â”€ */
 .fc-input-wrap { position: relative; display: flex; align-items: center; }
 .fc-prefix {
   position: absolute; left: 13px;
@@ -174,7 +173,7 @@
 .fc-input-has-prefix { padding-left: 28px; }
 .fc-input-has-suffix { padding-right: 42px; }
 
-/* ── Chips ── */
+/* â”€â”€ Chips â”€â”€ */
 .fc-chips { display: flex; flex-wrap: wrap; gap: 7px; }
 .fc-chip {
   display: flex; align-items: center; gap: 6px;
@@ -196,10 +195,10 @@
 }
 .fc-chip-on .fc-chip-price { color: var(--fg-accent); opacity: 0.8; }
 
-/* ── Row-2 ── */
+/* â”€â”€ Row-2 â”€â”€ */
 .fc-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
 
-/* ── Trip toggle ── */
+/* â”€â”€ Trip toggle â”€â”€ */
 .fc-toggle {
   display: grid; grid-template-columns: 1fr 1fr;
   background: var(--grey-1); border: 1.5px solid var(--grey-2);
@@ -218,10 +217,10 @@
   box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
 
-/* ── Divider ── */
+/* â”€â”€ Divider â”€â”€ */
 .fc-divider { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .fc-error {
   display: flex; align-items: center; gap: 6px;
   font-size: 0.8rem; color: var(--red); font-weight: 500;
@@ -229,7 +228,7 @@
   border-radius: 8px; padding: 8px 12px;
 }
 
-/* ── Submit ── */
+/* â”€â”€ Submit â”€â”€ */
 .fc-submit {
   display: flex; align-items: center; justify-content: center; gap: 8px;
   width: 100%; padding: 13px 20px;
@@ -242,9 +241,9 @@
 .fc-submit:active:not(:disabled) { transform: translateY(0); }
 .fc-submit:disabled { opacity: 0.38; cursor: not-allowed; }
 
-/* ──────────────────────────────────────────
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
    RESULTS
-────────────────────────────────────────── */
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 /* Hero */
 .fc-result-hero {
@@ -368,7 +367,7 @@
 .fc-detail-total .fc-detail-cost  { color: var(--green); font-size: 0.95rem; }
 .fc-detail-total .fc-detail-label { color: var(--green); }
 
-/* ── Tips ── */
+/* â”€â”€ Tips â”€â”€ */
 .fc-tips-card { background: var(--fg-accent-bg) !important; border-color: var(--fg-accent-bd) !important; }
 .fc-tips { display: flex; flex-direction: column; gap: 10px; }
 .fc-tip-row { display: flex; align-items: flex-start; gap: 12px; }
@@ -381,7 +380,7 @@
 }
 .fc-tip-text { font-size: 0.82rem; color: var(--fg-accent-dk); line-height: 1.5; font-weight: 500; }
 
-/* ── Footer ── */
+/* â”€â”€ Footer â”€â”€ */
 .fc-footer {
   display: flex; align-items: center; justify-content: space-between;
   gap: 10px; flex-wrap: wrap;
@@ -408,11 +407,11 @@
 .fc-copy-btn:hover { background: var(--fg-accent-dk); transform: translateY(-1px); }
 .fc-copy-done { background: var(--green) !important; }
 
-/* ── Animate ── */
+/* â”€â”€ Animate â”€â”€ */
 .fc-animate { animation: fc-fade 0.38s cubic-bezier(0.16,1,0.3,1); }
 @keyframes fc-fade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 640px) {
   .fc-page          { padding: 72px 14px 48px; padding-top: 100px; }
   .fc-header        { flex-direction: column; gap: 12px; }

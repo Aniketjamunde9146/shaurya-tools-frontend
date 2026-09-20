@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -33,12 +32,12 @@
   --violet-bd:  #ddd6fe;
   --code-bg:    #1e1e1e;
   --radius:     12px;
-  --font-head:  'Poppins', sans-serif;
+  --font-head:  "Inter", sans-serif;
   --font-body:  'Inter', sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .eg-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -56,7 +55,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .eg-header {
   display: flex;
   align-items: flex-start;
@@ -108,7 +107,7 @@
   line-height: 1.5;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .eg-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -119,7 +118,7 @@
   gap: 18px;
 }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .eg-field {
   display: flex;
   flex-direction: column;
@@ -160,7 +159,7 @@
 
 .eg-divider { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* ── Email Type Grid ── */
+/* â”€â”€ Email Type Grid â”€â”€ */
 .eg-types {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -226,7 +225,7 @@
   border-radius: 100px;
 }
 
-/* ── Textarea ── */
+/* â”€â”€ Textarea â”€â”€ */
 .eg-textarea {
   width: 100%;
   padding: 13px 15px;
@@ -248,7 +247,7 @@
   box-shadow: 0 0 0 3px rgba(225,29,72,0.1);
 }
 
-/* ── Text Input ── */
+/* â”€â”€ Text Input â”€â”€ */
 .eg-input {
   width: 100%;
   padding: 10px 13px;
@@ -267,7 +266,7 @@
   box-shadow: 0 0 0 3px rgba(225,29,72,0.1);
 }
 
-/* ── Two-column row ── */
+/* â”€â”€ Two-column row â”€â”€ */
 .eg-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -276,7 +275,7 @@
 }
 .eg-field-half { width: 100%; }
 
-/* ── Tone pills ── */
+/* â”€â”€ Tone pills â”€â”€ */
 .eg-tones {
   display: flex;
   flex-wrap: wrap;
@@ -306,7 +305,7 @@
   font-weight: 600;
 }
 
-/* ── Length buttons ── */
+/* â”€â”€ Length buttons â”€â”€ */
 .eg-lengths {
   display: flex;
   flex-direction: column;
@@ -345,7 +344,7 @@
 }
 .eg-len-on .eg-len-desc { color: var(--green); opacity: 0.8; }
 
-/* ── Language Select ── */
+/* â”€â”€ Language Select â”€â”€ */
 .eg-select-wrap {
   position: relative;
   display: flex;
@@ -380,7 +379,7 @@
   flex-shrink: 0;
 }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .eg-error-msg {
   display: flex;
   align-items: center;
@@ -394,7 +393,7 @@
   padding: 8px 12px;
 }
 
-/* ── Generate Button ── */
+/* â”€â”€ Generate Button â”€â”€ */
 .eg-gen-btn {
   display: flex;
   align-items: center;
@@ -420,7 +419,7 @@
 .eg-gen-btn:active:not(:disabled) { transform: translateY(0); }
 .eg-gen-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .eg-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -432,7 +431,7 @@
 }
 @keyframes eg-spin { to { transform: rotate(360deg); } }
 
-/* ── Skeleton ── */
+/* â”€â”€ Skeleton â”€â”€ */
 .eg-skeleton-card { gap: 14px; }
 
 .eg-skel {
@@ -450,7 +449,7 @@
 .eg-skel-short { width: 40%; }
 .eg-skel-med   { width: 70%; }
 
-/* ── Result top bar ── */
+/* â”€â”€ Result top bar â”€â”€ */
 .eg-result-top {
   display: flex;
   justify-content: space-between;
@@ -494,7 +493,7 @@
   border-color: var(--sky-bd) !important;
 }
 
-/* ── Tabs ── */
+/* â”€â”€ Tabs â”€â”€ */
 .eg-tabs {
   display: flex;
   background: var(--grey-1);
@@ -525,7 +524,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
-/* ── Actions ── */
+/* â”€â”€ Actions â”€â”€ */
 .eg-actions {
   display: flex;
   gap: 7px;
@@ -571,7 +570,7 @@
   color: var(--green) !important;
 }
 
-/* ── Email Preview ── */
+/* â”€â”€ Email Preview â”€â”€ */
 .eg-email-preview {
   border: 1.5px solid var(--grey-2);
   border-radius: var(--radius);
@@ -647,7 +646,7 @@
   margin-top: 8px;
 }
 
-/* ── Raw ── */
+/* â”€â”€ Raw â”€â”€ */
 .eg-raw {
   background: var(--grey-1);
   border: 1.5px solid var(--grey-2);
@@ -663,7 +662,7 @@
   user-select: text;
 }
 
-/* ── Result Footer ── */
+/* â”€â”€ Result Footer â”€â”€ */
 .eg-result-footer {
   display: flex;
   align-items: center;
@@ -705,7 +704,7 @@
 .eg-copy-full.eg-copied { background: var(--green) !important; }
 .eg-copy-full.eg-copied:hover { background: #15803d !important; }
 
-/* ── Animations ── */
+/* â”€â”€ Animations â”€â”€ */
 .animate-in {
   animation: eg-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -714,7 +713,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 640px) {
   .eg-page          { padding: 72px 14px 48px; padding-top: 110px; }
   .eg-header        { flex-direction: column; gap: 12px; }

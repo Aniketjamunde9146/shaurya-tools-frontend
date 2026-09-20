@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -30,12 +29,12 @@
   --li-blue:    #0a66c2;
   --li-blue-bg: #e8f0fe;
   --li-blue-bd: #b3c8f5;
-  --font-head:  'Poppins', sans-serif;
+  --font-head:  "Inter", sans-serif;
   --font-body:  'Inter', sans-serif;
-  --font-mono:  'JetBrains Mono', 'Menlo', 'Consolas', monospace;
+  --font-mono:  "Inter", 'Menlo', 'Consolas', monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .lp-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -52,7 +51,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .lp-header {
   display: flex;
   align-items: flex-start;
@@ -100,7 +99,7 @@
   line-height: 1.5;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .lp-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -135,7 +134,7 @@
   flex-wrap: wrap;
 }
 
-/* ── Grid ── */
+/* â”€â”€ Grid â”€â”€ */
 .lp-grid {
   display: grid;
   grid-template-columns: 1fr 380px;
@@ -150,7 +149,7 @@
   gap: 14px;
 }
 
-/* ── Presets ── */
+/* â”€â”€ Presets â”€â”€ */
 .lp-presets {
   display: flex;
   align-items: center;
@@ -186,7 +185,7 @@
   background: var(--li-blue-bg);
 }
 
-/* ── Form ── */
+/* â”€â”€ Form â”€â”€ */
 .lp-form-body {
   padding: 18px;
   display: flex;
@@ -205,7 +204,7 @@
   padding-bottom: 5px;
 }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .lp-field {
   display: flex;
   flex-direction: column;
@@ -269,14 +268,14 @@
 .lp-textarea { resize: vertical; min-height: 80px; line-height: 1.65; }
 .lp-select   { cursor: pointer; }
 
-/* ── 2-col row ── */
+/* â”€â”€ 2-col row â”€â”€ */
 .lp-row2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
 
-/* ── Pill button group ── */
+/* â”€â”€ Pill button group â”€â”€ */
 .lp-pill-group {
   display: flex;
   flex-wrap: wrap;
@@ -304,7 +303,7 @@
   color: var(--li-blue) !important;
 }
 
-/* ── Hashtag chips ── */
+/* â”€â”€ Hashtag chips â”€â”€ */
 .lp-hashtags-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -342,7 +341,7 @@
 
 .lp-ht-empty { font-size: 0.73rem; color: var(--grey-3); padding: 4px 2px; }
 
-/* ── Toggle (switch) ── */
+/* â”€â”€ Toggle (switch) â”€â”€ */
 .lp-toggle-row {
   display: flex;
   align-items: center;
@@ -396,7 +395,7 @@
 
 .lp-switch.on .lp-switch-dot { left: 18px; }
 
-/* ── Generate button ── */
+/* â”€â”€ Generate button â”€â”€ */
 .lp-gen-btn {
   display: flex;
   align-items: center;
@@ -428,7 +427,7 @@
   cursor: not-allowed;
 }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .lp-spinner {
   display: inline-block;
   width: 15px; height: 15px;
@@ -440,7 +439,7 @@
 
 @keyframes lp-spin { to { transform: rotate(360deg); } }
 
-/* ── Skeleton ── */
+/* â”€â”€ Skeleton â”€â”€ */
 .lp-skeleton-body { padding: 20px; }
 
 .lp-skel {
@@ -461,7 +460,7 @@
 .lp-skel-short { width: 65% !important; }
 .lp-skel-block { height: 52px; width: 100%; border-radius: 10px; }
 
-/* ── LinkedIn mock preview ── */
+/* â”€â”€ LinkedIn mock preview â”€â”€ */
 .lp-li-card {
   background: var(--white);
   border: 1px solid #dce6f1;
@@ -608,7 +607,7 @@
 
 .lp-li-action:hover { background: var(--grey-1); }
 
-/* ── Output ── */
+/* â”€â”€ Output â”€â”€ */
 .lp-result-top {
   display: flex;
   align-items: center;
@@ -738,7 +737,7 @@
   font-weight: 500;
 }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .lp-error {
   display: flex;
   align-items: center;
@@ -752,7 +751,7 @@
   color: var(--red);
 }
 
-/* ── Count badge ── */
+/* â”€â”€ Count badge â”€â”€ */
 .lp-count-badge {
   font-size: 0.7rem;
   font-weight: 700;
@@ -763,7 +762,7 @@
   border: 1px solid var(--green-bd);
 }
 
-/* ── animate-in ── */
+/* â”€â”€ animate-in â”€â”€ */
 .animate-in {
   animation: lp-fadein 0.3s ease;
 }
@@ -773,7 +772,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 1024px) {
   .lp-grid { grid-template-columns: 1fr; }
   .lp-col-right { order: -1; }

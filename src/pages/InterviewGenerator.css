@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -33,12 +32,12 @@
   --violet-bd:  #ddd6fe;
   --code-bg:    #1e1e1e;
   --radius:     12px;
-  --font-head:  'Poppins', sans-serif;
+  --font-head:  "Inter", sans-serif;
   --font-body:  'Inter', sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .iqg-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -56,7 +55,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .iqg-header {
   display: flex;
   align-items: flex-start;
@@ -108,7 +107,7 @@
   line-height: 1.5;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .iqg-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -119,7 +118,7 @@
   gap: 18px;
 }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .iqg-field {
   display: flex;
   flex-direction: column;
@@ -139,7 +138,7 @@
 .iqg-label-icon { color: var(--amber); flex-shrink: 0; }
 .iqg-divider    { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* ── Grid rows ── */
+/* â”€â”€ Grid rows â”€â”€ */
 .iqg-row-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -170,7 +169,7 @@
 .iqg-required { color: var(--red); }
 .iqg-optional { font-weight: 400; color: var(--grey-3); text-transform: none; letter-spacing: 0; }
 
-/* ── Input ── */
+/* â”€â”€ Input â”€â”€ */
 .iqg-input {
   width: 100%;
   padding: 11px 14px;
@@ -189,7 +188,7 @@
 }
 .iqg-input::placeholder { color: var(--grey-3); font-size: 0.86rem; }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .iqg-error-msg {
   display: flex;
   align-items: center;
@@ -203,7 +202,7 @@
   padding: 8px 12px;
 }
 
-/* ── Interview Type Grid ── */
+/* â”€â”€ Interview Type Grid â”€â”€ */
 .iqg-formats { display: grid; gap: 8px; }
 .iqg-formats-3 { grid-template-columns: repeat(3, 1fr); }
 
@@ -244,7 +243,7 @@
 .iqg-fmt-desc { font-size: 0.68rem; color: var(--grey-3); line-height: 1.3; }
 .iqg-fmt-on .iqg-fmt-desc { color: var(--amber); opacity: 0.85; }
 
-/* ── Experience Level ── */
+/* â”€â”€ Experience Level â”€â”€ */
 .iqg-levels {
   display: flex;
   gap: 8px;
@@ -274,7 +273,7 @@
 .iqg-lvl-desc  { font-size: 0.69rem; color: var(--grey-3); }
 .iqg-lvl-on .iqg-lvl-desc  { color: var(--teal); opacity: 0.8; }
 
-/* ── Counts ── */
+/* â”€â”€ Counts â”€â”€ */
 .iqg-counts {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -304,7 +303,7 @@
 .iqg-cnt-desc  { font-size: 0.68rem; color: var(--grey-3); }
 .iqg-cnt-on .iqg-cnt-desc  { color: var(--violet); opacity: 0.8; }
 
-/* ── Difficulty ── */
+/* â”€â”€ Difficulty â”€â”€ */
 .iqg-difficulties {
   display: flex;
   flex-direction: column;
@@ -338,7 +337,7 @@
 .iqg-diff-desc { font-size: 0.69rem; color: var(--grey-3); }
 .iqg-diff-on .iqg-diff-desc { color: var(--orange); opacity: 0.8; }
 
-/* ── Checkbox Toggle ── */
+/* â”€â”€ Checkbox Toggle â”€â”€ */
 .iqg-toggle-check {
   display: flex;
   align-items: center;
@@ -383,7 +382,7 @@
 .iqg-check-on .iqg-check-label { color: var(--amber-dk); }
 .iqg-check-desc  { font-size: 0.73rem; color: var(--grey-3); }
 
-/* ── Submit Button ── */
+/* â”€â”€ Submit Button â”€â”€ */
 .iqg-submit-btn {
   display: flex;
   align-items: center;
@@ -409,7 +408,7 @@
 .iqg-submit-btn:active:not(:disabled) { transform: translateY(0); }
 .iqg-submit-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .iqg-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -421,7 +420,7 @@
 }
 @keyframes iqg-spin { to { transform: rotate(360deg); } }
 
-/* ── Skeleton ── */
+/* â”€â”€ Skeleton â”€â”€ */
 .iqg-skeleton-card { gap: 14px; }
 
 .iqg-skel {
@@ -439,7 +438,7 @@
 .iqg-skel-short { width: 70% !important; }
 .iqg-skel-block { height: 80px; }
 
-/* ── Result Top ── */
+/* â”€â”€ Result Top â”€â”€ */
 .iqg-result-top {
   display: flex;
   justify-content: space-between;
@@ -475,7 +474,7 @@
   border-color: var(--violet-bd) !important;
 }
 
-/* ── Tabs ── */
+/* â”€â”€ Tabs â”€â”€ */
 .iqg-tabs {
   display: flex;
   background: var(--grey-1);
@@ -505,7 +504,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
-/* ── Actions ── */
+/* â”€â”€ Actions â”€â”€ */
 .iqg-actions { display: flex; gap: 7px; align-items: center; }
 
 .iqg-action-btn {
@@ -547,7 +546,7 @@
   color: var(--green) !important;
 }
 
-/* ── Preview ── */
+/* â”€â”€ Preview â”€â”€ */
 .iqg-preview {
   border: 1.5px solid var(--grey-2);
   border-radius: var(--radius);
@@ -627,7 +626,7 @@
   white-space: pre;
 }
 
-/* ── Raw ── */
+/* â”€â”€ Raw â”€â”€ */
 .iqg-raw {
   background: var(--grey-1);
   border: 1.5px solid var(--grey-2);
@@ -643,7 +642,7 @@
   user-select: text;
 }
 
-/* ── Result Footer ── */
+/* â”€â”€ Result Footer â”€â”€ */
 .iqg-result-footer {
   display: flex;
   align-items: center;
@@ -681,14 +680,14 @@
 .iqg-copy-full.iqg-copied { background: var(--green) !important; }
 .iqg-copy-full.iqg-copied:hover { background: #15803d !important; }
 
-/* ── Animation ── */
+/* â”€â”€ Animation â”€â”€ */
 .animate-in { animation: iqg-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes iqg-fade {
   from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 640px) {
   .iqg-page         { padding: 72px 14px 48px; padding-top: 110px; }
   .iqg-header       { flex-direction: column; gap: 12px; }

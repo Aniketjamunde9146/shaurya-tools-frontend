@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -30,12 +29,12 @@
   --yt-red:     #ff0000;
   --yt-red-bg:  #fff1f1;
   --yt-red-bd:  #ffd0d0;
-  --font-head:  'Poppins', sans-serif;
+  --font-head:  "Inter", sans-serif;
   --font-body:  'Inter', sans-serif;
-  --font-mono:  'JetBrains Mono', 'Menlo', 'Consolas', monospace;
+  --font-mono:  "Inter", 'Menlo', 'Consolas', monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .yd-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -52,7 +51,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .yd-header {
   display: flex;
   align-items: flex-start;
@@ -100,7 +99,7 @@
   line-height: 1.5;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .yd-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -135,7 +134,7 @@
   flex-wrap: wrap;
 }
 
-/* ── Grid ── */
+/* â”€â”€ Grid â”€â”€ */
 .yd-grid {
   display: grid;
   grid-template-columns: 1fr 380px;
@@ -150,7 +149,7 @@
   gap: 14px;
 }
 
-/* ── Presets ── */
+/* â”€â”€ Presets â”€â”€ */
 .yd-presets {
   display: flex;
   align-items: center;
@@ -186,7 +185,7 @@
   background: var(--yt-red-bg);
 }
 
-/* ── Form body ── */
+/* â”€â”€ Form body â”€â”€ */
 .yd-form-body {
   padding: 18px;
   display: flex;
@@ -194,7 +193,7 @@
   gap: 14px;
 }
 
-/* ── Section divider ── */
+/* â”€â”€ Section divider â”€â”€ */
 .yd-divider {
   font-family: var(--font-head);
   font-size: 0.67rem;
@@ -206,7 +205,7 @@
   padding-bottom: 5px;
 }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .yd-field {
   display: flex;
   flex-direction: column;
@@ -270,14 +269,14 @@
 .yd-textarea { resize: vertical; min-height: 80px; line-height: 1.65; }
 .yd-select   { cursor: pointer; }
 
-/* ── Row 2 col ── */
+/* â”€â”€ Row 2 col â”€â”€ */
 .yd-row2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
 
-/* ── Links section ── */
+/* â”€â”€ Links section â”€â”€ */
 .yd-links-list {
   display: flex;
   flex-direction: column;
@@ -368,7 +367,7 @@
   background: var(--yt-red-bg);
 }
 
-/* ── Hashtag section ── */
+/* â”€â”€ Hashtag section â”€â”€ */
 .yd-hashtags-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -411,7 +410,7 @@
   padding: 4px 2px;
 }
 
-/* ── Generate button ── */
+/* â”€â”€ Generate button â”€â”€ */
 .yd-gen-btn {
   display: flex;
   align-items: center;
@@ -443,7 +442,7 @@
   cursor: not-allowed;
 }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .yd-spinner {
   display: inline-block;
   width: 15px; height: 15px;
@@ -455,7 +454,7 @@
 
 @keyframes yd-spin { to { transform: rotate(360deg); } }
 
-/* ── Skeleton ── */
+/* â”€â”€ Skeleton â”€â”€ */
 .yd-skeleton-body { padding: 20px; }
 
 .yd-skel {
@@ -476,7 +475,7 @@
 .yd-skel-short  { width: 70% !important; }
 .yd-skel-block  { height: 56px; width: 100%; border-radius: 10px; }
 
-/* ── Output ── */
+/* â”€â”€ Output â”€â”€ */
 .yd-result-top {
   display: flex;
   align-items: center;
@@ -580,7 +579,7 @@
   tab-size: 2;
 }
 
-/* ── YouTube mock preview ── */
+/* â”€â”€ YouTube mock preview â”€â”€ */
 .yd-yt-preview {
   padding: 16px;
   display: flex;
@@ -689,7 +688,7 @@
   font-style: italic;
 }
 
-/* ── Result footer ── */
+/* â”€â”€ Result footer â”€â”€ */
 .yd-result-footer {
   display: flex;
   align-items: center;
@@ -707,7 +706,7 @@
   font-weight: 500;
 }
 
-/* ── Count badge ── */
+/* â”€â”€ Count badge â”€â”€ */
 .yd-count-badge {
   font-size: 0.7rem;
   font-weight: 700;
@@ -718,7 +717,7 @@
   border: 1px solid var(--green-bd);
 }
 
-/* ── Empty ── */
+/* â”€â”€ Empty â”€â”€ */
 .yd-empty {
   padding: 48px 20px;
   text-align: center;
@@ -731,7 +730,7 @@
 .yd-empty-icon { font-size: 2rem; opacity: 0.3; }
 .yd-empty-text { font-size: 0.82rem; color: var(--grey-3); }
 
-/* ── animate-in ── */
+/* â”€â”€ animate-in â”€â”€ */
 .animate-in {
   animation: yd-fadein 0.3s ease;
 }
@@ -741,7 +740,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .yd-error {
   display: flex;
   align-items: center;
@@ -755,7 +754,7 @@
   color: var(--red);
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 1024px) {
   .yd-grid { grid-template-columns: 1fr; }
   .yd-col-right { order: -1; }

@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -44,12 +43,12 @@
   --violet-bd:  #ddd6fe;
 
   --radius:     11px;
-  --font-head:  'Plus Jakarta Sans', sans-serif;
-  --font-body:  'Nunito', sans-serif;
+  --font-head:  "Inter", sans-serif;
+  --font-body:  "Inter", sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .wa-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -67,7 +66,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .wa-header {
   display: flex;
   align-items: flex-start;
@@ -120,7 +119,7 @@
   max-width: 520px;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .wa-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -131,7 +130,7 @@
   gap: 16px;
 }
 
-/* ── Section Head ── */
+/* â”€â”€ Section Head â”€â”€ */
 .wa-section-head {
   display: inline-flex;
   align-items: center;
@@ -149,7 +148,7 @@
   margin-bottom: 2px;
 }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .wa-field {
   display: flex;
   flex-direction: column;
@@ -194,7 +193,7 @@
 
 .wa-divider { height: 1px; background: var(--grey-2); margin: 4px 0; }
 
-/* ── Skills Grid ── */
+/* â”€â”€ Skills Grid â”€â”€ */
 .wa-skills {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -243,7 +242,7 @@
   border-radius: 100px;
 }
 
-/* ── Industries ── */
+/* â”€â”€ Industries â”€â”€ */
 .wa-industries {
   display: flex;
   flex-wrap: wrap;
@@ -269,7 +268,7 @@
   color: var(--wa-green-dk) !important;
 }
 
-/* ── Goals ── */
+/* â”€â”€ Goals â”€â”€ */
 .wa-goals {
   display: flex;
   flex-wrap: wrap;
@@ -296,7 +295,7 @@
   font-weight: 700;
 }
 
-/* ── Tones ── */
+/* â”€â”€ Tones â”€â”€ */
 .wa-tones {
   display: flex;
   flex-wrap: wrap;
@@ -322,7 +321,7 @@
   color: var(--violet) !important;
 }
 
-/* ── Input ── */
+/* â”€â”€ Input â”€â”€ */
 .wa-input {
   width: 100%;
   padding: 10px 13px;
@@ -341,7 +340,7 @@
   box-shadow: 0 0 0 3px rgba(37,211,102,0.15);
 }
 
-/* ── Lengths ── */
+/* â”€â”€ Lengths â”€â”€ */
 .wa-lengths {
   display: flex;
   flex-direction: column;
@@ -366,7 +365,7 @@
 .wa-len-desc { font-size: 0.7rem; color: var(--grey-3); }
 .wa-len-on .wa-len-desc { color: rgba(255,255,255,0.55); }
 
-/* ── Select ── */
+/* â”€â”€ Select â”€â”€ */
 .wa-select-wrap { position: relative; }
 
 .wa-select {
@@ -408,7 +407,7 @@
   padding: 5px 10px;
 }
 
-/* ── WA Tips box ── */
+/* â”€â”€ WA Tips box â”€â”€ */
 .wa-tips-box {
   display: flex;
   flex-direction: column;
@@ -423,7 +422,7 @@
   line-height: 1.6;
 }
 
-/* ── Rows ── */
+/* â”€â”€ Rows â”€â”€ */
 .wa-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -432,7 +431,7 @@
 }
 .wa-row-3 { grid-template-columns: 1fr 1fr 1fr; }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .wa-error-msg {
   display: flex;
   align-items: center;
@@ -446,7 +445,7 @@
   padding: 8px 12px;
 }
 
-/* ── Generate Button ── */
+/* â”€â”€ Generate Button â”€â”€ */
 .wa-gen-btn {
   display: flex;
   align-items: center;
@@ -473,7 +472,7 @@
 .wa-gen-btn:active:not(:disabled) { transform: translateY(0); }
 .wa-gen-btn:disabled { opacity: 0.35; cursor: not-allowed; transform: none; }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .wa-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -485,7 +484,7 @@
 }
 @keyframes wa-spin { to { transform: rotate(360deg); } }
 
-/* ── Skeleton ── */
+/* â”€â”€ Skeleton â”€â”€ */
 .wa-skeleton-card { gap: 12px; }
 .wa-skel {
   background: linear-gradient(90deg, var(--grey-1) 25%, var(--grey-2) 50%, var(--grey-1) 75%);
@@ -502,7 +501,7 @@
 .wa-skel-short { width: 38%; }
 .wa-skel-med   { width: 65%; }
 
-/* ── Result top bar ── */
+/* â”€â”€ Result top bar â”€â”€ */
 .wa-result-top {
   display: flex;
   justify-content: space-between;
@@ -550,7 +549,7 @@
   border-color: var(--amber-bd) !important;
 }
 
-/* ── Tabs ── */
+/* â”€â”€ Tabs â”€â”€ */
 .wa-tabs {
   display: flex;
   background: var(--grey-1);
@@ -584,7 +583,7 @@
   box-shadow: 0 2px 8px rgba(7,94,84,0.2);
 }
 
-/* ── Actions ── */
+/* â”€â”€ Actions â”€â”€ */
 .wa-actions {
   display: flex;
   gap: 7px;
@@ -630,9 +629,9 @@
   color: var(--emerald) !important;
 }
 
-/* ══════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    WHATSAPP PHONE PREVIEW
-══════════════════════════════════════════ */
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .wa-phone-wrap {
   display: grid;
   grid-template-columns: 320px 1fr;
@@ -640,7 +639,7 @@
   align-items: start;
 }
 
-/* ── Phone shell ── */
+/* â”€â”€ Phone shell â”€â”€ */
 .wa-phone {
   background: var(--white);
   border-radius: 22px;
@@ -778,7 +777,7 @@
   font-family: var(--font-body);
 }
 
-/* ── Aside (raw text + copy) ── */
+/* â”€â”€ Aside (raw text + copy) â”€â”€ */
 .wa-phone-aside {
   display: flex;
   flex-direction: column;
@@ -842,7 +841,7 @@
   text-align: right;
 }
 
-/* ── Result Footer ── */
+/* â”€â”€ Result Footer â”€â”€ */
 .wa-result-footer {
   display: flex;
   align-items: center;
@@ -883,14 +882,14 @@
 .wa-copy-full:active { transform: translateY(0); }
 .wa-copy-full.wa-copied { background: var(--emerald) !important; }
 
-/* ── Animation ── */
+/* â”€â”€ Animation â”€â”€ */
 .animate-in { animation: wa-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes wa-fade {
   from { opacity: 0; transform: translateY(14px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 700px) {
   .wa-page        { padding: 72px 14px 48px; padding-top: 110px; }
   .wa-header      { flex-direction: column; gap: 12px; }

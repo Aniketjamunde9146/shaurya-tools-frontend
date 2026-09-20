@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -23,12 +22,12 @@
   --red-bd:    #fecaca;
   --code-bg:   #1e1e1e;
   --radius:    12px;
-  --font-head: 'Poppins', sans-serif;
+  --font-head: "Inter", sans-serif;
   --font-body: 'Inter', sans-serif;
   --font-mono: 'Courier New', Courier, monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .sg-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -46,7 +45,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .sg-header {
   display: flex;
   align-items: flex-start;
@@ -98,7 +97,7 @@
   line-height: 1.5;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .sg-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -111,7 +110,7 @@
 
 .sg-divider { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .sg-field { display: flex; flex-direction: column; gap: 7px; }
 .sg-field-domain { flex: 1; }
 .sg-field-options { flex: 0 0 auto; min-width: 200px; }
@@ -150,7 +149,7 @@
   margin-left: 4px;
 }
 
-/* ── Top row ── */
+/* â”€â”€ Top row â”€â”€ */
 .sg-top-row {
   display: flex;
   gap: 20px;
@@ -158,7 +157,7 @@
   flex-wrap: wrap;
 }
 
-/* ── Domain input ── */
+/* â”€â”€ Domain input â”€â”€ */
 .sg-domain-wrap { position: relative; }
 
 .sg-input {
@@ -213,7 +212,7 @@
   padding: 7px 11px;
 }
 
-/* ── Toggles ── */
+/* â”€â”€ Toggles â”€â”€ */
 .sg-options { display: flex; flex-direction: column; gap: 10px; }
 
 .sg-toggle {
@@ -254,7 +253,7 @@
 
 .sg-toggle-label { font-size: 0.83rem; font-weight: 500; color: var(--grey-4); }
 
-/* ── List header ── */
+/* â”€â”€ List header â”€â”€ */
 .sg-list-header { display: flex; flex-direction: column; gap: 4px; }
 
 .sg-list-actions {
@@ -285,7 +284,7 @@
 
 .sg-dot { color: var(--grey-3); font-size: 0.85rem; }
 
-/* ── Bulk panel ── */
+/* â”€â”€ Bulk panel â”€â”€ */
 .sg-bulk-panel {
   background: var(--grey-1);
   border: 1.5px solid var(--grey-2);
@@ -319,7 +318,7 @@
   gap: 8px;
 }
 
-/* ── URL List ── */
+/* â”€â”€ URL List â”€â”€ */
 .sg-url-list {
   display: flex;
   flex-direction: column;
@@ -336,7 +335,7 @@
   border-radius: var(--radius);
 }
 
-/* ── URL Row ── */
+/* â”€â”€ URL Row â”€â”€ */
 .sg-url-row {
   display: flex;
   align-items: flex-start;
@@ -480,7 +479,7 @@
 }
 .sg-delete-btn:hover { background: var(--red-bg); color: var(--red); border-color: var(--red-bd); }
 
-/* ── Add URL button ── */
+/* â”€â”€ Add URL button â”€â”€ */
 .sg-add-btn {
   display: flex;
   align-items: center;
@@ -500,7 +499,7 @@
 }
 .sg-add-btn:hover { border-color: var(--green-bd); color: var(--green); background: var(--green-bg); }
 
-/* ── Footer actions ── */
+/* â”€â”€ Footer actions â”€â”€ */
 .sg-footer-actions {
   display: flex;
   align-items: center;
@@ -575,7 +574,7 @@
 .sg-generate-btn:active:not(:disabled) { transform: translateY(0); }
 .sg-generate-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-/* ── Result ── */
+/* â”€â”€ Result â”€â”€ */
 .sg-result-top {
   display: flex;
   align-items: center;
@@ -663,7 +662,7 @@
 .sg-copy-btn:hover { background: #dbeafe; }
 .sg-copied { background: var(--green-bg) !important; border-color: var(--green-bd) !important; color: var(--green) !important; }
 
-/* ── Preview table ── */
+/* â”€â”€ Preview table â”€â”€ */
 .sg-preview {
   border: 1.5px solid var(--grey-2);
   border-radius: var(--radius);
@@ -747,7 +746,7 @@
   color: var(--grey-3);
 }
 
-/* ── Raw XML ── */
+/* â”€â”€ Raw XML â”€â”€ */
 .sg-raw {
   background: var(--code-bg);
   border-radius: var(--radius);
@@ -763,7 +762,7 @@
   overflow-y: auto;
 }
 
-/* ── Result footer ── */
+/* â”€â”€ Result footer â”€â”€ */
 .sg-result-footer {
   display: flex;
   align-items: center;
@@ -799,14 +798,14 @@
 .sg-copy-full:hover { background: #15803d; transform: translateY(-1px); box-shadow: 0 4px 14px rgba(22,163,74,0.25); }
 .sg-copy-full.sg-copied { background: var(--green) !important; }
 
-/* ── Animations ── */
+/* â”€â”€ Animations â”€â”€ */
 .animate-in { animation: sg-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes sg-fade {
   from { opacity: 0; transform: translateY(10px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 700px) {
   .sg-page            { padding: 80px 14px 48px; padding-top: 110px; }
   .sg-header          { flex-direction: column; gap: 12px; }

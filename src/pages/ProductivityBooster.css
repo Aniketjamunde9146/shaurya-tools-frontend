@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -40,12 +39,12 @@
   --indigo-dk:  #4338ca;
   --code-bg:    #1e1e1e;
   --radius:     12px;
-  --font-head:  'Poppins', sans-serif;
+  --font-head:  "Inter", sans-serif;
   --font-body:  'Inter', sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .pb-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -63,7 +62,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .pb-header {
   display: flex;
   align-items: flex-start;
@@ -115,7 +114,7 @@
   line-height: 1.5;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .pb-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -126,7 +125,7 @@
   gap: 18px;
 }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .pb-field {
   display: flex;
   flex-direction: column;
@@ -146,7 +145,7 @@
 .pb-label-icon { color: var(--indigo); flex-shrink: 0; }
 .pb-divider    { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* ── Input / Textarea ── */
+/* â”€â”€ Input / Textarea â”€â”€ */
 .pb-input-group { display: flex; flex-direction: column; gap: 5px; }
 
 .pb-input-label {
@@ -199,7 +198,7 @@
 
 .pb-hint { font-size: 0.73rem; color: var(--grey-3); line-height: 1.4; margin-top: 4px; }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .pb-error-msg {
   display: flex;
   align-items: center;
@@ -213,7 +212,7 @@
   padding: 8px 12px;
 }
 
-/* ── Format Grids ── */
+/* â”€â”€ Format Grids â”€â”€ */
 .pb-formats { display: grid; gap: 8px; }
 .pb-formats-4 { grid-template-columns: repeat(4, 1fr); }
 .pb-formats-3 { grid-template-columns: repeat(3, 1fr); }
@@ -251,7 +250,7 @@
 .pb-fmt-desc { font-size: 0.67rem; color: var(--grey-3); line-height: 1.3; }
 .pb-fmt-on .pb-fmt-desc { color: var(--indigo); opacity: 0.85; }
 
-/* ── 2-col row ── */
+/* â”€â”€ 2-col row â”€â”€ */
 .pb-row-2-gap {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -259,7 +258,7 @@
   align-items: start;
 }
 
-/* ── Toggle checkbox ── */
+/* â”€â”€ Toggle checkbox â”€â”€ */
 .pb-toggle-check {
   display: flex;
   align-items: center;
@@ -304,14 +303,14 @@
 .pb-check-on .pb-check-label { color: var(--indigo-dk); }
 .pb-check-desc  { font-size: 0.73rem; color: var(--grey-3); }
 
-/* ── Toggles row ── */
+/* â”€â”€ Toggles row â”€â”€ */
 .pb-toggles-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8px;
 }
 
-/* ── Submit Button ── */
+/* â”€â”€ Submit Button â”€â”€ */
 .pb-submit-btn {
   display: flex;
   align-items: center;
@@ -337,7 +336,7 @@
 .pb-submit-btn:active:not(:disabled) { transform: translateY(0); }
 .pb-submit-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .pb-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -349,7 +348,7 @@
 }
 @keyframes pb-spin { to { transform: rotate(360deg); } }
 
-/* ── Skeleton ── */
+/* â”€â”€ Skeleton â”€â”€ */
 .pb-skeleton-card { gap: 14px; }
 
 .pb-skel {
@@ -367,7 +366,7 @@
 .pb-skel-short { width: 70% !important; }
 .pb-skel-block { height: 80px; }
 
-/* ── Result Top ── */
+/* â”€â”€ Result Top â”€â”€ */
 .pb-result-top {
   display: flex;
   justify-content: space-between;
@@ -403,7 +402,7 @@
   border-color: var(--teal-bd) !important;
 }
 
-/* ── Tabs ── */
+/* â”€â”€ Tabs â”€â”€ */
 .pb-tabs {
   display: flex;
   background: var(--grey-1);
@@ -433,7 +432,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
-/* ── Actions ── */
+/* â”€â”€ Actions â”€â”€ */
 .pb-actions { display: flex; gap: 7px; align-items: center; }
 
 .pb-action-btn {
@@ -475,7 +474,7 @@
   color: var(--green) !important;
 }
 
-/* ── Preview ── */
+/* â”€â”€ Preview â”€â”€ */
 .pb-preview {
   border: 1.5px solid var(--grey-2);
   border-radius: var(--radius);
@@ -529,7 +528,7 @@
   font-style: italic;
 }
 
-/* ── Raw ── */
+/* â”€â”€ Raw â”€â”€ */
 .pb-raw {
   background: var(--grey-1);
   border: 1.5px solid var(--grey-2);
@@ -545,7 +544,7 @@
   user-select: text;
 }
 
-/* ── Result Footer ── */
+/* â”€â”€ Result Footer â”€â”€ */
 .pb-result-footer {
   display: flex;
   align-items: center;
@@ -583,14 +582,14 @@
 .pb-copy-full.pb-copied { background: var(--green) !important; }
 .pb-copy-full.pb-copied:hover { background: #15803d !important; }
 
-/* ── Animation ── */
+/* â”€â”€ Animation â”€â”€ */
 .pb-animate-in { animation: pb-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
 @keyframes pb-fade {
   from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 640px) {
   .pb-page          { padding: 72px 14px 48px; padding-top: 110px; }
   .pb-header        { flex-direction: column; gap: 12px; }

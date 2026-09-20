@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 :root {
   --white:       #ffffff;
@@ -29,7 +28,7 @@
   --ed-cursor:   #c0caf5;
   --ed-text:     #c0caf5;
 
-  /* Syntax tokens — Tokyo Night palette */
+  /* Syntax tokens â€” Tokyo Night palette */
   --tok-keyword: #bb9af7;
   --tok-string:  #9ece6a;
   --tok-number:  #ff9e64;
@@ -43,12 +42,12 @@
   --tok-punct:   #89ddff;
 
   --radius:      12px;
-  --font-head:   'Poppins', sans-serif;
+  --font-head:   "Inter", sans-serif;
   --font-body:   'Inter', sans-serif;
-  --font-mono:   'JetBrains Mono', 'Courier New', monospace;
+  --font-mono:   "Inter", 'Courier New', monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .cp2-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -66,7 +65,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .cp2-header {
   display: flex;
   align-items: flex-start;
@@ -118,7 +117,7 @@
   line-height: 1.5;
 }
 
-/* ── Controls card ── */
+/* â”€â”€ Controls card â”€â”€ */
 .cp2-controls-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -314,7 +313,7 @@
 .cp2-prettify-btn:active:not(:disabled) { transform: translateY(0); }
 .cp2-prettify-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-/* ── Editor layout ── */
+/* â”€â”€ Editor layout â”€â”€ */
 .cp2-editor-layout {
   display: grid;
   grid-template-columns: 1fr 44px 1fr;
@@ -327,7 +326,7 @@
   overflow: hidden;
 }
 
-/* ── Panel ── */
+/* â”€â”€ Panel â”€â”€ */
 .cp2-panel {
   display: flex;
   flex-direction: column;
@@ -437,7 +436,7 @@
   color: #34d399 !important;
 }
 
-/* ── Editor wrap (input) ── */
+/* â”€â”€ Editor wrap (input) â”€â”€ */
 .cp2-editor-wrap {
   flex: 1;
   display: flex;
@@ -494,7 +493,7 @@
 .cp2-textarea::-webkit-scrollbar-track { background: transparent; }
 .cp2-textarea::-webkit-scrollbar-thumb { background: var(--ed-border); border-radius: 3px; }
 
-/* ── Output wrap ── */
+/* â”€â”€ Output wrap â”€â”€ */
 .cp2-output-wrap {
   flex: 1;
   overflow: auto;
@@ -570,7 +569,7 @@
 
 .cp2-ok-icon { color: #34d399; }
 
-/* ── Issues panel ── */
+/* â”€â”€ Issues panel â”€â”€ */
 .cp2-issues-wrap {
   flex: 1;
   overflow-y: auto;
@@ -653,7 +652,7 @@
 .cp2-issue-warning { border-left: 3px solid #fbbf24; padding-left: 13px; }
 .cp2-issue-info    { border-left: 3px solid #38bdf8; padding-left: 13px; }
 
-/* ── Arrow divider ── */
+/* â”€â”€ Arrow divider â”€â”€ */
 .cp2-arrow {
   display: flex;
   align-items: center;
@@ -686,7 +685,7 @@
 
 .cp2-arrow-btn:disabled { opacity: 0.3; cursor: not-allowed; }
 
-/* ── Status bar ── */
+/* â”€â”€ Status bar â”€â”€ */
 .cp2-statusbar {
   display: flex;
   align-items: center;
@@ -702,7 +701,7 @@
 .cp2-status-warn  { background: var(--amber-bg);   border-color: var(--amber-bd);   color: var(--amber); }
 .cp2-status-error { background: var(--red-bg);     border-color: var(--red-bd);     color: var(--red); }
 
-/* ── Scrollbars ── */
+/* â”€â”€ Scrollbars â”€â”€ */
 .cp2-output-wrap::-webkit-scrollbar,
 .cp2-issues-wrap::-webkit-scrollbar { width: 6px; height: 6px; }
 .cp2-output-wrap::-webkit-scrollbar-track,
@@ -710,7 +709,7 @@
 .cp2-output-wrap::-webkit-scrollbar-thumb,
 .cp2-issues-wrap::-webkit-scrollbar-thumb { background: var(--ed-border); border-radius: 3px; }
 
-/* ── Animation ── */
+/* â”€â”€ Animation â”€â”€ */
 .animate-in {
   animation: cp2-fade 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -720,7 +719,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 768px) {
   .cp2-page          { padding: 72px 12px 48px; padding-top: 110px; }
   .cp2-header        { flex-direction: column; gap: 12px; }

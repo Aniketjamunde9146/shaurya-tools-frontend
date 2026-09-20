@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -30,12 +29,12 @@
   --amber-bd:   #fde68a;
   --code-bg:    #1e1e1e;
   --radius:     12px;
-  --font-head:  'Poppins', sans-serif;
+  --font-head:  "Inter", sans-serif;
   --font-body:  'Inter', sans-serif;
   --font-mono:  'Courier New', Courier, monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .hw-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -53,7 +52,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .hw-header {
   display: flex;
   align-items: flex-start;
@@ -105,7 +104,7 @@
   line-height: 1.5;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .hw-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -116,7 +115,7 @@
   gap: 18px;
 }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .hw-field {
   display: flex;
   flex-direction: column;
@@ -145,7 +144,7 @@
 
 .hw-divider { height: 1px; background: var(--grey-2); margin: 2px 0; }
 
-/* ── Subject Grid ── */
+/* â”€â”€ Subject Grid â”€â”€ */
 .hw-subjects {
   display: flex;
   flex-wrap: wrap;
@@ -178,7 +177,7 @@
   font-weight: 600;
 }
 
-/* ── Subject Icon (lucide) ── */
+/* â”€â”€ Subject Icon (lucide) â”€â”€ */
 .hw-subject-icon {
   color: var(--grey-3);
   flex-shrink: 0;
@@ -201,7 +200,7 @@
   border-radius: 100px;
 }
 
-/* ── Grade Buttons ── */
+/* â”€â”€ Grade Buttons â”€â”€ */
 .hw-grades {
   display: flex;
   gap: 8px;
@@ -231,7 +230,7 @@
   font-weight: 600;
 }
 
-/* ── Help Mode ── */
+/* â”€â”€ Help Mode â”€â”€ */
 .hw-modes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -273,7 +272,7 @@
 }
 .hw-mode-on .hw-mode-desc { color: var(--green); opacity: 0.8; }
 
-/* ── Textarea ── */
+/* â”€â”€ Textarea â”€â”€ */
 .hw-textarea {
   width: 100%;
   padding: 12px 14px;
@@ -302,7 +301,7 @@
 }
 .hw-char-warn { color: var(--orange) !important; }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .hw-error-msg {
   display: flex;
   align-items: center;
@@ -316,7 +315,7 @@
   padding: 8px 12px;
 }
 
-/* ── Ask Button ── */
+/* â”€â”€ Ask Button â”€â”€ */
 .hw-ask-btn {
   display: flex;
   align-items: center;
@@ -342,7 +341,7 @@
 .hw-ask-btn:active:not(:disabled) { transform: translateY(0); }
 .hw-ask-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .hw-spinner {
   display: inline-block;
   width: 16px; height: 16px;
@@ -354,7 +353,7 @@
 }
 @keyframes hw-spin { to { transform: rotate(360deg); } }
 
-/* ── Skeleton ── */
+/* â”€â”€ Skeleton â”€â”€ */
 .hw-skeleton-card { gap: 14px; }
 
 .hw-skel {
@@ -372,7 +371,7 @@
 .hw-skel-short { width: 72% !important; }
 .hw-skel-block { height: 72px; }
 
-/* ── Result top bar ── */
+/* â”€â”€ Result top bar â”€â”€ */
 .hw-result-top {
   display: flex;
   justify-content: space-between;
@@ -409,7 +408,7 @@
   border-color: var(--green-bd) !important;
 }
 
-/* ── Tabs ── */
+/* â”€â”€ Tabs â”€â”€ */
 .hw-tabs {
   display: flex;
   background: var(--grey-1);
@@ -439,7 +438,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
-/* ── Actions ── */
+/* â”€â”€ Actions â”€â”€ */
 .hw-actions {
   display: flex;
   gap: 7px;
@@ -485,7 +484,7 @@
   color: var(--green) !important;
 }
 
-/* ── Preview ── */
+/* â”€â”€ Preview â”€â”€ */
 .hw-preview {
   border: 1.5px solid var(--grey-2);
   border-radius: var(--radius);
@@ -566,7 +565,7 @@
   white-space: pre;
 }
 
-/* ── Raw ── */
+/* â”€â”€ Raw â”€â”€ */
 .hw-raw {
   background: var(--grey-1);
   border: 1.5px solid var(--grey-2);
@@ -582,7 +581,7 @@
   user-select: text;
 }
 
-/* ── Result footer ── */
+/* â”€â”€ Result footer â”€â”€ */
 .hw-result-footer {
   display: flex;
   align-items: center;
@@ -624,7 +623,7 @@
 .hw-copy-full.hw-copied { background: var(--green) !important; }
 .hw-copy-full.hw-copied:hover { background: #15803d !important; }
 
-/* ── Animations ── */
+/* â”€â”€ Animations â”€â”€ */
 .animate-in {
   animation: hw-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -633,7 +632,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 600px) {
   .hw-page        { padding: 72px 14px 48px; padding-top: 110px; }
   .hw-header      { flex-direction: column; gap: 12px; }

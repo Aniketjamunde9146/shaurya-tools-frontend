@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -27,16 +26,16 @@
   --amber:       #d97706;
   --amber-bg:    #fffbeb;
   --amber-bd:    #fde68a;
-  /* Brand accent — orange for ecommerce */
+  /* Brand accent â€” orange for ecommerce */
   --accent:      #ea580c;
   --accent-bg:   #fff7ed;
   --accent-bd:   #fed7aa;
-  --font-head:   'Poppins', sans-serif;
+  --font-head:   "Inter", sans-serif;
   --font-body:   'Inter', sans-serif;
-  --font-mono:   'JetBrains Mono', 'Menlo', 'Consolas', monospace;
+  --font-mono:   "Inter", 'Menlo', 'Consolas', monospace;
 }
 
-/* ── Page ── */
+/* â”€â”€ Page â”€â”€ */
 .pd-page {
   min-height: 100vh;
   background: var(--grey-1);
@@ -53,7 +52,7 @@
   gap: 16px;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .pd-header {
   display: flex;
   align-items: flex-start;
@@ -101,7 +100,7 @@
   line-height: 1.5;
 }
 
-/* ── Card ── */
+/* â”€â”€ Card â”€â”€ */
 .pd-card {
   background: var(--white);
   border: 1.5px solid var(--grey-2);
@@ -139,7 +138,7 @@
   border-radius: 100px;
 }
 
-/* ── Grid ── */
+/* â”€â”€ Grid â”€â”€ */
 .pd-grid {
   display: grid;
   grid-template-columns: 1fr 400px;
@@ -154,7 +153,7 @@
   gap: 14px;
 }
 
-/* ── Presets ── */
+/* â”€â”€ Presets â”€â”€ */
 .pd-presets {
   display: flex;
   align-items: center;
@@ -190,7 +189,7 @@
   background: var(--accent-bg);
 }
 
-/* ── Form body ── */
+/* â”€â”€ Form body â”€â”€ */
 .pd-form-body {
   padding: 18px;
   display: flex;
@@ -198,7 +197,7 @@
   gap: 14px;
 }
 
-/* ── Section divider ── */
+/* â”€â”€ Section divider â”€â”€ */
 .pd-divider {
   font-family: var(--font-head);
   font-size: 0.67rem;
@@ -210,7 +209,7 @@
   padding-bottom: 5px;
 }
 
-/* ── Field ── */
+/* â”€â”€ Field â”€â”€ */
 .pd-field {
   display: flex;
   flex-direction: column;
@@ -246,7 +245,7 @@
 .pd-char.good { color: var(--green); }
 .pd-char.over { color: var(--red); }
 
-/* ── Inputs ── */
+/* â”€â”€ Inputs â”€â”€ */
 .pd-input,
 .pd-textarea,
 .pd-select {
@@ -274,14 +273,14 @@
 .pd-textarea { resize: vertical; min-height: 80px; line-height: 1.65; }
 .pd-select   { cursor: pointer; }
 
-/* ── Row 2 col ── */
+/* â”€â”€ Row 2 col â”€â”€ */
 .pd-row2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
 
-/* ── Bullet suggestions ── */
+/* â”€â”€ Bullet suggestions â”€â”€ */
 .pd-bullets-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -315,7 +314,7 @@
   background: var(--accent-bg);
 }
 
-/* ── Tone / Length chips ── */
+/* â”€â”€ Tone / Length chips â”€â”€ */
 .pd-chips {
   display: flex;
   flex-wrap: wrap;
@@ -358,7 +357,7 @@
   opacity: 0.7;
 }
 
-/* ── Generate button ── */
+/* â”€â”€ Generate button â”€â”€ */
 .pd-gen-btn {
   display: flex;
   align-items: center;
@@ -386,7 +385,7 @@
 .pd-gen-btn:active:not(:disabled) { transform: translateY(0); box-shadow: none; }
 .pd-gen-btn:disabled { opacity: 0.45; cursor: not-allowed; }
 
-/* ── Spinner ── */
+/* â”€â”€ Spinner â”€â”€ */
 .pd-spinner {
   display: inline-block;
   width: 15px; height: 15px;
@@ -397,7 +396,7 @@
 }
 @keyframes pd-spin { to { transform: rotate(360deg); } }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .pd-error {
   display: flex;
   align-items: center;
@@ -411,7 +410,7 @@
   color: var(--red);
 }
 
-/* ── Product Mock Preview ── */
+/* â”€â”€ Product Mock Preview â”€â”€ */
 .pd-preview-body {
   padding: 16px;
   display: flex;
@@ -513,7 +512,7 @@
   gap: 3px;
 }
 
-/* ── Skeleton ── */
+/* â”€â”€ Skeleton â”€â”€ */
 .pd-skeleton-body { padding: 20px; }
 
 .pd-skel {
@@ -534,7 +533,7 @@
 .pd-skel-short  { width: 70% !important; }
 .pd-skel-block  { height: 56px; width: 100%; border-radius: 10px; }
 
-/* ── Output card top ── */
+/* â”€â”€ Output card top â”€â”€ */
 .pd-result-top {
   display: flex;
   align-items: center;
@@ -623,7 +622,7 @@
 .pd-copy-btn:hover { background: var(--grey-4); border-color: var(--grey-4); }
 .pd-copy-btn.copied { background: var(--green) !important; border-color: var(--green) !important; }
 
-/* ── Output content ── */
+/* â”€â”€ Output content â”€â”€ */
 .pd-output-content {
   padding: 18px 20px;
   display: flex;
@@ -662,7 +661,7 @@
   word-break: break-word;
 }
 
-/* ── Output bullets ── */
+/* â”€â”€ Output bullets â”€â”€ */
 .pd-output-bullets {
   list-style: none;
   display: flex;
@@ -704,7 +703,7 @@
 
 .pd-bullet-copy:hover { border-color: var(--accent-bd); color: var(--accent); background: var(--accent-bg); }
 
-/* ── SEO grid ── */
+/* â”€â”€ SEO grid â”€â”€ */
 .pd-seo-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -784,7 +783,7 @@
   color: var(--blue);
 }
 
-/* ── Result footer ── */
+/* â”€â”€ Result footer â”€â”€ */
 .pd-result-footer {
   display: flex;
   align-items: center;
@@ -802,7 +801,7 @@
   font-weight: 500;
 }
 
-/* ── Animate in ── */
+/* â”€â”€ Animate in â”€â”€ */
 .animate-in {
   animation: pd-fadein 0.3s ease;
 }
@@ -812,7 +811,7 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
+/* â”€â”€ Responsive â”€â”€ */
 @media (max-width: 1024px) {
   .pd-grid { grid-template-columns: 1fr; }
   .pd-col-right { order: -1; }
