@@ -2,6 +2,7 @@ import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Analytics from "./components/Analytics";
+import ConsentBanner from "./components/ConsentBanner";
 import SiteFooter from "./components/SiteFooter";
 import SiteSEO from "./components/SiteSEO";
 
@@ -210,6 +211,7 @@ function App() {
       <Navbar />
       <SiteSEO />
       <Analytics />
+      <ConsentBanner />
 
       {/* ✅ Suspense wraps all routes — shows spinner while any page loads */}
       <Suspense fallback={<PageLoader />}>
