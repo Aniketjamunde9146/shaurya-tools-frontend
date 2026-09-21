@@ -202,6 +202,13 @@
   transform: none;
 }
 
+.ht-error-msg {
+  margin: 0.75rem 0 0;
+  color: var(--red, #dc2626);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
 /* Ã¢â€â‚¬Ã¢â€â‚¬ Spinner Ã¢â€â‚¬Ã¢â€â‚¬ */
 .ht-spinner {
   display: inline-block;

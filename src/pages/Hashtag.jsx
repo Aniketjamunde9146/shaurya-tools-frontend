@@ -33,6 +33,7 @@ function Hashtag() {
   const [output, setOutput]             = useState([]);
   const [caption, setCaption]           = useState("");
   const [loading, setLoading]           = useState(false);
+  const [error, setError]               = useState("");
   const [copiedCaption, setCopiedCaption] = useState(false);
   const [copiedTags, setCopiedTags]     = useState(false);
   const [selected, setSelected]         = useState(new Set());
@@ -41,6 +42,7 @@ function Hashtag() {
     if (!input.trim()) return;
     try {
       setLoading(true);
+      setError("");
       setOutput([]);
       setSelected(new Set());
 
@@ -48,14 +50,13 @@ function Hashtag() {
 Return ONLY the hashtags separated by spaces. No explanation, no numbering, no line breaks. Just: #tag1 #tag2 #tag3`;
 
       const res = await generateAI("hashtag", prompt);
-      if (!res.data.success) throw new Error("Hashtag generation failed");
-
       const raw = res.data.data;
       const tags = raw.match(/#[\w]+/g) || [];
+      if (tags.length === 0) throw new Error("The backend returned no hashtags. Please try a more specific topic.");
       setOutput(tags);
       setSelected(new Set(tags));
     } catch (err) {
-      console.error("Hashtag Error:", err);
+      setError(err.message || "Could not generate hashtags. Please try again.");
     } finally {
       setLoading(false);
     }
@@ -193,6 +194,8 @@ Return ONLY the hashtags separated by spaces. No explanation, no numbering, no l
                 </>
               )}
             </button>
+
+            {error && <p className="ht-error-msg" role="alert">{error}</p>}
 
             {output.length > 0 && (
               <div className="ht-results">

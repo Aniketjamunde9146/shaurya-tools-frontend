@@ -230,8 +230,6 @@ Rules:
 • Output ONLY raw JSON. Nothing else.`;
 
       const res = await generateAI("blog", msg);
-      if (!res.data.success) throw new Error("AI generation failed");
-
       let raw = res.data.data.trim();
       raw = raw
         .replace(/^```(?:json)?\s*/i, "")
@@ -253,7 +251,7 @@ Rules:
       });
 
     } catch (e) {
-      setError("Could not generate blog post. Please check your topic and try again.");
+      setError(e.message || "Could not generate blog post. Please check your topic and try again.");
     } finally {
       setLoading(false);
     }

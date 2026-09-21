@@ -178,10 +178,6 @@ STRICT RULES:
 
      const res = await generateAI("readme", msg);
 
-if (!res.data.success) {
-  throw new Error("AI generation failed");
-}
-
 let raw = res.data.data.trim();
 
 raw = raw
@@ -198,7 +194,7 @@ setActiveTab("preview");
       setFetchError(
         e.message === "Repo not found"
           ? "Repository not found. Make sure it's public and the URL is correct."
-          : "Could not fetch repository data. Check the URL and try again."
+          : e.message || "Could not generate README. Please try again."
       );
     } finally {
       setLoading(false);

@@ -1,6 +1,8 @@
 /* eslint-disable no-empty */
 import { useState } from "react";
 import { Helmet } from "react-helmet";
+import DOMPurify from "dompurify";
+import { streamLandingPage } from "../api";
 import {
   LayoutTemplate,
   RefreshCw,
@@ -19,8 +21,6 @@ import {
 import "./LandingPageGen.css";
 
 /* ─── Config ───────────────────────────────────────────── */
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:5000";
-
 /* ─── Options ──────────────────────────────────────────── */
 const SECTION_OPTIONS = [
   { id: "hero",         label: "Hero",         icon: "🚀", required: true  },
@@ -44,38 +44,6 @@ const INDUSTRY_OPTIONS = [
   "Education", "Creative Agency", "Startup", "Consulting",
   "Real Estate", "Food & Beverage", "Fitness", "Travel", "Legal", "Other",
 ];
-
-/* ─── SSE stream reader — reads OpenAI SSE piped from backend ── */
-async function readSSEStream(response, onChunk) {
-  const reader  = response.body.getReader();
-  const decoder = new TextDecoder();
-  let   buffer  = "";
-
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
-
-    const chunk = decoder.decode(value, { stream: true });
-    for (const line of chunk.split("\n")) {
-      const t = line.trim();
-      if (!t || t === "data: [DONE]" || !t.startsWith("data: ")) continue;
-      try {
-        const json  = JSON.parse(t.slice(6));
-        // Check for error sent via stream
-        if (json.error) throw new Error(json.error);
-        const delta = json.choices?.[0]?.delta?.content || "";
-        if (delta) {
-          buffer += delta;
-          onChunk(buffer);
-        }
-      } catch (e) {
-        if (e.message && !e.message.includes("JSON")) throw e;
-      }
-    }
-  }
-
-  return buffer;
-}
 
 /* ─── Helpers ──────────────────────────────────────────── */
 function countLines(html) { return html.split("\n").length; }
@@ -129,33 +97,17 @@ export default function LandingPageGen() {
     setHtmlOutput("");
 
     try {
-      const res = await fetch(`${API_BASE}/api/ai`, {
-        method:  "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          tool:  "landing",
-          input: JSON.stringify({
-            businessName,
-            description,
-            industry,
-            tone,
-            primaryColor,
-            sections,
-            cta,
-            targetAudience,
-          }),
-        }),
-      });
-
-      // Non-2xx before stream starts = JSON error from server
-      if (!res.ok) {
-        const json = await res.json().catch(() => ({}));
-        throw new Error(json.error || `Server error (${res.status})`);
-      }
-
-      // Read the SSE stream, update preview live
-      const html = await readSSEStream(res, (partial) => {
-        setHtmlOutput(partial);
+      const html = await streamLandingPage({
+        businessName,
+        description,
+        industry,
+        tone,
+        primaryColor,
+        sections,
+        cta,
+        targetAudience,
+      }, (partial) => {
+        setHtmlOutput(DOMPurify.sanitize(partial, { WHOLE_DOCUMENT: true }));
       });
 
       // Final cleanup — strip any accidental markdown fences
@@ -169,7 +121,7 @@ export default function LandingPageGen() {
         throw new Error("Received an invalid response. Please try again.");
       }
 
-      setHtmlOutput(cleaned);
+      setHtmlOutput(DOMPurify.sanitize(cleaned, { WHOLE_DOCUMENT: true }));
       setActiveTab("preview");
 
     } catch (e) {

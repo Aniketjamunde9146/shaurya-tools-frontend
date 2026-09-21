@@ -17,6 +17,7 @@
   "dependencies": {
     "@imgly/background-removal": "^1.7.0",
     "axios": "^1.13.5",
+    "dompurify": "^3.4.15",
     "fonts": "^0.0.2",
     "google": "^2.1.0",
     "html2canvas": "^1.4.1",

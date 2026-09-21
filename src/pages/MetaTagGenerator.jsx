@@ -2,6 +2,7 @@
 import { useState, useMemo } from "react";
 import "./MetaTagGenerator.css";
 import { Helmet } from "react-helmet";
+import { generateAI } from "../api";
 
 /* ── Icons ── */
 const IconMeta = () => (
@@ -205,6 +206,9 @@ export default function MetaTagGenerator() {
   const [tab, setTab] = useState("General");
   const [previewTab, setPreviewTab] = useState("google");
   const [copied, setCopied] = useState(false);
+  const [seoLoading, setSeoLoading] = useState(false);
+  const [seoError, setSeoError] = useState("");
+  const [seoAdvice, setSeoAdvice] = useState("");
 
   /* ── Toggles ── */
   const [toggles, setToggles] = useState({ og: true, twitter: true, theme: false });
@@ -243,6 +247,25 @@ export default function MetaTagGenerator() {
   /* ── Output ── */
   const output = useMemo(() => buildTags(f, toggles), [f, toggles]);
   const tagCount = useMemo(() => (output.match(/<(meta|link|title)/g) || []).length, [output]);
+
+  const handleSeoGenerate = async () => {
+    if (!f.title.trim() && !f.description.trim()) {
+      setSeoError("Add a page title or description before requesting SEO suggestions.");
+      return;
+    }
+
+    setSeoLoading(true);
+    setSeoError("");
+    try {
+      const prompt = `Review this page metadata and suggest SEO improvements. Return concise, actionable recommendations.\n\nTitle: ${f.title}\nDescription: ${f.description}\nKeywords: ${f.keywords}\nCanonical URL: ${f.canonical}`;
+      const response = await generateAI("seo", prompt);
+      setSeoAdvice(response.data.data);
+    } catch (error) {
+      setSeoError(error.message || "Could not generate SEO suggestions. Please try again.");
+    } finally {
+      setSeoLoading(false);
+    }
+  };
 
   /* ── Copy ── */
   const handleCopy = () => {
@@ -580,6 +603,23 @@ export default function MetaTagGenerator() {
                 readOnly
                 spellCheck={false}
               />
+            </div>
+
+            <div className="mt-card">
+              <div className="mt-card-head">
+                <span className="mt-card-title">AI SEO Review</span>
+                <button className="mt-sm-btn" onClick={handleSeoGenerate} disabled={seoLoading}>
+                  {seoLoading ? "Reviewing..." : "Review with AI"}
+                </button>
+              </div>
+              {seoError && <p role="alert" style={{ color: "var(--red)", fontSize: "0.8rem", margin: "0 0 0.75rem" }}>{seoError}</p>}
+              {seoAdvice ? (
+                <textarea className="mt-output" value={seoAdvice} readOnly spellCheck={false} />
+              ) : (
+                <p style={{ color: "var(--grey-3)", fontSize: "0.82rem", lineHeight: 1.5, margin: 0 }}>
+                  Get backend-powered recommendations from the title and description above.
+                </p>
+              )}
             </div>
 
           </div>
