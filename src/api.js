@@ -1,19 +1,51 @@
 export const API_URL = (import.meta.env.VITE_API_URL || "http://localhost:5000").replace(/\/$/, "");
 const REQUEST_TIMEOUT = 60000;
+const MAX_RETRIES = 2;
+const RETRYABLE_STATUS_CODES = new Set([408, 425, 429, 500, 502, 503, 504]);
+
+const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+
+function normalizeInput(tool, input) {
+  if (!/^[A-Za-z0-9_-]+$/.test(tool)) {
+    throw new Error("Invalid AI tool name.");
+  }
+
+  if (typeof input === "string" && input.trim()) return input.trim();
+
+  if (input && typeof input === "object") {
+    return `Generate a professional ${tool} result.
+
+User requirements:
+${JSON.stringify(input, null, 2)}
+
+Return only the final result. Do not explain your process.`;
+  }
+
+  throw new Error("Please provide complete instructions for the AI tool.");
+}
 
 async function request(url, options) {
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), REQUEST_TIMEOUT);
+  for (let attempt = 0; attempt <= MAX_RETRIES; attempt += 1) {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), REQUEST_TIMEOUT);
 
-  try {
-    return await fetch(url, { ...options, signal: controller.signal });
-  } catch (error) {
-    if (error.name === "AbortError") {
-      throw new Error("The AI request timed out. Please try again.");
+    try {
+      const response = await fetch(url, { ...options, signal: controller.signal });
+      if (RETRYABLE_STATUS_CODES.has(response.status) && attempt < MAX_RETRIES) {
+        await wait(500 * (attempt + 1));
+        continue;
+      }
+      return response;
+    } catch (error) {
+      if (attempt === MAX_RETRIES) {
+        if (error.name === "AbortError") {
+          throw new Error("The AI request timed out after several attempts. Please try again.");
+        }
+        throw new Error("Unable to reach the AI backend after several attempts. Check your connection and try again.");
+      }
+    } finally {
+      clearTimeout(timeoutId);
     }
-    throw new Error("Unable to reach the AI backend. Check your connection and try again.");
-  } finally {
-    clearTimeout(timeoutId);
   }
 }
 
@@ -26,10 +58,11 @@ async function parseResponse(response) {
 }
 
 export const generateAI = async (tool, input) => {
+  const completeInput = normalizeInput(tool, input);
   const response = await request(`${API_URL}/api/ai`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ tool, input }),
+    body: JSON.stringify({ tool, input: completeInput }),
   });
 
   return { data: await parseResponse(response) };

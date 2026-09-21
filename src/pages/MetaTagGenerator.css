@@ -135,7 +135,7 @@
 /* Ã¢â€â‚¬Ã¢â€â‚¬ Grid Ã¢â€â‚¬Ã¢â€â‚¬ */
 .mt-grid {
   display: grid;
-  grid-template-columns: 1fr 380px;
+  grid-template-columns: minmax(0, 1fr) 380px;
   gap: 16px;
   align-items: start;
 }

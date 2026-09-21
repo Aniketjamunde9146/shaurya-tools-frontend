@@ -10,7 +10,7 @@
 .lpg-inner {
   max-width: 980px;
   margin: 0 auto;
-  padding: 2rem 1.25rem 4rem;
+  padding: 6rem 1.25rem 4rem;
 }
 
 .lpg-header {
@@ -547,6 +547,7 @@
 }
 
 @media (max-width: 640px) {
+  .lpg-inner { padding-top: 5rem; }
   .lpg-form-grid { grid-template-columns: 1fr; }
   .lpg-field-full { grid-column: 1; }
   .lpg-stats-strip { flex-wrap: wrap; }

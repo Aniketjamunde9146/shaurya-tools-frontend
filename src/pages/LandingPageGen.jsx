@@ -1,4 +1,3 @@
-/* eslint-disable no-empty */
 import { useState } from "react";
 import { Helmet } from "react-helmet";
 import DOMPurify from "dompurify";
@@ -325,7 +324,7 @@ export default function LandingPageGen() {
 
             {/* Info */}
             <div className="lpg-info-note">
-              <Info size={12} /> Powered by OpenAI GPT-4o-mini via your backend. Streams live — generation takes 15–30s.
+              <Info size={12} /> Powered by your AI backend. Streams live — generation takes 15–30s.
             </div>
 
             {/* Actions */}
